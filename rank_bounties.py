@@ -26,9 +26,11 @@ from pathlib import Path
 
 import requests
 
-# Which Gemma model to use. "auto" means the largest one your key can use.
-# Override for one run with:  GEMMA_MODEL=gemma-4-31b-it python rank_bounties.py
-GEMMA_MODEL = os.environ.get("GEMMA_MODEL", "auto")
+# Which Gemma model to use, or "auto" for the largest one your key can use.
+# Override for one run with:  GEMMA_MODEL=gemma-4-26b-a4b-it python rank_bounties.py
+# 31b is the default: on 2026-10-21 the smaller 26b ran about 3.5x faster with
+# near-identical fit scores, but missed "connect your wallet" scam red flags.
+GEMMA_MODEL = os.environ.get("GEMMA_MODEL", "gemma-4-31b-it")
 
 # Superteam's "region" field is "Global" or the one place a bounty is open to.
 # Matched without caring about upper/lower case.
