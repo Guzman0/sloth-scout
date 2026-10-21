@@ -69,6 +69,8 @@ Judge this bounty for this freelancer:
   for payment, private keys or wallet connections.
 - scam_reason: one short line explaining the scam risk.
 
+Write the reasons to the freelancer directly, using "you" and "your".
+
 Reply with ONLY a JSON object, no other text:
 {{"fit_score": 0, "reason": "", "effort": "", "scam_risk": "", "scam_reason": ""}}
 """
@@ -259,14 +261,15 @@ def main():
         try:
             ranking = rank_one(model, bounty, profile, today, api_key)
         except GemmaError as error:
-            print(f"    Skipped: {error}")
-            ranking = None
-        if ranking:
-            ranked.append({**bounty, **ranking})
-            print(f"    fit {ranking['fit_score']}/10, effort {ranking['effort']}, scam risk {ranking['scam_risk']}")
-        else:
             skipped.append(bounty)
-            print("    Skipped: no valid answer after 2 tries.")
+            print(f"    Skipped: {error}")
+        else:
+            if ranking:
+                ranked.append({**bounty, **ranking})
+                print(f"    fit {ranking['fit_score']}/10, effort {ranking['effort']}, scam risk {ranking['scam_risk']}")
+            else:
+                skipped.append(bounty)
+                print("    Skipped: no valid answer after 2 tries.")
         if number < len(bounties):
             time.sleep(PAUSE_BETWEEN_BOUNTIES)
 
