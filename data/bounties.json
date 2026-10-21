@@ -1,10 +1,11 @@
 {
-  "fetched_at": "2026-10-21T16:37:07+00:00",
+  "fetched_at": "2026-10-21T16:51:14+00:00",
   "source": "https://superteam.fun/api/listings",
   "bounties": [
     {
       "title": "Travel boost: Create Content for Breakpoint 2026",
       "sponsor": "Superteam Germany",
+      "sponsor_verified": true,
       "reward": 6000,
       "token": "USDG",
       "deadline": "2026-10-25T21:59:59.000Z",
@@ -26,6 +27,7 @@
     {
       "title": "Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each",
       "sponsor": "Vaultline Security",
+      "sponsor_verified": false,
       "reward": 40000,
       "token": "USDC",
       "deadline": "2026-10-31T21:59:59.000Z",
@@ -43,6 +45,7 @@
     {
       "title": "Bring Your Friends to Segmento",
       "sponsor": "Superteam Balkan",
+      "sponsor_verified": true,
       "reward": 500,
       "token": "USDG",
       "deadline": "2026-10-21T21:59:59.000Z",
@@ -75,6 +78,7 @@
     {
       "title": "Redesign Your Favourite App on Solana",
       "sponsor": "Superteam India",
+      "sponsor_verified": true,
       "reward": 1500,
       "token": "USDC",
       "deadline": "2026-10-23T18:29:59.999Z",
@@ -96,6 +100,7 @@
     {
       "title": "Launch & Trade on Daejin: Write a Twitter Thread and Create a Market",
       "sponsor": "Daejin",
+      "sponsor_verified": false,
       "reward": 620,
       "token": "USDC",
       "deadline": "2026-10-23T21:59:59.000Z",
@@ -126,6 +131,7 @@
     {
       "title": "Crea Contenido para Promocionar El Encuentro 2026 en Madrid",
       "sponsor": "La Familia",
+      "sponsor_verified": true,
       "reward": 2000,
       "token": "USDG",
       "deadline": "2026-10-24T22:59:59.999Z",
@@ -154,6 +160,7 @@
     {
       "title": "Colosseum: Founder Support - Talk to 5 Users",
       "sponsor": "Superteam Netherlands",
+      "sponsor_verified": true,
       "reward": 1000,
       "token": "USDG",
       "deadline": "2026-10-25T09:59:59.000Z",
@@ -179,6 +186,7 @@
     {
       "title": "Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje",
       "sponsor": "La Familia",
+      "sponsor_verified": true,
       "reward": 5000,
       "token": "USDG",
       "deadline": "2026-11-03T21:59:59.999Z",
@@ -207,6 +215,7 @@
     {
       "title": "Panta x NectarFi Trading Competition Bounty",
       "sponsor": "Panta ",
+      "sponsor_verified": false,
       "reward": 500,
       "token": "USDG",
       "deadline": "2026-11-12T22:59:59.000Z",
@@ -234,6 +243,7 @@
     {
       "title": "Write a thread on $CHIMP Fair Launch - Part 1",
       "sponsor": "ChimpX",
+      "sponsor_verified": false,
       "reward": 500,
       "token": "USDC",
       "deadline": "2026-11-14T18:29:59.000Z",
@@ -254,6 +264,7 @@
     {
       "title": "Create Content on Premier League Predictions with worm 🪱⚽",
       "sponsor": "worm ",
+      "sponsor_verified": false,
       "reward": 500,
       "token": "USDC",
       "deadline": "2026-11-24T02:59:59.000Z",

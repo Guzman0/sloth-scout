@@ -124,6 +124,7 @@ def main():
         bounties.append({
             "title": item.get("title"),
             "sponsor": (item.get("sponsor") or {}).get("name"),
+            "sponsor_verified": (item.get("sponsor") or {}).get("isVerified"),
             "reward": item.get("rewardAmount"),
             "token": item.get("token"),
             "deadline": item.get("deadline"),

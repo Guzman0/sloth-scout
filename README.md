@@ -7,7 +7,7 @@ A slow-and-steady daily bounty briefing, built for the DEV Hacktoberfest "Slow a
 ## Status
 
 - [x] **Step 1: fetch bounties.** `fetch_bounties.py` pulls open bounties from [Superteam Earn](https://superteam.fun/earn) and saves them to `data/bounties.json`.
-- [ ] Step 2: rank bounties against my skills with Gemma
+- [x] **Step 2: rank with Gemma.** `rank_bounties.py` scores each bounty against `profile.md` with Gemma and writes `brief.md`.
 - [ ] Step 3: write the morning brief
 
 ## Run it
@@ -15,6 +15,8 @@ A slow-and-steady daily bounty briefing, built for the DEV Hacktoberfest "Slow a
 ```bash
 pip install -r requirements.txt
 python fetch_bounties.py
+export GEMINI_API_KEY=your-key-here   # free key: https://aistudio.google.com/apikey
+python rank_bounties.py
 ```
 
 ## How the fetch works
@@ -22,6 +24,13 @@ python fetch_bounties.py
 1. It makes one request to `https://superteam.fun/api/listings`, a public endpoint that needs no key.
 2. It keeps only listings that are bounties, have status `OPEN`, and haven't passed their deadline.
 3. For each kept bounty, it requests `/api/listings/details/<slug>` to get the description. The listings response doesn't include one. There's a 1-second pause between requests.
-4. It saves each bounty to `data/bounties.json` with these fields: title, sponsor, reward, token, deadline, listing type, agent access, link, skills, and a plain-text description.
+4. It saves each bounty to `data/bounties.json` with these fields: title, sponsor (and whether Superteam has verified it), reward, token, deadline, listing type, agent access, link, skills, and a plain-text description.
 
 The API is undocumented, so the field names come from inspecting real responses. If the listings request fails, the script stops and saves nothing. It never makes up data.
+
+## How the ranking works
+
+1. It reads `data/bounties.json` and `profile.md`, which lists your skills and preferences. Edit `profile.md` to change what counts as a good fit.
+2. It asks the Gemini API which Gemma models your key can use and picks the largest. The key is read from `GEMINI_API_KEY` and is never saved or printed.
+3. For each bounty, it asks Gemma for a JSON answer with these fields: `fit_score` (0-10), `reason`, `effort` (low/medium/high), `scam_risk` (low/medium/high) and `scam_reason`. If Google says it's busy, the script waits and tries again. If a reply isn't valid JSON, it asks once more and then skips that bounty.
+4. It saves every result to `data/ranked.json`, best fit first, and writes `brief.md` with the top 5. A bounty with a score under 5 counts as a poor fit.
