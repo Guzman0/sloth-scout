@@ -84,13 +84,13 @@ def is_open_bounty(listing, now):
 
 
 def fetch_description(session, slug):
-    """Return the plain-text description, or None if the details request fails."""
+    """Return (description, skills, region), or Nones if the details request fails."""
     try:
         details = get_json(session, DETAILS_URL.format(slug=slug))
     except (requests.RequestException, ValueError) as error:
-        print(f"  ! Couldn't get the description for '{slug}': {error}")
-        return None, None
-    return html_to_text(details.get("description")), details.get("skills")
+        print(f"  ! Couldn't get the details for '{slug}': {error}")
+        return None, None, None
+    return html_to_text(details.get("description")), details.get("skills"), details.get("region")
 
 
 def main():
@@ -120,7 +120,7 @@ def main():
     for item in open_bounties:
         time.sleep(PAUSE_BETWEEN_REQUESTS)
         slug = item["slug"]
-        description, skills = fetch_description(session, slug)
+        description, skills, region = fetch_description(session, slug)
         bounties.append({
             "title": item.get("title"),
             "sponsor": (item.get("sponsor") or {}).get("name"),
@@ -130,6 +130,7 @@ def main():
             "deadline": item.get("deadline"),
             "listing_type": item.get("type"),
             "agent_access": item.get("agentAccess"),
+            "region": region,  # "Global", or the one place it's open to, e.g. "Germany"
             "link": LISTING_PAGE_URL.format(slug=slug),
             "skills": skills,
             "description": description,

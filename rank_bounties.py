@@ -4,11 +4,13 @@ Step 2 of Sloth Scout. Run fetch_bounties.py first.
 
 How it works:
   1. Read data/bounties.json (the bounties) and profile.md (my skills).
-  2. Ask the Gemini API which Gemma models my key can use, and pick the largest.
-  3. For each bounty, ask Gemma for a fit score, reason, effort and scam risk,
+  2. Drop bounties that aren't open to my region, before spending any API calls.
+  3. Check which Gemma models my key can use, and pick the one set in GEMMA_MODEL.
+  4. For each bounty, ask Gemma for a fit score, reason, effort and scam risk,
      answered as JSON. If the reply isn't valid JSON, ask once more; if it's
      still bad, skip that bounty and say so.
-  4. Save everything to data/ranked.json (best fit first) and write brief.md.
+  5. Save everything to data/ranked.json (best fit first), write brief.md, and
+     add a line to data/run_log.jsonl with how long the run took.
 
 The API key is read from the GEMINI_API_KEY environment variable. It is never
 written in this file or printed.
@@ -24,6 +26,14 @@ from pathlib import Path
 
 import requests
 
+# Which Gemma model to use. "auto" means the largest one your key can use.
+# Override for one run with:  GEMMA_MODEL=gemma-4-31b-it python rank_bounties.py
+GEMMA_MODEL = os.environ.get("GEMMA_MODEL", "auto")
+
+# Superteam's "region" field is "Global" or the one place a bounty is open to.
+# Matched without caring about upper/lower case.
+ELIGIBLE_REGIONS = {"global", "united kingdom", "uk"}
+
 API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 TIMEOUT_SECONDS = 180  # Gemma thinks before answering, so replies can be slow
 PAUSE_BETWEEN_BOUNTIES = 2  # seconds; stay well under the free-tier rate limit
@@ -38,8 +48,12 @@ BOUNTIES_FILE = ROOT / "data" / "bounties.json"
 PROFILE_FILE = ROOT / "profile.md"
 RANKED_FILE = ROOT / "data" / "ranked.json"
 BRIEF_FILE = ROOT / "brief.md"
+RUN_LOG_FILE = ROOT / "data" / "run_log.jsonl"
 
 LEVELS = ("low", "medium", "high")
+
+# Counted during a run and saved to the run log.
+STATS = {"busy_retries": 0, "json_retries": 0, "gemma_calls": 0}
 
 PROMPT_TEMPLATE = """You are helping a freelancer decide which Web3 bounties to work on.
 
@@ -51,6 +65,7 @@ Today's date is {today}.
 ## The bounty
 Title: {title}
 Sponsor: {sponsor} (verified by Superteam: {verified})
+Open to: {region}
 Reward: {reward} {token}
 Deadline: {deadline} ({days_left})
 Skills listed: {skills}
@@ -61,7 +76,8 @@ Description:
 Judge this bounty for this freelancer:
 - fit_score: integer 0-10. How well it matches their strong skills and
   preferences (10 = perfect). Score low if it needs skills listed under
-  "Not for me", or if the deadline is less than 3 days away.
+  "Not for me", if it needs content in a language they don't write in,
+  or if the deadline is less than 3 days away.
 - reason: one short line explaining the score.
 - effort: "low", "medium" or "high". How much work a good submission takes.
 - scam_risk: "low", "medium" or "high". Red flags include an unknown or
@@ -98,6 +114,7 @@ def api_request(method, url, api_key, **kwargs):
             problem = f"busy ({response.status_code})"
         if wait is None:
             raise GemmaError(f"Gemini API still {problem} after {len(BUSY_RETRY_WAITS)} retries")
+        STATS["busy_retries"] += 1
         print(f"    Gemini API {problem}; waiting {wait}s and trying again ...")
         time.sleep(wait)
 
@@ -109,8 +126,11 @@ def _error_message(response):
         return response.reason
 
 
-def pick_largest_gemma(api_key):
-    """List the Gemma models this key can use and return the biggest one's name."""
+def pick_gemma(api_key, wanted):
+    """List the Gemma models this key can use and return the one to use.
+
+    wanted is a model name like "gemma-4-26b-a4b-it", or "auto" for the largest.
+    """
     data = api_request("GET", f"{API_BASE}/models?pageSize=1000", api_key)
     candidates = []
     for model in data.get("models", []):
@@ -125,7 +145,18 @@ def pick_largest_gemma(api_key):
     print("Gemma models available to your key:")
     for size, name in sorted(candidates, reverse=True):
         print(f"  - {name} ({size:g}B)")
-    return max(candidates)[1]
+    if wanted == "auto":
+        return max(candidates)[1]
+    wanted_name = wanted if wanted.startswith("models/") else f"models/{wanted}"
+    if wanted_name not in {name for _, name in candidates}:
+        raise GemmaError(f"GEMMA_MODEL is '{wanted}', but that isn't one of the models listed above")
+    return wanted_name
+
+
+def is_eligible(bounty):
+    """True if the bounty is open globally or to my region. Unknown region counts as eligible."""
+    region = bounty.get("region")
+    return region is None or region.strip().lower() in ELIGIBLE_REGIONS
 
 
 def build_prompt(bounty, profile, today):
@@ -145,6 +176,7 @@ def build_prompt(bounty, profile, today):
         title=bounty.get("title"),
         sponsor=bounty.get("sponsor"),
         verified="yes" if bounty.get("sponsor_verified") else "no",
+        region=bounty.get("region") or "not stated",
         reward=bounty.get("reward") if bounty.get("reward") is not None else "not stated",
         token=bounty.get("token") or "",
         deadline=deadline[:10] if deadline else "none",
@@ -160,6 +192,7 @@ def ask_gemma(model, prompt, api_key):
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"},
     }
+    STATS["gemma_calls"] += 1
     data = api_request("POST", f"{API_BASE}/{model}:generateContent", api_key, json=body)
     try:
         parts = data["candidates"][0]["content"]["parts"]
@@ -202,6 +235,7 @@ def rank_one(model, bounty, profile, today, api_key):
         if ranking:
             return ranking
         if attempt == 1:
+            STATS["json_retries"] += 1
             print("    Reply wasn't valid JSON; asking once more ...")
     return None
 
@@ -212,7 +246,7 @@ def format_reward(bounty):
     return f"{bounty['reward']:,} {bounty.get('token') or ''}".strip()
 
 
-def write_brief(ranked, skipped, today):
+def write_brief(ranked, skipped, not_eligible, today):
     poor_fits = [b for b in ranked if b["fit_score"] < POOR_FIT_BELOW]
     lines = [f"# 🦥 Sloth Scout brief: {today.strftime('%A, %B %-d, %Y')}", ""]
     lines.append(f"Top {min(TOP_N, len(ranked))} of {len(ranked)} ranked bounties, best fit first.")
@@ -229,6 +263,9 @@ def write_brief(ranked, skipped, today):
             "",
         ]
     lines.append(f"Skipped as poor fits (score under {POOR_FIT_BELOW}): {len(poor_fits)}.")
+    if not_eligible:
+        regions = ", ".join(sorted({b["region"] for b in not_eligible}))
+        lines.append(f"Not open to your region ({regions}), so not ranked: {len(not_eligible)}.")
     if skipped:
         titles = "; ".join(b["title"] for b in skipped)
         lines.append(f"Couldn't rank {len(skipped)} (Gemma's reply wasn't valid JSON or the API failed): {titles}.")
@@ -249,8 +286,18 @@ def main():
     profile = PROFILE_FILE.read_text(encoding="utf-8")
     today = date.today()
 
+    started = time.monotonic()
+    started_at = datetime.now(timezone.utc)
+
+    not_eligible = [b for b in bounties if not is_eligible(b)]
+    bounties = [b for b in bounties if is_eligible(b)]
+    for b in not_eligible:
+        print(f"Not eligible (open to {b['region']} only): {b['title']}")
+    if not_eligible:
+        print(f"Skipped {len(not_eligible)} region-restricted bounties; {len(bounties)} left to rank.\n")
+
     try:
-        model = pick_largest_gemma(api_key)
+        model = pick_gemma(api_key, GEMMA_MODEL)
     except GemmaError as error:
         sys.exit(f"Stopped: {error}")
     print(f"Using {model}\n")
@@ -279,11 +326,28 @@ def main():
         "model": model,
         "ranked": ranked,
         "skipped": [{"title": b["title"], "link": b["link"]} for b in skipped],
+        "not_eligible": [{"title": b["title"], "region": b["region"], "link": b["link"]} for b in not_eligible],
     }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    write_brief(ranked, skipped, today)
+    write_brief(ranked, skipped, not_eligible, today)
 
-    print(f"\nRanked {len(ranked)}, skipped {len(skipped)}. "
-          f"Saved {RANKED_FILE.relative_to(ROOT)} and {BRIEF_FILE.relative_to(ROOT)}.")
+    seconds = round(time.monotonic() - started, 1)
+    with RUN_LOG_FILE.open("a", encoding="utf-8") as log:
+        log.write(json.dumps({
+            "started_at": started_at.isoformat(timespec="seconds"),
+            "model": model,
+            "seconds": seconds,
+            "not_eligible": len(not_eligible),
+            "sent_to_gemma": len(bounties),
+            "ranked": len(ranked),
+            "skipped": len(skipped),
+            **STATS,
+        }) + "\n")
+
+    print(f"\nRanked {len(ranked)}, skipped {len(skipped)}, not eligible {len(not_eligible)}.")
+    print(f"Took {seconds}s with {STATS['gemma_calls']} Gemma calls, {STATS['busy_retries']} busy retries "
+          f"and {STATS['json_retries']} JSON retries.")
+    print(f"Saved {RANKED_FILE.relative_to(ROOT)}, {BRIEF_FILE.relative_to(ROOT)} "
+          f"and a line in {RUN_LOG_FILE.relative_to(ROOT)}.")
 
 
 if __name__ == "__main__":

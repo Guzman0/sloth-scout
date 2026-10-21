@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21T16:51:14+00:00",
+  "fetched_at": "2026-10-21T17:15:21+00:00",
   "source": "https://superteam.fun/api/listings",
   "bounties": [
     {
@@ -11,6 +11,7 @@
       "deadline": "2026-10-25T21:59:59.000Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
+      "region": "Germany",
       "link": "https://superteam.fun/earn/listing/travel-boost-for-bp26",
       "skills": [
         {
@@ -33,6 +34,7 @@
       "deadline": "2026-10-31T21:59:59.000Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
+      "region": "Global",
       "link": "https://superteam.fun/earn/listing/vaultline-security-audit-grants-for-colosseum-projects-up-to-4000-usdc-each",
       "skills": [
         {
@@ -51,6 +53,7 @@
       "deadline": "2026-10-21T21:59:59.000Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
+      "region": "Balkan",
       "link": "https://superteam.fun/earn/listing/bring-your-friends-to-segmento",
       "skills": [
         {
@@ -84,6 +87,7 @@
       "deadline": "2026-10-23T18:29:59.999Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
+      "region": "India",
       "link": "https://superteam.fun/earn/listing/redesign-your-favourite-app-on-solana",
       "skills": [
         {
@@ -106,6 +110,7 @@
       "deadline": "2026-10-23T21:59:59.000Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
+      "region": "Global",
       "link": "https://superteam.fun/earn/listing/launch-and-trade-on-daejin-write-a-twitter-thread-and-create-a-market",
       "skills": [
         {
@@ -137,6 +142,7 @@
       "deadline": "2026-10-24T22:59:59.999Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
+      "region": "Global",
       "link": "https://superteam.fun/earn/listing/crea-contenido-para-promocionar-el-encuentro-2026",
       "skills": [
         {
@@ -166,6 +172,7 @@
       "deadline": "2026-10-25T09:59:59.000Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
+      "region": "Netherlands",
       "link": "https://superteam.fun/earn/listing/colosseum-founder-support-talk-to-5-users",
       "skills": [
         {
@@ -192,6 +199,7 @@
       "deadline": "2026-11-03T21:59:59.999Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
+      "region": "Spain",
       "link": "https://superteam.fun/earn/listing/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje",
       "skills": [
         {
@@ -221,6 +229,7 @@
       "deadline": "2026-11-12T22:59:59.000Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
+      "region": "Global",
       "link": "https://superteam.fun/earn/listing/panta-x-nectarfi-trading-competition-bounty",
       "skills": [
         {
@@ -249,6 +258,7 @@
       "deadline": "2026-11-14T18:29:59.000Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
+      "region": "Global",
       "link": "https://superteam.fun/earn/listing/chimp-on-metaplex",
       "skills": [
         {
@@ -270,6 +280,7 @@
       "deadline": "2026-11-24T02:59:59.000Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
+      "region": "Global",
       "link": "https://superteam.fun/earn/listing/create-content-on-premier-league-predictions-with-worm",
       "skills": [
         {
