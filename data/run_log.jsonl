@@ -1,0 +1,1 @@
+{"started_at": "2026-10-21T17:34:54+00:00", "model": "models/gemma-4-31b-it", "seconds": 622.6, "not_eligible": 5, "sent_to_gemma": 6, "ranked": 4, "skipped": 2, "busy_retries": 9, "json_retries": 0, "gemma_calls": 6}

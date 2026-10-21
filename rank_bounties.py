@@ -249,11 +249,15 @@ def format_reward(bounty):
 
 
 def write_brief(ranked, skipped, not_eligible, today):
+    good_fits = [b for b in ranked if b["fit_score"] >= POOR_FIT_BELOW]
     poor_fits = [b for b in ranked if b["fit_score"] < POOR_FIT_BELOW]
     lines = [f"# 🦥 Sloth Scout brief: {today.strftime('%A, %B %-d, %Y')}", ""]
-    lines.append(f"Top {min(TOP_N, len(ranked))} of {len(ranked)} ranked bounties, best fit first.")
+    if good_fits:
+        lines.append(f"Top {min(TOP_N, len(good_fits))} of {len(good_fits)} good fits, best first.")
+    else:
+        lines.append("No good fits today.")
     lines.append("")
-    for number, b in enumerate(ranked[:TOP_N], start=1):
+    for number, b in enumerate(good_fits[:TOP_N], start=1):
         deadline = b["deadline"][:10] if b.get("deadline") else "none"
         lines += [
             f"## {number}. {b['title']}",
