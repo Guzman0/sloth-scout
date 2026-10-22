@@ -8,7 +8,8 @@ How it works:
      drop anything already in our Superteam or Devpost data.
   2. read_leads(): open each link in a real cloud browser on Browserbase
      (BROWSERBASE_API_KEY) and have Stagehand pull out the title, sponsor,
-     reward, deadline, region and task, with Gemma doing the reading.
+     reward, deadline, region and task. Stagehand calls Gemma through our own
+     function (see _gemma_for_stagehand), so Gemma does the reading.
      Leads with both a reward and a deadline count as verified and get ranked
      like bounties. The rest go in the brief's "Unverified leads" section.
 
@@ -17,6 +18,7 @@ search list is kept short. Browserbase is capped at MAX_PAGES pages per run.
 """
 
 import asyncio
+import json
 import os
 import re
 from datetime import datetime
@@ -121,9 +123,13 @@ def _parse_deadline(text):
     """Best-effort: turn a deadline as shown on a page into YYYY-MM-DD, or None."""
     if not text:
         return None
-    match = re.search(r"\d{4}-\d{2}-\d{2}", text)
+    match = re.search(r"(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})", text)  # 2026-11-01 or 2026/11/01
     if match:
-        return match.group(0)
+        year, month, day = map(int, match.groups())
+        try:
+            return datetime(year, month, day).date().isoformat()
+        except ValueError:
+            return None
     # Drop commas and "st/nd/rd/th", then try every run of three words as a date.
     words = re.sub(r"(\d)(st|nd|rd|th)\b", r"\1", text.replace(",", " ")).split()
     for start in range(len(words) - 2):
@@ -134,6 +140,49 @@ def _parse_deadline(text):
             except ValueError:
                 continue
     return None
+
+
+def _gemma_for_stagehand(model, gemini_key):
+    """Build the function Stagehand calls whenever it needs a model.
+
+    Stagehand's built-in Google option can call Gemma, but Gemma tends to add a
+    stray Markdown fence after its JSON, which Stagehand's strict parser
+    rejects. So we make the Gemma call ourselves, clean the reply, and hand
+    Stagehand the parsed JSON.
+    """
+    from stagehand import LLMMessageGenerateResult, LLMStructuredGenerateResult
+
+    from rank_bounties import GemmaError, ask_gemma, parse_json_reply
+
+    def message_text(message):
+        content = message["content"] if isinstance(message["content"], list) else [message["content"]]
+        return "\n".join(block["text"] for block in content if block.get("type") == "text")
+
+    async def generate(params):
+        data = params.model_dump(mode="json", by_alias=True, exclude_none=True)
+        prompt = "\n\n".join(f"[{m['role']}]\n{message_text(m)}" for m in data["messages"])
+        response_format = data.get("response_format") or {}
+        structured = response_format.get("type") == "json_schema"
+        if structured:
+            prompt += ("\n\nReply with ONLY a JSON object that matches this JSON schema:\n"
+                       + json.dumps(response_format.get("schema")))
+        for attempt in (1, 2):
+            try:
+                reply = await asyncio.to_thread(ask_gemma, model, prompt, gemini_key,
+                                                json_mode=structured, system=data.get("system_prompt"))
+            except GemmaError as error:
+                raise RuntimeError(str(error))
+            if not structured:
+                return LLMMessageGenerateResult(role="assistant", output_format="text",
+                                                content=[{"type": "text", "text": reply}])
+            parsed = parse_json_reply(reply)
+            if isinstance(parsed, dict):
+                return LLMStructuredGenerateResult(role="assistant", output_format="json_schema",
+                                                   content=[{"type": "text", "text": json.dumps(parsed)}],
+                                                   structured_content=parsed)
+        raise RuntimeError("Gemma's reply wasn't valid JSON twice")
+
+    return generate
 
 
 async def _read_pages(leads, model, browserbase_key, gemini_key):
@@ -161,7 +210,7 @@ async def _read_pages(leads, model, browserbase_key, gemini_key):
         raise SourceSkipped(f"couldn't start a Browserbase browser ({error.__class__.__name__}: {error})")
 
     try:
-        stagehand = await Stagehand.create(browser=browser, model=f"google/{model}", model_api_key=gemini_key)
+        stagehand = await Stagehand.create(browser=browser, model=_gemma_for_stagehand(model, gemini_key))
         try:
             page = (await browser.context.pages())[0]
             for number, lead in enumerate(leads, start=1):
@@ -182,7 +231,7 @@ async def _read_pages(leads, model, browserbase_key, gemini_key):
 def read_leads(leads, model):
     """Read up to MAX_PAGES lead pages in Browserbase and fill in their details.
 
-    model is the Gemma model name Stagehand should use, e.g. "gemma-4-31b-it".
+    model is the Gemma model Stagehand should read pages with, e.g. "models/gemma-4-31b-it".
     Changes the lead dicts in place and returns the ones that were read.
     Raises SourceSkipped if Browserbase or Stagehand can't be used.
     """
@@ -198,7 +247,7 @@ def read_leads(leads, model):
         raise SourceSkipped("the stagehand package isn't installed (run: pip install -r requirements.txt)")
 
     to_read = leads[:MAX_PAGES]
-    asyncio.run(_read_pages(to_read, model.removeprefix("models/"), browserbase_key, gemini_key))
+    asyncio.run(_read_pages(to_read, model, browserbase_key, gemini_key))
 
     for lead in to_read:
         details = lead.get("extracted") or {}

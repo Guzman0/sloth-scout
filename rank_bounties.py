@@ -197,12 +197,14 @@ def build_prompt(item, profile, today):
                                   kind=item["kind"], details=_details(item))
 
 
-def ask_gemma(model, prompt, api_key):
+def ask_gemma(model, prompt, api_key, json_mode=True, system=None):
     """Send one prompt and return the text of Gemma's final answer."""
-    body = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"},
-    }
+    config = {"temperature": 0.2}
+    if json_mode:
+        config["responseMimeType"] = "application/json"
+    body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}], "generationConfig": config}
+    if system:
+        body["systemInstruction"] = {"parts": [{"text": system}]}
     STATS["gemma_calls"] += 1
     data = api_request("POST", f"{API_BASE}/{model}:generateContent", api_key, json=body)
     try:
@@ -214,13 +216,18 @@ def ask_gemma(model, prompt, api_key):
     return answers[-1] if answers else ""
 
 
-def parse_ranking(text):
-    """Return the ranking dict if the reply is valid JSON with the right fields, else None."""
+def parse_json_reply(text):
+    """Parse Gemma's JSON reply, ignoring Markdown code fences around it. None if it isn't JSON."""
     cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
     try:
-        result = json.loads(cleaned)
+        return json.loads(cleaned)
     except json.JSONDecodeError:
         return None
+
+
+def parse_ranking(text):
+    """Return the ranking dict if the reply is valid JSON with the right fields, else None."""
+    result = parse_json_reply(text)
     if not isinstance(result, dict):
         return None
     score = result.get("fit_score")
