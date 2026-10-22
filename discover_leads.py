@@ -49,7 +49,7 @@ SKIP_DOMAINS = ("superteam.fun", "devpost.com",
 # snippet, so random grant and government pages don't use up browser pages.
 # ("dao" is left out: it matches everyday words and names too often.)
 WEB3_KEYWORDS = ("web3", "crypto", "blockchain", "solana", "ethereum", "defi", "nft", "onchain", "on-chain",
-                 "bug bounty", "audit", "hackathon")
+                 "bug bounty", "bug bounties", "audit", "hackathon")
 _KEYWORD_PATTERN = re.compile(r"\b(" + "|".join(re.escape(k) for k in WEB3_KEYWORDS) + r")s?\b")
 
 SEARCH_STATS = {"searches": 0}  # SerpApi credits used this run, for the run log
