@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T18:18:00+00:00",
+  "fetched_at": "2026-10-22T18:47:29+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1073,
+      "registrations": 1074,
       "link": "https://ieee-climatechain-hack.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 62843,
+      "registrations": 62897,
       "link": "https://amazonappdev2026.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 25919,
+      "registrations": 25929,
       "link": "https://nebiusglobalaihackathon.devpost.com/"
     },
     {
@@ -84,7 +84,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 18716,
+      "registrations": 18747,
       "link": "https://paypalaihackathon.devpost.com/"
     },
     {
@@ -101,7 +101,7 @@
         "Serverless"
       ],
       "online": true,
-      "registrations": 5477,
+      "registrations": 5489,
       "link": "https://opencv26.devpost.com/"
     },
     {
@@ -118,7 +118,7 @@
         "Education"
       ],
       "online": true,
-      "registrations": 4562,
+      "registrations": 4566,
       "link": "https://learn-ai-basics.devpost.com/"
     },
     {
@@ -135,7 +135,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 3660,
+      "registrations": 3665,
       "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
@@ -152,7 +152,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 2901,
+      "registrations": 2904,
       "link": "https://gitlab-transcend.devpost.com/"
     },
     {
@@ -167,7 +167,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 2171,
+      "registrations": 2172,
       "link": "https://qloo.devpost.com/"
     },
     {
@@ -184,7 +184,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 985,
+      "registrations": 986,
       "link": "https://aws-cds-partner.devpost.com/"
     },
     {
@@ -218,7 +218,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 649,
+      "registrations": 650,
       "link": "https://code-for-humanity.devpost.com/"
     },
     {
@@ -235,7 +235,7 @@
         "Design"
       ],
       "online": true,
-      "registrations": 524,
+      "registrations": 534,
       "link": "https://learn-specs.devpost.com/"
     },
     {
@@ -286,7 +286,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 39,
+      "registrations": 42,
       "link": "https://ugreenhackathon.devpost.com/"
     },
     {
@@ -303,7 +303,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 77,
+      "registrations": 78,
       "link": "https://nextspark-hacks.devpost.com/"
     },
     {
