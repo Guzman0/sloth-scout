@@ -1,5 +1,5 @@
 {
-  "ranked_at": "2026-10-22T17:36:14+00:00",
+  "ranked_at": "2026-10-22T18:17:12+00:00",
   "model": "models/gemma-4-31b-it",
   "fingerprint": "83a608da9e68c635",
   "ranked": [
@@ -41,6 +41,35 @@
       "effort": "medium",
       "scam_risk": "low",
       "scam_reason": "Standard Web3 bounty requirements, though it requires connecting your wallet and a small spend."
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Write a thread on $CHIMP Fair Launch - Part 1",
+      "sponsor": "ChimpX",
+      "sponsor_verified": false,
+      "reward": 500,
+      "token": "USDC",
+      "deadline": "2026-11-14T18:29:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/chimp-on-metaplex",
+      "skills": [
+        {
+          "skills": "Content",
+          "subskills": [
+            "Writing",
+            "Social Media"
+          ]
+        }
+      ],
+      "description": "Write a thread on the $CHIMP\nWinners: Top 25\nPrize pool: 500\nAbout $CHIMP\nAfter three years of building, the $CHIMP is having a FAIR launching on Raydium.\nChimpX builds Solana SuperApp Mojo AI, a personal AI for your money on Solana. You type what you want and Mojo AI does it, no confusing DeFi steps. It has been used by 56K+ wallets, has handled 1M+ requests, and has seen $3.9M+ traded through it.\nWhat makes the $CHIMP sale different\n1. A soft cap unlocks a guaranteed rate or better.\n2. Extra funds are refunded pro rata, so nobody overpays.\n3. No sniping advantage. No racing bots, no insider edge.\n4. A fair public raise for everyone.\n5. Public sale buyers get 100% of their tokens unlocked at launch.\nQuick facts\nTotal supply: 1,000,000,000 $CHIMP\nPublic sale: 75,000,000 $CHIMP (7.5%)\nCommunity: 50%, for airdrops and rewards\nTeam and advisor tokens: locked at launch\nToken Contract: Will be shared\nThe Task\nWrite an X thread of 8 or more tweets that explains the $CHIMP sale and gives readers honest reasons to take part. Use your own style: story, data, visuals, comparison or humour.\nWhat to cover (pick at least three)\n1. What Mojo AI does and the problem it solves. Try it and show it.\n2. The traction so far, using our official numbers only.\n3. It is direct launch on Raydium.\n4. How to join the fair Launch, step by step.\n5. The tokenomics: where the 1B tokens go, what is locked at launch, and that public sale buyers are fully unlocked.\n6. What $CHIMP and HOOTs rewards do inside Mojo AI.\n7. The risks, and how to check you are on the real sale page.\nHow to participate\n1. Write a thread covering at least three of the points above.\n2. Tag @chimpxAI, @solana and @Raydium.\n3. Include $CHIMP and the official sale link.\n4. Submit your thread link on this page.\nJudging criteria\nDepth of research: Do you understand the product, the token and how the sale works?\nClarity: Could a complete beginner follow your thread?\nReasons to join: Are your reasons honest and backed by real facts?\nCreativity: Do you have a fresh angle, story or joke?\nVisuals: Bonus points for charts, infographics, screen recordings or videos.\nEngagement: Likes and reposts count, but quality comes first.\nTerms\nParticipation in this bounty is entirely voluntary. Bounties are a way to learn and dabble in opportunities to build in web3. These are neither full time jobs nor project based engagement. Please be advised that the sponsors will not have time for individualized feedback due to the number of entries they receive.\nResources\nWebsite: chimpx.ai\nOfficial X: @chimpxai\nTokenomics post: https://x.com/ChimpxAI/status/2108481669653291199\nDocs: docs.chimpx.ai\nLogo and brand images: https://drive.google.com/drive/folders/1LDJrUox_RTTrplqbFYqZ1CYedrT5CCPp?usp=drive_link\nTerms\nParticipation in this bounty is entirely voluntary. Bounties are a way to learn and dabble in opportunities to build in web3. These are neither full time jobs nor project based engagement. Please be advised that the sponsors will not have time for individualized feedback due to the number of entries they receive.",
+      "fit_score": 10,
+      "reason": "This is a perfect match for your skills in Solana research, X threads, and visual content, and it meets all your location and reward preferences.",
+      "effort": "medium",
+      "scam_risk": "medium",
+      "scam_reason": "The sponsor is not verified by Superteam, which is a red flag."
     },
     {
       "kind": "bounty",
@@ -110,6 +139,28 @@
     {
       "kind": "hackathon",
       "source": "Devpost",
+      "title": "IEEE ClimateChain Global Hackathon",
+      "sponsor": "IEEE Turkey",
+      "prize_total": "$3,000",
+      "deadline": "2026-10-25",
+      "dates": "Oct 05 - 25, 2026",
+      "themes": [
+        "Blockchain",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "online": true,
+      "registrations": 1071,
+      "link": "https://ieee-climatechain-hack.devpost.com/",
+      "fit_score": 4,
+      "reason": "Hackathons typically require the heavy development skills you want to avoid, though you could contribute via research and UX if you join a team.",
+      "effort": "high",
+      "scam_risk": "low",
+      "scam_reason": "IEEE is a globally recognized professional organization and Devpost is a reputable platform."
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
       "title": "Herhack",
       "sponsor": "Echelon institute of technology",
       "prize_total": "₹200,000",
@@ -128,6 +179,33 @@
       "effort": "high",
       "scam_risk": "medium",
       "scam_reason": "The organizer is not a well-known Web3 entity and the listing lacks a detailed description."
+    },
+    {
+      "kind": "lead",
+      "source": "dorahacks.io",
+      "title": "dreamDEX Perps Builder Bounty",
+      "snippet": "The Perps Builder Bounty is a developer program for dreamDEX perps on Somnia Tokyo testnet. It runs from October 19 to November 1 and has two tracks.",
+      "link": "https://dorahacks.io/hackathon/dreamdex-perps-bounty/",
+      "query": "site:dorahacks.io/hackathon bounty",
+      "extracted": {
+        "title": "dreamDEX Perps Builder Bounty",
+        "sponsor": "Somnia Network",
+        "reward": "3,000 USD",
+        "deadline": "2026/11/01 15:59",
+        "region": "Virtual",
+        "task": "Stress-test the dreamDEX Perps API and SDK on testnet, and get paid for it."
+      },
+      "sponsor": "Somnia Network",
+      "reward": "3,000 USD",
+      "region": "Virtual",
+      "task": "Stress-test the dreamDEX Perps API and SDK on testnet, and get paid for it.",
+      "deadline_text": "2026/11/01 15:59",
+      "deadline": "2026-11-01",
+      "fit_score": 2,
+      "reason": "This is a technical builder bounty requiring API/SDK stress-testing, which falls under the coding experience you want to avoid.",
+      "effort": "high",
+      "scam_risk": "low",
+      "scam_reason": "The bounty is hosted on DoraHacks, a reputable platform for Web3 ecosystem grants."
     },
     {
       "kind": "bounty",
@@ -164,6 +242,32 @@
       "effort": "high",
       "scam_risk": "medium",
       "scam_reason": "The sponsor is unverified and the rewards are heavily conditional on achieving high transaction volumes."
+    },
+    {
+      "kind": "lead",
+      "source": "bugcrowd.com",
+      "title": "Immutable Bug Bounty",
+      "snippet": "Bugcrowd's bug bounty and vulnerability disclosure platform connects the global security researcher community with your business.",
+      "link": "https://bugcrowd.com/engagements/immutable",
+      "query": "web3 content bounty open submissions",
+      "extracted": {
+        "title": "Immutable Bug Bounty",
+        "sponsor": "Immutable",
+        "reward": "$1,250",
+        "deadline": "Ongoing",
+        "region": null,
+        "task": "Participate as a security researcher to help us identify vulnerabilities across our Immutable ecosystem."
+      },
+      "sponsor": "Immutable",
+      "reward": "$1,250",
+      "task": "Participate as a security researcher to help us identify vulnerabilities across our Immutable ecosystem.",
+      "deadline_text": "Ongoing",
+      "deadline": null,
+      "fit_score": 1,
+      "reason": "This is a technical security role requiring coding and smart-contract expertise, which you've explicitly listed as 'Not for me'.",
+      "effort": "high",
+      "scam_risk": "low",
+      "scam_reason": "Bugcrowd is a well-established and reputable bug bounty platform."
     },
     {
       "kind": "bounty",
@@ -255,49 +359,6 @@
       ],
       "description": "About La Familia\nLa Familia es la comunidad de Solana en España. Nuestro objetivo es conectar a builders, fundadores y proyectos, creando un espacio para aprender y crecer juntos. Organizamos eventos y quedadas para que la comunidad se conozca en persona.\nMission\nQueremos que nos ayudes a correr la voz sobre El Encuentro 2026, el evento Solana del año en España. Crea contenido original que invite a la gente a venir y reservar su plaza.\nScope Detail\n-\nGenera contenido que invite a la comunidad a asistir a El Encuentro 2026.\n-\nComunica de qué trata el evento y por qué es una oportunidad única.\n-\nAnima a la gente a reservar su plaza gratuita.\n-\nPuedes crear:\n-\nHilos o posts para X.\n-\nVídeos cortos para TikTok, Reels, Shorts o YouTube.\n-\nPosts para Instagram o LinkedIn.\n-\nArtículos de blog o newsletter.\n-\nMemes, ilustraciones o diseños propios.\nSubmission Requirements\n-\nDebes incluir obligatoriamente el enlace https://lafamilia.so/ir/encuentro-st en tu publicación (en el texto, descripción, biografía o donde sea apropiado para el formato). Las entregas sin este enlace no serán evaluadas.\n-\nEl contenido debe ser original y publicado durante el período del bounty.\n-\nMenciona a @LaFamilia_so en X o la cuenta de La Familia en la red social que utilices.\n-\nEl contenido debe estar en español.\n-\nNo se aceptará contenido generado íntegramente con IA sin aportación propia, ni el uso de bots o interacciones compradas.\n-\nEnvía el enlace a tu publicación en el formulario de entrega.\n-\nSe permite más de una pieza por participante, pero valoramos la calidad por encima de la cantidad.\nJudging Criteria\n-\nCreatividad y originalidad del contenido.\n-\nCapacidad para transmitir la esencia del evento y la importancia de asistir.\n-\nCalidad general de la producción.\n-\nAlcance e interacción real generada por la publicación (no se tendrá en cuenta el alcance comprado).\n-\nConexión con la cultura y la comunidad española.\nResources\n-\nWeb oficial de El Encuentro 2026: https://lafamilia.so/ir/encuentro-st\n-\nCartel descargable del evento: https://lafamilia.so/el-encuentro/cartel.jpg\nReward Structure\n-\n1st Place: 500 USDC + Entrada gratuita a Merge Madrid\n-\n2nd Place: 400 USD\n-\n3rd Place: 300 USD\n-\n4th Place: 200 USD\n-\n5th Place: 200 USD\n-\nBonus 6-10: 80 USD\n-\nLos ganadores se anunciarán en directo en El Encuentro, el evento anual de La Familia, el 26 de octubre en Madrid. Si puedes, ven a vivirlo con nosotros: https://lafamilia.so/ir/encuentro-st",
       "skip_reason": "Gemini API still busy (503) after 3 retries"
-    },
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
-      "title": "Write a thread on $CHIMP Fair Launch - Part 1",
-      "sponsor": "ChimpX",
-      "sponsor_verified": false,
-      "reward": 500,
-      "token": "USDC",
-      "deadline": "2026-11-14T18:29:59.000Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Global",
-      "link": "https://superteam.fun/earn/listing/chimp-on-metaplex",
-      "skills": [
-        {
-          "skills": "Content",
-          "subskills": [
-            "Writing",
-            "Social Media"
-          ]
-        }
-      ],
-      "description": "Write a thread on the $CHIMP\nWinners: Top 25\nPrize pool: 500\nAbout $CHIMP\nAfter three years of building, the $CHIMP is having a FAIR launching on Raydium.\nChimpX builds Solana SuperApp Mojo AI, a personal AI for your money on Solana. You type what you want and Mojo AI does it, no confusing DeFi steps. It has been used by 56K+ wallets, has handled 1M+ requests, and has seen $3.9M+ traded through it.\nWhat makes the $CHIMP sale different\n1. A soft cap unlocks a guaranteed rate or better.\n2. Extra funds are refunded pro rata, so nobody overpays.\n3. No sniping advantage. No racing bots, no insider edge.\n4. A fair public raise for everyone.\n5. Public sale buyers get 100% of their tokens unlocked at launch.\nQuick facts\nTotal supply: 1,000,000,000 $CHIMP\nPublic sale: 75,000,000 $CHIMP (7.5%)\nCommunity: 50%, for airdrops and rewards\nTeam and advisor tokens: locked at launch\nToken Contract: Will be shared\nThe Task\nWrite an X thread of 8 or more tweets that explains the $CHIMP sale and gives readers honest reasons to take part. Use your own style: story, data, visuals, comparison or humour.\nWhat to cover (pick at least three)\n1. What Mojo AI does and the problem it solves. Try it and show it.\n2. The traction so far, using our official numbers only.\n3. It is direct launch on Raydium.\n4. How to join the fair Launch, step by step.\n5. The tokenomics: where the 1B tokens go, what is locked at launch, and that public sale buyers are fully unlocked.\n6. What $CHIMP and HOOTs rewards do inside Mojo AI.\n7. The risks, and how to check you are on the real sale page.\nHow to participate\n1. Write a thread covering at least three of the points above.\n2. Tag @chimpxAI, @solana and @Raydium.\n3. Include $CHIMP and the official sale link.\n4. Submit your thread link on this page.\nJudging criteria\nDepth of research: Do you understand the product, the token and how the sale works?\nClarity: Could a complete beginner follow your thread?\nReasons to join: Are your reasons honest and backed by real facts?\nCreativity: Do you have a fresh angle, story or joke?\nVisuals: Bonus points for charts, infographics, screen recordings or videos.\nEngagement: Likes and reposts count, but quality comes first.\nTerms\nParticipation in this bounty is entirely voluntary. Bounties are a way to learn and dabble in opportunities to build in web3. These are neither full time jobs nor project based engagement. Please be advised that the sponsors will not have time for individualized feedback due to the number of entries they receive.\nResources\nWebsite: chimpx.ai\nOfficial X: @chimpxai\nTokenomics post: https://x.com/ChimpxAI/status/2108481669653291199\nDocs: docs.chimpx.ai\nLogo and brand images: https://drive.google.com/drive/folders/1LDJrUox_RTTrplqbFYqZ1CYedrT5CCPp?usp=drive_link\nTerms\nParticipation in this bounty is entirely voluntary. Bounties are a way to learn and dabble in opportunities to build in web3. These are neither full time jobs nor project based engagement. Please be advised that the sponsors will not have time for individualized feedback due to the number of entries they receive.",
-      "skip_reason": "Gemini API still busy (500) after 3 retries"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "IEEE ClimateChain Global Hackathon",
-      "sponsor": "IEEE Turkey",
-      "prize_total": "$3,000",
-      "deadline": "2026-10-25",
-      "dates": "Oct 05 - 25, 2026",
-      "themes": [
-        "Blockchain",
-        "Machine Learning/AI",
-        "Social Good"
-      ],
-      "online": true,
-      "registrations": 1070,
-      "link": "https://ieee-climatechain-hack.devpost.com/",
-      "skip_reason": "Gemini API still busy (500) after 3 retries"
     }
   ],
   "not_eligible": [

@@ -1,24 +1,27 @@
 {
-  "found_at": "2026-10-22T17:20:23+00:00",
-  "verified": [],
-  "unverified": [
+  "found_at": "2026-10-22T17:54:12+00:00",
+  "verified": [
     {
       "kind": "lead",
       "source": "dorahacks.io",
-      "title": "dreamDEX Perps Builder Bounty | Hackathon",
+      "title": "dreamDEX Perps Builder Bounty",
       "snippet": "The Perps Builder Bounty is a developer program for dreamDEX perps on Somnia Tokyo testnet. It runs from October 19 to November 1 and has two tracks.",
       "link": "https://dorahacks.io/hackathon/dreamdex-perps-bounty/",
       "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "app.layer3.xyz",
-      "title": "The Onchain 100: Relay",
-      "snippet": "Discover Relay and effortlessly swap tokens across networks. Bridge any amount of ETH from Base to Soneium via Relay.",
-      "link": "https://app.layer3.xyz/quests/the-onchain-100-relay?ref=yunfr.eth",
-      "query": "site:layer3.xyz/quests",
-      "why_unverified": "not opened in the browser this run"
+      "extracted": {
+        "title": "dreamDEX Perps Builder Bounty",
+        "sponsor": "Somnia Network",
+        "reward": "3,000 USD",
+        "deadline": "2026/11/01 15:59",
+        "region": "Virtual",
+        "task": "Stress-test the dreamDEX Perps API and SDK on testnet, and get paid for it."
+      },
+      "sponsor": "Somnia Network",
+      "reward": "3,000 USD",
+      "region": "Virtual",
+      "task": "Stress-test the dreamDEX Perps API and SDK on testnet, and get paid for it.",
+      "deadline_text": "2026/11/01 15:59",
+      "deadline": "2026-11-01"
     },
     {
       "kind": "lead",
@@ -27,16 +30,40 @@
       "snippet": "Bugcrowd's bug bounty and vulnerability disclosure platform connects the global security researcher community with your business.",
       "link": "https://bugcrowd.com/engagements/immutable",
       "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
+      "extracted": {
+        "title": "Immutable Bug Bounty",
+        "sponsor": "Immutable",
+        "reward": "$1,250",
+        "deadline": "Ongoing",
+        "region": null,
+        "task": "Participate as a security researcher to help us identify vulnerabilities across our Immutable ecosystem."
+      },
+      "sponsor": "Immutable",
+      "reward": "$1,250",
+      "task": "Participate as a security researcher to help us identify vulnerabilities across our Immutable ecosystem.",
+      "deadline_text": "Ongoing",
+      "deadline": null
+    }
+  ],
+  "unverified": [
     {
       "kind": "lead",
-      "source": "linkedin.com",
-      "title": "A web3 security portfolio is: • a bug bounty submission ...",
-      "snippet": "A web3 security portfolio is: • a bug bounty submission • a CTF writeup • a free audit you asked for • a finding that got duplicated • a one off contest you ...",
-      "link": "https://www.linkedin.com/posts/arsen-%E2%80%8E-b2503218a_a-web3-security-portfolio-is-a-bug-bounty-activity-7511802308783964160-zCfD",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
+      "source": "app.layer3.xyz",
+      "title": "The Onchain 100: Relay",
+      "snippet": "Discover Relay and effortlessly swap tokens across networks. Bridge any amount of ETH from Base to Soneium via Relay.",
+      "link": "https://app.layer3.xyz/quests/the-onchain-100-relay?ref=yunfr.eth",
+      "query": "site:layer3.xyz/quests",
+      "extracted": {
+        "title": null,
+        "sponsor": null,
+        "reward": null,
+        "deadline": null,
+        "region": null,
+        "task": null
+      },
+      "deadline_text": null,
+      "deadline": null,
+      "why_unverified": "no reward or deadline found on the page"
     },
     {
       "kind": "lead",
@@ -45,61 +72,59 @@
       "snippet": "How to Submit a Report · Sign in or create a researcher account at bugbounty.xtrm.com using the email address you want associated with submissions and rewards.",
       "link": "https://support.xtrm.com/articles/8288389015-security011-bug-bounty-program",
       "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "facebook.com",
-      "title": "Solana Workbench launches bug bounty program with ...",
-      "snippet": "We've launched the Solana Workbench Bug Bounty Program to make it easier for our community to help us find, reproduce, and eliminate issues across the platform.",
-      "link": "https://www.facebook.com/groups/1065946800433454/posts/3051148871913227/",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
+      "extracted": {
+        "title": null,
+        "sponsor": null,
+        "reward": null,
+        "deadline": null,
+        "region": null,
+        "task": null
+      },
+      "deadline_text": null,
+      "deadline": null,
+      "why_unverified": "no reward or deadline found on the page"
     },
     {
       "kind": "lead",
       "source": "sherlock.xyz",
-      "title": "Web3 Penetration Testing: A Guide for Protocols and ...",
+      "title": "WEB3 PENETRATION TESTING: A GUIDE FOR PROTOCOLS AND SECURITY RESEARCHERS (2026)",
       "snippet": "A high-level article going over penetration testing in the Web3 space, and what protocol teams need to be aware of when securing their infrastructure.",
       "link": "https://sherlock.xyz/post/web3-penetration-testing-a-guide-for-protocols-and-security-researchers-2026",
       "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
+      "extracted": {
+        "title": "WEB3 PENETRATION TESTING: A GUIDE FOR PROTOCOLS AND SECURITY RESEARCHERS (2026)",
+        "sponsor": "Sherlock",
+        "reward": null,
+        "deadline": null,
+        "region": null,
+        "task": null
+      },
+      "sponsor": "Sherlock",
+      "deadline_text": null,
+      "deadline": null,
+      "why_unverified": "no reward or deadline found on the page"
     },
     {
       "kind": "lead",
       "source": "immunefi.com",
-      "title": "Arbitrum Bug Bounty",
+      "title": "Arbitrum",
       "snippet": "Rewards, program rules and eligibility for the Arbitrum bug bounty on Immunefi, with rewards up to $2000000.",
       "link": "https://immunefi.com/bug-bounty/arbitrum/information/",
       "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "reddit.com",
-      "title": "Are web3 hackers cooked? : r/bugbounty",
-      "snippet": "Bug bounties are fruitful in the Web3 space but you gotta choose good programs or you'll get scammed for sure. Although there are submission fees, do your best ...",
-      "link": "https://www.reddit.com/r/bugbounty/comments/1wrluer/are_web3_hackers_cooked/",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "x.com",
-      "title": "Have a good day guys A funded bounty does not ...",
-      "snippet": "... Open bounties are still waiting for completion. Accepted submissions have passed the buy ... Content Creator | Web3 Enthusiast | Sharing early-stage gems ...",
-      "link": "https://x.com/AzadWeb3/status/2110584981282005288",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "instagram.com",
-      "title": "Google has paused product vulnerability reports to its open ...",
-      "snippet": "Google has paused product vulnerability reports to its open-source bug bounty program until at least Q1 2027, saying most automated submissions are invalid.",
-      "link": "https://www.instagram.com/p/DeIBRDBDdzJ/",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
+      "extracted": {
+        "title": "Arbitrum",
+        "sponsor": "Arbitrum",
+        "reward": "$2,000,000",
+        "deadline": null,
+        "region": null,
+        "task": "This bug bounty program is focused on the mainnet Arbitrum chains, Arbitrum One and Arbitrum Nova and their underlying technologies, Arbitrum Rollup and Arbitrum AnyTrust respectively."
+      },
+      "sponsor": "Arbitrum",
+      "reward": "$2,000,000",
+      "task": "This bug bounty program is focused on the mainnet Arbitrum chains, Arbitrum One and Arbitrum Nova and their underlying technologies, Arbitrum Rollup and Arbitrum AnyTrust respectively.",
+      "deadline_text": null,
+      "deadline": null,
+      "why_unverified": "no deadline found on the page"
     }
   ]
 }
