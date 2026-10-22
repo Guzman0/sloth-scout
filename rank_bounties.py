@@ -1,33 +1,29 @@
-"""Rank the fetched bounties against my profile with Google's Gemma model.
+"""Rank bounties, hackathons and leads against my profile with Google's Gemma model.
 
-Step 2 of Sloth Scout. Run fetch_bounties.py first.
-
-How it works:
-  1. Read data/bounties.json (the bounties) and profile.md (my skills).
-  2. Drop bounties that aren't open to my region, before spending any API calls.
-  3. Check which Gemma models my key can use, and pick the one set in GEMMA_MODEL.
-  4. For each bounty, ask Gemma for a fit score, reason, effort and scam risk,
-     answered as JSON. If the reply isn't valid JSON, ask once more; if it's
-     still bad, skip that bounty and say so.
-  5. Save everything to data/ranked.json (best fit first), write brief.md, and
-     add a line to data/run_log.jsonl with how long the run took.
+run.py calls rank_items(). How it works:
+  1. Bounties not open to my region are dropped before ranking (see is_eligible).
+  2. Rankings saved by the last run are reused for items that haven't changed,
+     as long as the model, profile.md and the prompt are the same. Everything
+     else (new items, and ones that couldn't be ranked last time) goes to Gemma.
+  3. For each item, Gemma answers in JSON with a fit score, reason, effort and
+     scam risk. If the reply isn't valid JSON, it's asked once more; if it's
+     still bad, the item is skipped and retried next run.
 
 The API key is read from the GEMINI_API_KEY environment variable. It is never
 written in this file or printed.
 """
 
+import hashlib
 import json
 import os
 import re
-import sys
 import time
-from datetime import date, datetime, timezone
-from pathlib import Path
+from datetime import date
 
 import requests
 
 # Which Gemma model to use, or "auto" for the largest one your key can use.
-# Override for one run with:  GEMMA_MODEL=gemma-4-26b-a4b-it python rank_bounties.py
+# Override for one run with:  GEMMA_MODEL=gemma-4-26b-a4b-it python run.py
 # 31b is the default: on 2026-10-21 the smaller 26b ran about 3.5x faster with
 # near-identical fit scores, but missed "connect your wallet" scam red flags.
 GEMMA_MODEL = os.environ.get("GEMMA_MODEL", "gemma-4-31b-it")
@@ -38,50 +34,34 @@ ELIGIBLE_REGIONS = {"global", "united kingdom", "uk"}
 
 API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 TIMEOUT_SECONDS = 180  # Gemma thinks before answering, so replies can be slow
-PAUSE_BETWEEN_BOUNTIES = 2  # seconds; stay well under the free-tier rate limit
+PAUSE_BETWEEN_CALLS = 2  # seconds; stay well under the free-tier rate limit
 BUSY_RETRY_WAITS = [10, 30, 60]  # seconds to wait after "busy" errors (429/5xx)
-MAX_DESCRIPTION_CHARS = 4000  # long descriptions cost tokens without adding much
-
-POOR_FIT_BELOW = 5  # fit scores under this count as "poor fit" in the brief
-TOP_N = 5
-
-ROOT = Path(__file__).parent
-BOUNTIES_FILE = ROOT / "data" / "bounties.json"
-PROFILE_FILE = ROOT / "profile.md"
-RANKED_FILE = ROOT / "data" / "ranked.json"
-BRIEF_FILE = ROOT / "brief.md"
-RUN_LOG_FILE = ROOT / "data" / "run_log.jsonl"
+MAX_TEXT_CHARS = 4000  # long descriptions cost tokens without adding much
 
 LEVELS = ("low", "medium", "high")
 
 # Counted during a run and saved to the run log.
-STATS = {"busy_retries": 0, "json_retries": 0, "gemma_calls": 0}
+STATS = {"gemma_calls": 0, "busy_retries": 0, "json_retries": 0, "reused": 0}
 
-PROMPT_TEMPLATE = """You are helping a freelancer decide which Web3 bounties to work on.
+PROMPT_TEMPLATE = """You are helping a freelancer decide which Web3 opportunities to work on.
 
 Today's date is {today}.
 
 ## The freelancer's profile
 {profile}
 
-## The bounty
-Title: {title}
-Sponsor: {sponsor} (verified by Superteam: {verified})
-Open to: {region}
-Reward: {reward} {token}
-Deadline: {deadline} ({days_left})
-Skills listed: {skills}
-Description:
-{description}
+## The {kind}
+{details}
 
 ## Your task
-Judge this bounty for this freelancer:
-- fit_score: integer 0-10. How well it matches their strong skills and
-  preferences (10 = perfect). Score low if it needs skills listed under
-  "Not for me", if it needs content in a language they don't write in,
-  or if the deadline is less than 3 days away.
+Judge this {kind} for this freelancer:
+- fit_score: integer 0-10. How well it matches their strong skills, language,
+  location and reward preferences (10 = perfect). Score low if it needs skills
+  listed under "Not for me", content in a language they don't write in, or
+  isn't open to where they live. Ignore how soon the deadline is; that is
+  checked separately.
 - reason: one short line explaining the score.
-- effort: "low", "medium" or "high". How much work a good submission takes.
+- effort: "low", "medium" or "high". How much work a good entry takes.
 - scam_risk: "low", "medium" or "high". Red flags include an unknown or
   unverified sponsor, unclear payout, an unrealistic deadline, or requests
   for payment, private keys or wallet connections.
@@ -128,7 +108,7 @@ def _error_message(response):
         return response.reason
 
 
-def pick_gemma(api_key, wanted):
+def pick_gemma(api_key, wanted=GEMMA_MODEL):
     """List the Gemma models this key can use and return the one to use.
 
     wanted is a model name like "gemma-4-26b-a4b-it", or "auto" for the largest.
@@ -155,37 +135,66 @@ def pick_gemma(api_key, wanted):
     return wanted_name
 
 
-def is_eligible(bounty):
-    """True if the bounty is open globally or to my region. Unknown region counts as eligible."""
-    region = bounty.get("region")
-    return region is None or region.strip().lower() in ELIGIBLE_REGIONS
+def is_eligible(item):
+    """True if the item is open globally or to my region. Unknown region counts as eligible."""
+    region = item.get("region")
+    if item["kind"] != "bounty" or not region:
+        return True  # only Superteam gives a reliable region; Gemma judges the rest
+    return region.strip().lower() in ELIGIBLE_REGIONS
 
 
-def build_prompt(bounty, profile, today):
-    deadline = bounty.get("deadline")
-    if deadline:
-        days = (datetime.fromisoformat(deadline.replace("Z", "+00:00")).date() - today).days
-        days_left = f"{days} days from today"
+def format_reward(item):
+    if item["kind"] == "bounty":
+        if item.get("reward") is None:
+            return "not stated"
+        return f"{item['reward']:,} {item.get('token') or ''}".strip()
+    if item["kind"] == "hackathon":
+        return item.get("prize_total") or "not stated"
+    return item.get("reward") or "not stated"
+
+
+def _details(item):
+    """The facts about one item, laid out for the prompt."""
+    if item["kind"] == "bounty":
+        skills = ", ".join(
+            f"{s.get('skills')} ({', '.join(s.get('subskills') or [])})" for s in item.get("skills") or []
+        ) or "not listed"
+        lines = [
+            f"Title: {item.get('title')}",
+            f"Sponsor: {item.get('sponsor')} (verified by Superteam: {'yes' if item.get('sponsor_verified') else 'no'})",
+            f"Open to: {item.get('region') or 'not stated'}",
+            f"Reward: {format_reward(item)}",
+            f"Deadline: {(item.get('deadline') or 'none')[:10]}",
+            f"Skills listed: {skills}",
+            "Description:",
+            (item.get("description") or "No description available.")[:MAX_TEXT_CHARS],
+        ]
+    elif item["kind"] == "hackathon":
+        lines = [
+            f"Title: {item.get('title')}",
+            f"Organizer: {item.get('sponsor') or 'not stated'}",
+            f"Prize total: {format_reward(item)}",
+            f"Submission period: {item.get('dates') or 'not stated'}",
+            f"Themes: {', '.join(item.get('themes') or []) or 'not listed'}",
+            f"Online: {'yes' if item.get('online') else 'no'}",
+            "Note: this is a Devpost hackathon listing; no description is available.",
+        ]
     else:
-        days_left = "no deadline given"
-    skills = ", ".join(
-        f"{s.get('skills')} ({', '.join(s.get('subskills') or [])})" for s in bounty.get("skills") or []
-    ) or "not listed"
-    description = (bounty.get("description") or "No description available.")[:MAX_DESCRIPTION_CHARS]
-    return PROMPT_TEMPLATE.format(
-        today=today.isoformat(),
-        profile=profile.strip(),
-        title=bounty.get("title"),
-        sponsor=bounty.get("sponsor"),
-        verified="yes" if bounty.get("sponsor_verified") else "no",
-        region=bounty.get("region") or "not stated",
-        reward=bounty.get("reward") if bounty.get("reward") is not None else "not stated",
-        token=bounty.get("token") or "",
-        deadline=deadline[:10] if deadline else "none",
-        days_left=days_left,
-        skills=skills,
-        description=description,
-    )
+        lines = [
+            f"Title: {item.get('title')}",
+            f"Found on: {item.get('source')}",
+            f"Sponsor: {item.get('sponsor') or 'not stated'}",
+            f"Reward: {format_reward(item)}",
+            f"Deadline: {item.get('deadline_text') or 'not stated'}",
+            f"Open to: {item.get('region') or 'not stated'}",
+            f"Task: {(item.get('task') or 'not stated')[:MAX_TEXT_CHARS]}",
+        ]
+    return "\n".join(lines)
+
+
+def build_prompt(item, profile, today):
+    return PROMPT_TEMPLATE.format(today=today.isoformat(), profile=profile.strip(),
+                                  kind=item["kind"], details=_details(item))
 
 
 def ask_gemma(model, prompt, api_key):
@@ -230,8 +239,8 @@ def parse_ranking(text):
     }
 
 
-def rank_one(model, bounty, profile, today, api_key):
-    prompt = build_prompt(bounty, profile, today)
+def rank_one(model, item, profile, today, api_key):
+    prompt = build_prompt(item, profile, today)
     for attempt in (1, 2):
         ranking = parse_ranking(ask_gemma(model, prompt, api_key))
         if ranking:
@@ -242,119 +251,42 @@ def rank_one(model, bounty, profile, today, api_key):
     return None
 
 
-def format_reward(bounty):
-    if bounty.get("reward") is None:
-        return "not stated"
-    return f"{bounty['reward']:,} {bounty.get('token') or ''}".strip()
+def ranking_fingerprint(model, profile):
+    """Changes whenever the model, profile.md or the prompt changes, so old rankings aren't reused."""
+    return hashlib.sha256(f"{model}\n{profile}\n{PROMPT_TEMPLATE}".encode()).hexdigest()[:16]
 
 
-def write_brief(ranked, skipped, not_eligible, today):
-    good_fits = [b for b in ranked if b["fit_score"] >= POOR_FIT_BELOW]
-    poor_fits = [b for b in ranked if b["fit_score"] < POOR_FIT_BELOW]
-    lines = [f"# 🦥 Sloth Scout brief: {today.strftime('%A, %B %-d, %Y')}", ""]
-    if good_fits:
-        lines.append(f"Top {min(TOP_N, len(good_fits))} of {len(good_fits)} good fits, best first.")
-    else:
-        lines.append("No good fits today.")
-    lines.append("")
-    for number, b in enumerate(good_fits[:TOP_N], start=1):
-        deadline = b["deadline"][:10] if b.get("deadline") else "none"
-        lines += [
-            f"## {number}. {b['title']}",
-            f"- **Reward:** {format_reward(b)}   **Deadline:** {deadline}",
-            f"- **Fit:** {b['fit_score']}/10. {b['reason']}",
-            f"- **Effort:** {b['effort']}",
-            f"- **Scam risk:** {b['scam_risk']}. {b['scam_reason']}",
-            f"- **Link:** {b['link']}",
-            "",
-        ]
-    lines.append(f"Skipped as poor fits (score under {POOR_FIT_BELOW}): {len(poor_fits)}.")
-    if not_eligible:
-        regions = ", ".join(sorted({b["region"] for b in not_eligible}))
-        lines.append(f"Not open to your region ({regions}), so not ranked: {len(not_eligible)}.")
-    if skipped:
-        titles = "; ".join(b["title"] for b in skipped)
-        lines.append(f"Couldn't rank {len(skipped)} (Gemma's reply wasn't valid JSON or the API failed): {titles}.")
-    BRIEF_FILE.write_text("\n".join(lines) + "\n", encoding="utf-8")
+RANKING_FIELDS = ("fit_score", "reason", "effort", "scam_risk", "scam_reason")
 
 
-def main():
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        sys.exit("Stopped: GEMINI_API_KEY isn't set. Get a key at https://aistudio.google.com/apikey "
-                 "and run:  export GEMINI_API_KEY=your-key-here")
-    if not BOUNTIES_FILE.exists():
-        sys.exit(f"Stopped: {BOUNTIES_FILE.relative_to(ROOT)} not found. Run fetch_bounties.py first.")
-    if not PROFILE_FILE.exists():
-        sys.exit("Stopped: profile.md not found. It describes your skills, so Gemma has something to compare against.")
+def rank_items(items, profile, model, api_key, previous):
+    """Rank items with Gemma, reusing rankings from `previous` where possible.
 
-    bounties = json.loads(BOUNTIES_FILE.read_text(encoding="utf-8"))["bounties"]
-    profile = PROFILE_FILE.read_text(encoding="utf-8")
+    previous maps link -> item (with ranking) from the last run, already limited
+    to the same fingerprint. A saved ranking is reused only if everything Gemma
+    was shown about the item is unchanged. Returns (ranked, skipped) lists.
+    """
     today = date.today()
-
-    started = time.monotonic()
-    started_at = datetime.now(timezone.utc)
-
-    not_eligible = [b for b in bounties if not is_eligible(b)]
-    bounties = [b for b in bounties if is_eligible(b)]
-    for b in not_eligible:
-        print(f"Not eligible (open to {b['region']} only): {b['title']}")
-    if not_eligible:
-        print(f"Skipped {len(not_eligible)} region-restricted bounties; {len(bounties)} left to rank.\n")
-
-    try:
-        model = pick_gemma(api_key, GEMMA_MODEL)
-    except GemmaError as error:
-        sys.exit(f"Stopped: {error}")
-    print(f"Using {model}\n")
-
     ranked, skipped = [], []
-    for number, bounty in enumerate(bounties, start=1):
-        print(f"[{number}/{len(bounties)}] {bounty['title']}")
+    for number, item in enumerate(items, start=1):
+        old = previous.get(item["link"])
+        if old and _details(old) == _details(item):
+            STATS["reused"] += 1
+            ranked.append({**item, **{k: old[k] for k in RANKING_FIELDS}})
+            continue
+        print(f"[{number}/{len(items)}] {item['kind']}: {item['title']}")
         try:
-            ranking = rank_one(model, bounty, profile, today, api_key)
+            ranking = rank_one(model, item, profile, today, api_key)
         except GemmaError as error:
-            skipped.append(bounty)
+            skipped.append({**item, "skip_reason": str(error)})
             print(f"    Skipped: {error}")
         else:
             if ranking:
-                ranked.append({**bounty, **ranking})
+                ranked.append({**item, **ranking})
                 print(f"    fit {ranking['fit_score']}/10, effort {ranking['effort']}, scam risk {ranking['scam_risk']}")
             else:
-                skipped.append(bounty)
+                skipped.append({**item, "skip_reason": "Gemma's reply wasn't valid JSON twice"})
                 print("    Skipped: no valid answer after 2 tries.")
-        if number < len(bounties):
-            time.sleep(PAUSE_BETWEEN_BOUNTIES)
-
-    ranked.sort(key=lambda b: b["fit_score"], reverse=True)
-    RANKED_FILE.write_text(json.dumps({
-        "ranked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "model": model,
-        "ranked": ranked,
-        "skipped": [{"title": b["title"], "link": b["link"]} for b in skipped],
-        "not_eligible": [{"title": b["title"], "region": b["region"], "link": b["link"]} for b in not_eligible],
-    }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    write_brief(ranked, skipped, not_eligible, today)
-
-    seconds = round(time.monotonic() - started, 1)
-    with RUN_LOG_FILE.open("a", encoding="utf-8") as log:
-        log.write(json.dumps({
-            "started_at": started_at.isoformat(timespec="seconds"),
-            "model": model,
-            "seconds": seconds,
-            "not_eligible": len(not_eligible),
-            "sent_to_gemma": len(bounties),
-            "ranked": len(ranked),
-            "skipped": len(skipped),
-            **STATS,
-        }) + "\n")
-
-    print(f"\nRanked {len(ranked)}, skipped {len(skipped)}, not eligible {len(not_eligible)}.")
-    print(f"Took {seconds}s with {STATS['gemma_calls']} Gemma calls, {STATS['busy_retries']} busy retries "
-          f"and {STATS['json_retries']} JSON retries.")
-    print(f"Saved {RANKED_FILE.relative_to(ROOT)}, {BRIEF_FILE.relative_to(ROOT)} "
-          f"and a line in {RUN_LOG_FILE.relative_to(ROOT)}.")
-
-
-if __name__ == "__main__":
-    main()
+        time.sleep(PAUSE_BETWEEN_CALLS)
+    ranked.sort(key=lambda r: r["fit_score"], reverse=True)
+    return ranked, skipped

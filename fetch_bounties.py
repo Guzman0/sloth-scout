@@ -1,6 +1,7 @@
 """Fetch open Web3 bounties from Superteam Earn and save them to data/bounties.json.
 
-Step 1 of Sloth Scout: fetching only. No AI, no database.
+One of Sloth Scout's sources; run.py calls fetch_superteam(). You can also run
+this file on its own to just fetch.
 
 How it works:
   1. Ask Superteam's public listings API for the current listings (one request).
@@ -19,19 +20,17 @@ import sys
 import time
 from datetime import datetime, timezone
 from html.parser import HTMLParser
-from pathlib import Path
-
 import requests
+
+from common import ROOT, TIMEOUT_SECONDS, USER_AGENT, SourceSkipped, describe_network_error
 
 LISTINGS_URL = "https://superteam.fun/api/listings"
 DETAILS_URL = "https://superteam.fun/api/listings/details/{slug}"
 LISTING_PAGE_URL = "https://superteam.fun/earn/listing/{slug}"
 
-USER_AGENT = "SlothScout/0.1 (personal daily bounty briefing; https://github.com/guzman0/sloth-scout)"
-TIMEOUT_SECONDS = 20
 PAUSE_BETWEEN_REQUESTS = 1.0  # seconds; be polite to their server
 
-OUTPUT_FILE = Path(__file__).parent / "data" / "bounties.json"
+OUTPUT_FILE = ROOT / "data" / "bounties.json"
 
 
 class _TextExtractor(HTMLParser):
@@ -93,24 +92,26 @@ def fetch_description(session, slug):
     return html_to_text(details.get("description")), details.get("skills"), details.get("region")
 
 
-def main():
+def fetch_superteam():
+    """Fetch open bounties, save them to data/bounties.json and return them.
+
+    Raises SourceSkipped with a plain-English reason if Superteam can't be reached.
+    """
     session = requests.Session()
     session.headers["User-Agent"] = USER_AGENT
 
     print(f"Fetching listings from {LISTINGS_URL} ...")
     try:
         listings = get_json(session, LISTINGS_URL)
-    except requests.Timeout:
-        sys.exit(f"Stopped: Superteam didn't answer within {TIMEOUT_SECONDS} seconds. Try again later.")
     except requests.HTTPError as error:
-        sys.exit(f"Stopped: Superteam returned an error ({error.response.status_code}). Nothing was saved.")
+        raise SourceSkipped(f"Superteam returned an error ({error.response.status_code})")
     except requests.RequestException as error:
-        sys.exit(f"Stopped: couldn't reach Superteam ({error}). Check your internet connection.")
+        raise SourceSkipped(describe_network_error(error, "superteam.fun"))
     except ValueError:
-        sys.exit("Stopped: Superteam's response wasn't valid JSON. The API may have changed. Nothing was saved.")
+        raise SourceSkipped("Superteam's response wasn't valid JSON; the API may have changed")
 
     if not isinstance(listings, list):
-        sys.exit("Stopped: expected a list of listings but got something else. The API may have changed.")
+        raise SourceSkipped("expected a list of listings but got something else; the API may have changed")
 
     now = datetime.now(timezone.utc)
     open_bounties = [item for item in listings if is_open_bounty(item, now)]
@@ -122,6 +123,8 @@ def main():
         slug = item["slug"]
         description, skills, region = fetch_description(session, slug)
         bounties.append({
+            "kind": "bounty",
+            "source": "Superteam Earn",
             "title": item.get("title"),
             "sponsor": (item.get("sponsor") or {}).get("name"),
             "sponsor_verified": (item.get("sponsor") or {}).get("isVerified"),
@@ -141,8 +144,16 @@ def main():
         {"fetched_at": now.isoformat(timespec="seconds"), "source": LISTINGS_URL, "bounties": bounties},
         indent=2, ensure_ascii=False,
     ) + "\n", encoding="utf-8")
+    return bounties
 
-    print(f"\nSaved {len(bounties)} open bounties to {OUTPUT_FILE.relative_to(Path(__file__).parent)}\n")
+
+def main():
+    try:
+        bounties = fetch_superteam()
+    except SourceSkipped as reason:
+        sys.exit(f"Stopped: {reason}. Nothing was saved.")
+
+    print(f"\nSaved {len(bounties)} open bounties to {OUTPUT_FILE.relative_to(ROOT)}\n")
     for bounty in bounties:
         reward = f"{bounty['reward']:,} {bounty['token']}" if bounty["reward"] is not None else "variable"
         print(f"- {bounty['title']}")
