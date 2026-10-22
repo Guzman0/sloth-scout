@@ -42,13 +42,19 @@ SKIP_PATH_PARTS = ("/build/", "/builder/", "/user/", "/users/", "/profile/", "/u
 # Superteam and Devpost are fetched directly, so search results from them are duplicates.
 # Social sites and forums show up for general searches but are posts about bounties, not listings.
 SKIP_DOMAINS = ("superteam.fun", "devpost.com",
-                "linkedin.com", "facebook.com", "reddit.com", "x.com", "twitter.com", "youtube.com", "medium.com")
+                "linkedin.com", "facebook.com", "reddit.com", "x.com", "twitter.com", "youtube.com", "medium.com",
+                "instagram.com", "tiktok.com")
 
 SEARCH_STATS = {"searches": 0}  # SerpApi credits used this run, for the run log
 
 MAX_PAGES = 10
 PAGE_LOAD_TIMEOUT_MS = 30_000
-BROWSER_SESSION_SECONDS = 600  # Browserbase shuts the browser down after this, even if we crash
+# Browserbase shuts the browser down after this even if we crash. We close it ourselves when done,
+# so this is only a safety net. Gemma can take 2-4 minutes per page when Google is busy.
+BROWSER_SESSION_SECONDS = 2400
+# Stagehand sends Gemma the whole page. Very long pages hit Gemma's free-tier limit on text per
+# minute (HTTP 429), so we cut the page text down; listing details are usually near the top.
+MAX_PAGE_CHARS = 30_000
 
 EXTRACT_INSTRUCTION = (
     "Extract the details of this bounty, quest, grant or hackathon listing. "
@@ -161,6 +167,8 @@ def _gemma_for_stagehand(model, gemini_key):
     async def generate(params):
         data = params.model_dump(mode="json", by_alias=True, exclude_none=True)
         prompt = "\n\n".join(f"[{m['role']}]\n{message_text(m)}" for m in data["messages"])
+        if len(prompt) > MAX_PAGE_CHARS:
+            prompt = prompt[:MAX_PAGE_CHARS] + "\n\n[page text cut short to fit Gemma's limits]"
         response_format = data.get("response_format") or {}
         structured = response_format.get("type") == "json_schema"
         if structured:
@@ -222,10 +230,22 @@ async def _read_pages(leads, model, browserbase_key, gemini_key):
                 except Exception as error:
                     lead["read_error"] = f"{error.__class__.__name__}: {str(error)[:200]}"
                     print(f"    Couldn't read it: {lead['read_error']}")
+                    if "closed" in str(error).lower():
+                        # The browser is gone; the remaining pages stay "not opened this run".
+                        print("    The browser connection closed, so stopping here.")
+                        break
         finally:
-            await stagehand.close()
+            await _close_quietly(stagehand)
     finally:
-        await browser.close()  # releases the Browserbase session so it stops costing time
+        await _close_quietly(browser)  # releases the Browserbase session so it stops costing time
+
+
+async def _close_quietly(thing):
+    """Close Stagehand or the browser, ignoring errors if the connection is already gone."""
+    try:
+        await thing.close()
+    except Exception as error:
+        print(f"    (Closing {thing.__class__.__name__} failed, probably already closed: {error.__class__.__name__})")
 
 
 def read_leads(leads, model):

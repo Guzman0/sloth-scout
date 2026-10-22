@@ -39,10 +39,12 @@ def run_source(sources, name, func, *args, summary=lambda result: f"{len(result)
     started = time.monotonic()
     try:
         result = func(*args)
-    except SourceSkipped as reason:
+    except Exception as error:
+        # SourceSkipped carries a plain-English reason. Anything else is a crash we didn't expect;
+        # record it the same way so one broken source never stops the whole run.
+        reason = str(error) if isinstance(error, SourceSkipped) else f"it crashed ({error.__class__.__name__}: {error})"
         seconds = round(time.monotonic() - started, 1)
-        sources[name] = {"status": "skipped", "reason": f"{str(reason)[0].upper()}{str(reason)[1:]}.",
-                         "seconds": seconds}
+        sources[name] = {"status": "skipped", "reason": f"{reason[0].upper()}{reason[1:]}.", "seconds": seconds}
         print(f"⚠️  Skipping {name}: {reason}. Carrying on with the other sources.")
         return []
     seconds = round(time.monotonic() - started, 1)
