@@ -1,0 +1,40 @@
+{
+  "fetched_at": "2026-10-22T17:20:48+00:00",
+  "source": "https://devpost.com/api/hackathons",
+  "hackathons": [
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "IEEE ClimateChain Global Hackathon",
+      "sponsor": "IEEE Turkey",
+      "prize_total": "$3,000",
+      "deadline": "2026-10-25",
+      "dates": "Oct 05 - 25, 2026",
+      "themes": [
+        "Blockchain",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "online": true,
+      "registrations": 1070,
+      "link": "https://ieee-climatechain-hack.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Herhack",
+      "sponsor": "Echelon institute of technology",
+      "prize_total": "₹200,000",
+      "deadline": "2026-11-10",
+      "dates": "Oct 17 - Nov 10, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Blockchain",
+        "Open Ended"
+      ],
+      "online": true,
+      "registrations": 36,
+      "link": "https://herhack.devpost.com/"
+    }
+  ]
+}
