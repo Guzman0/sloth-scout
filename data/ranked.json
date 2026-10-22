@@ -1,35 +1,11 @@
 {
-  "ranked_at": "2026-10-21T17:45:17+00:00",
+  "ranked_at": "2026-10-22T17:36:14+00:00",
   "model": "models/gemma-4-31b-it",
+  "fingerprint": "83a608da9e68c635",
   "ranked": [
     {
-      "title": "Write a thread on $CHIMP Fair Launch - Part 1",
-      "sponsor": "ChimpX",
-      "sponsor_verified": false,
-      "reward": 500,
-      "token": "USDC",
-      "deadline": "2026-11-14T18:29:59.000Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Global",
-      "link": "https://superteam.fun/earn/listing/chimp-on-metaplex",
-      "skills": [
-        {
-          "skills": "Content",
-          "subskills": [
-            "Writing",
-            "Social Media"
-          ]
-        }
-      ],
-      "description": "Write a thread on the $CHIMP\nWinners: Top 25\nPrize pool: 500\nAbout $CHIMP\nAfter three years of building, the $CHIMP is having a FAIR launching on Raydium.\nChimpX builds Solana SuperApp Mojo AI, a personal AI for your money on Solana. You type what you want and Mojo AI does it, no confusing DeFi steps. It has been used by 56K+ wallets, has handled 1M+ requests, and has seen $3.9M+ traded through it.\nWhat makes the $CHIMP sale different\n1. A soft cap unlocks a guaranteed rate or better.\n2. Extra funds are refunded pro rata, so nobody overpays.\n3. No sniping advantage. No racing bots, no insider edge.\n4. A fair public raise for everyone.\n5. Public sale buyers get 100% of their tokens unlocked at launch.\nQuick facts\nTotal supply: 1,000,000,000 $CHIMP\nPublic sale: 75,000,000 $CHIMP (7.5%)\nCommunity: 50%, for airdrops and rewards\nTeam and advisor tokens: locked at launch\nToken Contract: Will be shared\nThe Task\nWrite an X thread of 8 or more tweets that explains the $CHIMP sale and gives readers honest reasons to take part. Use your own style: story, data, visuals, comparison or humour.\nWhat to cover (pick at least three)\n1. What Mojo AI does and the problem it solves. Try it and show it.\n2. The traction so far, using our official numbers only.\n3. It is direct launch on Raydium.\n4. How to join the fair Launch, step by step.\n5. The tokenomics: where the 1B tokens go, what is locked at launch, and that public sale buyers are fully unlocked.\n6. What $CHIMP and HOOTs rewards do inside Mojo AI.\n7. The risks, and how to check you are on the real sale page.\nHow to participate\n1. Write a thread covering at least three of the points above.\n2. Tag @chimpxAI, @solana and @Raydium.\n3. Include $CHIMP and the official sale link.\n4. Submit your thread link on this page.\nJudging criteria\nDepth of research: Do you understand the product, the token and how the sale works?\nClarity: Could a complete beginner follow your thread?\nReasons to join: Are your reasons honest and backed by real facts?\nCreativity: Do you have a fresh angle, story or joke?\nVisuals: Bonus points for charts, infographics, screen recordings or videos.\nEngagement: Likes and reposts count, but quality comes first.\nTerms\nParticipation in this bounty is entirely voluntary. Bounties are a way to learn and dabble in opportunities to build in web3. These are neither full time jobs nor project based engagement. Please be advised that the sponsors will not have time for individualized feedback due to the number of entries they receive.\nResources\nWebsite: chimpx.ai\nOfficial X: @chimpxai\nTokenomics post: https://x.com/ChimpxAI/status/2108481669653291199\nDocs: docs.chimpx.ai\nLogo and brand images: https://drive.google.com/drive/folders/1LDJrUox_RTTrplqbFYqZ1CYedrT5CCPp?usp=drive_link\nTerms\nParticipation in this bounty is entirely voluntary. Bounties are a way to learn and dabble in opportunities to build in web3. These are neither full time jobs nor project based engagement. Please be advised that the sponsors will not have time for individualized feedback due to the number of entries they receive.",
-      "fit_score": 10,
-      "reason": "This is a perfect match for your expertise in X threads and research, and it meets all your location, payment, and deadline preferences.",
-      "effort": "medium",
-      "scam_risk": "medium",
-      "scam_reason": "The sponsor is not verified by Superteam, though the task itself is low-risk content creation."
-    },
-    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
       "title": "Launch & Trade on Daejin: Write a Twitter Thread and Create a Market",
       "sponsor": "Daejin",
       "sponsor_verified": false,
@@ -60,13 +36,138 @@
         }
       ],
       "description": "About Daejin\nDaejin is a creator-owned prediction market network built on Solana and part of the Superteam ecosystem.\n-\nLaunch a market on any real-world outcome — crypto prices, sports, culture.\n-\nTake a position on Yes or No — prices move in real time with the crowd's conviction.\n-\nTrust the result — every market resolves with published, evidence-based proof, verifiable on-chain.\nFeatured markets for this bounty: https://www.daejin.xyz/prediction\nYour Mission\nTry Daejin from both sides — take a position and launch your own market — then write a Twitter thread that gets people talking about it and makes someone brand-new to prediction markets want to try it.\nYour cost: $5. Creating a market is free. Your position stays yours: if your call is right, you earn from the market on top of any bounty prize.\nStep by Step\n-\nConnect your Solana wallet at daejin.xyz.\n-\nTake a position (min. $5) in one of the featured markets. Take a screenshot and note why you picked Yes or No.\n-\nCreate your own market (free): a clear question, a defined proof source, and a resolution date. Take a screenshot. You can't take a position in your own market.\n-\nOptional, earns bonus points: seed your market with liquidity (any amount) and screenshot the deposit.\n-\nWrite your thread. It should cover:\n-\nwhat Daejin is, in plain language;\n-\nhow a shared-pool market works: how prices form and how winners split the pool;\n-\nyour position and the reasoning or data behind it;\n-\nyour market and why you designed it that way;\n-\nyour screenshots from steps 2–4.\n-\nTag @Daejinxyz and @Superteam, then publish.\n-\nSubmit your thread link on Earn, plus the link to your market. Your wallet address is collected with the submission, so don't post it in the thread.\nEligibility\nA thread is judged only if it meets all of these:\n-\na position of at least $5 in a featured market (or another creator's market);\n-\nyour own market created on Daejin;\n-\nscreenshots of both in the thread;\n-\n@Daejinxyz and @Superteam tagged;\n-\nthe thread explains how Daejin works: threads that only post screenshots or a link are not judged;\n-\noriginal content published after this listing went live, and kept public until winners are announced.\nEvaluation Criteria\nEvery eligible thread is scored out of 100. Reach and engagement are measured at the submission deadline.\nReach & Engagement: 30 pts\n-\nTotal reach (15 pts): views, likes, reposts, quote posts, and replies on your thread.\n-\nEngagement rate (15 pts): interactions relative to your follower count, so smaller accounts with a highly engaged audience can compete with big ones.\nContent Quality: 50 pts\n-\nClarity (25 pts): does a newcomer understand how prices form and how payouts work?\n-\nHands-on depth (25 pts): a real thesis behind your position, and a well-designed market (clear question, proof source, timeframe). Adding liquidity to your market earns bonus points.\nWriting & Visuals: 20 pts\n-\nEasy and fun to read, no heavy jargon, clean screenshots.\nDisqualification: botted views, paid engagement, engagement pods, or giveaway-style \"like & RT to win\" posts. We check account and engagement quality before announcing winners.\nWe never judge on the outcome of any market or on the size of your position or liquidity. If two threads tie, the one with higher Reach & Engagement wins.",
-      "fit_score": 4,
-      "reason": "Perfect skill match for Twitter threads and Solana research, but the deadline is only 2 days away, which is shorter than your 3-day preference.",
+      "fit_score": 10,
+      "reason": "This bounty perfectly aligns with your strengths in Twitter threads, product analysis, and visual assets, and pays in your preferred USDC.",
       "effort": "medium",
-      "scam_risk": "medium",
-      "scam_reason": "The sponsor is not verified by Superteam and the bounty requires you to connect your wallet and spend $5."
+      "scam_risk": "low",
+      "scam_reason": "Standard Web3 bounty requirements, though it requires connecting your wallet and a small spend."
     },
     {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Create Content on Premier League Predictions with worm 🪱⚽",
+      "sponsor": "worm ",
+      "sponsor_verified": false,
+      "reward": 500,
+      "token": "USDC",
+      "deadline": "2026-11-24T02:59:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/create-content-on-premier-league-predictions-with-worm",
+      "skills": [
+        {
+          "skills": "Content",
+          "subskills": [
+            "Writing",
+            "Social Media"
+          ]
+        }
+      ],
+      "description": "gworm! The Premier League is back, and so is our content bounty 🪱⚽\nworm is the one and only leveraged prediction market on Solana.\nAbout Premier League on worm\n-\nPredict every Premier League match, right on worm.wtf\n-\nAll 20 clubs. Every match.\n-\nEvery outcome is a live %. It's the market's chance, and it moves as the match plays out.\n-\nPrize pool paid out every week to the top 10 Premier League traders on worm, running until half season. Matchweek 6 $1,500 USDC prize pool.\n-\nLeverage up to 3× if you want to back your call harder.\n-\nRefer and earn up to 30% of your referrals' trading fees for 90 days, paid in USDC.\n-\nPremier League Markets: https://www.worm.wtf/sports?league=eng.1\nYour Mission\n-\nFollow @wormwtf on X\n-\nGo to worm.wtf, connect your wallet and grab your referral link from the Earn button at the top of the homepage\n-\nExplore a Premier League market (https://www.worm.wtf/sports?league=eng.1)\n-\nPost original content about it on X, tagging @wormwtf, ending with a call to action and your referral link.\nRules / Guardrails\n-\nMust follow @wormwtf on X\n-\nYour worm referral link is required. Grab it from the Earn button on worm.wtf. Submissions without one won't be considered\n-\nTag @wormwtf on X\n-\nEnd post with a call to action that gets people want to jump in and predict:\n-\nExamples on call to actions to use\n-\nPredict the Premier League on worm 👉 [your referral link]\n-\nThink you know ball? Prove it on worm 👉 [your referral link]\n-\nLiverpool or City? Make your call on worm 👉 [your referral link]\n-\nInclude screen shots from the site\n-\nUse the word \"Predict\" - not betting no gambling/casino framing wording.\n-\nFormats can include:\n-\nX threads\n-\nX post\n-\nVideo and images are both welcome\n-\nAll languages are welcome\nYour referral link\nAdd your worm referral link to your entry. Everyone who signs up through it and trades earns you 20% to 30% of their fees for 90 days, plus 20% of their own referral earnings. Convert well and you earn beyond the prize.\nReferral link: https://www.worm.wtf/referral\nHow We'll Pick Winners\nWe're after content from people who genuinely explored the site and can get others hyped to predict too:\nMain criteria will be based on the quality/performance of the post.\n-\nDid you actually explore? You dug into a Premier League market on worm.wtf. Include real screenshots or a screen recording, plus your referral link from the Earn button.\n-\nDo you get it? Show you understand how it works: picking an outcome, reading the % as the market's chance.\n-\nIs it good? Sharp, clear, fun to read wins.\n-\nOn-brand? Predicting, never betting, and the product details are right.\nSubmission Details\n-\nPost publicly on X and tag @wormwtf\n-\nInclude your worm unique referral link\n-\nInclude a clear call-to-action to predict using worm\n-\nSubmit your post via the Superteam Earn submission portal.\nResources\n-\nWebsite: https://worm.wtf/\n-\nPremier League Markets: https://www.worm.wtf/sports?league=eng.1\n-\nTwitter / X: https://x.com/wormwtf\n-\nDiscord: https://discord.com/invite/r2WCpmY5c\n-\nReferral link: https://www.worm.wtf/referral\n-\nPrize Pool leaderboard: https://www.worm.wtf/sports?league=eng.1&view=leaderboard\nThat's it, worms. Go make something fun, explore a few matches, and show us what you've got. We can't wait to see what you cook up 🪱⚽\nBy entering, you give Worm the right to use, repost, and edit your content anywhere.",
+      "fit_score": 10,
+      "reason": "This aligns perfectly with your expertise in X threads and visual assets, pays in your preferred USDC, and is open to your location.",
+      "effort": "medium",
+      "scam_risk": "medium",
+      "scam_reason": "The sponsor is not verified by Superteam and the task requires you to connect your wallet to the platform."
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Panta x NectarFi Trading Competition Bounty",
+      "sponsor": "Panta ",
+      "sponsor_verified": false,
+      "reward": 500,
+      "token": "USDG",
+      "deadline": "2026-11-12T22:59:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/panta-x-nectarfi-trading-competition-bounty",
+      "skills": [
+        {
+          "skills": "Design",
+          "subskills": [
+            "Graphic Design"
+          ]
+        },
+        {
+          "skills": "Content",
+          "subskills": [
+            "Writing",
+            "Research",
+            "Video Editing"
+          ]
+        }
+      ],
+      "description": "Panta x NectarFi Trading Competition Bounty\nOverview\nPanta Market is a permissionless prediction market built on Solana that lets anyone create markets, trade outcomes, and earn from market activity. Users can take YES or NO positions on real-world events and participate in markets created by the community.\nFor this competition, Panta Market is partnering with NectarFi to bring more users into the Panta ecosystem through a month-long trading competition supported by community-driven content and distribution.\nParticipants are encouraged to create and distribute original content around the competition, NectarFi, and Panta Market while participating in the competition and competing for top positions on the leaderboard.\nBounty Objective\nYour objective is to drive awareness, participation, and trading activity on Panta through the NectarFi trading competition.\nUse your content, audience, and communities to:\n-\nDrive new users to Panta.\n-\nEncourage participation in the NectarFi trading competition.\n-\nCreate original content that generates awareness and engagement.\n-\nParticipate in trading activities on Panta.\n-\nContribute to the Panta ecosystem through relevant market creation where possible.\nThe bounty runs for one month, giving participants time to create and distribute content consistently throughout the campaign.\nHow to Participate\n-\nSign up on Panta.\n-\nThis week, trade at least $1 on Market 1 and Market 2 on Panta to qualify for the bounty.\n-\nQuote-tweet the official Panta announcement about the NectarFi competition and share it with your audience.\n-\nCreate original content promoting the competition and encouraging people to participate on Panta.\n-\nTag @PantaHQ, @Nectar_finance, and @SuperteamNG in your content and include #PantaMarkets.\n-\nParticipants who create relevant and engaging markets on Panta during the competition may receive additional consideration during winner selection.\nYou can submit X posts, short threads, memes, videos, community posts, or other original content formats.\nLeaderboard Rewards: Beyond the bounty, participants are encouraged to compete for additional rewards by trading on Panta or creating markets. The top five participants on the trading competition leaderboard will share a separate $1,000 prize pool.\nTotal Prize Pool: $500 USDG\n-\n1st place: $100 USDG\n-\n2nd place: $100 USDG\n-\n3rd place: $100 USDG\n-\n4th place: $100 USDG\n-\n5th place: $100 USDG\nJudging Criteria\nContent Quality: Content should be clear, original, accurate, and relevant to the NectarFi competition and Panta.\nAudience Engagement: Participants will be evaluated on how effectively their content attracts attention, encourages discussion, and motivates their audiences to explore Panta.\nTrading Participation: Participants must complete at least one trade of $1 or more on a NectarFi market on Panta to qualify for the bounty.\nMarket Contribution: Participants who create relevant and engaging markets on Panta during the competition may receive additional consideration during winner selection.\nOverall Contribution: The participant's overall contribution to awareness, user acquisition, community engagement, and growth of the Panta ecosystem.\nTerms\nBy submitting to this bounty, participants agree that their content may be reviewed, shared, repurposed, or amplified by Panta Market, NectarFi, SuperteamNG, and ecosystem partners across marketing and community channels.\nPanta Market reserves the right to disqualify any submission that does not meet the requirements outlined in this bounty or that misrepresents Panta Market or NectarFi.\nAttempts to manipulate competition activity through fake accounts, bots, artificial engagement, or other forms of fraudulent activity will result in disqualification.\nParticipation is entirely voluntary. This bounty is an opportunity to contribute to the Panta ecosystem, grow an audience, and demonstrate the ability to drive meaningful user acquisition and trading participation.\nResources and Links\nWebsite: https://go.panta.market/bounty\nX: https://x.com/pantahq\nLinkedIn: https://www.linkedin.com/company/pantahq/\nInstagram: https://www.instagram.com/panta_hq\nTikTok: https://www.tiktok.com/@pantahq\nCommunity: https://discord.gg/M76nH6fUwc\nHow to create a market: https://drive.google.com/file/d/1fJzhxR29nU-Wa3d6aZxhHAxxhChJ18CY/view?usp=drivesdk\nHow it works: https://www.panta.market/how-it-works\nNectarFi X: https://x.com/Nectar_finance?s=20\nNectarFi Links: https://linktr.ee/NectarFi",
+      "fit_score": 9,
+      "reason": "This aligns perfectly with your strengths in X threads, writing, and graphics, and offers rewards in your preferred USDG.",
+      "effort": "medium",
+      "scam_risk": "medium",
+      "scam_reason": "The sponsor is not verified by Superteam and requires you to connect your wallet and trade on their platform."
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Herhack",
+      "sponsor": "Echelon institute of technology",
+      "prize_total": "₹200,000",
+      "deadline": "2026-11-10",
+      "dates": "Oct 17 - Nov 10, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Blockchain",
+        "Open Ended"
+      ],
+      "online": true,
+      "registrations": 36,
+      "link": "https://herhack.devpost.com/",
+      "fit_score": 4,
+      "reason": "The prize is in INR rather than your preferred USDC/USDG, and hackathons typically prioritize development over research and content creation.",
+      "effort": "high",
+      "scam_risk": "medium",
+      "scam_reason": "The organizer is not a well-known Web3 entity and the listing lacks a detailed description."
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "MultiHopper Build & Route Challenge | Up to $50,000 + Revenue Share",
+      "sponsor": "MultiHopper",
+      "sponsor_verified": false,
+      "reward": 5000,
+      "token": "USDC",
+      "deadline": "2026-12-14T21:59:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/multihopper-build-and-route-challenge-up-to-dollar50000-revenue-share-1",
+      "skills": [
+        {
+          "skills": "Frontend",
+          "subskills": []
+        },
+        {
+          "skills": "Backend",
+          "subskills": []
+        },
+        {
+          "skills": "Blockchain",
+          "subskills": [
+            "Rust"
+          ]
+        }
+      ],
+      "description": "Build something that moves money.\nBuild a useful Solana product with MultiHopper, bring it real users, and turn onchain activity into a business. Earn ongoing integration revenue and compete for a total prize pool that grows from $5,000 to $50,000.\nThere is $5,000 guaranteed for the winners with more based on transaction volume success.\nWhy transaction volume as a goal? Because we want to help people create a business and give them a head start with MultiHopper rather than build solutions that go nowhere. And then we want to support them in growing.\nThat means building a product, marketing it, and growing something that you get to keep, which makes money while you sleep.\nExplore the campaign and interactive earnings calculator →\nYour product. Your volume. Your upside.\nCustomers pay a 0.5% percentage fee on full-rate transfers. Half goes to you: 0.25% of full-fee volume, or $2,500 for every $1 million routed. MultiHopper uses its own 0.25% share to fund the competition pool. Per-hop fees are excluded.\nIntegration revenue is separate from the prize and does not depend on winning. Partner onboarding and agreed revenue-sharing terms apply.\nA prize pool that grows with adoption\n-\nNOTE: If your product does not generate at least $100,000 of transaction volume, you will not qualify.\n-\nONLY PRODUCTION VOLUME IS COUNTED. Devnet volume does not.\n-\nEvery additional $400,000 unlocks another $1,000.\n-\n$4 million funds $10,000; $8 million funds $20,000.\n-\n$11 million funds a $27,000 pool from $27,500 retained fees.\n-\n$20 million aggregated across every project that enters unlocks the maximum $50,000 pool.\nThese are cumulative prize pools, awarded once after verification. The top three eligible products share the funded pool in proportion to their qualifying transaction volume.\nYour prize = total funded pool × your qualifying volume ÷ combined qualifying volume of the top three. For example, 40% of the winners’ volume earns 40% of the pool, in addition to integration revenue. This is a competition top-up, not a guaranteed personal 1:1 match.\nDraft terms: the initial $5,000 award is conditional on reaching $2 million aggregate qualifying volume. Dates and Earn’s support for variable, volume-proportional awards must be confirmed before publication. Any fixed prize fields in this draft are placeholders; the proportional formula above is the intended allocation.\nWhat could you build?\n-\nPrivacy-first token sends: a wallet, bot or SDK for discreet SOL and supported-token transfers with configurable routing and timing.\n-\nLaunch distribution and unbundling: allocation management, routed Multi-Send payouts and recipient tools for launches.\n-\nMigration tools: distribute replacement tokens with reconciliation, status tracking and safe retries.\n-\nSwaps with hooks: combine an external Solana swap integration with MultiHopper routes and signed completion webhooks.\n-\nAI agent treasuries: budgets, approval rules, service payments and programmable capital movement.\n-\nStablecoin payments: supplier payments, invoices, checkout, payroll and marketplace payouts.\n-\nOTC settlement: quote-to-delivery tools with routed settlement and receipts.\n-\nTreasury automation: operational wallet funding, distribution schedules and event-driven workflows.\n-\nAgent-to-agent commerce: paid research, compute and task marketplaces.\n-\nCreator payouts: royalties, affiliate earnings and contributor distributions.\nAnd of course: you could launch a token for your project with any number of launchpads to help speed your process, engineering, adoption and transaction volume.\nUse the standard API, supported programmable route parameters or Multi-Send as your product needs. You can use random or custom routing APIs, as well as agentic.\nYour application supplies swaps, approval policies and business logic. Build against current Solana deployment capabilities. Routing reduces simple linkage; it does not erase public-chain history or guarantee anonymity. Funds are not pooled or commingled.\nBuild with a recognized team\nMultiHopper won third place in the Visa track at Superteam Germany’s Solana Colosseum event in Berlin.\nMultiHopper is an official TRM Labs partner, with compliance controls built into the smart contract and TRM-powered screening integrated into the routing workflow. Every product you build with us will have TRM Labs compliance and screening built directly into your product by default at the smart contract level. That’s something you and your clients can rely on.\nWatch Alex pitch MultiHopper\nCo-founder and CBO Alex Kujavsky shares the vision and demonstrates Custom Routing.\nWatch the full pitch and demo →\nOur team: João (JRA), COO and co-founder, is a member of Superteam Germany. Alex Kujavsky, CBO and co-founder, is a member of Superteam Canada.\nMentorship and introductions\nWinning teams are eligible for mentorship from Enigma, founder of MultiHopper and GP of EnigmaFund. He has mentored more than 40 teams, with experience across L1 ecosystems and projects including Movement, Toshi, Anyone Protocol and Perle.\n-\nProduct, positioning and business-model guidance.\n-\nFundraising strategy and investor readiness.\n-\nRelevant introductions within our fundraising network.\n-\nConnections to founders, partners and potential customers.\nSupport is tailored to each winning team. Introductions depend on fit and availability; funding is not guaranteed. Referenced projects describe Enigma’s experience, not campaign sponsorship.\nEligibility and judging\n-\nShip a working Solana product integrating MultiHopper and complete production onboarding.\n-\nGenerate at least $100,000 qualifying volume per product during the common measurement window.\n-\nPass functionality, security and genuine-usage review.\n-\nRank by verified, fee-adjusted transaction volume. Product quality and repeat usage break ties.\nQualifying volume is collected MultiHopper percentage fees divided by 0.0025. Discounted transfers count proportionally. Count principal once: hops and Multi-Send recipients never multiply volume. Exclude failed, refunded, free, devnet, circular and prize-farming activity. Legitimate treasury movements must have a verifiable business purpose. Fewer than three eligible teams share the pool proportionally; no eligible teams means no awards.\nWhile you can contact the team for assistance in the MultiHopper Builder community all entries must be made on Superteam Earn. We will not consider any other entries\nWhat to submit\n-\nLive product URL and a short demo video.\n-\nDescription of the user problem and your MultiHopper integration.\n-\nRepository or review access and technical documentation.\n-\nRegistered integration identifier and verifiable transaction evidence.\n-\nQualifying-volume summary, genuine customer/use-case evidence and contact details.\n-\nAll entries MUST be submitted on Superteam Earn.\n-\nProvide traction metrics and growth stats\nProvide sensitive customer evidence privately to the review team.\nResources\n-\nCampaign, earnings calculator, team and pitch video\n-\nJoin the MultiHopper Builder Community\n-\nDeveloper quickstart\n-\nAPI documentation\n-\nAPI access and onboarding\n-\nContact Enigma\nBring the idea. Build something useful. Make the next move.",
+      "fit_score": 1,
+      "reason": "This is a technical build challenge requiring full-stack and Rust development, which you explicitly listed as 'Not for me'.",
+      "effort": "high",
+      "scam_risk": "medium",
+      "scam_reason": "The sponsor is unverified and the rewards are heavily conditional on achieving high transaction volumes."
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
       "title": "Vaultline Security Audit Grants for Colosseum Projects: Up to 4,000 USDC Each",
       "sponsor": "Vaultline Security",
       "sponsor_verified": false,
@@ -85,12 +186,46 @@
       ],
       "description": "About Vaultline Security\nVaultline Security works to make Web3 safer. We believe strong security is essential for the ecosystem to grow and for builders and users to trust decentralized technology.\nThe Opportunity\nWe're offering audit grants to 10 Solana projects from the Colosseum Hackathon. Each selected team will receive a Vaultline security audit, either fully covered or at a significant discount, to strengthen their security before launch or scale.\nWhat the Grant Covers\n-\nEach grant is worth up to 4,000 USDC in audit services, applied directly to a Vaultline audit. It is not paid out as cash.\n-\nSolana programs (Anchor or native) are in scope.\n-\nThere's no fixed size limit. Vaultline will review each codebase and provide a full quote based on its complexity and lines of code. If the quote is within the grant amount, the audit is fully covered. If it's higher, the grant is applied as a discount.\nWho Should Apply\nSolana projects that took part in the Colosseum Hackathon and meet these conditions:\n-\nThe codebase is feature-complete or close to it, so audit scope won't change significantly.\n-\nThe code is in a repository Vaultline can access.\n-\nThe team can respond to findings and implement fixes after the audit.\n-\nThe team is prepared to cover any remaining cost if their quote exceeds the grant amount.\nWhat to Submit\nAnswer the application question with:\n-\nProject name, short description, and Colosseum submission link\n-\nRepository link and the specific programs to be audited\n-\nApproximate lines of code (required, so we can quote accurately)\n-\nCurrent stage (devnet, testnet, or mainnet), plus any user or TVL figures\n-\n1-2 paragraphs on why an audit matters for your project right now\n-\nTeam contact details\nSelection Criteria\n-\nProject potential: How impactful and innovative is the project within the Solana ecosystem?\n-\nAudit need: How much do user funds or trust depend on the code being secure?\n-\nReadiness: Is the codebase mature and stable enough for a meaningful audit?\nRewards\n10 audit grants, each worth up to 4,000 USDC in Vaultline audit services. Final grant value is based on each project's custom quote.\nTimeline\n-\nApplications close: October 31, 2026\n-\nSelected projects announced: November 2, 2026\nAnnouncement\nVaultline will announce the selected projects on Superteam Earn, Twitter, and LinkedIn. By applying, selected teams agree to be named in the announcement and to share the post from their own accounts.",
       "fit_score": 0,
-      "reason": "This bounty is for developers who built projects in the Colosseum Hackathon, not for researchers, and the reward is a service rather than the cash you prefer.",
+      "reason": "This bounty is for Colosseum Hackathon project teams with codebases to be audited, not for researchers or content creators.",
       "effort": "high",
       "scam_risk": "medium",
-      "scam_reason": "The sponsor is unverified and the reward is listed as USDC in the title but is actually a service grant in the description."
+      "scam_reason": "The sponsor is not verified by Superteam."
     },
     {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Show us how you use MozaikPay",
+      "sponsor": "MozaikPay",
+      "sponsor_verified": false,
+      "reward": 500,
+      "token": "USDC",
+      "deadline": "2026-11-12T21:59:59.999Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/mozaikpay-video-chile-colombia",
+      "skills": [
+        {
+          "skills": "Content",
+          "subskills": [
+            "Video",
+            "Video Editing",
+            "Social Media"
+          ]
+        }
+      ],
+      "description": "What we're building\nMozaikPay is a payment app for digital dollars, money that keeps its value in US dollars and moves to anyone, instantly and for free.\nPeople in Argentina, Chile and Colombia use it to add money from their bank, keep it in dollars, and send it to whoever they want. Sending to another MozaikPay user is free. If the other person isn't on MozaikPay yet, you send them a payment link and they claim it once they install the app. When you want your pesos back, you cash out to your bank, and you see the fee before you confirm, not after.\nIt's also self-custodial, which in plain words means the money in your wallet is yours.\nWhat we're looking for\nA 30 to 60 second video in Spanish, on TikTok or Instagram Reels, about a real money problem you (or someone close to you) actually deal with, and how MozaikPay fits into it.\nPlease don't make us an ad. Make the video you'd send a friend who asked \"wait, how do you do that?\"\nIf you need a starting point, these are the ones we hear about most:\n-\nYour salary lands in pesos and you move part of it into dollars before it loses value.\n-\nYou owe a friend money, they don't have MozaikPay, so you send them a link and they claim it.\n-\nYou live in Chile, your mom lives in Colombia, and she gets the dollars you send her the same minute.\nA note on wording\nWe never say crypto, blockchain or token in the app. In the app you just see digital dollars.\nPlease don't give investment advice or promise returns, there aren't any, and don't compare our fees with other apps.\nSubmission requirements\nEvery point below is required. If your submission misses even one, it can't win a prize, no matter how good the video is.\nThe video\n-\n30 to 60 seconds long.\n-\nIn Spanish.\n-\nShows your real MozaikPay account on screen.\n-\nMarked as sponsored, with #publicidad or the platform's paid partnership toggle.\n-\nNo investment advice and no promised returns.\n-\nNo fee comparisons with other apps.\n-\nDoesn't say crypto, blockchain or token.\nWhere it's posted\n-\nOn your own account, as a TikTok or an Instagram Reel (public profile).\n-\nPosted after this listing went live.\n-\nStill up when we pick the winners.\n-\nMore than half of that account's audience is in Chile and Colombia combined.\nWe'd also like you to keep the video up for at least 30 days after you post it. We can't check that before the bounty ends, so it's not a prize requirement. We do look at it when we pick creators for paid work later.\nWhat to submit\n-\nThe link to your video.\n-\nA screenshot of your audience countries from your TikTok or Instagram analytics.\n-\nYour MozaikPay username, so we can match it to the account in the video.\nRewards\n-\n1st place, 150 USDC\n-\n2nd place, 100 USDC\n-\n3rd place, 50 USDC\n-\n4 more spots, 50 USDC each\nIf your video does well, we'll want to work with you again, and we'll pay for it.\nResources\n-\nWhat is MozaikPay? (Spanish)\n-\nSet up your account (Spanish)\n-\nCreate and share a payment link (Spanish)\n-\nDownload on iOS\n-\nDownload on Android",
+      "fit_score": 0,
+      "reason": "This bounty requires content in Spanish and a specific audience in Chile and Colombia, which contradicts your language and location profile.",
+      "effort": "medium",
+      "scam_risk": "medium",
+      "scam_reason": "The sponsor is not verified by Superteam."
+    }
+  ],
+  "skipped": [
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
       "title": "Crea Contenido para Promocionar El Encuentro 2026 en Madrid",
       "sponsor": "La Familia",
       "sponsor_verified": true,
@@ -119,21 +254,50 @@
         }
       ],
       "description": "About La Familia\nLa Familia es la comunidad de Solana en España. Nuestro objetivo es conectar a builders, fundadores y proyectos, creando un espacio para aprender y crecer juntos. Organizamos eventos y quedadas para que la comunidad se conozca en persona.\nMission\nQueremos que nos ayudes a correr la voz sobre El Encuentro 2026, el evento Solana del año en España. Crea contenido original que invite a la gente a venir y reservar su plaza.\nScope Detail\n-\nGenera contenido que invite a la comunidad a asistir a El Encuentro 2026.\n-\nComunica de qué trata el evento y por qué es una oportunidad única.\n-\nAnima a la gente a reservar su plaza gratuita.\n-\nPuedes crear:\n-\nHilos o posts para X.\n-\nVídeos cortos para TikTok, Reels, Shorts o YouTube.\n-\nPosts para Instagram o LinkedIn.\n-\nArtículos de blog o newsletter.\n-\nMemes, ilustraciones o diseños propios.\nSubmission Requirements\n-\nDebes incluir obligatoriamente el enlace https://lafamilia.so/ir/encuentro-st en tu publicación (en el texto, descripción, biografía o donde sea apropiado para el formato). Las entregas sin este enlace no serán evaluadas.\n-\nEl contenido debe ser original y publicado durante el período del bounty.\n-\nMenciona a @LaFamilia_so en X o la cuenta de La Familia en la red social que utilices.\n-\nEl contenido debe estar en español.\n-\nNo se aceptará contenido generado íntegramente con IA sin aportación propia, ni el uso de bots o interacciones compradas.\n-\nEnvía el enlace a tu publicación en el formulario de entrega.\n-\nSe permite más de una pieza por participante, pero valoramos la calidad por encima de la cantidad.\nJudging Criteria\n-\nCreatividad y originalidad del contenido.\n-\nCapacidad para transmitir la esencia del evento y la importancia de asistir.\n-\nCalidad general de la producción.\n-\nAlcance e interacción real generada por la publicación (no se tendrá en cuenta el alcance comprado).\n-\nConexión con la cultura y la comunidad española.\nResources\n-\nWeb oficial de El Encuentro 2026: https://lafamilia.so/ir/encuentro-st\n-\nCartel descargable del evento: https://lafamilia.so/el-encuentro/cartel.jpg\nReward Structure\n-\n1st Place: 500 USDC + Entrada gratuita a Merge Madrid\n-\n2nd Place: 400 USD\n-\n3rd Place: 300 USD\n-\n4th Place: 200 USD\n-\n5th Place: 200 USD\n-\nBonus 6-10: 80 USD\n-\nLos ganadores se anunciarán en directo en El Encuentro, el evento anual de La Familia, el 26 de octubre en Madrid. Si puedes, ven a vivirlo con nosotros: https://lafamilia.so/ir/encuentro-st",
-      "fit_score": 0,
-      "reason": "The bounty explicitly requires content to be in Spanish, but you only write in English.",
-      "effort": "medium",
-      "scam_risk": "low",
-      "scam_reason": "The sponsor is verified by Superteam."
-    }
-  ],
-  "skipped": [
-    {
-      "title": "Panta x NectarFi Trading Competition Bounty",
-      "link": "https://superteam.fun/earn/listing/panta-x-nectarfi-trading-competition-bounty"
+      "skip_reason": "Gemini API still busy (503) after 3 retries"
     },
     {
-      "title": "Create Content on Premier League Predictions with worm 🪱⚽",
-      "link": "https://superteam.fun/earn/listing/create-content-on-premier-league-predictions-with-worm"
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Write a thread on $CHIMP Fair Launch - Part 1",
+      "sponsor": "ChimpX",
+      "sponsor_verified": false,
+      "reward": 500,
+      "token": "USDC",
+      "deadline": "2026-11-14T18:29:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/chimp-on-metaplex",
+      "skills": [
+        {
+          "skills": "Content",
+          "subskills": [
+            "Writing",
+            "Social Media"
+          ]
+        }
+      ],
+      "description": "Write a thread on the $CHIMP\nWinners: Top 25\nPrize pool: 500\nAbout $CHIMP\nAfter three years of building, the $CHIMP is having a FAIR launching on Raydium.\nChimpX builds Solana SuperApp Mojo AI, a personal AI for your money on Solana. You type what you want and Mojo AI does it, no confusing DeFi steps. It has been used by 56K+ wallets, has handled 1M+ requests, and has seen $3.9M+ traded through it.\nWhat makes the $CHIMP sale different\n1. A soft cap unlocks a guaranteed rate or better.\n2. Extra funds are refunded pro rata, so nobody overpays.\n3. No sniping advantage. No racing bots, no insider edge.\n4. A fair public raise for everyone.\n5. Public sale buyers get 100% of their tokens unlocked at launch.\nQuick facts\nTotal supply: 1,000,000,000 $CHIMP\nPublic sale: 75,000,000 $CHIMP (7.5%)\nCommunity: 50%, for airdrops and rewards\nTeam and advisor tokens: locked at launch\nToken Contract: Will be shared\nThe Task\nWrite an X thread of 8 or more tweets that explains the $CHIMP sale and gives readers honest reasons to take part. Use your own style: story, data, visuals, comparison or humour.\nWhat to cover (pick at least three)\n1. What Mojo AI does and the problem it solves. Try it and show it.\n2. The traction so far, using our official numbers only.\n3. It is direct launch on Raydium.\n4. How to join the fair Launch, step by step.\n5. The tokenomics: where the 1B tokens go, what is locked at launch, and that public sale buyers are fully unlocked.\n6. What $CHIMP and HOOTs rewards do inside Mojo AI.\n7. The risks, and how to check you are on the real sale page.\nHow to participate\n1. Write a thread covering at least three of the points above.\n2. Tag @chimpxAI, @solana and @Raydium.\n3. Include $CHIMP and the official sale link.\n4. Submit your thread link on this page.\nJudging criteria\nDepth of research: Do you understand the product, the token and how the sale works?\nClarity: Could a complete beginner follow your thread?\nReasons to join: Are your reasons honest and backed by real facts?\nCreativity: Do you have a fresh angle, story or joke?\nVisuals: Bonus points for charts, infographics, screen recordings or videos.\nEngagement: Likes and reposts count, but quality comes first.\nTerms\nParticipation in this bounty is entirely voluntary. Bounties are a way to learn and dabble in opportunities to build in web3. These are neither full time jobs nor project based engagement. Please be advised that the sponsors will not have time for individualized feedback due to the number of entries they receive.\nResources\nWebsite: chimpx.ai\nOfficial X: @chimpxai\nTokenomics post: https://x.com/ChimpxAI/status/2108481669653291199\nDocs: docs.chimpx.ai\nLogo and brand images: https://drive.google.com/drive/folders/1LDJrUox_RTTrplqbFYqZ1CYedrT5CCPp?usp=drive_link\nTerms\nParticipation in this bounty is entirely voluntary. Bounties are a way to learn and dabble in opportunities to build in web3. These are neither full time jobs nor project based engagement. Please be advised that the sponsors will not have time for individualized feedback due to the number of entries they receive.",
+      "skip_reason": "Gemini API still busy (500) after 3 retries"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "IEEE ClimateChain Global Hackathon",
+      "sponsor": "IEEE Turkey",
+      "prize_total": "$3,000",
+      "deadline": "2026-10-25",
+      "dates": "Oct 05 - 25, 2026",
+      "themes": [
+        "Blockchain",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "online": true,
+      "registrations": 1070,
+      "link": "https://ieee-climatechain-hack.devpost.com/",
+      "skip_reason": "Gemini API still busy (500) after 3 retries"
     }
   ],
   "not_eligible": [
@@ -141,11 +305,6 @@
       "title": "Travel boost: Create Content for Breakpoint 2026",
       "region": "Germany",
       "link": "https://superteam.fun/earn/listing/travel-boost-for-bp26"
-    },
-    {
-      "title": "Bring Your Friends to Segmento",
-      "region": "Balkan",
-      "link": "https://superteam.fun/earn/listing/bring-your-friends-to-segmento"
     },
     {
       "title": "Redesign Your Favourite App on Solana",
@@ -161,6 +320,11 @@
       "title": "Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje",
       "region": "Spain",
       "link": "https://superteam.fun/earn/listing/rumbo-a-breakpoint-2026-gana-una-entrada-y-apoyo-para-tu-viaje"
+    },
+    {
+      "title": "Inside the Block: How Solana Validators Order Transactions",
+      "region": "Ukraine",
+      "link": "https://superteam.fun/earn/listing/inside-the-block-how-solana-validators-order-transactions"
     }
   ]
 }

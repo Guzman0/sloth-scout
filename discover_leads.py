@@ -38,7 +38,9 @@ SEARCH_RECENCY = "qdr:m"  # Google's "past month" filter
 # Links whose path contains any of these are profiles, submissions or articles, not listings.
 SKIP_PATH_PARTS = ("/build/", "/builder/", "/user/", "/users/", "/profile/", "/u/", "/blog/", "/docs/", "/news/")
 # Superteam and Devpost are fetched directly, so search results from them are duplicates.
-SKIP_DOMAINS = ("superteam.fun", "earn.superteam.fun", "devpost.com")
+# Social sites and forums show up for general searches but are posts about bounties, not listings.
+SKIP_DOMAINS = ("superteam.fun", "devpost.com",
+                "linkedin.com", "facebook.com", "reddit.com", "x.com", "twitter.com", "youtube.com", "medium.com")
 
 SEARCH_STATS = {"searches": 0}  # SerpApi credits used this run, for the run log
 
