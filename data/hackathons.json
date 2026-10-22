@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T17:54:36+00:00",
+  "fetched_at": "2026-10-22T18:18:00+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,8 +16,25 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1071,
+      "registrations": 1073,
       "link": "https://ieee-climatechain-hack.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Build, Ship, Shape: Amazon Developer Hackathon",
+      "sponsor": "Amazon",
+      "prize_total": "$138,000",
+      "deadline": "2026-10-23",
+      "dates": "Aug 31 - Oct 23, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Open Ended",
+        "Productivity"
+      ],
+      "online": true,
+      "registrations": 62843,
+      "link": "https://amazonappdev2026.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -35,6 +52,293 @@
       "online": true,
       "registrations": 36,
       "link": "https://herhack.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Nebius x NVIDIA Global AI Hackathon",
+      "sponsor": "nebius",
+      "prize_total": "$50,000",
+      "deadline": "2026-10-30",
+      "dates": "Aug 26 - Oct 30, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Beginner Friendly",
+        "Robotic Process Automation"
+      ],
+      "online": true,
+      "registrations": 25919,
+      "link": "https://nebiusglobalaihackathon.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "PayPal AI Hackathon",
+      "sponsor": "PayPal",
+      "prize_total": "$67,500",
+      "deadline": "2026-11-12",
+      "dates": "Oct 01 - Nov 12, 2026",
+      "themes": [
+        "Low/No Code",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 18716,
+      "link": "https://paypalaihackathon.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "OpenCV AI Competition 2026, powered by AWS",
+      "sponsor": "OpenCV",
+      "prize_total": "$20,250",
+      "deadline": "2026-10-27",
+      "dates": "Aug 26 - Oct 27, 2026",
+      "themes": [
+        "IoT",
+        "Machine Learning/AI",
+        "Serverless"
+      ],
+      "online": true,
+      "registrations": 5477,
+      "link": "https://opencv26.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Build With AI: Basics",
+      "sponsor": "Devpost",
+      "prize_total": "$2,500",
+      "deadline": "2026-10-26",
+      "dates": "Sep 22 - Oct 26, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Beginner Friendly",
+        "Education"
+      ],
+      "online": true,
+      "registrations": 4562,
+      "link": "https://learn-ai-basics.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Meta VR Start Developer Competition 2026",
+      "sponsor": "Meta",
+      "prize_total": "$1,000,000",
+      "deadline": "2026-11-18",
+      "dates": "Sep 24 - Nov 18, 2026",
+      "themes": [
+        "AR/VR",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 3660,
+      "link": "https://start-developer-competition-26.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Life After Code",
+      "sponsor": "GitLab",
+      "prize_total": "$45,000",
+      "deadline": "2026-10-27",
+      "dates": "Oct 05 - 27, 2026",
+      "themes": [
+        "DevOps",
+        "Machine Learning/AI",
+        "Productivity"
+      ],
+      "online": true,
+      "registrations": 2901,
+      "link": "https://gitlab-transcend.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Qloo Agentic Hackathon",
+      "sponsor": "Qloo",
+      "prize_total": "$25,000",
+      "deadline": "2026-10-30",
+      "dates": "Sep 30 - Oct 30, 2026",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 2171,
+      "link": "https://qloo.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
+      "sponsor": "AWS",
+      "prize_total": "$40,000",
+      "deadline": "2026-10-28",
+      "dates": "Sep 14 - Oct 28, 2026",
+      "themes": [
+        "Communication",
+        "Mobile",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 985,
+      "link": "https://aws-cds-partner.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "YouCam API Skin AI & eCommerce VTO Hackathon",
+      "sponsor": "Perfect Corp",
+      "prize_total": "$6,000",
+      "deadline": "2026-11-02",
+      "dates": "Sep 29 - Nov 02, 2026",
+      "themes": [
+        "AR/VR",
+        "E-commerce/Retail",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 1147,
+      "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Code for Humanity",
+      "sponsor": "nill",
+      "prize_total": "$0",
+      "deadline": "2027-01-15",
+      "dates": "Jul 16, 2026 - Jan 15, 2027",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 649,
+      "link": "https://code-for-humanity.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Learn AR with SPECS",
+      "sponsor": "Devpost",
+      "prize_total": "$2,500",
+      "deadline": "2026-11-09",
+      "dates": "Oct 15 - Nov 09, 2026",
+      "themes": [
+        "AR/VR",
+        "Machine Learning/AI",
+        "Design"
+      ],
+      "online": true,
+      "registrations": 524,
+      "link": "https://learn-specs.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Arbiter Hacks V1",
+      "sponsor": "Arbiter ",
+      "prize_total": "$7,800",
+      "deadline": "2026-12-21",
+      "dates": "Oct 20 - Dec 21, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "online": true,
+      "registrations": 451,
+      "link": "https://arbiter-hacks-v1.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Syntax Summit",
+      "sponsor": "Student Organization",
+      "prize_total": "$0",
+      "deadline": "2027-01-14",
+      "dates": "Jul 18, 2026 - Jan 14, 2027",
+      "themes": [
+        "DevOps",
+        "Machine Learning/AI",
+        "Robotic Process Automation"
+      ],
+      "online": true,
+      "registrations": 360,
+      "link": "https://syntax-summit.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "UGREEN Hackathon 2026 on AI NAS",
+      "sponsor": "UGREEN",
+      "prize_total": "$46,000",
+      "deadline": "2026-11-16",
+      "dates": "Oct 22 - Nov 16, 2026",
+      "themes": [
+        "Lifehacks",
+        "Machine Learning/AI",
+        "Productivity"
+      ],
+      "online": true,
+      "registrations": 39,
+      "link": "https://ugreenhackathon.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "NextSpark Hacks",
+      "sponsor": "Independent",
+      "prize_total": "$100",
+      "deadline": "2026-10-26",
+      "dates": "Oct 21 - 26, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "online": true,
+      "registrations": 77,
+      "link": "https://nextspark-hacks.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Mathematics for systems security",
+      "sponsor": "Software Engineering Club (DEV)",
+      "prize_total": "$0",
+      "deadline": "2026-11-01",
+      "dates": "Oct 16 - Nov 01, 2026",
+      "themes": [
+        "Communication",
+        "Cybersecurity",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 51,
+      "link": "https://mathematics-systems-security.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "HackWithAditya",
+      "sponsor": "Aditya University",
+      "prize_total": "₹500,000",
+      "deadline": "2026-11-25",
+      "dates": "Oct 16 - Nov 25, 2026",
+      "themes": [
+        "Education",
+        "Health",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 44,
+      "link": "https://hackwithaditya.devpost.com/"
     }
   ]
 }
