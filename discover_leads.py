@@ -45,6 +45,13 @@ SKIP_DOMAINS = ("superteam.fun", "devpost.com",
                 "linkedin.com", "facebook.com", "reddit.com", "x.com", "twitter.com", "youtube.com", "medium.com",
                 "instagram.com", "tiktok.com")
 
+# Results from a general search (no "site:") must mention one of these in their title or
+# snippet, so random grant and government pages don't use up browser pages.
+# ("dao" is left out: it matches everyday words and names too often.)
+WEB3_KEYWORDS = ("web3", "crypto", "blockchain", "solana", "ethereum", "defi", "nft", "onchain", "on-chain",
+                 "bug bounty", "audit", "hackathon")
+_KEYWORD_PATTERN = re.compile(r"\b(" + "|".join(re.escape(k) for k in WEB3_KEYWORDS) + r")s?\b")
+
 SEARCH_STATS = {"searches": 0}  # SerpApi credits used this run, for the run log
 
 MAX_PAGES = 10
@@ -71,6 +78,26 @@ def _looks_like_listing(link):
     if path in ("", "/"):
         return False  # a site's home page isn't a listing
     return not any(part in path + "/" for part in SKIP_PATH_PARTS)
+
+
+def _site_of(query):
+    """'site:dorahacks.io/hackathon bounty' -> 'dorahacks.io'; None for a general search."""
+    match = re.search(r"site:([^\s/]+)", query)
+    return match.group(1).lower().removeprefix("www.") if match else None
+
+
+def _matches_search(result, query):
+    """Google sometimes ignores "site:" and returns other sites, so check results really match.
+
+    Site searches keep only results on that site. General searches keep only results whose
+    title or snippet mentions a Web3, security or hackathon keyword.
+    """
+    site = _site_of(query)
+    if site:
+        host = urlparse(result.get("link") or "").netloc.lower().removeprefix("www.")
+        return host == site or host.endswith("." + site)
+    text = f"{result.get('title') or ''} {result.get('snippet') or ''}".lower()
+    return bool(_KEYWORD_PATTERN.search(text))
 
 
 def search_leads(known_links):
@@ -105,11 +132,14 @@ def search_leads(known_links):
             raise SourceSkipped(f"SerpApi said: {data['error']}")
 
         results = data.get("organic_results", [])
-        kept = 0
+        kept = off_topic = 0
         for result in results:
             link = result.get("link")
             key = (link or "").rstrip("/").lower()
             if not link or key in seen or key in known or not _looks_like_listing(link):
+                continue
+            if not _matches_search(result, query):
+                off_topic += 1
                 continue
             seen.add(key)
             kept += 1
@@ -121,7 +151,8 @@ def search_leads(known_links):
                 "link": link,
                 "query": query,
             })
-        print(f"    {len(results)} results, {kept} new listing links")
+        print(f"    {len(results)} results, {kept} new listing links"
+              + (f", {off_topic} off-topic skipped" if off_topic else ""))
     return leads
 
 

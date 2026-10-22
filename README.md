@@ -32,7 +32,7 @@ You can still run `python fetch_bounties.py` or `python fetch_hackathons.py` on 
 |---|---|---|---|
 | Superteam Earn | `fetch_bounties.py` | none | Open bounties via the public listings API, plus one details request each for the description and region. |
 | Devpost | `fetch_hackathons.py` | none | Open, online hackathons with the Blockchain or Machine Learning/AI theme, in one request. Invite-only ones are skipped. |
-| SerpApi | `discover_leads.py` | `SERPAPI_API_KEY` | 4 Google searches per run aimed at DoraHacks, Layer3, Gitcoin, plus one general search. Links already found on Superteam or Devpost are dropped, as are profile, submission and blog pages. |
+| SerpApi | `discover_leads.py` | `SERPAPI_API_KEY` | 4 Google searches per run aimed at DoraHacks, Layer3, Gitcoin, plus one general search. Links already found on Superteam or Devpost are dropped, as are profile, submission and blog pages. Results from a `site:` search must really be on that site (Google sometimes ignores `site:`), and results from the general search must mention a Web3, bug bounty, audit or hackathon keyword. |
 | Browserbase + Stagehand | `discover_leads.py` | `BROWSERBASE_API_KEY` | Opens up to 10 search results in a cloud browser and extracts title, sponsor, reward, deadline, region and task. Stagehand calls Gemma through our own function, which cleans up Gemma's JSON before handing it back. |
 
 All the APIs are undocumented, so field names come from inspecting real responses. Nothing is made up: a missing value stays empty.
