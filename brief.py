@@ -1,4 +1,9 @@
-"""Write brief.md: the short morning briefing run.py ends with."""
+"""Write brief.md: the short morning briefing run.py ends with.
+
+Layout: "New today" (good fits never shown in an earlier brief) comes first,
+then a short "Still open" list (shown before, still accepting entries), then
+notes, unverified leads and which sources ran.
+"""
 
 from datetime import date
 
@@ -9,7 +14,8 @@ BRIEF_FILE = ROOT / "brief.md"
 
 POOR_FIT_BELOW = 5  # fit scores under this count as poor fits
 MIN_DAYS_LEFT = 3  # from profile.md: deadlines at least 3 days away
-TOP_N = 5
+TOP_N = 5  # per kind, in "New today"
+MAX_STILL_OPEN = 10
 MAX_UNVERIFIED_SHOWN = 10
 
 
@@ -32,7 +38,7 @@ def _deadline_text(item):
 
 def _entry(number, item):
     lines = [
-        f"### {number}. {item['title']}",
+        f"#### {number}. {item['title']}",
         f"- **{'Prize total' if item['kind'] == 'hackathon' else 'Reward'}:** {format_reward(item)}"
         f"   **Deadline:** {_deadline_text(item)}",
         f"- **Fit:** {item['fit_score']}/10. {item['reason']}",
@@ -47,29 +53,75 @@ def _entry(number, item):
     return lines
 
 
-def _section(title, ranked, skipped, today, extra_notes=()):
-    good = [r for r in ranked if r["fit_score"] >= POOR_FIT_BELOW]
-    too_soon = [r for r in good if (d := days_left(r, today)) is not None and d < MIN_DAYS_LEFT]
-    shown = [r for r in good if r not in too_soon]
-    poor = [r for r in ranked if r["fit_score"] < POOR_FIT_BELOW]
+def plan_brief(ranked, seen, today):
+    """Split good fits into new / still open / closing too soon.
 
-    lines = [f"## {title}", ""]
-    if shown:
-        lines += [f"Top {min(TOP_N, len(shown))} of {len(shown)} good fits, best first.", ""]
-        for number, item in enumerate(shown[:TOP_N], start=1):
-            lines += _entry(number, item)
-    else:
-        lines += ["No good fits today.", ""]
+    seen maps link -> memory record; a link with a first_shown date before
+    today was in an earlier brief.
+    """
+    def shown_before(item):
+        first = (seen.get(item["link"]) or {}).get("first_shown")
+        return bool(first) and first < today.isoformat()
 
-    notes = [f"Poor fits (score under {POOR_FIT_BELOW}): {len(poor)}."]
-    if too_soon:
-        titles = "; ".join(f"{r['title']} ({_deadline_text(r)})" for r in too_soon)
-        notes.append(f"Good fits closing in under {MIN_DAYS_LEFT} days, left out: {titles}.")
-    notes += list(extra_notes)
+    good = [r for r in ranked if r["fit_score"] >= POOR_FIT_BELOW
+            and ((d := days_left(r, today)) is None or d >= 0)]
+    still_open = [r for r in good if shown_before(r)]
+    fresh = [r for r in good if not shown_before(r)]
+    too_soon = [r for r in fresh if (d := days_left(r, today)) is not None and d < MIN_DAYS_LEFT]
+    fresh = [r for r in fresh if r not in too_soon]
+    new_bounties = [r for r in fresh if r["kind"] in ("bounty", "lead")][:TOP_N]
+    new_hackathons = [r for r in fresh if r["kind"] == "hackathon"][:TOP_N]
+    return {
+        "new_bounties": new_bounties,
+        "new_hackathons": new_hackathons,
+        "still_open": still_open[:MAX_STILL_OPEN],
+        "too_soon": too_soon,
+        "poor": [r for r in ranked if r["fit_score"] < POOR_FIT_BELOW],
+    }
+
+
+def shown_links(plan):
+    """Links that appear in the brief, so memory can mark them as shown."""
+    return {r["link"] for key in ("new_bounties", "new_hackathons", "still_open") for r in plan[key]}
+
+
+def _new_section(plan):
+    lines = ["## New today", ""]
+    for title, key, empty in (("Bounties", "new_bounties", "No new good-fit bounties today."),
+                              ("Hackathons", "new_hackathons", "No new good-fit hackathons today.")):
+        lines += [f"### {title}", ""]
+        if plan[key]:
+            for number, item in enumerate(plan[key], start=1):
+                lines += _entry(number, item)
+        else:
+            lines += [empty, ""]
+    return lines
+
+
+def _still_open_section(plan):
+    lines = ["## Still open", ""]
+    if not plan["still_open"]:
+        return lines + ["Nothing from earlier briefs is still open.", ""]
+    lines += ["From earlier briefs, still accepting entries:", ""]
+    for r in plan["still_open"]:
+        risk = f", scam risk {r['scam_risk']}" if r["scam_risk"] != "low" else ""
+        lines.append(f"- [{r['title']}]({r['link']}): {format_reward(r)}, closes {_deadline_text(r)}, "
+                     f"fit {r['fit_score']}/10{risk}")
+    return lines + [""]
+
+
+def _notes_section(plan, skipped, not_eligible):
+    notes = [f"Poor fits (score under {POOR_FIT_BELOW}): {len(plan['poor'])}."]
+    if plan["too_soon"]:
+        titles = "; ".join(f"{r['title']} ({_deadline_text(r)})" for r in plan["too_soon"])
+        notes.append(f"New good fits closing in under {MIN_DAYS_LEFT} days, left out: {titles}.")
+    if not_eligible:
+        regions = ", ".join(sorted({b["region"] for b in not_eligible}))
+        notes.append(f"Not open to your region ({regions}), so not ranked: {len(not_eligible)}.")
     if skipped:
         titles = "; ".join(s["title"] for s in skipped)
         notes.append(f"Couldn't rank {len(skipped)} (will retry next run): {titles}.")
-    return lines + notes + [""]
+    return ["## Notes", ""] + [f"- {n}" for n in notes] + [""]
 
 
 def _unverified_section(leads):
@@ -84,32 +136,31 @@ def _unverified_section(leads):
     return lines + [""]
 
 
-def _sources_section(sources):
+def _sources_section(sources, store):
     lines = ["## Sources", ""]
     for name, info in sources.items():
         if info["status"] == "ok":
             lines.append(f"- ✅ **{name}:** {info['summary']} ({info['seconds']}s)")
         else:
             lines.append(f"- ⚠️ **{name}: skipped.** {info['reason']}")
+    if store.note:
+        lines.append(f"- ⚠️ **Memory:** JSON files in data/, because {store.note}.")
+    else:
+        lines.append(f"- ✅ **Memory:** {store.name}")
     return lines + [""]
 
 
-def write_brief(today, ranked, skipped, not_eligible, unverified, sources, model):
-    bounties = [r for r in ranked if r["kind"] in ("bounty", "lead")]
-    hackathons = [r for r in ranked if r["kind"] == "hackathon"]
-    region_note = []
-    if not_eligible:
-        regions = ", ".join(sorted({b["region"] for b in not_eligible}))
-        region_note = [f"Not open to your region ({regions}), so not ranked: {len(not_eligible)}."]
-
+def write_brief(today, plan, skipped, not_eligible, unverified, sources, store, model):
     lines = [f"# 🦥 Sloth Scout brief: {today.strftime('%A, %B %-d, %Y')}", ""]
     skipped_sources = [name for name, info in sources.items() if info["status"] != "ok"]
     if skipped_sources:
         lines += [f"> ⚠️ Skipped this run: {', '.join(skipped_sources)}. See Sources at the bottom.", ""]
-    lines += _section("Bounties", bounties,
-                      [s for s in skipped if s["kind"] in ("bounty", "lead")], today, region_note)
-    lines += _section("Hackathons", hackathons, [s for s in skipped if s["kind"] == "hackathon"], today)
+    if store.note:
+        lines += [f"> 💾 Memory is in the JSON files this run, not MongoDB Atlas: {store.note}.", ""]
+    lines += _new_section(plan)
+    lines += _still_open_section(plan)
+    lines += _notes_section(plan, skipped, not_eligible)
     lines += _unverified_section(unverified)
-    lines += _sources_section(sources)
+    lines += _sources_section(sources, store)
     lines.append(f"Ranked by {model.removeprefix('models/') if model else 'nobody (ranking skipped)'}.")
     BRIEF_FILE.write_text("\n".join(lines) + "\n", encoding="utf-8")

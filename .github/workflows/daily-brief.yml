@@ -1,0 +1,78 @@
+name: Daily brief
+
+on:
+  schedule:
+    # GitHub schedules run on UTC. 06:00 UK time is 05:00 UTC in summer (BST)
+    # and 06:00 UTC in winter (GMT), so both are listed and the "Check UK time"
+    # step below lets only the right one through.
+    - cron: "0 5 * * *"
+    - cron: "0 6 * * *"
+  workflow_dispatch: # the "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write # needed to commit brief.md back to main
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120 # Gemma can be slow when Google is busy
+    steps:
+      - name: Check UK time
+        id: uk_time
+        run: |
+          offset=$(TZ=Europe/London date +%z)   # +0100 in summer, +0000 in winter
+          echo "London offset: $offset, schedule: '${{ github.event.schedule }}'"
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          elif [ "$offset" = "+0100" ] && [ "${{ github.event.schedule }}" = "0 5 * * *" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          elif [ "$offset" = "+0000" ] && [ "${{ github.event.schedule }}" = "0 6 * * *" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Not 06:00 in the UK for this schedule; skipping."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.uk_time.outputs.go == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.uk_time.outputs.go == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        if: steps.uk_time.outputs.go == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Run Sloth Scout
+        if: steps.uk_time.outputs.go == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          BROWSERBASE_API_KEY: ${{ secrets.BROWSERBASE_API_KEY }}
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+        run: python run.py
+
+      - name: Show the brief in the run summary
+        if: steps.uk_time.outputs.go == 'true'
+        run: cat brief.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit brief and results
+        if: steps.uk_time.outputs.go == 'true'
+        run: |
+          git config user.name "sloth-scout[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add brief.md data/
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "Daily brief for $(TZ=Europe/London date +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin HEAD:main

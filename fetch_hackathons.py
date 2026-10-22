@@ -1,11 +1,11 @@
-"""Fetch open online Web3 hackathons from Devpost and save them to data/hackathons.json.
+"""Fetch open online Web3 and AI hackathons from Devpost and save them to data/hackathons.json.
 
 One of Sloth Scout's sources; run.py calls fetch_devpost(). You can also run
 this file on its own to just fetch.
 
 How it works:
   1. Ask Devpost's public hackathon listing API for open, online hackathons with
-     the Blockchain theme (one request; no key needed).
+     the Blockchain or Machine Learning/AI theme (one request; no key needed).
   2. Skip invite-only ones, since we can't enter those.
   3. Save title, organizer, prize total, deadline, themes, link and whether it's
      online to data/hackathons.json.
@@ -26,7 +26,9 @@ LISTINGS_URL = "https://devpost.com/api/hackathons"
 PARAMS = {
     "status[]": "open",
     "challenge_type[]": "online",
-    "themes[]": "Blockchain",  # without this, most results aren't Web3 at all
+    # Devpost returns hackathons with ANY of these themes. Without a theme filter,
+    # most results are outside what profile.md is about.
+    "themes[]": ["Blockchain", "Machine Learning/AI"],
     "per_page": 40,  # Devpost's maximum
 }
 
@@ -60,7 +62,7 @@ def parse_end_date(period):
 
 
 def fetch_devpost():
-    """Fetch open online Web3 hackathons, save them and return them.
+    """Fetch open online Blockchain and AI/ML hackathons, save them and return them.
 
     Raises SourceSkipped with a plain-English reason if Devpost can't be reached.
     """
@@ -101,7 +103,7 @@ def fetch_devpost():
         })
 
     total = (data.get("meta") or {}).get("total_count")
-    print(f"Got {len(listings)} open online Blockchain hackathons"
+    print(f"Got {len(listings)} open online Blockchain or AI/ML hackathons"
           f"{f' (Devpost says {total})' if total is not None else ''}, kept {len(hackathons)} that aren't invite-only.")
 
     OUTPUT_FILE.parent.mkdir(exist_ok=True)

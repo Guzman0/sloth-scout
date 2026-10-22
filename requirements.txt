@@ -1,2 +1,3 @@
 requests>=2.31
 stagehand>=4.3,<5  # Browserbase cloud browser; needs Python 3.11+
+pymongo>=4.6  # MongoDB Atlas memory
