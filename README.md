@@ -10,6 +10,7 @@ A slow-and-steady daily bounty briefing, built for the DEV Hacktoberfest "Slow a
 - [x] **Step 2: rank with Gemma** against `profile.md`, with a scam-risk check.
 - [x] **Step 3: more sources and one command.** Devpost hackathons, search-based discovery on other platforms, and `run.py`.
 - [x] **Step 4: memory and a schedule.** MongoDB Atlas remembers what you've seen, and GitHub Actions runs it every morning at 06:00 UK time.
+- [x] **Step 5: audio and a public page.** ElevenLabs reads a short summary aloud, and Render publishes `site/` as a web page.
 
 ## Run it
 
@@ -19,6 +20,7 @@ export GEMINI_API_KEY=...           # required for ranking: https://aistudio.goo
 export SERPAPI_API_KEY=...          # optional: search other platforms (free: 250 searches/month)
 export BROWSERBASE_API_KEY=...      # optional: read search results in a cloud browser
 export MONGODB_URI=...              # optional: MongoDB Atlas memory (JSON files are used otherwise)
+export ELEVENLABS_API_KEY=...       # optional: spoken summary in site/brief.mp3
 python run.py
 ```
 
@@ -63,9 +65,22 @@ GitHub Actions runs `python run.py` at 06:00 UK time every day, and whenever you
 
 GitHub schedules use UTC, so the workflow is listed for both 05:00 and 06:00 UTC and only the one that's 06:00 in London goes ahead. GitHub can start scheduled runs a little late at busy times.
 
-The keys come from repository secrets: `GEMINI_API_KEY`, `SERPAPI_API_KEY`, `BROWSERBASE_API_KEY` and `MONGODB_URI`. Add them under **Settings → Secrets and variables → Actions**. Any secret that's missing just skips that source.
+The keys come from repository secrets: `GEMINI_API_KEY`, `SERPAPI_API_KEY`, `BROWSERBASE_API_KEY`, `MONGODB_URI` and `ELEVENLABS_API_KEY`. Add them under **Settings → Secrets and variables → Actions**. Any secret that's missing just skips that source.
+
+## Audio brief (`audio.py`)
+
+After each run, a short script (under 900 characters) is written from the brief. It covers the top new picks with their rewards and deadlines, scam warnings, and how many earlier picks are still open. ElevenLabs reads it aloud in the "Alice" voice using the `eleven_flash_v2_5` model, which costs half a credit per character, and saves it as `site/brief.mp3` at 32 kbps (about 240 KB a minute).
+
+Only the latest file is kept: each run replaces it. Git still keeps old versions in its history, about 0.1 to 0.3 MB a day. If the key is missing or the monthly quota runs out, the audio is skipped, yesterday's file is removed, and the brief and page say why.
+
+## Web page (`webpage.py`, `render.yaml`)
+
+`run.py` also writes `site/index.html`. It's a single, mobile-friendly page with the audio player and transcript, New today, Still open, notes, unverified leads, sources, and a link to this repo. It has no scripts or trackers. All text from other sites is escaped, and error messages are cleaned of anything that looks like a key before they're shown.
+
+`render.yaml` publishes `site/` as a free Render Static Site from `main`. It redeploys automatically whenever the daily Action commits a change to `site/`.
 
 ## Output
 
+- `site/index.html` and `site/brief.mp3` (+ `brief.txt` transcript): the public page and audio.
 - `brief.md`: New today (bounties, then hackathons), Still open, Notes, Unverified leads, and Sources (which sources and which memory were used, or why they were skipped).
 - `data/` holds `bounties.json`, `hackathons.json`, `leads.json`, `ranked.json` and `seen.json`, plus `run_log.jsonl`. The log gets one line per run with each source's count and time, SerpApi searches used, and Gemma calls, reuses and retries.

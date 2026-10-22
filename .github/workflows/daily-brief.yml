@@ -57,18 +57,19 @@ jobs:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
           BROWSERBASE_API_KEY: ${{ secrets.BROWSERBASE_API_KEY }}
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: python run.py
 
       - name: Show the brief in the run summary
         if: steps.uk_time.outputs.go == 'true'
         run: cat brief.md >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Commit brief and results
+      - name: Commit brief, web page and results
         if: steps.uk_time.outputs.go == 'true'
         run: |
           git config user.name "sloth-scout[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add brief.md data/
+          git add -A brief.md data/ site/   # -A also records yesterday's mp3 being removed
           if git diff --cached --quiet; then
             echo "Nothing changed."
             exit 0

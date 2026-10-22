@@ -9,8 +9,9 @@ Steps:
      cloud browser (Browserbase + Stagehand, with Gemma doing the reading).
   4. Rank everything with Gemma, reusing saved rankings where nothing changed,
      and retrying anything that couldn't be ranked last time.
-  5. Write brief.md ("New today" first, then "Still open"), remember what it
-     showed, and log the run.
+  5. Speak a short summary with ElevenLabs (site/brief.mp3), write brief.md
+     ("New today" first, then "Still open") and the web page site/index.html,
+     remember what was shown, and log the run.
 
 If a source is missing its key or can't be reached, it's skipped with a clear
 reason (in the terminal and in brief.md) and the rest still runs.
@@ -21,14 +22,16 @@ import os
 import time
 from datetime import date, datetime, timezone
 
+from audio import build_script, make_audio, remove_old_audio
 from brief import BRIEF_FILE, plan_brief, shown_links, write_brief
-from common import DATA_DIR, ROOT, SourceSkipped
+from common import DATA_DIR, ROOT, SourceSkipped, redact
 from discover_leads import SEARCH_STATS, is_verified, read_leads, search_leads
 from fetch_bounties import fetch_superteam
 from fetch_hackathons import fetch_devpost
 from rank_bounties import (GEMMA_MODEL, STATS, GemmaError, is_eligible, pick_gemma, rank_items,
                            ranking_fingerprint)
 from storage import open_store
+from webpage import INDEX_FILE, write_site
 
 PROFILE_FILE = ROOT / "profile.md"
 LEADS_FILE = DATA_DIR / "leads.json"
@@ -44,6 +47,7 @@ def run_source(sources, name, func, *args, summary=lambda result: f"{len(result)
         # SourceSkipped carries a plain-English reason. Anything else is a crash we didn't expect;
         # record it the same way so one broken source never stops the whole run.
         reason = str(error) if isinstance(error, SourceSkipped) else f"it crashed ({error.__class__.__name__}: {error})"
+        reason = redact(reason)  # reasons end up in the public brief and web page
         seconds = round(time.monotonic() - started, 1)
         sources[name] = {"status": "skipped", "reason": f"{reason[0].upper()}{reason[1:]}.", "seconds": seconds}
         print(f"⚠️  Skipping {name}: {reason}. Carrying on with the other sources.")
@@ -137,9 +141,16 @@ def main():
         sources["Gemma ranking"] = {"status": "skipped", "reason": f"{ranking_problem}.", "seconds": 0}
     ranking_seconds = round(time.monotonic() - ranking_started, 1)
 
-    # 5. Brief, memory, log.
+    # 5. Audio, brief, web page, memory, log.
     plan = plan_brief(ranked, seen, today)
+    script = build_script(plan, today)
+    audio_ok = run_source(sources, "ElevenLabs audio", lambda: [make_audio(script)],
+                          summary=lambda r: f"site/brief.mp3, {len(script)} characters")
+    if not audio_ok:
+        remove_old_audio()  # never leave yesterday's audio on the page
     write_brief(today, plan, skipped, not_eligible, unverified, sources, store, model)
+    write_site(today, plan, skipped, not_eligible, unverified, sources, store, model,
+               script=script if audio_ok else None)
     if model:
         store.save_rankings(fingerprint, model, ranked, skipped, not_eligible)
     # Leads the browser actually read are remembered so they aren't read again tomorrow.
@@ -177,7 +188,7 @@ def main():
     skipped_sources = [name for name, info in sources.items() if info["status"] != "ok"]
     if skipped_sources:
         print(f"⚠️  Skipped: {', '.join(skipped_sources)} (reasons in {BRIEF_FILE.name}).")
-    print(f"Wrote {BRIEF_FILE.relative_to(ROOT)}; memory saved to {store.name if not store.note else 'the JSON files'}.")
+    print(f"Wrote {BRIEF_FILE.relative_to(ROOT)} and {INDEX_FILE.relative_to(ROOT)}; memory saved to {store.name if not store.note else 'the JSON files'}.")
 
 
 if __name__ == "__main__":
