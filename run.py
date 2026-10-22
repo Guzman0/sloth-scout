@@ -59,7 +59,10 @@ def why_unverified(lead):
         return "not opened in the browser this run"
     if lead.get("read_error"):
         return "the browser couldn't read the page"
-    missing = [f for f in ("reward", "deadline") if not (lead.get("extracted") or {}).get(f)]
+    details = lead.get("extracted") or {}
+    if details.get("reward") and details.get("deadline"):
+        return f"no fixed deadline (page says \"{details['deadline']}\")"
+    missing = [f for f in ("reward", "deadline") if not details.get(f)]
     return f"no {' or '.join(missing)} found on the page"
 
 
@@ -100,8 +103,9 @@ def main():
 
     # 3. Discovery: search, then read pages in a cloud browser.
     seen = store.seen_items()
-    known_links = {item["link"] for item in bounties + hackathons}
-    known_links |= {link for link, record in seen.items() if record.get("kind") in ("bounty", "hackathon")}
+    # Skip links we already have: today's bounties and hackathons, and anything in memory,
+    # including lead pages the browser read on an earlier run.
+    known_links = {item["link"] for item in bounties + hackathons} | set(seen)
     leads = run_source(sources, "SerpApi search", search_leads, known_links,
                        summary=lambda r: f"{len(r)} new listing links from {SEARCH_STATS['searches']} searches")
     read = []
@@ -138,7 +142,10 @@ def main():
     write_brief(today, plan, skipped, not_eligible, unverified, sources, store, model)
     if model:
         store.save_rankings(fingerprint, model, ranked, skipped, not_eligible)
-    store.record_items(bounties + hackathons + verified, shown_links(plan), today)
+    # Leads the browser actually read are remembered so they aren't read again tomorrow.
+    # Ones it couldn't open stay out of memory and get another try next run.
+    read_ok = [lead for lead in read if "extracted" in lead]
+    store.record_items(bounties + hackathons + read_ok, shown_links(plan), today)
     DATA_DIR.mkdir(exist_ok=True)
     LEADS_FILE.write_text(json.dumps({
         "found_at": started_at.isoformat(timespec="seconds"),

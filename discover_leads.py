@@ -279,7 +279,13 @@ def read_leads(leads, model):
     return to_read
 
 
+# Deadline values that mean "there isn't one".
+NO_DEADLINE_WORDS = ("ongoing", "rolling", "tbd", "tba", "none", "n/a", "no deadline", "open until filled")
+
+
 def is_verified(lead):
-    """A lead is verified once the browser found both a reward and a deadline on the page."""
+    """A lead is verified once the browser found both a reward and a real deadline on the page."""
     details = lead.get("extracted") or {}
-    return bool(details.get("reward")) and bool(details.get("deadline"))
+    deadline = (details.get("deadline") or "").strip().lower()
+    has_deadline = bool(deadline) and not any(word in deadline for word in NO_DEADLINE_WORDS)
+    return bool(details.get("reward")) and has_deadline
