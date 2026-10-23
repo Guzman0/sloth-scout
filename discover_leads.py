@@ -52,6 +52,18 @@ WEB3_KEYWORDS = ("web3", "crypto", "blockchain", "solana", "ethereum", "defi", "
                  "bug bounty", "bug bounties", "audit", "hackathon")
 _KEYWORD_PATTERN = re.compile(r"\b(" + "|".join(re.escape(k) for k in WEB3_KEYWORDS) + r")s?\b")
 
+# Titles that look like listicles or SEO articles ("100+ ...", "Top 10 ...", "submission sites")
+# are skipped before they reach the browser: they're articles about bounties, not bounties.
+LISTICLE_PATTERNS = [
+    r"(?<![\d,.$€£])\b\d{1,4}\+(?=\s|$)",                   # "100+ sites" (not "$50,000 + revenue")
+    r"\btop\s+\d+\b",                                      # "Top 10 ..."
+    r"^\s*\d+\s+(best|ways|tips|sites|platforms|tools|websites)\b",  # "15 best ..."
+    r"\bbest\b.*\b(sites|platforms|websites|tools)\b",       # "Best Web3 bounty platforms"
+    r"\bsubmission sites?\b",
+    r"\b(ultimate|complete|beginner'?s?)\s+guide\b",
+]
+_LISTICLE_PATTERN = re.compile("|".join(LISTICLE_PATTERNS), re.IGNORECASE)
+
 SEARCH_STATS = {"searches": 0}  # SerpApi credits used this run, for the run log
 
 MAX_PAGES = 10
@@ -78,6 +90,11 @@ def _looks_like_listing(link):
     if path in ("", "/"):
         return False  # a site's home page isn't a listing
     return not any(part in path + "/" for part in SKIP_PATH_PARTS)
+
+
+def _looks_like_listicle(title):
+    """True for titles like "100+ Web 3.0 Submission Sites" or "Top 10 bounty platforms"."""
+    return bool(_LISTICLE_PATTERN.search(title or ""))
 
 
 def _site_of(query):
@@ -138,7 +155,7 @@ def search_leads(known_links):
             key = (link or "").rstrip("/").lower()
             if not link or key in seen or key in known or not _looks_like_listing(link):
                 continue
-            if not _matches_search(result, query):
+            if not _matches_search(result, query) or _looks_like_listicle(result.get("title")):
                 off_topic += 1
                 continue
             seen.add(key)

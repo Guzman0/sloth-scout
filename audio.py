@@ -30,6 +30,7 @@ OUTPUT_FORMAT = "mp3_22050_32"  # 32 kbps mono: clear for speech, ~240 KB a minu
 
 MAX_SCRIPT_CHARS = 900
 PICKS_SPOKEN = 3
+STILL_OPEN_SPOKEN = 2  # on quiet days (no new picks), the best still-open picks are named instead
 
 SITE_DIR = ROOT / "site"
 AUDIO_FILE = SITE_DIR / "brief.mp3"
@@ -95,8 +96,18 @@ def build_script(plan, today):
         sentences.append(_pick_sentence(next(labels, "And"), item, first_warning=not warned))
         warned = warned or item.get("scam_risk") in ("medium", "high")
 
-    if plan["still_open"]:
-        n = len(plan["still_open"])
+    still_open = plan["still_open"]  # already sorted best fit first
+    if still_open and not new:
+        # Quiet day: name the best picks that are still open, so the audio is still useful.
+        named = still_open[:STILL_OPEN_SPOKEN]
+        n = len(still_open)
+        sentences.append(f"{n} pick{'' if n == 1 else 's'} from earlier briefs {'is' if n == 1 else 'are'} still open.")
+        labels = iter(["Still the best bet", "Also still open"])
+        for item in named:
+            sentences.append(_pick_sentence(next(labels), item, first_warning=not warned))
+            warned = warned or item.get("scam_risk") in ("medium", "high")
+    elif still_open:
+        n = len(still_open)
         sentences.append(f"{n} pick{'' if n == 1 else 's'} from earlier briefs {'is' if n == 1 else 'are'} still open.")
     closing = "Full details are on the page. Slow and steady!"
 

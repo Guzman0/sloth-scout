@@ -12,6 +12,8 @@ A slow-and-steady daily bounty briefing, built for the DEV Hacktoberfest "Slow a
 - [x] **Step 4: memory and a schedule.** MongoDB Atlas remembers what you've seen, and GitHub Actions runs it every morning at 06:00 UK time.
 - [x] **Step 5: audio and a public page.** ElevenLabs reads a short summary aloud, and Render publishes `site/` as a web page.
 
+**The build is frozen.** From here on, Sloth Scout just runs each morning; no new features are planned.
+
 ## Run it
 
 ```bash
@@ -34,7 +36,7 @@ You can still run `python fetch_bounties.py` or `python fetch_hackathons.py` on 
 |---|---|---|---|
 | Superteam Earn | `fetch_bounties.py` | none | Open bounties via the public listings API, plus one details request each for the description and region. |
 | Devpost | `fetch_hackathons.py` | none | Open, online hackathons with the Blockchain or Machine Learning/AI theme, in one request. Invite-only ones are skipped. |
-| SerpApi | `discover_leads.py` | `SERPAPI_API_KEY` | 4 Google searches per run aimed at DoraHacks, Layer3, Gitcoin, plus one general search. Links already found on Superteam or Devpost are dropped, as are profile, submission and blog pages. Results from a `site:` search must really be on that site (Google sometimes ignores `site:`), and results from the general search must mention a Web3, bug bounty, audit or hackathon keyword. |
+| SerpApi | `discover_leads.py` | `SERPAPI_API_KEY` | 4 Google searches per run aimed at DoraHacks, Layer3, Gitcoin, plus one general search. Links already found on Superteam or Devpost are dropped, as are profile, submission and blog pages. Results from a `site:` search must really be on that site (Google sometimes ignores `site:`), and results from the general search must mention a Web3, bug bounty, audit or hackathon keyword. Titles that look like listicles or SEO articles ("100+ …", "Top 10 …", "submission sites") are skipped. |
 | Browserbase + Stagehand | `discover_leads.py` | `BROWSERBASE_API_KEY` | Opens up to 10 search results in a cloud browser and extracts title, sponsor, reward, deadline, region and task. Stagehand calls Gemma through our own function, which cleans up Gemma's JSON before handing it back. |
 
 All the APIs are undocumented, so field names come from inspecting real responses. Nothing is made up: a missing value stays empty.
@@ -69,7 +71,7 @@ The keys come from repository secrets: `GEMINI_API_KEY`, `SERPAPI_API_KEY`, `BRO
 
 ## Audio brief (`audio.py`)
 
-After each run, a short script (under 900 characters) is written from the brief. It covers the top new picks with their rewards and deadlines, scam warnings, and how many earlier picks are still open. ElevenLabs reads it aloud in the "Alice" voice using the `eleven_flash_v2_5` model, which costs half a credit per character, and saves it as `site/brief.mp3` at 32 kbps (about 240 KB a minute).
+After each run, a short script (under 900 characters) is written from the brief. It covers the top new picks with their rewards and deadlines, scam warnings, and how many earlier picks are still open. On quiet days with no new picks, it names the best one or two still-open picks instead, with their rewards and deadlines. ElevenLabs reads it aloud in the "Alice" voice using the `eleven_flash_v2_5` model, which costs half a credit per character, and saves it as `site/brief.mp3` at 32 kbps (about 240 KB a minute).
 
 Only the latest file is kept: each run replaces it. Git still keeps old versions in its history, about 0.1 to 0.3 MB a day. If the key is missing or the monthly quota runs out, the audio is skipped, yesterday's file is removed, and the brief and page say why.
 
