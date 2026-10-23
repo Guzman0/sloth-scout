@@ -1,5 +1,7 @@
 # 🦥 Sloth Scout brief: Friday, October 23, 2026
 
+> ⚠️ Skipped this run: Browserbase reading. See Sources at the bottom.
+
 ## New today
 
 ### Bounties
@@ -32,18 +34,17 @@ From earlier briefs, still accepting entries:
 
 Found by search but missing a reward or deadline, so not ranked. Check these by hand.
 
-- [The Onchain 100: Relay](https://app.layer3.xyz/quests/the-onchain-100-relay?ref=yunfr.eth) (app.layer3.xyz): no reward or deadline found on the page
-- [Gitcoin Security Bounty Program](https://support.gitcoin.co/gitcoin-knowledge-base/misc/gitcoin-security-bounty-program) (support.gitcoin.co): the browser couldn't read the page
-- [Web3 Grant & Bounty Program Management](https://www.risein.com/partner-with-us/grants-bounties) (risein.com): no reward or deadline found on the page
-- [100+ Web 3.0 Submission Sites & Platforms in 2026](https://msinfotechsolution.com/100-web-3-0-submission-sites-platforms-in-2026) (msinfotechsolution.com): no reward or deadline found on the page
+- [Security tooling for people who will never hire a consultancy](https://www.awarexone.com/open-source) (awarexone.com): not opened in the browser this run
+- [Web3 Penetration Testing: A Guide for Protocols and ...](https://sherlock.xyz/post/web3-penetration-testing-a-guide-for-protocols-and-security-researchers-2026) (sherlock.xyz): not opened in the browser this run
+- [CoW Protocol Bug Bounty](https://immunefi.com/bug-bounty/cowprotocol/information/) (immunefi.com): not opened in the browser this run
 
 ## Sources
 
-- ✅ **Superteam Earn:** 13 open bounties (22.3s)
-- ✅ **Devpost:** 21 open online Blockchain or AI/ML hackathons (0.2s)
-- ✅ **SerpApi search:** 4 new listing links from 4 searches (2.0s)
-- ✅ **Browserbase reading:** 4 pages read, 0 with reward and deadline (484.9s)
-- ✅ **ElevenLabs audio:** site/brief.mp3, 178 characters (0.6s)
+- ✅ **Superteam Earn:** 13 open bounties (23.4s)
+- ✅ **Devpost:** 21 open online Blockchain or AI/ML hackathons (0.4s)
+- ✅ **SerpApi search:** 3 new listing links from 4 searches (2.9s)
+- ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
+- ✅ **ElevenLabs audio:** site/brief.mp3, 541 characters (1.2s)
 - ✅ **Memory:** MongoDB Atlas
 
 Ranked by gemma-4-31b-it.

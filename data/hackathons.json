@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-23T01:38:53+00:00",
+  "fetched_at": "2026-10-23T09:46:59+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1080,
+      "registrations": 1086,
       "link": "https://ieee-climatechain-hack.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 63094,
+      "registrations": 63856,
       "link": "https://amazonappdev2026.devpost.com/"
     },
     {
@@ -50,7 +50,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 39,
+      "registrations": 42,
       "link": "https://herhack.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 25975,
+      "registrations": 26119,
       "link": "https://nebiusglobalaihackathon.devpost.com/"
     },
     {
@@ -84,7 +84,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 18868,
+      "registrations": 19250,
       "link": "https://paypalaihackathon.devpost.com/"
     },
     {
@@ -101,7 +101,7 @@
         "Serverless"
       ],
       "online": true,
-      "registrations": 5525,
+      "registrations": 5659,
       "link": "https://opencv26.devpost.com/"
     },
     {
@@ -118,7 +118,7 @@
         "Education"
       ],
       "online": true,
-      "registrations": 4589,
+      "registrations": 4616,
       "link": "https://learn-ai-basics.devpost.com/"
     },
     {
@@ -135,7 +135,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 3686,
+      "registrations": 3711,
       "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
@@ -152,7 +152,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 2923,
+      "registrations": 2940,
       "link": "https://gitlab-transcend.devpost.com/"
     },
     {
@@ -167,7 +167,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 2194,
+      "registrations": 2217,
       "link": "https://qloo.devpost.com/"
     },
     {
@@ -184,7 +184,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 988,
+      "registrations": 992,
       "link": "https://aws-cds-partner.devpost.com/"
     },
     {
@@ -201,7 +201,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1155,
+      "registrations": 1168,
       "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/"
     },
     {
@@ -218,7 +218,7 @@
         "Design"
       ],
       "online": true,
-      "registrations": 580,
+      "registrations": 605,
       "link": "https://learn-specs.devpost.com/"
     },
     {
@@ -235,7 +235,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 651,
+      "registrations": 653,
       "link": "https://code-for-humanity.devpost.com/"
     },
     {
@@ -252,8 +252,25 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 452,
+      "registrations": 458,
       "link": "https://arbiter-hacks-v1.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "UGREEN Hackathon 2026 on AI NAS",
+      "sponsor": "UGREEN",
+      "prize_total": "$46,000",
+      "deadline": "2026-11-16",
+      "dates": "Oct 22 - Nov 16, 2026",
+      "themes": [
+        "Lifehacks",
+        "Machine Learning/AI",
+        "Productivity"
+      ],
+      "online": true,
+      "registrations": 113,
+      "link": "https://ugreenhackathon.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -275,19 +292,19 @@
     {
       "kind": "hackathon",
       "source": "Devpost",
-      "title": "UGREEN Hackathon 2026 on AI NAS",
-      "sponsor": "UGREEN",
-      "prize_total": "$46,000",
-      "deadline": "2026-11-16",
-      "dates": "Oct 22 - Nov 16, 2026",
+      "title": "NextSpark Hacks",
+      "sponsor": "Independent",
+      "prize_total": "$100",
+      "deadline": "2026-10-26",
+      "dates": "Oct 21 - 26, 2026",
       "themes": [
-        "Lifehacks",
+        "Beginner Friendly",
         "Machine Learning/AI",
-        "Productivity"
+        "Open Ended"
       ],
       "online": true,
-      "registrations": 76,
-      "link": "https://ugreenhackathon.devpost.com/"
+      "registrations": 92,
+      "link": "https://nextspark-hacks.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -302,25 +319,8 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 86,
+      "registrations": 89,
       "link": "https://ieee-ai-hack-for-humanity.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "NextSpark Hacks",
-      "sponsor": "Independent",
-      "prize_total": "$100",
-      "deadline": "2026-10-26",
-      "dates": "Oct 21 - 26, 2026",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Open Ended"
-      ],
-      "online": true,
-      "registrations": 82,
-      "link": "https://nextspark-hacks.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -336,7 +336,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 51,
+      "registrations": 54,
       "link": "https://mathematics-systems-security.devpost.com/"
     },
     {
@@ -353,7 +353,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 46,
+      "registrations": 53,
       "link": "https://hackwithaditya.devpost.com/"
     }
   ]

@@ -1,75 +1,33 @@
 {
-  "found_at": "2026-10-23T01:38:29+00:00",
+  "found_at": "2026-10-23T09:46:34+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "app.layer3.xyz",
-      "title": "The Onchain 100: Relay",
-      "snippet": "Discover Relay and effortlessly swap tokens across networks.",
-      "link": "https://app.layer3.xyz/quests/the-onchain-100-relay?ref=yunfr.eth",
-      "query": "site:layer3.xyz/quests",
-      "extracted": {
-        "title": null,
-        "sponsor": null,
-        "reward": null,
-        "deadline": null,
-        "region": null,
-        "task": null
-      },
-      "deadline_text": null,
-      "deadline": null,
-      "why_unverified": "no reward or deadline found on the page"
-    },
-    {
-      "kind": "lead",
-      "source": "support.gitcoin.co",
-      "title": "Gitcoin Security Bounty Program",
-      "snippet": "We manage real economic value on behalf of our users — including grant funding, bounty payouts, and contributor rewards. The security of our platform directly ...",
-      "link": "https://support.gitcoin.co/gitcoin-knowledge-base/misc/gitcoin-security-bounty-program",
-      "query": "site:gitcoin.co grants round open",
-      "read_error": "RPCError: Gemini API still busy (500) after 3 retries",
-      "deadline_text": null,
-      "deadline": null,
-      "why_unverified": "the browser couldn't read the page"
-    },
-    {
-      "kind": "lead",
-      "source": "risein.com",
-      "title": "Web3 Grant & Bounty Program Management",
-      "snippet": "Source and support Web3 grant and bounty applicants with targeted recruitment, application review, milestone tracking and portfolio visibility.",
-      "link": "https://www.risein.com/partner-with-us/grants-bounties",
+      "source": "awarexone.com",
+      "title": "Security tooling for people who will never hire a consultancy",
+      "snippet": "Web3 Bounty Skills. An agentic bug bounty toolkit, a generator that builds agent skill files from public vulnerability disclosures, and a smart contract ...",
+      "link": "https://www.awarexone.com/open-source",
       "query": "web3 content bounty open submissions",
-      "extracted": {
-        "title": null,
-        "sponsor": null,
-        "reward": null,
-        "deadline": null,
-        "region": null,
-        "task": null
-      },
-      "deadline_text": null,
-      "deadline": null,
-      "why_unverified": "no reward or deadline found on the page"
+      "why_unverified": "not opened in the browser this run"
     },
     {
       "kind": "lead",
-      "source": "msinfotechsolution.com",
-      "title": "100+ Web 3.0 Submission Sites & Platforms in 2026",
-      "snippet": "Explore 100+ Web3 submission platforms for project listings, publishing, and community participation with practical guidance from MS INFOTECH.",
-      "link": "https://msinfotechsolution.com/100-web-3-0-submission-sites-platforms-in-2026",
+      "source": "sherlock.xyz",
+      "title": "Web3 Penetration Testing: A Guide for Protocols and ...",
+      "snippet": "Web3 penetration testing is an adversarial security assessment. Researchers earn their reputation through audit contests and bug bounties, by learning the ...",
+      "link": "https://sherlock.xyz/post/web3-penetration-testing-a-guide-for-protocols-and-security-researchers-2026",
       "query": "web3 content bounty open submissions",
-      "extracted": {
-        "title": null,
-        "sponsor": null,
-        "reward": null,
-        "deadline": null,
-        "region": null,
-        "task": null
-      },
-      "deadline_text": null,
-      "deadline": null,
-      "why_unverified": "no reward or deadline found on the page"
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "immunefi.com",
+      "title": "CoW Protocol Bug Bounty",
+      "snippet": "Rewards, program rules and eligibility for the CoW Protocol bug bounty on Immunefi, with rewards up to $1000000.",
+      "link": "https://immunefi.com/bug-bounty/cowprotocol/information/",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
     }
   ]
 }
