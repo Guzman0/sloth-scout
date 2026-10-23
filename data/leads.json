@@ -1,36 +1,32 @@
 {
-  "found_at": "2026-10-22T18:47:04+00:00",
-  "verified": [
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "dreamDEX Perps Builder Bounty",
-      "snippet": "The Perps Builder Bounty is a developer program for dreamDEX perps on Somnia Tokyo testnet. It runs from October 19 to November 1 and has two tracks.",
-      "link": "https://dorahacks.io/hackathon/dreamdex-perps-bounty",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "extracted": {
-        "title": "dreamDEX Perps Builder Bounty",
-        "sponsor": "Somnia Network",
-        "reward": "3,000 USD",
-        "deadline": "2026/11/01 15:59",
-        "region": "Virtual",
-        "task": "Stress-test the dreamDEX Perps API and SDK on testnet, and get paid for it."
-      },
-      "sponsor": "Somnia Network",
-      "reward": "3,000 USD",
-      "region": "Virtual",
-      "task": "Stress-test the dreamDEX Perps API and SDK on testnet, and get paid for it.",
-      "deadline_text": "2026/11/01 15:59",
-      "deadline": "2026-11-01"
-    }
-  ],
+  "found_at": "2026-10-23T01:38:29+00:00",
+  "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "cops.usdoj.gov",
-      "title": "Technology and Equipment Program (TEP) - COPS Office",
-      "snippet": "NOW OPEN: The FY26 Technology and Equipment Program (TEP) funding opportunity will close on Wednesday, October 7, 2026, at 4:59 PM ET.*.",
-      "link": "https://cops.usdoj.gov/tep",
+      "source": "app.layer3.xyz",
+      "title": "The Onchain 100: Relay",
+      "snippet": "Discover Relay and effortlessly swap tokens across networks.",
+      "link": "https://app.layer3.xyz/quests/the-onchain-100-relay?ref=yunfr.eth",
+      "query": "site:layer3.xyz/quests",
+      "extracted": {
+        "title": null,
+        "sponsor": null,
+        "reward": null,
+        "deadline": null,
+        "region": null,
+        "task": null
+      },
+      "deadline_text": null,
+      "deadline": null,
+      "why_unverified": "no reward or deadline found on the page"
+    },
+    {
+      "kind": "lead",
+      "source": "support.gitcoin.co",
+      "title": "Gitcoin Security Bounty Program",
+      "snippet": "We manage real economic value on behalf of our users — including grant funding, bounty payouts, and contributor rewards. The security of our platform directly ...",
+      "link": "https://support.gitcoin.co/gitcoin-knowledge-base/misc/gitcoin-security-bounty-program",
       "query": "site:gitcoin.co grants round open",
       "read_error": "RPCError: Gemini API still busy (500) after 3 retries",
       "deadline_text": null,
@@ -39,121 +35,10 @@
     },
     {
       "kind": "lead",
-      "source": "peragotrust.org.nz",
-      "title": "Sports Grants & Funding for Young Cambridge Athletes",
-      "snippet": "Perago has two funding rounds per year - in March and September - during which eligible young sportspeople can submit an application. The application gives ...",
-      "link": "https://www.peragotrust.org.nz/funding/",
-      "query": "site:gitcoin.co grants round open",
-      "extracted": {
-        "title": "Sports Grants & Funding for Young Cambridge Athletes",
-        "sponsor": "Perago Trust",
-        "reward": null,
-        "deadline": "two funding rounds per year - in April and September",
-        "region": "Cambridge community",
-        "task": "Submit an application telling Perago Trust about yourself, your sport, your achievements and goals, the opportunity you're seeking funding for and how Perago's support could help."
-      },
-      "sponsor": "Perago Trust",
-      "region": "Cambridge community",
-      "task": "Submit an application telling Perago Trust about yourself, your sport, your achievements and goals, the opportunity you're seeking funding for and how Perago's support could help.",
-      "deadline_text": "two funding rounds per year - in April and September",
-      "deadline": null,
-      "why_unverified": "no reward found on the page"
-    },
-    {
-      "kind": "lead",
-      "source": "peragotrust.org.nz",
-      "title": "Our Grant Recipients",
-      "snippet": "Meet the young Cambridge sportspeople supported by Perago Trust and discover the sporting journeys, opportunities and achievements behind our grants.",
-      "link": "https://www.peragotrust.org.nz/our-athletes/",
-      "query": "site:gitcoin.co grants round open",
-      "extracted": {
-        "title": "Our Grant Recipients",
-        "sponsor": "Perago Trust",
-        "reward": null,
-        "deadline": null,
-        "region": "Cambridge",
-        "task": null
-      },
-      "sponsor": "Perago Trust",
-      "region": "Cambridge",
-      "deadline_text": null,
-      "deadline": null,
-      "why_unverified": "no reward or deadline found on the page"
-    },
-    {
-      "kind": "lead",
-      "source": "afzalpurtown.mrc.gov.in",
-      "title": "City Staff | Afzalpur Town Municipal Council",
-      "snippet": "+Grants (Last 3 Years) · 15th Finance · SFC · Nagarothana · SFC SPECIAL GRANTS · Amruth Nirmala Nagara · Others · Works (Last 3 Years) · +Statistics · Roads ...",
-      "link": "http://www.afzalpurtown.mrc.gov.in/en/city-staff",
-      "query": "site:gitcoin.co grants round open",
-      "read_error": "TimeoutError: RPC response timed out after 40s: page.goto",
-      "deadline_text": null,
-      "deadline": null,
-      "why_unverified": "the browser couldn't read the page"
-    },
-    {
-      "kind": "lead",
-      "source": "peragotrust.org.nz",
-      "title": "Support Young Cambridge Sportspeople",
-      "snippet": "Donations to Perago help us provide grants towards these costs, giving promising young sportspeople greater access to the opportunities they need to progress.",
-      "link": "https://www.peragotrust.org.nz/support-us/",
-      "query": "site:gitcoin.co grants round open",
-      "extracted": {
-        "title": "Support Young Cambridge Sportspeople",
-        "sponsor": "Perago Trust",
-        "reward": null,
-        "deadline": null,
-        "region": "Cambridge",
-        "task": null
-      },
-      "sponsor": "Perago Trust",
-      "region": "Cambridge",
-      "deadline_text": null,
-      "deadline": null,
-      "why_unverified": "no reward or deadline found on the page"
-    },
-    {
-      "kind": "lead",
-      "source": "hdmc.mrc.gov.in",
-      "title": "Council Members | Hubbali-Dharwad City Corporation",
-      "snippet": "+Grants (Last 3 Years) · 15th Finance · SFC · Amrut · 100 Crore · General Funds · Others · Works (Last 3 Years) · +Statistics · Roads · Street Light Information ...",
-      "link": "http://www.hdmc.mrc.gov.in/en/council-members",
-      "query": "site:gitcoin.co grants round open",
-      "read_error": "TimeoutError: RPC response timed out after 40s: page.goto",
-      "deadline_text": null,
-      "deadline": null,
-      "why_unverified": "the browser couldn't read the page"
-    },
-    {
-      "kind": "lead",
-      "source": "bugcrowd.com",
-      "title": "Immutable Bug Bounty",
-      "snippet": "Bugcrowd's bug bounty and vulnerability disclosure platform connects the global security researcher community with your business.",
-      "link": "https://bugcrowd.com/engagements/immutable",
-      "query": "web3 content bounty open submissions",
-      "extracted": {
-        "title": "Immutable Bug Bounty",
-        "sponsor": "Immutable",
-        "reward": "P1 $5000 – $10000, P2 $2000 – $5000, P3 $300 – $450, P4 $25 – $100",
-        "deadline": "Ongoing",
-        "region": "Global",
-        "task": "Identify vulnerabilities across our Immutable ecosystem."
-      },
-      "sponsor": "Immutable",
-      "reward": "P1 $5000 – $10000, P2 $2000 – $5000, P3 $300 – $450, P4 $25 – $100",
-      "region": "Global",
-      "task": "Identify vulnerabilities across our Immutable ecosystem.",
-      "deadline_text": "Ongoing",
-      "deadline": null,
-      "why_unverified": "no fixed deadline (page says \"Ongoing\")"
-    },
-    {
-      "kind": "lead",
-      "source": "support.xtrm.com",
-      "title": "SECURITY011 — Bug Bounty Program",
-      "snippet": "How to Submit a Report · Sign in or create a researcher account at bugbounty.xtrm.com using the email address you want associated with submissions and rewards.",
-      "link": "https://support.xtrm.com/articles/8288389015-security011-bug-bounty-program",
+      "source": "risein.com",
+      "title": "Web3 Grant & Bounty Program Management",
+      "snippet": "Source and support Web3 grant and bounty applicants with targeted recruitment, application review, milestone tracking and portfolio visibility.",
+      "link": "https://www.risein.com/partner-with-us/grants-bounties",
       "query": "web3 content bounty open submissions",
       "extracted": {
         "title": null,
@@ -169,24 +54,22 @@
     },
     {
       "kind": "lead",
-      "source": "sherlock.xyz",
-      "title": "Web3 Penetration Testing: A Guide for Protocols and ...",
-      "snippet": "A high-level article going over penetration testing in the Web3 space, and what protocol teams need to be aware of when securing their infrastructure.",
-      "link": "https://sherlock.xyz/post/web3-penetration-testing-a-guide-for-protocols-and-security-researchers-2026",
+      "source": "msinfotechsolution.com",
+      "title": "100+ Web 3.0 Submission Sites & Platforms in 2026",
+      "snippet": "Explore 100+ Web3 submission platforms for project listings, publishing, and community participation with practical guidance from MS INFOTECH.",
+      "link": "https://msinfotechsolution.com/100-web-3-0-submission-sites-platforms-in-2026",
       "query": "web3 content bounty open submissions",
-      "read_error": "RPCError: Gemini API still busy (500) after 3 retries",
+      "extracted": {
+        "title": null,
+        "sponsor": null,
+        "reward": null,
+        "deadline": null,
+        "region": null,
+        "task": null
+      },
       "deadline_text": null,
       "deadline": null,
-      "why_unverified": "the browser couldn't read the page"
-    },
-    {
-      "kind": "lead",
-      "source": "immunefi.com",
-      "title": "Arbitrum Bug Bounty",
-      "snippet": "Rewards, program rules and eligibility for the Arbitrum bug bounty on Immunefi, with rewards up to $2000000.",
-      "link": "https://immunefi.com/bug-bounty/arbitrum/information/",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
+      "why_unverified": "no reward or deadline found on the page"
     }
   ]
 }

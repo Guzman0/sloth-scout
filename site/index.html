@@ -3,22 +3,101 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sloth Scout</title>
+<title>Sloth Scout · October 23, 2026</title>
+<meta name="description" content="Today's Web3 bounties and hackathons, ranked by Gemma: 0 new picks.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦥</text></svg>">
 <style>
-  body { margin: 0; background: #f6f3ea; color: #2b2a26; font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 560px; margin: 0 auto; padding: 64px 16px; text-align: center; }
-  .sloth { font-size: 64px; display: inline-block; transform: rotate(-8deg); }
-  p { color: #6b665c; } a { color: #3f6b4a; }
-  @media (prefers-color-scheme: dark) { body { background: #1b1d19; color: #ecebe4; } p { color: #a8a596; } a { color: #9cc79f; } }
+:root {
+  --bg: #f6f3ea; --card: #fffdf7; --text: #2b2a26; --muted: #6b665c; --line: #e3dccb;
+  --moss: #3f6b4a; --moss-soft: #e4eedf; --bark: #7a5a3a; --warn: #a1561b; --warn-soft: #fbeadb;
+  --bad: #a3312b; --bad-soft: #f8e1df;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b1d19; --card: #24271f; --text: #ecebe4; --muted: #a8a596; --line: #3a3d33;
+    --moss: #9cc79f; --moss-soft: #2c3a2c; --bark: #d0ab83; --warn: #f0b27a; --warn-soft: #3d2f22;
+    --bad: #f19a92; --bad-soft: #3d2523;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+a { color: var(--moss); overflow-wrap: anywhere; }
+.card, .player, li { overflow-wrap: anywhere; }
+header { text-align: center; padding: 8px 0 16px; }
+.sloth { font-size: 56px; line-height: 1; display: inline-block; transform: rotate(-8deg); }
+h1 { margin: 8px 0 0; font-size: 28px; letter-spacing: -0.01em; }
+.tagline { margin: 4px 0 0; color: var(--muted); font-style: italic; }
+.date { margin: 12px 0 0; font-weight: 600; color: var(--bark); }
+.branch { border: 0; height: 2px; background: var(--bark); opacity: .35; margin: 28px 0 8px; border-radius: 2px; }
+h2 { font-size: 21px; margin: 24px 0 12px; }
+h2 .leaf { margin-right: 6px; }
+h3 { font-size: 17px; margin: 18px 0 8px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.player { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+.player audio { width: 100%; margin-top: 6px; }
+.player details { margin-top: 8px; color: var(--muted); font-size: 15px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; margin: 0 0 12px; }
+.card h4 { margin: 0 0 6px; font-size: 18px; line-height: 1.35; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 14px; color: var(--muted); font-size: 15px; margin-bottom: 8px; }
+.meta strong { color: var(--text); }
+.reason { margin: 6px 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.chip { font-size: 13px; padding: 2px 9px; border-radius: 999px; background: var(--moss-soft); color: var(--moss); }
+.chip.medium { background: var(--warn-soft); color: var(--warn); }
+.chip.high { background: var(--bad-soft); color: var(--bad); }
+.scam { font-size: 15px; color: var(--muted); margin: 6px 0 0; }
+.empty { color: var(--muted); font-style: italic; }
+ul.compact { padding-left: 20px; margin: 0; }
+ul.compact li { margin: 6px 0; }
+.small { font-size: 15px; color: var(--muted); }
+.ok::before { content: "✅ "; } .skip::before { content: "⚠️ "; }
+footer { margin-top: 36px; text-align: center; color: var(--muted); font-size: 14px; }
 </style>
 </head>
 <body>
 <main>
+<header>
   <div class="sloth" aria-hidden="true">🦥</div>
   <h1>Sloth Scout</h1>
-  <p>Slow and steady wins the bounty. The first brief is on its way; this page fills in after the next daily run.</p>
-  <p><a href="https://github.com/Guzman0/sloth-scout">Source on GitHub</a></p>
+  <p class="tagline">Slow and steady wins the bounty.</p>
+  <p class="date">Friday, October 23, 2026</p>
+</header>
+
+<section class="player" aria-label="Listen to today's brief">
+  <strong>🎧 Listen to today's brief</strong>
+  <audio controls preload="none" src="brief.mp3?v=2026-10-23"></audio>
+  <details><summary>Read the transcript</summary><p>Good morning! Here&#x27;s your Sloth Scout brief for Friday, October 23. No new picks today. 7 picks from earlier briefs are still open. Full details are on the page. Slow and steady!</p></details>
+</section>
+
+<hr class="branch">
+<h2><span class="leaf" aria-hidden="true">🌱</span>New today</h2>
+<h3>Bounties</h3>
+<p class="empty">No new good-fit bounties today.</p>
+<h3>Hackathons</h3>
+<p class="empty">No new good-fit hackathons today.</p>
+
+<hr class="branch">
+<h2><span class="leaf" aria-hidden="true">🍃</span>Still open</h2>
+<ul class="compact"><li><a href="https://superteam.fun/earn/listing/chimp-on-metaplex" rel="noopener nofollow">Write a thread on $CHIMP Fair Launch - Part 1</a>: 500 USDC, closes 2026-11-14, fit 10/10, scam risk medium</li><li><a href="https://superteam.fun/earn/listing/create-content-on-premier-league-predictions-with-worm" rel="noopener nofollow">Create Content on Premier League Predictions with worm 🪱⚽</a>: 500 USDC, closes 2026-11-24, fit 10/10, scam risk medium</li><li><a href="https://superteam.fun/earn/listing/panta-x-nectarfi-trading-competition-bounty" rel="noopener nofollow">Panta x NectarFi Trading Competition Bounty</a>: 500 USDG, closes 2026-11-12, fit 9/10, scam risk medium</li><li><a href="https://paypalaihackathon.devpost.com/" rel="noopener nofollow">PayPal AI Hackathon</a>: $67,500, closes 2026-11-12, fit 6/10</li><li><a href="https://learn-specs.devpost.com/" rel="noopener nofollow">Learn AR with SPECS</a>: $2,500, closes 2026-11-09, fit 5/10</li><li><a href="https://arbiter-hacks-v1.devpost.com/" rel="noopener nofollow">Arbiter Hacks V1</a>: $7,800, closes 2026-12-21, fit 5/10</li><li><a href="https://nextspark-hacks.devpost.com/" rel="noopener nofollow">NextSpark Hacks</a>: $100, closes 2026-10-26, fit 5/10, scam risk medium</li></ul>
+
+<hr class="branch">
+<h2><span class="leaf" aria-hidden="true">📝</span>Notes</h2>
+<ul class="compact small"><li>Poor fits (score under 5): 21.</li><li>New good fits closing in under 3 days: Launch &amp; Trade on Daejin: Write a Twitter Thread and Create a Market (2026-10-23).</li><li>Not open to the UK, so not ranked: 5.</li></ul>
+
+<hr class="branch">
+<h2><span class="leaf" aria-hidden="true">🔎</span>Unverified leads</h2>
+<p class="small">Found by search but missing a reward or deadline, so not ranked. Check these by hand.</p>
+<ul class="compact"><li><a href="https://app.layer3.xyz/quests/the-onchain-100-relay?ref=yunfr.eth" rel="noopener nofollow">The Onchain 100: Relay</a> <span class="small">(app.layer3.xyz: no reward or deadline found on the page)</span></li><li><a href="https://support.gitcoin.co/gitcoin-knowledge-base/misc/gitcoin-security-bounty-program" rel="noopener nofollow">Gitcoin Security Bounty Program</a> <span class="small">(support.gitcoin.co: the browser couldn&#x27;t read the page)</span></li><li><a href="https://www.risein.com/partner-with-us/grants-bounties" rel="noopener nofollow">Web3 Grant &amp; Bounty Program Management</a> <span class="small">(risein.com: no reward or deadline found on the page)</span></li><li><a href="https://msinfotechsolution.com/100-web-3-0-submission-sites-platforms-in-2026" rel="noopener nofollow">100+ Web 3.0 Submission Sites &amp; Platforms in 2026</a> <span class="small">(msinfotechsolution.com: no reward or deadline found on the page)</span></li></ul>
+
+<hr class="branch">
+<h2><span class="leaf" aria-hidden="true">🌿</span>Sources</h2>
+<ul class="compact small"><li class="ok">Superteam Earn: 13 open bounties</li><li class="ok">Devpost: 21 open online Blockchain or AI/ML hackathons</li><li class="ok">SerpApi search: 4 new listing links from 4 searches</li><li class="ok">Browserbase reading: 4 pages read, 0 with reward and deadline</li><li class="ok">ElevenLabs audio: site/brief.mp3, 178 characters</li><li class="ok">Memory: MongoDB Atlas</li></ul>
+
+<footer>
+  <p>Ranked by gemma-4-31b-it · updated 01:48 UTC</p>
+  <p>Built slowly and steadily · <a href="https://github.com/Guzman0/sloth-scout">Source on GitHub</a></p>
+</footer>
 </main>
 </body>
 </html>

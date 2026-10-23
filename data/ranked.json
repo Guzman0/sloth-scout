@@ -1,5 +1,5 @@
 {
-  "ranked_at": "2026-10-22T19:34:40+00:00",
+  "ranked_at": "2026-10-23T01:48:37+00:00",
   "model": "models/gemma-4-31b-it",
   "fingerprint": "83a608da9e68c635",
   "ranked": [
@@ -150,7 +150,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 18747,
+      "registrations": 18868,
       "link": "https://paypalaihackathon.devpost.com/",
       "fit_score": 6,
       "reason": "The 'Low/No Code' theme allows you to leverage your product and UX analysis skills without needing heavy coding experience.",
@@ -172,7 +172,7 @@
         "Design"
       ],
       "online": true,
-      "registrations": 534,
+      "registrations": 580,
       "link": "https://learn-specs.devpost.com/",
       "fit_score": 5,
       "reason": "While you can contribute via design and UX feedback, the AR/VR and AI themes typically require the heavy development skills you prefer to avoid.",
@@ -194,7 +194,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 451,
+      "registrations": 452,
       "link": "https://arbiter-hacks-v1.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes may allow for your UX and research skills, but most hackathons require a technical prototype you aren't comfortable building.",
@@ -216,7 +216,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 78,
+      "registrations": 82,
       "link": "https://nextspark-hacks.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Beginner Friendly' and 'Open Ended' themes suit your research and UX skills, but hackathons typically prioritize technical builds.",
@@ -238,7 +238,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1074,
+      "registrations": 1080,
       "link": "https://ieee-climatechain-hack.devpost.com/",
       "fit_score": 4,
       "reason": "Hackathons typically require the heavy development skills you want to avoid, though you could contribute via research and UX if you join a team.",
@@ -260,7 +260,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 36,
+      "registrations": 39,
       "link": "https://herhack.devpost.com/",
       "fit_score": 4,
       "reason": "The prize is in INR rather than your preferred USDC/USDG, and hackathons typically prioritize development over research and content creation.",
@@ -282,7 +282,7 @@
         "Education"
       ],
       "online": true,
-      "registrations": 4566,
+      "registrations": 4589,
       "link": "https://learn-ai-basics.devpost.com/",
       "fit_score": 4,
       "reason": "This is a 'Build' hackathon which typically requires coding skills you've listed as 'Not for me'.",
@@ -302,7 +302,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 2172,
+      "registrations": 2194,
       "link": "https://qloo.devpost.com/",
       "fit_score": 4,
       "reason": "This is an AI/Agentic hackathon which likely requires technical development skills you've listed as 'not for me'.",
@@ -324,7 +324,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 62897,
+      "registrations": 63094,
       "link": "https://amazonappdev2026.devpost.com/",
       "fit_score": 3,
       "reason": "This is a developer-focused hackathon requiring technical builds, which falls under your 'Not for me' category.",
@@ -346,7 +346,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 25929,
+      "registrations": 25975,
       "link": "https://nebiusglobalaihackathon.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical AI hackathon requiring development skills that fall under your 'Not for me' list.",
@@ -368,7 +368,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 3665,
+      "registrations": 3686,
       "link": "https://start-developer-competition-26.devpost.com/",
       "fit_score": 3,
       "reason": "This is a developer-focused competition, which conflicts with your preference to avoid heavy coding and full-stack development.",
@@ -390,7 +390,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 2904,
+      "registrations": 2923,
       "link": "https://gitlab-transcend.devpost.com/",
       "fit_score": 3,
       "reason": "The themes (DevOps, AI) are far from your Web3 focus, and GitLab hackathons typically require technical implementation rather than research or content.",
@@ -412,7 +412,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 42,
+      "registrations": 76,
       "link": "https://ugreenhackathon.devpost.com/",
       "fit_score": 3,
       "reason": "This hackathon focuses on AI NAS and Machine Learning, which likely requires technical development skills you've listed as 'not for me'.",
@@ -434,40 +434,13 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 44,
+      "registrations": 46,
       "link": "https://hackwithaditya.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical hackathon requiring development skills you don't have, and the prize is in INR rather than your preferred stablecoins.",
       "effort": "high",
       "scam_risk": "low",
       "scam_reason": "Hosted on Devpost by a university, which is typically a reliable platform and organizer."
-    },
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "dreamDEX Perps Builder Bounty",
-      "snippet": "The Perps Builder Bounty is a developer program for dreamDEX perps on Somnia Tokyo testnet. It runs from October 19 to November 1 and has two tracks.",
-      "link": "https://dorahacks.io/hackathon/dreamdex-perps-bounty",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "extracted": {
-        "title": "dreamDEX Perps Builder Bounty",
-        "sponsor": "Somnia Network",
-        "reward": "3,000 USD",
-        "deadline": "2026/11/01 15:59",
-        "region": "Virtual",
-        "task": "Stress-test the dreamDEX Perps API and SDK on testnet, and get paid for it."
-      },
-      "sponsor": "Somnia Network",
-      "reward": "3,000 USD",
-      "region": "Virtual",
-      "task": "Stress-test the dreamDEX Perps API and SDK on testnet, and get paid for it.",
-      "deadline_text": "2026/11/01 15:59",
-      "deadline": "2026-11-01",
-      "fit_score": 3,
-      "reason": "This is a 'Builder' bounty requiring API and SDK stress-testing, which aligns more with technical development than your research and content strengths.",
-      "effort": "medium",
-      "scam_risk": "low",
-      "scam_reason": "The bounty is hosted on DoraHacks, a reputable platform, by Somnia Network."
     },
     {
       "kind": "hackathon",
@@ -483,7 +456,7 @@
         "Serverless"
       ],
       "online": true,
-      "registrations": 5489,
+      "registrations": 5525,
       "link": "https://opencv26.devpost.com/",
       "fit_score": 2,
       "reason": "The themes (IoT, AI, Serverless) require heavy technical development skills which you've explicitly listed as 'Not for me'.",
@@ -505,7 +478,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 986,
+      "registrations": 988,
       "link": "https://aws-cds-partner.devpost.com/",
       "fit_score": 2,
       "reason": "This is a technical developer hackathon focused on AI and mobile, which clashes with your preference against heavy coding and development.",
@@ -527,7 +500,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1147,
+      "registrations": 1155,
       "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
       "fit_score": 2,
       "reason": "This is a technical AI/AR development hackathon, which clashes with your preference to avoid heavy coding and development.",
@@ -611,6 +584,28 @@
     {
       "kind": "hackathon",
       "source": "Devpost",
+      "title": "Code for Humanity",
+      "sponsor": "nill",
+      "prize_total": "$0",
+      "deadline": "2027-01-15",
+      "dates": "Jul 16, 2026 - Jan 15, 2027",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 651,
+      "link": "https://code-for-humanity.devpost.com/",
+      "fit_score": 1,
+      "reason": "The prize is $0 and the focus on 'coding' doesn't align with your research and content strengths.",
+      "effort": "high",
+      "scam_risk": "medium",
+      "scam_reason": "The organizer 'nill' is unknown and a $0 prize pool is highly unusual for a hackathon."
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
       "title": "Syntax Summit",
       "sponsor": "Student Organization",
       "prize_total": "$0",
@@ -622,13 +617,34 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 360,
+      "registrations": 361,
       "link": "https://syntax-summit.devpost.com/",
       "fit_score": 1,
       "reason": "The themes are highly technical (DevOps, AI, RPA) and there is no monetary reward, neither of which align with your skills or preferences.",
       "effort": "high",
       "scam_risk": "low",
       "scam_reason": "It appears to be a non-monetary student event for learning purposes."
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "IEEE Hack For Humanity",
+      "sponsor": "IEEE Charlotte Section",
+      "prize_total": "$0",
+      "deadline": "2026-10-23",
+      "dates": "Oct 11 - 23, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "online": true,
+      "registrations": 86,
+      "link": "https://ieee-ai-hack-for-humanity.devpost.com/",
+      "fit_score": 1,
+      "reason": "There is no monetary reward and the themes likely require technical development skills you avoid.",
+      "effort": "high",
+      "scam_risk": "low",
+      "scam_reason": "IEEE is a globally recognized and reputable professional organization."
     },
     {
       "kind": "hackathon",
@@ -709,26 +725,7 @@
       "scam_reason": "The sponsor is not verified by Superteam."
     }
   ],
-  "skipped": [
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Code for Humanity",
-      "sponsor": "nill",
-      "prize_total": "$0",
-      "deadline": "2027-01-15",
-      "dates": "Jul 16, 2026 - Jan 15, 2027",
-      "themes": [
-        "Education",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 650,
-      "link": "https://code-for-humanity.devpost.com/",
-      "skip_reason": "Gemini API still busy (500) after 3 retries"
-    }
-  ],
+  "skipped": [],
   "not_eligible": [
     {
       "title": "Travel boost: Create Content for Breakpoint 2026",
