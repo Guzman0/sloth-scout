@@ -1,47 +1,8 @@
 {
-  "ranked_at": "2026-10-23T09:47:10+00:00",
+  "ranked_at": "2026-10-24T09:24:46+00:00",
   "model": "models/gemma-4-31b-it",
   "fingerprint": "83a608da9e68c635",
   "ranked": [
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
-      "title": "Launch & Trade on Daejin: Write a Twitter Thread and Create a Market",
-      "sponsor": "Daejin",
-      "sponsor_verified": false,
-      "reward": 620,
-      "token": "USDC",
-      "deadline": "2026-10-23T21:59:59.000Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Global",
-      "link": "https://superteam.fun/earn/listing/launch-and-trade-on-daejin-write-a-twitter-thread-and-create-a-market",
-      "skills": [
-        {
-          "skills": "Content",
-          "subskills": [
-            "Writing",
-            "Social Media"
-          ]
-        },
-        {
-          "skills": "Blockchain",
-          "subskills": []
-        },
-        {
-          "skills": "Other",
-          "subskills": [
-            "Product Feedback"
-          ]
-        }
-      ],
-      "description": "About Daejin\nDaejin is a creator-owned prediction market network built on Solana and part of the Superteam ecosystem.\n-\nLaunch a market on any real-world outcome — crypto prices, sports, culture.\n-\nTake a position on Yes or No — prices move in real time with the crowd's conviction.\n-\nTrust the result — every market resolves with published, evidence-based proof, verifiable on-chain.\nFeatured markets for this bounty: https://www.daejin.xyz/prediction\nYour Mission\nTry Daejin from both sides — take a position and launch your own market — then write a Twitter thread that gets people talking about it and makes someone brand-new to prediction markets want to try it.\nYour cost: $5. Creating a market is free. Your position stays yours: if your call is right, you earn from the market on top of any bounty prize.\nStep by Step\n-\nConnect your Solana wallet at daejin.xyz.\n-\nTake a position (min. $5) in one of the featured markets. Take a screenshot and note why you picked Yes or No.\n-\nCreate your own market (free): a clear question, a defined proof source, and a resolution date. Take a screenshot. You can't take a position in your own market.\n-\nOptional, earns bonus points: seed your market with liquidity (any amount) and screenshot the deposit.\n-\nWrite your thread. It should cover:\n-\nwhat Daejin is, in plain language;\n-\nhow a shared-pool market works: how prices form and how winners split the pool;\n-\nyour position and the reasoning or data behind it;\n-\nyour market and why you designed it that way;\n-\nyour screenshots from steps 2–4.\n-\nTag @Daejinxyz and @Superteam, then publish.\n-\nSubmit your thread link on Earn, plus the link to your market. Your wallet address is collected with the submission, so don't post it in the thread.\nEligibility\nA thread is judged only if it meets all of these:\n-\na position of at least $5 in a featured market (or another creator's market);\n-\nyour own market created on Daejin;\n-\nscreenshots of both in the thread;\n-\n@Daejinxyz and @Superteam tagged;\n-\nthe thread explains how Daejin works: threads that only post screenshots or a link are not judged;\n-\noriginal content published after this listing went live, and kept public until winners are announced.\nEvaluation Criteria\nEvery eligible thread is scored out of 100. Reach and engagement are measured at the submission deadline.\nReach & Engagement: 30 pts\n-\nTotal reach (15 pts): views, likes, reposts, quote posts, and replies on your thread.\n-\nEngagement rate (15 pts): interactions relative to your follower count, so smaller accounts with a highly engaged audience can compete with big ones.\nContent Quality: 50 pts\n-\nClarity (25 pts): does a newcomer understand how prices form and how payouts work?\n-\nHands-on depth (25 pts): a real thesis behind your position, and a well-designed market (clear question, proof source, timeframe). Adding liquidity to your market earns bonus points.\nWriting & Visuals: 20 pts\n-\nEasy and fun to read, no heavy jargon, clean screenshots.\nDisqualification: botted views, paid engagement, engagement pods, or giveaway-style \"like & RT to win\" posts. We check account and engagement quality before announcing winners.\nWe never judge on the outcome of any market or on the size of your position or liquidity. If two threads tie, the one with higher Reach & Engagement wins.",
-      "fit_score": 10,
-      "reason": "This bounty perfectly aligns with your strengths in Twitter threads, product analysis, and visual assets, and pays in your preferred USDC.",
-      "effort": "medium",
-      "scam_risk": "low",
-      "scam_reason": "Standard Web3 bounty requirements, though it requires connecting your wallet and a small spend."
-    },
     {
       "kind": "bounty",
       "source": "Superteam Earn",
@@ -150,7 +111,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 19250,
+      "registrations": 20089,
       "link": "https://paypalaihackathon.devpost.com/",
       "fit_score": 6,
       "reason": "The 'Low/No Code' theme allows you to leverage your product and UX analysis skills without needing heavy coding experience.",
@@ -172,7 +133,7 @@
         "Design"
       ],
       "online": true,
-      "registrations": 605,
+      "registrations": 644,
       "link": "https://learn-specs.devpost.com/",
       "fit_score": 5,
       "reason": "While you can contribute via design and UX feedback, the AR/VR and AI themes typically require the heavy development skills you prefer to avoid.",
@@ -194,35 +155,13 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 458,
+      "registrations": 497,
       "link": "https://arbiter-hacks-v1.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes may allow for your UX and research skills, but most hackathons require a technical prototype you aren't comfortable building.",
       "effort": "high",
       "scam_risk": "low",
       "scam_reason": "Hosted on Devpost, which is a reputable and standard platform for Web3 hackathons."
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "NextSpark Hacks",
-      "sponsor": "Independent",
-      "prize_total": "$100",
-      "deadline": "2026-10-26",
-      "dates": "Oct 21 - 26, 2026",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Open Ended"
-      ],
-      "online": true,
-      "registrations": 92,
-      "link": "https://nextspark-hacks.devpost.com/",
-      "fit_score": 5,
-      "reason": "The 'Beginner Friendly' and 'Open Ended' themes suit your research and UX skills, but hackathons typically prioritize technical builds.",
-      "effort": "medium",
-      "scam_risk": "medium",
-      "scam_reason": "An 'Independent' organizer with no description and a very low prize pool lacks transparency."
     },
     {
       "kind": "hackathon",
@@ -238,7 +177,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1086,
+      "registrations": 1127,
       "link": "https://ieee-climatechain-hack.devpost.com/",
       "fit_score": 4,
       "reason": "Hackathons typically require the heavy development skills you want to avoid, though you could contribute via research and UX if you join a team.",
@@ -260,7 +199,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 42,
+      "registrations": 55,
       "link": "https://herhack.devpost.com/",
       "fit_score": 4,
       "reason": "The prize is in INR rather than your preferred USDC/USDG, and hackathons typically prioritize development over research and content creation.",
@@ -282,7 +221,7 @@
         "Education"
       ],
       "online": true,
-      "registrations": 4616,
+      "registrations": 4720,
       "link": "https://learn-ai-basics.devpost.com/",
       "fit_score": 4,
       "reason": "This is a 'Build' hackathon which typically requires coding skills you've listed as 'Not for me'.",
@@ -302,7 +241,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 2217,
+      "registrations": 2288,
       "link": "https://qloo.devpost.com/",
       "fit_score": 4,
       "reason": "This is an AI/Agentic hackathon which likely requires technical development skills you've listed as 'not for me'.",
@@ -313,24 +252,46 @@
     {
       "kind": "hackathon",
       "source": "Devpost",
-      "title": "Build, Ship, Shape: Amazon Developer Hackathon",
-      "sponsor": "Amazon",
-      "prize_total": "$138,000",
-      "deadline": "2026-10-23",
-      "dates": "Aug 31 - Oct 23, 2026",
+      "title": "Codex x TwitchCon Hackathon",
+      "sponsor": "Twitch",
+      "prize_total": "$25,000",
+      "deadline": "2026-11-02",
+      "dates": "Oct 23 - Nov 02, 2026",
       "themes": [
-        "Machine Learning/AI",
-        "Open Ended",
-        "Productivity"
+        "Communication",
+        "Gaming",
+        "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 63856,
-      "link": "https://amazonappdev2026.devpost.com/",
-      "fit_score": 3,
-      "reason": "This is a developer-focused hackathon requiring technical builds, which falls under your 'Not for me' category.",
+      "registrations": 245,
+      "link": "https://twitchcon-codex.devpost.com/",
+      "fit_score": 4,
+      "reason": "Hackathons usually require technical development which you've listed as 'not for me', though you could contribute UX and research to a team.",
       "effort": "high",
       "scam_risk": "low",
-      "scam_reason": "Amazon is a globally recognized and verified organization."
+      "scam_reason": "Twitch is a highly reputable organizer and Devpost is a trusted platform."
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "NextSpark Hacks",
+      "sponsor": "Independent Student Organizer",
+      "prize_total": "$100",
+      "deadline": "2026-10-26",
+      "dates": "Oct 21 - 26, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "online": true,
+      "registrations": 133,
+      "link": "https://nextspark-hacks.devpost.com/",
+      "fit_score": 4,
+      "reason": "The open-ended theme could fit your research skills, but hackathons typically prioritize coding and the prize pool is very low.",
+      "effort": "medium",
+      "scam_risk": "medium",
+      "scam_reason": "The organizer is an unverified independent student and there is no detailed description provided."
     },
     {
       "kind": "hackathon",
@@ -346,7 +307,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 26119,
+      "registrations": 26627,
       "link": "https://nebiusglobalaihackathon.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical AI hackathon requiring development skills that fall under your 'Not for me' list.",
@@ -368,7 +329,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 3711,
+      "registrations": 3791,
       "link": "https://start-developer-competition-26.devpost.com/",
       "fit_score": 3,
       "reason": "This is a developer-focused competition, which conflicts with your preference to avoid heavy coding and full-stack development.",
@@ -390,7 +351,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 2940,
+      "registrations": 3038,
       "link": "https://gitlab-transcend.devpost.com/",
       "fit_score": 3,
       "reason": "The themes (DevOps, AI) are far from your Web3 focus, and GitLab hackathons typically require technical implementation rather than research or content.",
@@ -412,7 +373,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 113,
+      "registrations": 240,
       "link": "https://ugreenhackathon.devpost.com/",
       "fit_score": 3,
       "reason": "This hackathon focuses on AI NAS and Machine Learning, which likely requires technical development skills you've listed as 'not for me'.",
@@ -434,7 +395,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 53,
+      "registrations": 63,
       "link": "https://hackwithaditya.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical hackathon requiring development skills you don't have, and the prize is in INR rather than your preferred stablecoins.",
@@ -456,7 +417,7 @@
         "Serverless"
       ],
       "online": true,
-      "registrations": 5659,
+      "registrations": 5838,
       "link": "https://opencv26.devpost.com/",
       "fit_score": 2,
       "reason": "The themes (IoT, AI, Serverless) require heavy technical development skills which you've explicitly listed as 'Not for me'.",
@@ -478,7 +439,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 992,
+      "registrations": 1006,
       "link": "https://aws-cds-partner.devpost.com/",
       "fit_score": 2,
       "reason": "This is a technical developer hackathon focused on AI and mobile, which clashes with your preference against heavy coding and development.",
@@ -500,7 +461,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1168,
+      "registrations": 1212,
       "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
       "fit_score": 2,
       "reason": "This is a technical AI/AR development hackathon, which clashes with your preference to avoid heavy coding and development.",
@@ -595,7 +556,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 653,
+      "registrations": 661,
       "link": "https://code-for-humanity.devpost.com/",
       "fit_score": 1,
       "reason": "The prize is $0 and the focus on 'coding' doesn't align with your research and content strengths.",
@@ -617,34 +578,13 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 361,
+      "registrations": 363,
       "link": "https://syntax-summit.devpost.com/",
       "fit_score": 1,
       "reason": "The themes are highly technical (DevOps, AI, RPA) and there is no monetary reward, neither of which align with your skills or preferences.",
       "effort": "high",
       "scam_risk": "low",
       "scam_reason": "It appears to be a non-monetary student event for learning purposes."
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "IEEE Hack For Humanity",
-      "sponsor": "IEEE Charlotte Section",
-      "prize_total": "$0",
-      "deadline": "2026-10-23",
-      "dates": "Oct 11 - 23, 2026",
-      "themes": [
-        "Machine Learning/AI",
-        "Social Good"
-      ],
-      "online": true,
-      "registrations": 89,
-      "link": "https://ieee-ai-hack-for-humanity.devpost.com/",
-      "fit_score": 1,
-      "reason": "There is no monetary reward and the themes likely require technical development skills you avoid.",
-      "effort": "high",
-      "scam_risk": "low",
-      "scam_reason": "IEEE is a globally recognized and reputable professional organization."
     },
     {
       "kind": "hackathon",
@@ -660,7 +600,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 54,
+      "registrations": 66,
       "link": "https://mathematics-systems-security.devpost.com/",
       "fit_score": 1,
       "reason": "This is a highly technical math and security event with no monetary reward, which doesn't match your skill set or your preference for USDC/USDG.",
@@ -731,11 +671,6 @@
       "title": "Travel boost: Create Content for Breakpoint 2026",
       "region": "Germany",
       "link": "https://superteam.fun/earn/listing/travel-boost-for-bp26"
-    },
-    {
-      "title": "Redesign Your Favourite App on Solana",
-      "region": "India",
-      "link": "https://superteam.fun/earn/listing/redesign-your-favourite-app-on-solana"
     },
     {
       "title": "Colosseum: Founder Support - Talk to 5 Users",

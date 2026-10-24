@@ -1,4 +1,4 @@
-# 🦥 Sloth Scout brief: Friday, October 23, 2026
+# 🦥 Sloth Scout brief: Saturday, October 24, 2026
 
 > ⚠️ Skipped this run: Browserbase reading. See Sources at the bottom.
 
@@ -22,29 +22,32 @@ From earlier briefs, still accepting entries:
 - [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/): $67,500, closes 2026-11-12, fit 6/10
 - [Learn AR with SPECS](https://learn-specs.devpost.com/): $2,500, closes 2026-11-09, fit 5/10
 - [Arbiter Hacks V1](https://arbiter-hacks-v1.devpost.com/): $7,800, closes 2026-12-21, fit 5/10
-- [NextSpark Hacks](https://nextspark-hacks.devpost.com/): $100, closes 2026-10-26, fit 5/10, scam risk medium
 
 ## Notes
 
 - Poor fits (score under 5): 21.
-- New good fits closing in under 3 days, left out: Launch & Trade on Daejin: Write a Twitter Thread and Create a Market (2026-10-23).
-- Not open to your region (Germany, India, Netherlands, Spain, Ukraine), so not ranked: 5.
+- Not open to your region (Germany, Netherlands, Spain, Ukraine), so not ranked: 4.
 
 ## Unverified leads
 
 Found by search but missing a reward or deadline, so not ranked. Check these by hand.
 
-- [Security tooling for people who will never hire a consultancy](https://www.awarexone.com/open-source) (awarexone.com): not opened in the browser this run
+- [HashKey Chain Horizon Hackathon · India](https://dorahacks.io/hackathon/hskchainindia/) (dorahacks.io): not opened in the browser this run
+- [AI Yako | Hackathon](https://dorahacks.io/hackathon/ai-yako) (dorahacks.io): not opened in the browser this run
+- [BSA - EPFL | The Hackathon](https://dorahacks.io/hackathon/bsa-the-hackathon) (dorahacks.io): not opened in the browser this run
+- [Portaldot Hacker house 2026 | Hackathon](https://dorahacks.io/hackathon/portaldot-hacker-house-2026) (dorahacks.io): not opened in the browser this run
+- [BSA - EPFL | The Hackathon](https://dorahacks.io/hackathon/bsa-the-hackathon/tracks) (dorahacks.io): not opened in the browser this run
+- [Arc Microgrants: Built with Arc Studio | Hackathon](https://dorahacks.io/hackathon/arc-microgrants-2/qa) (dorahacks.io): not opened in the browser this run
 - [Web3 Penetration Testing: A Guide for Protocols and ...](https://sherlock.xyz/post/web3-penetration-testing-a-guide-for-protocols-and-security-researchers-2026) (sherlock.xyz): not opened in the browser this run
-- [CoW Protocol Bug Bounty](https://immunefi.com/bug-bounty/cowprotocol/information/) (immunefi.com): not opened in the browser this run
+- [8 Bug Bounty Platforms: Our Top Picks by Use Case (2026)](https://cyberpress.org/bug-bounty-platforms-by-use-case/) (cyberpress.org): not opened in the browser this run
 
 ## Sources
 
-- ✅ **Superteam Earn:** 13 open bounties (23.4s)
-- ✅ **Devpost:** 21 open online Blockchain or AI/ML hackathons (0.4s)
-- ✅ **SerpApi search:** 3 new listing links from 4 searches (2.9s)
+- ✅ **Superteam Earn:** 11 open bounties (19.4s)
+- ✅ **Devpost:** 20 open online Blockchain or AI/ML hackathons (0.4s)
+- ✅ **SerpApi search:** 8 new listing links from 4 searches (2.0s)
 - ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
-- ✅ **ElevenLabs audio:** site/brief.mp3, 541 characters (1.2s)
+- ✅ **ElevenLabs audio:** site/brief.mp3, 543 characters (1.4s)
 - ✅ **Memory:** MongoDB Atlas
 
 Ranked by gemma-4-31b-it.

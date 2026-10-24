@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-23T09:46:37+00:00",
+  "fetched_at": "2026-10-24T09:19:41+00:00",
   "source": "https://superteam.fun/api/listings",
   "bounties": [
     {
@@ -47,65 +47,6 @@
         }
       ],
       "description": "About Vaultline Security\nVaultline Security works to make Web3 safer. We believe strong security is essential for the ecosystem to grow and for builders and users to trust decentralized technology.\nThe Opportunity\nWe're offering audit grants to 10 Solana projects from the Colosseum Hackathon. Each selected team will receive a Vaultline security audit, either fully covered or at a significant discount, to strengthen their security before launch or scale.\nWhat the Grant Covers\n-\nEach grant is worth up to 4,000 USDC in audit services, applied directly to a Vaultline audit. It is not paid out as cash.\n-\nSolana programs (Anchor or native) are in scope.\n-\nThere's no fixed size limit. Vaultline will review each codebase and provide a full quote based on its complexity and lines of code. If the quote is within the grant amount, the audit is fully covered. If it's higher, the grant is applied as a discount.\nWho Should Apply\nSolana projects that took part in the Colosseum Hackathon and meet these conditions:\n-\nThe codebase is feature-complete or close to it, so audit scope won't change significantly.\n-\nThe code is in a repository Vaultline can access.\n-\nThe team can respond to findings and implement fixes after the audit.\n-\nThe team is prepared to cover any remaining cost if their quote exceeds the grant amount.\nWhat to Submit\nAnswer the application question with:\n-\nProject name, short description, and Colosseum submission link\n-\nRepository link and the specific programs to be audited\n-\nApproximate lines of code (required, so we can quote accurately)\n-\nCurrent stage (devnet, testnet, or mainnet), plus any user or TVL figures\n-\n1-2 paragraphs on why an audit matters for your project right now\n-\nTeam contact details\nSelection Criteria\n-\nProject potential: How impactful and innovative is the project within the Solana ecosystem?\n-\nAudit need: How much do user funds or trust depend on the code being secure?\n-\nReadiness: Is the codebase mature and stable enough for a meaningful audit?\nRewards\n10 audit grants, each worth up to 4,000 USDC in Vaultline audit services. Final grant value is based on each project's custom quote.\nTimeline\n-\nApplications close: October 31, 2026\n-\nSelected projects announced: November 2, 2026\nAnnouncement\nVaultline will announce the selected projects on Superteam Earn, Twitter, and LinkedIn. By applying, selected teams agree to be named in the announcement and to share the post from their own accounts."
-    },
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
-      "title": "Redesign Your Favourite App on Solana",
-      "sponsor": "Superteam India",
-      "sponsor_verified": true,
-      "reward": 1500,
-      "token": "USDC",
-      "deadline": "2026-10-23T18:29:59.999Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "India",
-      "link": "https://superteam.fun/earn/listing/redesign-your-favourite-app-on-solana",
-      "skills": [
-        {
-          "skills": "Design",
-          "subskills": [
-            "UI/UX Design",
-            "Graphic Design",
-            "Illustration"
-          ]
-        }
-      ],
-      "description": "About the Bounty\nWith Figma Config happening in Bengaluru and Solana Summit India coming up, we're inviting all designers to an Open Design Bounty, built around one simple idea — making a Solana app, or a few (or even one) product interactions better than they are today.\nThis challenge is built around design and product thinking, utility, and of course, *taste*.\nYour Mission\nRedesign an app, or 1-5 features or interactions in a Solana app, and improve it to the best of your thinking. Focus on UX pain points, visual identity, thoughtfulness, and show us how your redesign makes the experience better for users.\nWinners and strong submissions automatically qualify for Solana Summit India on 2nd November.\nEvaluation Criteria\nIn addition to the criteria shared above, our judges will use the following criteria to judge your submissions:\n-\nDoes your redesign solve a real user problem or make an existing interaction easier?\n-\nDid you clearly explain your design choices and show how they improve on the current experience?\n-\nIs your design visually cohesive, polished, and thoughtful in its details?\n-\nWould someone new to the app find your redesigned experience intuitive and easy to use?\nSubmission Requirements\n-\nFigma file with before/after screens for each feature\n-\nMobile and desktop variations\n-\nA short write-up explaining the problems and your design decisions\nBrownie points for a live link to your redesign.\nSome Inspiration:\n-\nTrading Chart UX by Irfan\n-\nPromo Cards Interaction in Fuse\n-\nMulti Action button in Fuse\nAbout Superteam India\nSuperteam India is the Indian chapter of Superteam, a curated community of founders, builders, designers, and operators in the Solana ecosystem. Alongside developers, we're building a strong home for designers: help them connecting with Solana projects that need great design, and spotlighting their work across the ecosystem.\nTerms\nParticipation in this bounty is entirely voluntary. Bounties are a way to learn and dabble in opportunities to build in web3. These are neither full time jobs nor project based engagement. Please be advised that the sponsors will not have time for individualized feedback due to the number of entries we receive."
-    },
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
-      "title": "Launch & Trade on Daejin: Write a Twitter Thread and Create a Market",
-      "sponsor": "Daejin",
-      "sponsor_verified": false,
-      "reward": 620,
-      "token": "USDC",
-      "deadline": "2026-10-23T21:59:59.000Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Global",
-      "link": "https://superteam.fun/earn/listing/launch-and-trade-on-daejin-write-a-twitter-thread-and-create-a-market",
-      "skills": [
-        {
-          "skills": "Content",
-          "subskills": [
-            "Writing",
-            "Social Media"
-          ]
-        },
-        {
-          "skills": "Blockchain",
-          "subskills": []
-        },
-        {
-          "skills": "Other",
-          "subskills": [
-            "Product Feedback"
-          ]
-        }
-      ],
-      "description": "About Daejin\nDaejin is a creator-owned prediction market network built on Solana and part of the Superteam ecosystem.\n-\nLaunch a market on any real-world outcome — crypto prices, sports, culture.\n-\nTake a position on Yes or No — prices move in real time with the crowd's conviction.\n-\nTrust the result — every market resolves with published, evidence-based proof, verifiable on-chain.\nFeatured markets for this bounty: https://www.daejin.xyz/prediction\nYour Mission\nTry Daejin from both sides — take a position and launch your own market — then write a Twitter thread that gets people talking about it and makes someone brand-new to prediction markets want to try it.\nYour cost: $5. Creating a market is free. Your position stays yours: if your call is right, you earn from the market on top of any bounty prize.\nStep by Step\n-\nConnect your Solana wallet at daejin.xyz.\n-\nTake a position (min. $5) in one of the featured markets. Take a screenshot and note why you picked Yes or No.\n-\nCreate your own market (free): a clear question, a defined proof source, and a resolution date. Take a screenshot. You can't take a position in your own market.\n-\nOptional, earns bonus points: seed your market with liquidity (any amount) and screenshot the deposit.\n-\nWrite your thread. It should cover:\n-\nwhat Daejin is, in plain language;\n-\nhow a shared-pool market works: how prices form and how winners split the pool;\n-\nyour position and the reasoning or data behind it;\n-\nyour market and why you designed it that way;\n-\nyour screenshots from steps 2–4.\n-\nTag @Daejinxyz and @Superteam, then publish.\n-\nSubmit your thread link on Earn, plus the link to your market. Your wallet address is collected with the submission, so don't post it in the thread.\nEligibility\nA thread is judged only if it meets all of these:\n-\na position of at least $5 in a featured market (or another creator's market);\n-\nyour own market created on Daejin;\n-\nscreenshots of both in the thread;\n-\n@Daejinxyz and @Superteam tagged;\n-\nthe thread explains how Daejin works: threads that only post screenshots or a link are not judged;\n-\noriginal content published after this listing went live, and kept public until winners are announced.\nEvaluation Criteria\nEvery eligible thread is scored out of 100. Reach and engagement are measured at the submission deadline.\nReach & Engagement: 30 pts\n-\nTotal reach (15 pts): views, likes, reposts, quote posts, and replies on your thread.\n-\nEngagement rate (15 pts): interactions relative to your follower count, so smaller accounts with a highly engaged audience can compete with big ones.\nContent Quality: 50 pts\n-\nClarity (25 pts): does a newcomer understand how prices form and how payouts work?\n-\nHands-on depth (25 pts): a real thesis behind your position, and a well-designed market (clear question, proof source, timeframe). Adding liquidity to your market earns bonus points.\nWriting & Visuals: 20 pts\n-\nEasy and fun to read, no heavy jargon, clean screenshots.\nDisqualification: botted views, paid engagement, engagement pods, or giveaway-style \"like & RT to win\" posts. We check account and engagement quality before announcing winners.\nWe never judge on the outcome of any market or on the size of your position or liquidity. If two threads tie, the one with higher Reach & Engagement wins."
     },
     {
       "kind": "bounty",
