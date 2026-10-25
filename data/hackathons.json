@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T09:19:59+00:00",
+  "fetched_at": "2026-10-25T10:56:25+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1127,
+      "registrations": 1186,
       "link": "https://ieee-climatechain-hack.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 55,
+      "registrations": 63,
       "link": "https://herhack.devpost.com/"
     },
     {
@@ -50,7 +50,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 26627,
+      "registrations": 27116,
       "link": "https://nebiusglobalaihackathon.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 20089,
+      "registrations": 20862,
       "link": "https://paypalaihackathon.devpost.com/"
     },
     {
@@ -84,7 +84,7 @@
         "Serverless"
       ],
       "online": true,
-      "registrations": 5838,
+      "registrations": 6029,
       "link": "https://opencv26.devpost.com/"
     },
     {
@@ -101,7 +101,7 @@
         "Education"
       ],
       "online": true,
-      "registrations": 4720,
+      "registrations": 4868,
       "link": "https://learn-ai-basics.devpost.com/"
     },
     {
@@ -118,7 +118,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 3791,
+      "registrations": 3928,
       "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
@@ -135,7 +135,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 3038,
+      "registrations": 3116,
       "link": "https://gitlab-transcend.devpost.com/"
     },
     {
@@ -150,7 +150,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 2288,
+      "registrations": 2363,
       "link": "https://qloo.devpost.com/"
     },
     {
@@ -167,7 +167,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1006,
+      "registrations": 1023,
       "link": "https://aws-cds-partner.devpost.com/"
     },
     {
@@ -184,7 +184,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1212,
+      "registrations": 1245,
       "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/"
     },
     {
@@ -201,25 +201,8 @@
         "Design"
       ],
       "online": true,
-      "registrations": 644,
+      "registrations": 681,
       "link": "https://learn-specs.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Code for Humanity",
-      "sponsor": "nill",
-      "prize_total": "$0",
-      "deadline": "2027-01-15",
-      "dates": "Jul 16, 2026 - Jan 15, 2027",
-      "themes": [
-        "Education",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 661,
-      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -235,7 +218,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 245,
+      "registrations": 471,
       "link": "https://twitchcon-codex.devpost.com/"
     },
     {
@@ -252,8 +235,25 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 240,
+      "registrations": 327,
       "link": "https://ugreenhackathon.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Code for Humanity",
+      "sponsor": "nill",
+      "prize_total": "$0",
+      "deadline": "2027-01-15",
+      "dates": "Jul 16, 2026 - Jan 15, 2027",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 668,
+      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -269,7 +269,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 497,
+      "registrations": 527,
       "link": "https://arbiter-hacks-v1.devpost.com/"
     },
     {
@@ -286,7 +286,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 363,
+      "registrations": 369,
       "link": "https://syntax-summit.devpost.com/"
     },
     {
@@ -303,25 +303,8 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 133,
+      "registrations": 185,
       "link": "https://nextspark-hacks.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Mathematics for systems security",
-      "sponsor": "Software Engineering Club (DEV)",
-      "prize_total": "$0",
-      "deadline": "2026-11-01",
-      "dates": "Oct 16 - Nov 01, 2026",
-      "themes": [
-        "Communication",
-        "Cybersecurity",
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 66,
-      "link": "https://mathematics-systems-security.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -337,8 +320,25 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 63,
+      "registrations": 77,
       "link": "https://hackwithaditya.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Mathematics for systems security",
+      "sponsor": "Software Engineering Club (DEV)",
+      "prize_total": "$0",
+      "deadline": "2026-11-01",
+      "dates": "Oct 16 - Nov 01, 2026",
+      "themes": [
+        "Communication",
+        "Cybersecurity",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 74,
+      "link": "https://mathematics-systems-security.devpost.com/"
     }
   ]
 }

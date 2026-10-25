@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T09:19:41+00:00",
+  "fetched_at": "2026-10-25T10:56:09+00:00",
   "source": "https://superteam.fun/api/listings",
   "bounties": [
     {
@@ -47,67 +47,6 @@
         }
       ],
       "description": "About Vaultline Security\nVaultline Security works to make Web3 safer. We believe strong security is essential for the ecosystem to grow and for builders and users to trust decentralized technology.\nThe Opportunity\nWe're offering audit grants to 10 Solana projects from the Colosseum Hackathon. Each selected team will receive a Vaultline security audit, either fully covered or at a significant discount, to strengthen their security before launch or scale.\nWhat the Grant Covers\n-\nEach grant is worth up to 4,000 USDC in audit services, applied directly to a Vaultline audit. It is not paid out as cash.\n-\nSolana programs (Anchor or native) are in scope.\n-\nThere's no fixed size limit. Vaultline will review each codebase and provide a full quote based on its complexity and lines of code. If the quote is within the grant amount, the audit is fully covered. If it's higher, the grant is applied as a discount.\nWho Should Apply\nSolana projects that took part in the Colosseum Hackathon and meet these conditions:\n-\nThe codebase is feature-complete or close to it, so audit scope won't change significantly.\n-\nThe code is in a repository Vaultline can access.\n-\nThe team can respond to findings and implement fixes after the audit.\n-\nThe team is prepared to cover any remaining cost if their quote exceeds the grant amount.\nWhat to Submit\nAnswer the application question with:\n-\nProject name, short description, and Colosseum submission link\n-\nRepository link and the specific programs to be audited\n-\nApproximate lines of code (required, so we can quote accurately)\n-\nCurrent stage (devnet, testnet, or mainnet), plus any user or TVL figures\n-\n1-2 paragraphs on why an audit matters for your project right now\n-\nTeam contact details\nSelection Criteria\n-\nProject potential: How impactful and innovative is the project within the Solana ecosystem?\n-\nAudit need: How much do user funds or trust depend on the code being secure?\n-\nReadiness: Is the codebase mature and stable enough for a meaningful audit?\nRewards\n10 audit grants, each worth up to 4,000 USDC in Vaultline audit services. Final grant value is based on each project's custom quote.\nTimeline\n-\nApplications close: October 31, 2026\n-\nSelected projects announced: November 2, 2026\nAnnouncement\nVaultline will announce the selected projects on Superteam Earn, Twitter, and LinkedIn. By applying, selected teams agree to be named in the announcement and to share the post from their own accounts."
-    },
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
-      "title": "Crea Contenido para Promocionar El Encuentro 2026 en Madrid",
-      "sponsor": "La Familia",
-      "sponsor_verified": true,
-      "reward": 2000,
-      "token": "USDG",
-      "deadline": "2026-10-24T22:59:59.999Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Global",
-      "link": "https://superteam.fun/earn/listing/crea-contenido-para-promocionar-el-encuentro-2026",
-      "skills": [
-        {
-          "skills": "Content",
-          "subskills": [
-            "Writing",
-            "Video",
-            "Social Media"
-          ]
-        },
-        {
-          "skills": "Design",
-          "subskills": [
-            "Graphic Design",
-            "Illustration"
-          ]
-        }
-      ],
-      "description": "About La Familia\nLa Familia es la comunidad de Solana en España. Nuestro objetivo es conectar a builders, fundadores y proyectos, creando un espacio para aprender y crecer juntos. Organizamos eventos y quedadas para que la comunidad se conozca en persona.\nMission\nQueremos que nos ayudes a correr la voz sobre El Encuentro 2026, el evento Solana del año en España. Crea contenido original que invite a la gente a venir y reservar su plaza.\nScope Detail\n-\nGenera contenido que invite a la comunidad a asistir a El Encuentro 2026.\n-\nComunica de qué trata el evento y por qué es una oportunidad única.\n-\nAnima a la gente a reservar su plaza gratuita.\n-\nPuedes crear:\n-\nHilos o posts para X.\n-\nVídeos cortos para TikTok, Reels, Shorts o YouTube.\n-\nPosts para Instagram o LinkedIn.\n-\nArtículos de blog o newsletter.\n-\nMemes, ilustraciones o diseños propios.\nSubmission Requirements\n-\nDebes incluir obligatoriamente el enlace https://lafamilia.so/ir/encuentro-st en tu publicación (en el texto, descripción, biografía o donde sea apropiado para el formato). Las entregas sin este enlace no serán evaluadas.\n-\nEl contenido debe ser original y publicado durante el período del bounty.\n-\nMenciona a @LaFamilia_so en X o la cuenta de La Familia en la red social que utilices.\n-\nEl contenido debe estar en español.\n-\nNo se aceptará contenido generado íntegramente con IA sin aportación propia, ni el uso de bots o interacciones compradas.\n-\nEnvía el enlace a tu publicación en el formulario de entrega.\n-\nSe permite más de una pieza por participante, pero valoramos la calidad por encima de la cantidad.\nJudging Criteria\n-\nCreatividad y originalidad del contenido.\n-\nCapacidad para transmitir la esencia del evento y la importancia de asistir.\n-\nCalidad general de la producción.\n-\nAlcance e interacción real generada por la publicación (no se tendrá en cuenta el alcance comprado).\n-\nConexión con la cultura y la comunidad española.\nResources\n-\nWeb oficial de El Encuentro 2026: https://lafamilia.so/ir/encuentro-st\n-\nCartel descargable del evento: https://lafamilia.so/el-encuentro/cartel.jpg\nReward Structure\n-\n1st Place: 500 USDC + Entrada gratuita a Merge Madrid\n-\n2nd Place: 400 USD\n-\n3rd Place: 300 USD\n-\n4th Place: 200 USD\n-\n5th Place: 200 USD\n-\nBonus 6-10: 80 USD\n-\nLos ganadores se anunciarán en directo en El Encuentro, el evento anual de La Familia, el 26 de octubre en Madrid. Si puedes, ven a vivirlo con nosotros: https://lafamilia.so/ir/encuentro-st"
-    },
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
-      "title": "Colosseum: Founder Support - Talk to 5 Users",
-      "sponsor": "Superteam Netherlands",
-      "sponsor_verified": true,
-      "reward": 1000,
-      "token": "USDG",
-      "deadline": "2026-10-25T09:59:59.000Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Netherlands",
-      "link": "https://superteam.fun/earn/listing/colosseum-founder-support-talk-to-5-users",
-      "skills": [
-        {
-          "skills": "Frontend",
-          "subskills": [
-            "React"
-          ]
-        },
-        {
-          "skills": "Growth",
-          "subskills": [
-            "Marketing"
-          ]
-        }
-      ],
-      "description": "Mission\nTalk to 5 real or potential users and show how their feedback changed your thinking.\nScope Detail\n-\nInterview at least 5 people who genuinely match your target user profile.\n-\nClearly explain:\n-\nWhat you wanted to learn.\n-\nWhat the most important insights were.\n-\nWhat you changed, decided not to build, or want to test next based on the conversations.\n-\nInterviewees may remain anonymous (note: we value if that’s not the case!).\n-\nPositive validation is not required. Discovering that an assumption was wrong is a valid outcome.\nSubmission Requirements\n-\nSubmit a Google Doc containing:\n-\nA brief description of the users interviewed.\n-\nThe key questions you explored.\n-\nYour main learnings.\n-\nWhat changed as a result of the research.\n-\nExisting user research notes or materials may be reused.\n-\nAll submissions must be in English.\nJudging Criteria\n-\nUser Relevance: Did the team speak to people who genuinely represent the target audience?\n-\nQuality of Research: Were the conversations designed to uncover useful information?\n-\nInsight: Did the team identify meaningful patterns or discoveries?\n-\nApplication: Did the research influence product decisions, assumptions, or next steps?\nReward Structure\n-\n1st Place: 500 USDG\n-\n2nd Place: 300 USDG\n-\n3rd Place: 200 USDG"
     },
     {
       "kind": "bounty",

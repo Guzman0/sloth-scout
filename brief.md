@@ -1,4 +1,4 @@
-# 🦥 Sloth Scout brief: Saturday, October 24, 2026
+# 🦥 Sloth Scout brief: Sunday, October 25, 2026
 
 > ⚠️ Skipped this run: Browserbase reading. See Sources at the bottom.
 
@@ -25,29 +25,23 @@ From earlier briefs, still accepting entries:
 
 ## Notes
 
-- Poor fits (score under 5): 21.
-- Not open to your region (Germany, Netherlands, Spain, Ukraine), so not ranked: 4.
+- Poor fits (score under 5): 20.
+- Not open to your region (Germany, Spain, Ukraine), so not ranked: 3.
 
 ## Unverified leads
 
 Found by search but missing a reward or deadline, so not ranked. Check these by hand.
 
-- [HashKey Chain Horizon Hackathon · India](https://dorahacks.io/hackathon/hskchainindia/) (dorahacks.io): not opened in the browser this run
-- [AI Yako | Hackathon](https://dorahacks.io/hackathon/ai-yako) (dorahacks.io): not opened in the browser this run
-- [BSA - EPFL | The Hackathon](https://dorahacks.io/hackathon/bsa-the-hackathon) (dorahacks.io): not opened in the browser this run
-- [Portaldot Hacker house 2026 | Hackathon](https://dorahacks.io/hackathon/portaldot-hacker-house-2026) (dorahacks.io): not opened in the browser this run
-- [BSA - EPFL | The Hackathon](https://dorahacks.io/hackathon/bsa-the-hackathon/tracks) (dorahacks.io): not opened in the browser this run
-- [Arc Microgrants: Built with Arc Studio | Hackathon](https://dorahacks.io/hackathon/arc-microgrants-2/qa) (dorahacks.io): not opened in the browser this run
-- [Web3 Penetration Testing: A Guide for Protocols and ...](https://sherlock.xyz/post/web3-penetration-testing-a-guide-for-protocols-and-security-researchers-2026) (sherlock.xyz): not opened in the browser this run
-- [8 Bug Bounty Platforms: Our Top Picks by Use Case (2026)](https://cyberpress.org/bug-bounty-platforms-by-use-case/) (cyberpress.org): not opened in the browser this run
+- [dreamDEX Perps Builder Bounty | Hackathon](https://dorahacks.io/hackathon/dreamdex-perps-bounty/announcements) (dorahacks.io): not opened in the browser this run
+- [Bug Bounty Program](https://ethereum.org/bug-bounty/) (ethereum.org): not opened in the browser this run
 
 ## Sources
 
-- ✅ **Superteam Earn:** 11 open bounties (19.4s)
-- ✅ **Devpost:** 20 open online Blockchain or AI/ML hackathons (0.4s)
-- ✅ **SerpApi search:** 8 new listing links from 4 searches (2.0s)
+- ✅ **Superteam Earn:** 9 open bounties (17.1s)
+- ✅ **Devpost:** 20 open online Blockchain or AI/ML hackathons (0.3s)
+- ✅ **SerpApi search:** 2 new listing links from 4 searches (2.6s)
 - ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
-- ✅ **ElevenLabs audio:** site/brief.mp3, 543 characters (1.4s)
+- ✅ **ElevenLabs audio:** site/brief.mp3, 541 characters (1.3s)
 - ✅ **Memory:** MongoDB Atlas
 
 Ranked by gemma-4-31b-it.

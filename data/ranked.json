@@ -1,5 +1,5 @@
 {
-  "ranked_at": "2026-10-24T09:24:46+00:00",
+  "ranked_at": "2026-10-25T10:56:34+00:00",
   "model": "models/gemma-4-31b-it",
   "fingerprint": "83a608da9e68c635",
   "ranked": [
@@ -111,7 +111,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 20089,
+      "registrations": 20862,
       "link": "https://paypalaihackathon.devpost.com/",
       "fit_score": 6,
       "reason": "The 'Low/No Code' theme allows you to leverage your product and UX analysis skills without needing heavy coding experience.",
@@ -133,7 +133,7 @@
         "Design"
       ],
       "online": true,
-      "registrations": 644,
+      "registrations": 681,
       "link": "https://learn-specs.devpost.com/",
       "fit_score": 5,
       "reason": "While you can contribute via design and UX feedback, the AR/VR and AI themes typically require the heavy development skills you prefer to avoid.",
@@ -155,7 +155,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 497,
+      "registrations": 527,
       "link": "https://arbiter-hacks-v1.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes may allow for your UX and research skills, but most hackathons require a technical prototype you aren't comfortable building.",
@@ -177,7 +177,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1127,
+      "registrations": 1186,
       "link": "https://ieee-climatechain-hack.devpost.com/",
       "fit_score": 4,
       "reason": "Hackathons typically require the heavy development skills you want to avoid, though you could contribute via research and UX if you join a team.",
@@ -199,7 +199,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 55,
+      "registrations": 63,
       "link": "https://herhack.devpost.com/",
       "fit_score": 4,
       "reason": "The prize is in INR rather than your preferred USDC/USDG, and hackathons typically prioritize development over research and content creation.",
@@ -221,7 +221,7 @@
         "Education"
       ],
       "online": true,
-      "registrations": 4720,
+      "registrations": 4868,
       "link": "https://learn-ai-basics.devpost.com/",
       "fit_score": 4,
       "reason": "This is a 'Build' hackathon which typically requires coding skills you've listed as 'Not for me'.",
@@ -241,7 +241,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 2288,
+      "registrations": 2363,
       "link": "https://qloo.devpost.com/",
       "fit_score": 4,
       "reason": "This is an AI/Agentic hackathon which likely requires technical development skills you've listed as 'not for me'.",
@@ -263,7 +263,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 245,
+      "registrations": 471,
       "link": "https://twitchcon-codex.devpost.com/",
       "fit_score": 4,
       "reason": "Hackathons usually require technical development which you've listed as 'not for me', though you could contribute UX and research to a team.",
@@ -285,7 +285,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 133,
+      "registrations": 185,
       "link": "https://nextspark-hacks.devpost.com/",
       "fit_score": 4,
       "reason": "The open-ended theme could fit your research skills, but hackathons typically prioritize coding and the prize pool is very low.",
@@ -307,7 +307,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 26627,
+      "registrations": 27116,
       "link": "https://nebiusglobalaihackathon.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical AI hackathon requiring development skills that fall under your 'Not for me' list.",
@@ -329,7 +329,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 3791,
+      "registrations": 3928,
       "link": "https://start-developer-competition-26.devpost.com/",
       "fit_score": 3,
       "reason": "This is a developer-focused competition, which conflicts with your preference to avoid heavy coding and full-stack development.",
@@ -351,7 +351,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 3038,
+      "registrations": 3116,
       "link": "https://gitlab-transcend.devpost.com/",
       "fit_score": 3,
       "reason": "The themes (DevOps, AI) are far from your Web3 focus, and GitLab hackathons typically require technical implementation rather than research or content.",
@@ -373,7 +373,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 240,
+      "registrations": 327,
       "link": "https://ugreenhackathon.devpost.com/",
       "fit_score": 3,
       "reason": "This hackathon focuses on AI NAS and Machine Learning, which likely requires technical development skills you've listed as 'not for me'.",
@@ -395,7 +395,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 63,
+      "registrations": 77,
       "link": "https://hackwithaditya.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical hackathon requiring development skills you don't have, and the prize is in INR rather than your preferred stablecoins.",
@@ -417,7 +417,7 @@
         "Serverless"
       ],
       "online": true,
-      "registrations": 5838,
+      "registrations": 6029,
       "link": "https://opencv26.devpost.com/",
       "fit_score": 2,
       "reason": "The themes (IoT, AI, Serverless) require heavy technical development skills which you've explicitly listed as 'Not for me'.",
@@ -439,7 +439,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1006,
+      "registrations": 1023,
       "link": "https://aws-cds-partner.devpost.com/",
       "fit_score": 2,
       "reason": "This is a technical developer hackathon focused on AI and mobile, which clashes with your preference against heavy coding and development.",
@@ -461,50 +461,13 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1212,
+      "registrations": 1245,
       "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
       "fit_score": 2,
       "reason": "This is a technical AI/AR development hackathon, which clashes with your preference to avoid heavy coding and development.",
       "effort": "high",
       "scam_risk": "low",
       "scam_reason": "Perfect Corp is a legitimate company and Devpost is a trusted platform."
-    },
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
-      "title": "Crea Contenido para Promocionar El Encuentro 2026 en Madrid",
-      "sponsor": "La Familia",
-      "sponsor_verified": true,
-      "reward": 2000,
-      "token": "USDG",
-      "deadline": "2026-10-24T22:59:59.999Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Global",
-      "link": "https://superteam.fun/earn/listing/crea-contenido-para-promocionar-el-encuentro-2026",
-      "skills": [
-        {
-          "skills": "Content",
-          "subskills": [
-            "Writing",
-            "Video",
-            "Social Media"
-          ]
-        },
-        {
-          "skills": "Design",
-          "subskills": [
-            "Graphic Design",
-            "Illustration"
-          ]
-        }
-      ],
-      "description": "About La Familia\nLa Familia es la comunidad de Solana en España. Nuestro objetivo es conectar a builders, fundadores y proyectos, creando un espacio para aprender y crecer juntos. Organizamos eventos y quedadas para que la comunidad se conozca en persona.\nMission\nQueremos que nos ayudes a correr la voz sobre El Encuentro 2026, el evento Solana del año en España. Crea contenido original que invite a la gente a venir y reservar su plaza.\nScope Detail\n-\nGenera contenido que invite a la comunidad a asistir a El Encuentro 2026.\n-\nComunica de qué trata el evento y por qué es una oportunidad única.\n-\nAnima a la gente a reservar su plaza gratuita.\n-\nPuedes crear:\n-\nHilos o posts para X.\n-\nVídeos cortos para TikTok, Reels, Shorts o YouTube.\n-\nPosts para Instagram o LinkedIn.\n-\nArtículos de blog o newsletter.\n-\nMemes, ilustraciones o diseños propios.\nSubmission Requirements\n-\nDebes incluir obligatoriamente el enlace https://lafamilia.so/ir/encuentro-st en tu publicación (en el texto, descripción, biografía o donde sea apropiado para el formato). Las entregas sin este enlace no serán evaluadas.\n-\nEl contenido debe ser original y publicado durante el período del bounty.\n-\nMenciona a @LaFamilia_so en X o la cuenta de La Familia en la red social que utilices.\n-\nEl contenido debe estar en español.\n-\nNo se aceptará contenido generado íntegramente con IA sin aportación propia, ni el uso de bots o interacciones compradas.\n-\nEnvía el enlace a tu publicación en el formulario de entrega.\n-\nSe permite más de una pieza por participante, pero valoramos la calidad por encima de la cantidad.\nJudging Criteria\n-\nCreatividad y originalidad del contenido.\n-\nCapacidad para transmitir la esencia del evento y la importancia de asistir.\n-\nCalidad general de la producción.\n-\nAlcance e interacción real generada por la publicación (no se tendrá en cuenta el alcance comprado).\n-\nConexión con la cultura y la comunidad española.\nResources\n-\nWeb oficial de El Encuentro 2026: https://lafamilia.so/ir/encuentro-st\n-\nCartel descargable del evento: https://lafamilia.so/el-encuentro/cartel.jpg\nReward Structure\n-\n1st Place: 500 USDC + Entrada gratuita a Merge Madrid\n-\n2nd Place: 400 USD\n-\n3rd Place: 300 USD\n-\n4th Place: 200 USD\n-\n5th Place: 200 USD\n-\nBonus 6-10: 80 USD\n-\nLos ganadores se anunciarán en directo en El Encuentro, el evento anual de La Familia, el 26 de octubre en Madrid. Si puedes, ven a vivirlo con nosotros: https://lafamilia.so/ir/encuentro-st",
-      "fit_score": 1,
-      "reason": "The bounty explicitly requires content in Spanish, but you only write in English.",
-      "effort": "medium",
-      "scam_risk": "low",
-      "scam_reason": "The sponsor is verified by Superteam."
     },
     {
       "kind": "bounty",
@@ -556,7 +519,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 661,
+      "registrations": 668,
       "link": "https://code-for-humanity.devpost.com/",
       "fit_score": 1,
       "reason": "The prize is $0 and the focus on 'coding' doesn't align with your research and content strengths.",
@@ -578,7 +541,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 363,
+      "registrations": 369,
       "link": "https://syntax-summit.devpost.com/",
       "fit_score": 1,
       "reason": "The themes are highly technical (DevOps, AI, RPA) and there is no monetary reward, neither of which align with your skills or preferences.",
@@ -600,7 +563,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 66,
+      "registrations": 74,
       "link": "https://mathematics-systems-security.devpost.com/",
       "fit_score": 1,
       "reason": "This is a highly technical math and security event with no monetary reward, which doesn't match your skill set or your preference for USDC/USDG.",
@@ -671,11 +634,6 @@
       "title": "Travel boost: Create Content for Breakpoint 2026",
       "region": "Germany",
       "link": "https://superteam.fun/earn/listing/travel-boost-for-bp26"
-    },
-    {
-      "title": "Colosseum: Founder Support - Talk to 5 Users",
-      "region": "Netherlands",
-      "link": "https://superteam.fun/earn/listing/colosseum-founder-support-talk-to-5-users"
     },
     {
       "title": "Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje",

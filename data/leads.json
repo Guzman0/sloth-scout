@@ -1,76 +1,22 @@
 {
-  "found_at": "2026-10-24T09:19:38+00:00",
+  "found_at": "2026-10-25T10:56:06+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
       "source": "dorahacks.io",
-      "title": "HashKey Chain Horizon Hackathon · India",
-      "snippet": "The HashKey Chain Horizon Hackathon. The hackathon focuses on the practical implementation of AI and cutting-edge decentralized technologies in DeFi scenarios.",
-      "link": "https://dorahacks.io/hackathon/hskchainindia/",
+      "title": "dreamDEX Perps Builder Bounty | Hackathon",
+      "snippet": "dreamDEX Perps Builder Bounty. Prize Pool. 3,000 USD. event timeline (UTC-7). 12 days left for submission. Upcoming. Submission. 2026/10/19 05:00. Deadline.",
+      "link": "https://dorahacks.io/hackathon/dreamdex-perps-bounty/announcements",
       "query": "site:dorahacks.io/hackathon bounty",
       "why_unverified": "not opened in the browser this run"
     },
     {
       "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "AI Yako | Hackathon",
-      "snippet": "Yako, Swahili for \"Your AI\", is a one-week hackathon hosted with Node NBO in Nairobi. Build useful applications with QVAC, Dates: 24 to 31 October 2026.",
-      "link": "https://dorahacks.io/hackathon/ai-yako",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "BSA - EPFL | The Hackathon",
-      "snippet": "Get ready for a **33-hour hackathon** hosted by the **Blockchain Student Association&nbsp;... Prize Pool 5,700 USD. Deadline 2026/10/11 01:00",
-      "link": "https://dorahacks.io/hackathon/bsa-the-hackathon",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "Portaldot Hacker house 2026 | Hackathon",
-      "snippet": "PortalProof helps creators and clients manage commissions with verifiable agreement, delivery, and payment records on Portaldot V3, making creative work safer ...",
-      "link": "https://dorahacks.io/hackathon/portaldot-hacker-house-2026",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "BSA - EPFL | The Hackathon",
-      "snippet": "**33-hour hackathon** 1st Prize: $1,200 USD 2nd Prize: $600 USD 3rd Prize: $300 USD … 1st Prize: $1,600 USD 2nd Prize: $1,000 USD",
-      "link": "https://dorahacks.io/hackathon/bsa-the-hackathon/tracks",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "Arc Microgrants: Built with Arc Studio | Hackathon",
-      "snippet": "Arc Studio is the onchain coding agent for building on it. Prize Pool 4,000 USD. Deadline 2026/11/01 20:59 Virtual Hackathon … get the answers you need.",
-      "link": "https://dorahacks.io/hackathon/arc-microgrants-2/qa",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "sherlock.xyz",
-      "title": "Web3 Penetration Testing: A Guide for Protocols and ...",
-      "snippet": "Web3 penetration testing is an adversarial security assessment. Researchers earn their reputation through audit contests and bug bounties, by learning the ...",
-      "link": "https://sherlock.xyz/post/web3-penetration-testing-a-guide-for-protocols-and-security-researchers-2026",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "cyberpress.org",
-      "title": "8 Bug Bounty Platforms: Our Top Picks by Use Case (2026)",
-      "snippet": "VDP to public program, EU to web3. Our bug bounty guide maps 8 platforms — Intigriti, HackerOne, Synack, Hackrate — to your maturity stage and jurisdiction.",
-      "link": "https://cyberpress.org/bug-bounty-platforms-by-use-case/",
+      "source": "ethereum.org",
+      "title": "Bug Bounty Program",
+      "snippet": "Earn up to 1,000,000 USD and a place on the leaderboard by finding protocol, client and language compiler bugs affecting the Ethereum network. Submit a bug ( ...",
+      "link": "https://ethereum.org/bug-bounty/",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     }
