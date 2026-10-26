@@ -1,23 +1,23 @@
 {
-  "fetched_at": "2026-10-25T10:56:25+00:00",
+  "fetched_at": "2026-10-26T12:27:27+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
       "kind": "hackathon",
       "source": "Devpost",
-      "title": "IEEE ClimateChain Global Hackathon",
-      "sponsor": "IEEE Turkey",
-      "prize_total": "$3,000",
-      "deadline": "2026-10-25",
-      "dates": "Oct 05 - 25, 2026",
+      "title": "Dakar Bitcoin Hack by BTrust",
+      "sponsor": "Dakar Bitcoin Days",
+      "prize_total": "$900",
+      "deadline": "2026-11-20",
+      "dates": "Oct 26 - Nov 20, 2026",
       "themes": [
         "Blockchain",
-        "Machine Learning/AI",
-        "Social Good"
+        "Fintech",
+        "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1186,
-      "link": "https://ieee-climatechain-hack.devpost.com/"
+      "registrations": 19,
+      "link": "https://dakar-bitcoin-hack-2026.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -33,7 +33,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 63,
+      "registrations": 74,
       "link": "https://herhack.devpost.com/"
     },
     {
@@ -50,7 +50,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 27116,
+      "registrations": 27655,
       "link": "https://nebiusglobalaihackathon.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 20862,
+      "registrations": 21696,
       "link": "https://paypalaihackathon.devpost.com/"
     },
     {
@@ -84,7 +84,7 @@
         "Serverless"
       ],
       "online": true,
-      "registrations": 6029,
+      "registrations": 6184,
       "link": "https://opencv26.devpost.com/"
     },
     {
@@ -101,7 +101,7 @@
         "Education"
       ],
       "online": true,
-      "registrations": 4868,
+      "registrations": 5028,
       "link": "https://learn-ai-basics.devpost.com/"
     },
     {
@@ -118,7 +118,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 3928,
+      "registrations": 4046,
       "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
@@ -135,7 +135,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 3116,
+      "registrations": 3245,
       "link": "https://gitlab-transcend.devpost.com/"
     },
     {
@@ -150,7 +150,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 2363,
+      "registrations": 2479,
       "link": "https://qloo.devpost.com/"
     },
     {
@@ -167,7 +167,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1023,
+      "registrations": 1038,
       "link": "https://aws-cds-partner.devpost.com/"
     },
     {
@@ -184,25 +184,8 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1245,
+      "registrations": 1284,
       "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Learn AR with SPECS",
-      "sponsor": "Devpost",
-      "prize_total": "$2,500",
-      "deadline": "2026-11-09",
-      "dates": "Oct 15 - Nov 09, 2026",
-      "themes": [
-        "AR/VR",
-        "Machine Learning/AI",
-        "Design"
-      ],
-      "online": true,
-      "registrations": 681,
-      "link": "https://learn-specs.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -218,8 +201,25 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 471,
+      "registrations": 838,
       "link": "https://twitchcon-codex.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Learn AR with SPECS",
+      "sponsor": "Devpost",
+      "prize_total": "$2,500",
+      "deadline": "2026-11-09",
+      "dates": "Oct 15 - Nov 09, 2026",
+      "themes": [
+        "AR/VR",
+        "Machine Learning/AI",
+        "Design"
+      ],
+      "online": true,
+      "registrations": 757,
+      "link": "https://learn-specs.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -235,7 +235,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 327,
+      "registrations": 440,
       "link": "https://ugreenhackathon.devpost.com/"
     },
     {
@@ -252,7 +252,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 668,
+      "registrations": 679,
       "link": "https://code-for-humanity.devpost.com/"
     },
     {
@@ -269,7 +269,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 527,
+      "registrations": 563,
       "link": "https://arbiter-hacks-v1.devpost.com/"
     },
     {
@@ -286,7 +286,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 369,
+      "registrations": 376,
       "link": "https://syntax-summit.devpost.com/"
     },
     {
@@ -303,25 +303,8 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 185,
+      "registrations": 252,
       "link": "https://nextspark-hacks.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "HackWithAditya",
-      "sponsor": "Aditya University",
-      "prize_total": "₹500,000",
-      "deadline": "2026-11-25",
-      "dates": "Oct 16 - Nov 25, 2026",
-      "themes": [
-        "Education",
-        "Health",
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 77,
-      "link": "https://hackwithaditya.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -337,8 +320,25 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 74,
+      "registrations": 88,
       "link": "https://mathematics-systems-security.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "HackWithAditya",
+      "sponsor": "Aditya University",
+      "prize_total": "₹500,000",
+      "deadline": "2026-11-25",
+      "dates": "Oct 16 - Nov 25, 2026",
+      "themes": [
+        "Education",
+        "Health",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 83,
+      "link": "https://hackwithaditya.devpost.com/"
     }
   ]
 }

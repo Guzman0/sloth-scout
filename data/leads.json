@@ -1,24 +1,5 @@
 {
-  "found_at": "2026-10-25T10:56:06+00:00",
+  "found_at": "2026-10-26T12:27:08+00:00",
   "verified": [],
-  "unverified": [
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "dreamDEX Perps Builder Bounty | Hackathon",
-      "snippet": "dreamDEX Perps Builder Bounty. Prize Pool. 3,000 USD. event timeline (UTC-7). 12 days left for submission. Upcoming. Submission. 2026/10/19 05:00. Deadline.",
-      "link": "https://dorahacks.io/hackathon/dreamdex-perps-bounty/announcements",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "ethereum.org",
-      "title": "Bug Bounty Program",
-      "snippet": "Earn up to 1,000,000 USD and a place on the leaderboard by finding protocol, client and language compiler bugs affecting the Ethereum network. Submit a bug ( ...",
-      "link": "https://ethereum.org/bug-bounty/",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    }
-  ]
+  "unverified": []
 }

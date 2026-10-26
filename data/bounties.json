@@ -1,32 +1,7 @@
 {
-  "fetched_at": "2026-10-25T10:56:09+00:00",
+  "fetched_at": "2026-10-26T12:27:11+00:00",
   "source": "https://superteam.fun/api/listings",
   "bounties": [
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
-      "title": "Travel boost: Create Content for Breakpoint 2026",
-      "sponsor": "Superteam Germany",
-      "sponsor_verified": true,
-      "reward": 6000,
-      "token": "USDG",
-      "deadline": "2026-10-25T21:59:59.000Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Germany",
-      "link": "https://superteam.fun/earn/listing/travel-boost-for-bp26",
-      "skills": [
-        {
-          "skills": "Content",
-          "subskills": [
-            "Writing",
-            "Social Media",
-            "Video"
-          ]
-        }
-      ],
-      "description": "About Superteam Germany\nSuperteam Germany is part of a global network of communities building the Solana ecosystem. We're all about empowering developers and creators to build cool stuff on Solana. We host events, bounties, and provide resources to help folks get started and grow in the Solana space.\nMission\nCreate banger content about Breakpoint 2026 !\n✨ If you've never been, let us know why you're dying to go this year.\n✨ Or share your best memories at Breakpoint.\n👉 The goal is simple: Make people feel excited, included, and compelled to attend.\nDepending on your audience, your content could speak to:\n-\nNewcomers on Solana who don’t know yet what to expect of Breakpoint\n-\nBuilders / developers\n-\nCommunity members & power users\nScope Detail\n-\nCreate a social media post on X, Instagram or LinkedIn expressing your excitement for Breakpoint 2026 (https://solana.com/breakpoint)\n-\nYour CTA should invite people to register for the event: https://luma.com/breakpoint2026?tk=HYnlfc\n-\nHighlight a Germany/Superteam Germany angle in your post. This could be anything from being member of the German Solana community or your excitement to meet us there.\n-\nQuote Retweet (QRT) this post with a thoughtful comment.\n-\nTag both @SolanaEvents and @SuperteamDE in your post.\n-\nAny type of image or video content is allowed (AI, animation, personal, ..)\nSubmission Requirements\n-\nA link to your original social media post.\n-\nA link to Quote Retweet of Superteam Germany's announcement post.\n-\nContent must be in English.\n-\nEnsure both required tags (@SolanaEvents and @SuperteamDE) are included.\n-\nInclude the CTA link: https://luma.com/breakpoint2026?tk=HYnlfc\nJudging Criteria\n-\nCreativity and Engagement: How interesting and engaging is your post?\n-\nClarity of Enthusiasm: Does your post clearly show what you're excited about for Breakpoint?\n-\nCorrect Tags: Have you correctly tagged @SolanaEvents and @SuperteamDE?\n-\nCompletion of Requirements: Have you submitted both an original post and a QRT?\n-\nVideo submissions are favored\nRewards\nWe will pick 15 winners to receive a travel boost worth 400 USDG each."
-    },
     {
       "kind": "bounty",
       "source": "Superteam Earn",
@@ -47,6 +22,35 @@
         }
       ],
       "description": "About Vaultline Security\nVaultline Security works to make Web3 safer. We believe strong security is essential for the ecosystem to grow and for builders and users to trust decentralized technology.\nThe Opportunity\nWe're offering audit grants to 10 Solana projects from the Colosseum Hackathon. Each selected team will receive a Vaultline security audit, either fully covered or at a significant discount, to strengthen their security before launch or scale.\nWhat the Grant Covers\n-\nEach grant is worth up to 4,000 USDC in audit services, applied directly to a Vaultline audit. It is not paid out as cash.\n-\nSolana programs (Anchor or native) are in scope.\n-\nThere's no fixed size limit. Vaultline will review each codebase and provide a full quote based on its complexity and lines of code. If the quote is within the grant amount, the audit is fully covered. If it's higher, the grant is applied as a discount.\nWho Should Apply\nSolana projects that took part in the Colosseum Hackathon and meet these conditions:\n-\nThe codebase is feature-complete or close to it, so audit scope won't change significantly.\n-\nThe code is in a repository Vaultline can access.\n-\nThe team can respond to findings and implement fixes after the audit.\n-\nThe team is prepared to cover any remaining cost if their quote exceeds the grant amount.\nWhat to Submit\nAnswer the application question with:\n-\nProject name, short description, and Colosseum submission link\n-\nRepository link and the specific programs to be audited\n-\nApproximate lines of code (required, so we can quote accurately)\n-\nCurrent stage (devnet, testnet, or mainnet), plus any user or TVL figures\n-\n1-2 paragraphs on why an audit matters for your project right now\n-\nTeam contact details\nSelection Criteria\n-\nProject potential: How impactful and innovative is the project within the Solana ecosystem?\n-\nAudit need: How much do user funds or trust depend on the code being secure?\n-\nReadiness: Is the codebase mature and stable enough for a meaningful audit?\nRewards\n10 audit grants, each worth up to 4,000 USDC in Vaultline audit services. Final grant value is based on each project's custom quote.\nTimeline\n-\nApplications close: October 31, 2026\n-\nSelected projects announced: November 2, 2026\nAnnouncement\nVaultline will announce the selected projects on Superteam Earn, Twitter, and LinkedIn. By applying, selected teams agree to be named in the announcement and to share the post from their own accounts."
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "RaptorX Research Challenge: Ask Better Questions. Find Better Alpha.",
+      "sponsor": "RaptorX Labs",
+      "sponsor_verified": false,
+      "reward": 125,
+      "token": "USDC",
+      "deadline": "2026-11-02T03:59:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "AGENT_ALLOWED",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/raptorx-research-challenge-ask-better-questions-find-better-alpha",
+      "skills": [
+        {
+          "skills": "Content",
+          "subskills": [
+            "Research"
+          ]
+        },
+        {
+          "skills": "Other",
+          "subskills": [
+            "Product Feedback"
+          ]
+        }
+      ],
+      "description": "About RaptorX\nRaptorX is your AI for Internet Markets. An intelligent research and trading platform that helps users discover, analyze, and trade cryptocurrencies and prediction markets, all in one place.\nPowered by its proprietary REX AI 5.0, RaptorX transforms complex market data into actionable research reports and allows users to interact with AI to uncover deeper insights, evaluate opportunities, and make better-informed trading decisions.\nExplore RaptorX: https://www.raptorx.trade\n1. About the Challenge\nChoose a cryptocurrency, generate a report within RaptorX, and talk to our AI model with an intelligent question about that report.\nWe want to see how you think, how you interpret market intelligence, and how effectively you use AI to explore a cryptocurrency beyond surface-level price movements.\nThe best questions win.\n2. How the Challenge Works\nStep 1: Visit RaptorX\nHead to https://www.raptorx.trade and access the RaptorX platform.\nExplore RexScreener and the AI-powered research capabilities available through Claw AI.\nStep 2: Choose Your Cryptocurrency\nSelect a legitimate cryptocurrency from Solana:\nYour chosen cryptocurrency should have a genuine project, identifiable utility, credible market activity, or an established presence in the ecosystem.\nImportant: Avoid obvious scam tokens, rug pulls, fraudulent projects, or coins with no credible fundamentals. We want participants to analyze genuine market opportunities, not deliberately questionable assets.\nYou are free to choose an established cryptocurrency or an emerging project, provided it is a legitimate asset available for analysis on RaptorX.\nStep 3: Generate Your AI Research Report\nUse RaptorX to generate any number of AI research reports from the cryptocurrencies listed on the platform.\nStep 4: Talk to REX AI 5.0 With Your Questions\nThis is the most important part of the competition.\nAfter generating your report, start a conversation with our AI and ask at least 1+ meaningful questions directly related to your report.\nYour question should demonstrate that you've understood the report and are thinking critically about the information presented.\nYou can challenge the model to explain conflicting signals, examine market risks, evaluate assumptions, compare scenarios, or investigate something the report hasn't fully addressed.\nYou are encouraged to ask follow-up questions when they help you investigate an insight more deeply.\nImportant: The more reports you generate and the more questions you ask, the higher the chance of winning.\nStep 5: Submit Your Entry on Superteam Earn\nOnce you've completed your research and AI conversation, submit your participation evidence by screenshotting the reports you generated and the questions you asked our AI, through this Superteam Earn bounty\nEnsure your screenshots are legible and clearly demonstrate that the research and AI interaction took place on RaptorX.\n3. What Makes a Winning Question?\nWe're looking for questions that demonstrate genuine analytical thinking, not simply prompts that ask AI to predict a token's price.\nA strong question connects information from the generated report to a meaningful market hypothesis, uncertainty, contradiction, or opportunity.\nExamples of Basic vs. Strong Questions\nExample 1: Market Momentum\nBasic question:\n\"Will this coin go up?\"\nStrong question:\n\"The report identifies increasing trading volume alongside weakening price momentum. Could this indicate accumulation, distribution, or a temporary liquidity event? Which additional indicators would help distinguish these scenarios?\"\nExample 2: Liquidity and Market Risk\nBasic question:\n\"Is this token safe to buy?\"\nStrong question:\n\"Based on the liquidity and trading activity highlighted in this report, how vulnerable is this asset to large sell orders? What changes in market depth or volume would signal increasing downside risk?\"\nExample 3: Market Valuation\nBasic question:\n\"Is this coin undervalued?\"\nStrong question:\n\"The report suggests strong market interest in this asset. How would you distinguish genuine fundamental demand from speculative activity, and what evidence would be necessary to justify its current valuation?\"\nThese are illustrative examples. Originality matters. We encourage you to develop questions based on the specific findings of your own report rather than simply copying the examples above.\n4. How Winners Will Be Selected\nWinners will be chosen based on the quality of the questions they ask the RaptorX AI model.\nImportant: Winners will not be selected based on the popularity of their chosen cryptocurrency, the performance of that token, or the number of questions submitted.\nA single exceptional question can outperform an entry containing many basic questions.\nThe quality of your reasoning is what matters.\n5. Participation Rules\n-\nParticipants must use RaptorX to generate their cryptocurrency research report.\n-\nEach entry must contain at least one AI-generated report and one relevant question asked directly to the RaptorX AI model.\n-\nThe selected cryptocurrency must belong to Solana\n-\nScam tokens, obvious rug pulls, and fraudulent projects are not eligible.\n-\nQuestions must be relevant to the specific cryptocurrency and research report submitted.\n-\nGeneric questions, copied examples, and submissions without evidence of AI interaction may be disqualified.\n-\nParticipants must submit the required evidence through Superteam Earn.\n-\nThe RaptorX team's evaluation will prioritize question quality, analytical reasoning, and originality.\nStart here: https://www.raptorx.trade\nDon't just follow the market. Question it.\nThe best question wins, followed by the 2nd best!"
     },
     {
       "kind": "bounty",

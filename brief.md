@@ -1,12 +1,15 @@
-# 🦥 Sloth Scout brief: Sunday, October 25, 2026
-
-> ⚠️ Skipped this run: Browserbase reading. See Sources at the bottom.
+# 🦥 Sloth Scout brief: Monday, October 26, 2026
 
 ## New today
 
 ### Bounties
 
-No new good-fit bounties today.
+#### 1. RaptorX Research Challenge: Ask Better Questions. Find Better Alpha.
+- **Reward:** 125 USDC   **Deadline:** 2026-11-02
+- **Fit:** 10/10. This perfectly aligns with your strengths in research and market analysis, pays in USDC, and is open to your location.
+- **Effort:** medium
+- **Scam risk:** medium. The sponsor is not verified by Superteam, and you are required to interact with an external trading platform.
+- **Link:** https://superteam.fun/earn/listing/raptorx-research-challenge-ask-better-questions-find-better-alpha
 
 ### Hackathons
 
@@ -25,23 +28,20 @@ From earlier briefs, still accepting entries:
 
 ## Notes
 
-- Poor fits (score under 5): 20.
-- Not open to your region (Germany, Spain, Ukraine), so not ranked: 3.
+- Poor fits (score under 5): 19.
+- Not open to your region (Spain, Ukraine), so not ranked: 2.
+- Couldn't rank 1 (will retry next run): Dakar Bitcoin Hack by BTrust.
 
 ## Unverified leads
 
-Found by search but missing a reward or deadline, so not ranked. Check these by hand.
-
-- [dreamDEX Perps Builder Bounty | Hackathon](https://dorahacks.io/hackathon/dreamdex-perps-bounty/announcements) (dorahacks.io): not opened in the browser this run
-- [Bug Bounty Program](https://ethereum.org/bug-bounty/) (ethereum.org): not opened in the browser this run
+None today.
 
 ## Sources
 
-- ✅ **Superteam Earn:** 9 open bounties (17.1s)
+- ✅ **Superteam Earn:** 9 open bounties (16.5s)
 - ✅ **Devpost:** 20 open online Blockchain or AI/ML hackathons (0.3s)
-- ✅ **SerpApi search:** 2 new listing links from 4 searches (2.6s)
-- ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
-- ✅ **ElevenLabs audio:** site/brief.mp3, 541 characters (1.3s)
+- ✅ **SerpApi search:** 0 new listing links from 4 searches (2.9s)
+- ✅ **ElevenLabs audio:** site/brief.mp3, 386 characters (1.4s)
 - ✅ **Memory:** MongoDB Atlas
 
 Ranked by gemma-4-31b-it.
