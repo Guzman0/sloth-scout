@@ -1,12 +1,15 @@
-# 🦥 Sloth Scout brief: Tuesday, October 27, 2026
-
-> ⚠️ Skipped this run: Browserbase reading. See Sources at the bottom.
+# 🦥 Sloth Scout brief: Wednesday, October 28, 2026
 
 ## New today
 
 ### Bounties
 
-No new good-fit bounties today.
+#### 1. Create Content About KriptoK · 200 USDC Creator Challenge
+- **Reward:** 200 USDC   **Deadline:** 2026-11-18
+- **Fit:** 9/10. This perfectly matches your skills in X threads, product analysis, and UX feedback, and aligns with your location and payment preferences.
+- **Effort:** medium
+- **Scam risk:** medium. The sponsor is not verified by Superteam.
+- **Link:** https://superteam.fun/earn/listing/kriptok-creator-challenge-01
 
 ### Hackathons
 
@@ -25,23 +28,20 @@ From earlier briefs, still accepting entries:
 
 ## Notes
 
-- Poor fits (score under 5): 15.
+- Poor fits (score under 5): 16.
 - Not open to your region (Spain, Ukraine), so not ranked: 2.
-- Couldn't rank 3 (will retry next run): Panta x NectarFi Trading Competition Bounty; Dakar Bitcoin Hack by BTrust; Mathematics for systems security.
+- Couldn't rank 4 (will retry next run): Panta x NectarFi Trading Competition Bounty; Write an original science fiction novel on Sempai HQ.; Codegeist 2026: Build with context. Ship with confidence.; Build Your First AI App.
 
 ## Unverified leads
 
-Found by search but missing a reward or deadline, so not ranked. Check these by hand.
-
-- [WEB3 BUG BOUNTY HUNTER GUIDE](https://techonquer.org/web3-bug-bounty-hunter-guide) (techonquer.org): not opened in the browser this run
+None today.
 
 ## Sources
 
-- ✅ **Superteam Earn:** 9 open bounties (16.8s)
-- ✅ **Devpost:** 17 open online Blockchain or AI/ML hackathons (0.4s)
-- ✅ **SerpApi search:** 1 new listing links from 4 searches (2.9s)
-- ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
-- ✅ **ElevenLabs audio:** site/brief.mp3, 529 characters (1.4s)
+- ✅ **Superteam Earn:** 11 open bounties (19.5s)
+- ✅ **Devpost:** 18 open online Blockchain or AI/ML hackathons (0.3s)
+- ✅ **SerpApi search:** 0 new listing links from 4 searches (4.5s)
+- ✅ **ElevenLabs audio:** site/brief.mp3, 376 characters (1.4s)
 - ✅ **Memory:** MongoDB Atlas
 
 Ranked by gemma-4-31b-it.

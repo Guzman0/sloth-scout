@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T11:46:22+00:00",
+  "fetched_at": "2026-10-28T12:19:54+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 38,
+      "registrations": 60,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 82,
+      "registrations": 93,
       "link": "https://herhack.devpost.com/"
     },
     {
@@ -50,7 +50,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 28104,
+      "registrations": 28610,
       "link": "https://nebiusglobalaihackathon.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 22452,
+      "registrations": 23195,
       "link": "https://paypalaihackathon.devpost.com/"
     },
     {
@@ -84,25 +84,8 @@
         "Web"
       ],
       "online": true,
-      "registrations": 4173,
+      "registrations": 4316,
       "link": "https://start-developer-competition-26.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Life After Code",
-      "sponsor": "GitLab",
-      "prize_total": "$45,000",
-      "deadline": "2026-10-27",
-      "dates": "Oct 05 - 27, 2026",
-      "themes": [
-        "DevOps",
-        "Machine Learning/AI",
-        "Productivity"
-      ],
-      "online": true,
-      "registrations": 3326,
-      "link": "https://gitlab-transcend.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -116,7 +99,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 2576,
+      "registrations": 2694,
       "link": "https://qloo.devpost.com/"
     },
     {
@@ -133,7 +116,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1203,
+      "registrations": 1454,
       "link": "https://twitchcon-codex.devpost.com/"
     },
     {
@@ -150,7 +133,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1334,
+      "registrations": 1386,
       "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/"
     },
     {
@@ -167,7 +150,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1054,
+      "registrations": 1094,
       "link": "https://aws-cds-partner.devpost.com/"
     },
     {
@@ -184,7 +167,7 @@
         "Design"
       ],
       "online": true,
-      "registrations": 832,
+      "registrations": 885,
       "link": "https://learn-specs.devpost.com/"
     },
     {
@@ -201,7 +184,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 545,
+      "registrations": 622,
       "link": "https://ugreenhackathon.devpost.com/"
     },
     {
@@ -218,7 +201,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 687,
+      "registrations": 701,
       "link": "https://code-for-humanity.devpost.com/"
     },
     {
@@ -235,8 +218,25 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 596,
+      "registrations": 649,
       "link": "https://arbiter-hacks-v1.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Codegeist 2026: Build with context. Ship with confidence.",
+      "sponsor": "Atlassian",
+      "prize_total": "$120,000",
+      "deadline": "2026-12-22",
+      "dates": "Oct 27 - Dec 22, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Enterprise",
+        "Productivity"
+      ],
+      "online": true,
+      "registrations": 234,
+      "link": "https://codegeist2026.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -252,7 +252,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 381,
+      "registrations": 383,
       "link": "https://syntax-summit.devpost.com/"
     },
     {
@@ -269,7 +269,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 98,
+      "registrations": 101,
       "link": "https://mathematics-systems-security.devpost.com/"
     },
     {
@@ -286,8 +286,25 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 88,
+      "registrations": 94,
       "link": "https://hackwithaditya.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Build Your First AI App",
+      "sponsor": "Yasir Insights",
+      "prize_total": "$0",
+      "deadline": "2026-11-27",
+      "dates": "Oct 27 - Nov 27, 2026",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 29,
+      "link": "https://build-your-first-ai-app.devpost.com/"
     }
   ]
 }

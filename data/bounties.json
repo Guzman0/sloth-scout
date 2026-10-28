@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T11:46:06+00:00",
+  "fetched_at": "2026-10-28T12:19:35+00:00",
   "source": "https://superteam.fun/api/listings",
   "bounties": [
     {
@@ -200,6 +200,50 @@
     {
       "kind": "bounty",
       "source": "Superteam Earn",
+      "title": "Create Content About KriptoK · 200 USDC Creator Challenge",
+      "sponsor": "KriptoK",
+      "sponsor_verified": false,
+      "reward": 200,
+      "token": "USDC",
+      "deadline": "2026-11-18T20:59:59.999Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/kriptok-creator-challenge-01",
+      "skills": [
+        {
+          "skills": "Content",
+          "subskills": [
+            "Social Media",
+            "Writing"
+          ]
+        },
+        {
+          "skills": "Growth",
+          "subskills": [
+            "Marketing",
+            "Digital Marketing"
+          ]
+        },
+        {
+          "skills": "Community",
+          "subskills": [
+            "Community Manager",
+            "Discord Moderator"
+          ]
+        },
+        {
+          "skills": "Other",
+          "subskills": [
+            "Product Feedback"
+          ]
+        }
+      ],
+      "description": "KriptoK Creator Challenge\nShow people what you can do with KriptoK, in your own style.\nWe're running a three-week creator challenge with 200 USDC in prizes. Explore the platform, create content around the products you find interesting and get involved in the KriptoK community.\nWhat to do\n-\nFollow @KriptoK and @KriptoKLeague on X.\n-\nStay active throughout the challenge. Join conversations under our posts, share your perspective and connect with people engaging with your content.\n-\nPublish one original piece of content about KriptoK. Posts, threads, videos and product walkthroughs are all welcome. Choose the format that works best for your idea.\n-\nTag @KriptoK in product content and @KriptoKLeague when covering the League.\n-\nSubmit your content link through Superteam Earn before the deadline. If you create multiple pieces, submit your strongest one. You can also include examples of conversations you contributed to during the challenge.\nWhat you can create\nChoose an angle that interests you. You don’t need to cover everything.\n-\nPerpetuals trading: Show your trading setup, explain how you use limit orders, stop-loss or take-profit, or share how you track your performance.\n-\nPre-IPO markets: Explore pre-IPO perpetuals such as Anthropic and what makes these markets interesting to you.\n-\nTokenized stocks: Introduce the stocks available on KriptoK or connect a company story you’re following to the product.\n-\nEarn: Give a quick tour of Earn or show how it fits into your onchain routine.\n-\nGacha and collectibles: Explore Gacha, share a card opening or introduce the collectibles experience.\n-\nEveryday onchain use: Show how you send, receive or swap assets, or explain self-custody through a simple everyday example.\n-\nKriptoK League: Follow the competition, highlight a leaderboard story or share your perspective on a round.\n-\nYour experience: Share something you discovered, a feature you found useful or an honest first impression.\nKeep it natural and focus on one clear idea. A simple post with a good angle can be just as effective as a polished video.\nHow we choose winners\nWe’ll review your three pieces and your participation throughout the challenge.\n-\nAudience engagement and conversation: 40%\nThe conversations your content creates, how you connect with your audience and your contributions to the KriptoK community.\n-\nUsefulness and clarity: 30%\nHow well your content introduces a product, explains a use case or helps someone discover KriptoK.\n-\nProduct accuracy: 20%\nHow well your content represents the product and its features.\n-\nOriginality and presentation: 10%\nYour own perspective, storytelling and execution.\nYou don’t need a large following to win. We’re looking for thoughtful content and meaningful interaction.\nRewards\n-\n1st place: 50 USDC\n-\n2nd place: 35 USDC\n-\n3rd place: 25 USDC\n-\n4th–5th place: 20 USDC each\n-\n6th–10th place: 10 USDC each\nTen creators will win based on their complete entries. One prize per person.\nA few essentials\n-\nUse your own words and creative approach.\n-\nCreate in English or include English subtitles.\n-\nShare honest opinions and experiences.\n-\nSubmit your three strongest pieces together.\n-\nKeep fees outside the scope of this challenge.\n-\nNo purchase, deposit or trade is required to participate.\nResources\n-\nKriptoK website\n-\nKriptoK on X\n-\nKriptoK League on X\n-\nLeague leaderboard"
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
       "title": "Create Content on Premier League Predictions with worm 🪱⚽",
       "sponsor": "worm ",
       "sponsor_verified": false,
@@ -220,6 +264,29 @@
         }
       ],
       "description": "gworm! The Premier League is back, and so is our content bounty 🪱⚽\nworm is the one and only leveraged prediction market on Solana.\nAbout Premier League on worm\n-\nPredict every Premier League match, right on worm.wtf\n-\nAll 20 clubs. Every match.\n-\nEvery outcome is a live %. It's the market's chance, and it moves as the match plays out.\n-\nPrize pool paid out every week to the top 10 Premier League traders on worm, running until half season. Matchweek 6 $1,500 USDC prize pool.\n-\nLeverage up to 3× if you want to back your call harder.\n-\nRefer and earn up to 30% of your referrals' trading fees for 90 days, paid in USDC.\n-\nPremier League Markets: https://www.worm.wtf/sports?league=eng.1\nYour Mission\n-\nFollow @wormwtf on X\n-\nGo to worm.wtf, connect your wallet and grab your referral link from the Earn button at the top of the homepage\n-\nExplore a Premier League market (https://www.worm.wtf/sports?league=eng.1)\n-\nPost original content about it on X, tagging @wormwtf, ending with a call to action and your referral link.\nRules / Guardrails\n-\nMust follow @wormwtf on X\n-\nYour worm referral link is required. Grab it from the Earn button on worm.wtf. Submissions without one won't be considered\n-\nTag @wormwtf on X\n-\nEnd post with a call to action that gets people want to jump in and predict:\n-\nExamples on call to actions to use\n-\nPredict the Premier League on worm 👉 [your referral link]\n-\nThink you know ball? Prove it on worm 👉 [your referral link]\n-\nLiverpool or City? Make your call on worm 👉 [your referral link]\n-\nInclude screen shots from the site\n-\nUse the word \"Predict\" - not betting no gambling/casino framing wording.\n-\nFormats can include:\n-\nX threads\n-\nX post\n-\nVideo and images are both welcome\n-\nAll languages are welcome\nYour referral link\nAdd your worm referral link to your entry. Everyone who signs up through it and trades earns you 20% to 30% of their fees for 90 days, plus 20% of their own referral earnings. Convert well and you earn beyond the prize.\nReferral link: https://www.worm.wtf/referral\nHow We'll Pick Winners\nWe're after content from people who genuinely explored the site and can get others hyped to predict too:\nMain criteria will be based on the quality/performance of the post.\n-\nDid you actually explore? You dug into a Premier League market on worm.wtf. Include real screenshots or a screen recording, plus your referral link from the Earn button.\n-\nDo you get it? Show you understand how it works: picking an outcome, reading the % as the market's chance.\n-\nIs it good? Sharp, clear, fun to read wins.\n-\nOn-brand? Predicting, never betting, and the product details are right.\nSubmission Details\n-\nPost publicly on X and tag @wormwtf\n-\nInclude your worm unique referral link\n-\nInclude a clear call-to-action to predict using worm\n-\nSubmit your post via the Superteam Earn submission portal.\nResources\n-\nWebsite: https://worm.wtf/\n-\nPremier League Markets: https://www.worm.wtf/sports?league=eng.1\n-\nTwitter / X: https://x.com/wormwtf\n-\nDiscord: https://discord.com/invite/r2WCpmY5c\n-\nReferral link: https://www.worm.wtf/referral\n-\nPrize Pool leaderboard: https://www.worm.wtf/sports?league=eng.1&view=leaderboard\nThat's it, worms. Go make something fun, explore a few matches, and show us what you've got. We can't wait to see what you cook up 🪱⚽\nBy entering, you give Worm the right to use, repost, and edit your content anywhere."
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Write an original science fiction novel on Sempai HQ.",
+      "sponsor": "Sempai HQ",
+      "sponsor_verified": false,
+      "reward": 10,
+      "token": "USDC",
+      "deadline": "2026-12-04T22:59:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/write-an-original-science-fiction-novel-on-sempai-hq",
+      "skills": [
+        {
+          "skills": "Content",
+          "subskills": [
+            "Writing"
+          ]
+        }
+      ],
+      "description": "Write an original science fiction novel on Sempai HQ. Whether it's space epics, dystopian futures, time travel, or first contact, build a world we've never seen before.\nWhat we're looking for:\nOriginality: Fresh ideas, bold concepts, no recycled tropes.\nCohesion: A world and story that hold together, with rules that make sense.\nContinuity: Consistent characters, timelines, and details from chapter to chapter.\nThe contest: Runs for one month, then renews. The novel with the most monthly views wins $10. In $SKR\nStart your story today (October 27) and give readers a reason to keep coming back. The next great sci-fi world could be yours.\nWrite it. Publish it. Win it. ✍️"
     },
     {
       "kind": "bounty",

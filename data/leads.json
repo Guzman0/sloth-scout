@@ -1,15 +1,5 @@
 {
-  "found_at": "2026-10-27T11:46:03+00:00",
+  "found_at": "2026-10-28T12:19:32+00:00",
   "verified": [],
-  "unverified": [
-    {
-      "kind": "lead",
-      "source": "techonquer.org",
-      "title": "WEB3 BUG BOUNTY HUNTER GUIDE",
-      "snippet": "Free Web3 bug bounty roadmap by Techonquer: smart contract security, reentrancy, DeFi and oracle attacks, Foundry testing, PoC writing and a 90 day plan to ...",
-      "link": "https://techonquer.org/web3-bug-bounty-hunter-guide",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    }
-  ]
+  "unverified": []
 }
