@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-28T12:19:54+00:00",
+  "fetched_at": "2026-10-29T12:29:22+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 60,
+      "registrations": 81,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 93,
+      "registrations": 101,
       "link": "https://herhack.devpost.com/"
     },
     {
@@ -50,7 +50,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 28610,
+      "registrations": 29063,
       "link": "https://nebiusglobalaihackathon.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 23195,
+      "registrations": 23748,
       "link": "https://paypalaihackathon.devpost.com/"
     },
     {
@@ -84,7 +84,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 4316,
+      "registrations": 4438,
       "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
@@ -99,7 +99,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 2694,
+      "registrations": 2787,
       "link": "https://qloo.devpost.com/"
     },
     {
@@ -116,7 +116,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1454,
+      "registrations": 1555,
       "link": "https://twitchcon-codex.devpost.com/"
     },
     {
@@ -133,25 +133,8 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1386,
+      "registrations": 1430,
       "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
-      "sponsor": "AWS",
-      "prize_total": "$40,000",
-      "deadline": "2026-10-28",
-      "dates": "Sep 14 - Oct 28, 2026",
-      "themes": [
-        "Communication",
-        "Mobile",
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 1094,
-      "link": "https://aws-cds-partner.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -167,7 +150,7 @@
         "Design"
       ],
       "online": true,
-      "registrations": 885,
+      "registrations": 922,
       "link": "https://learn-specs.devpost.com/"
     },
     {
@@ -184,8 +167,25 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 622,
+      "registrations": 695,
       "link": "https://ugreenhackathon.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Codegeist 2026: Build with context. Ship with confidence.",
+      "sponsor": "Atlassian",
+      "prize_total": "$120,000",
+      "deadline": "2026-12-22",
+      "dates": "Oct 27 - Dec 22, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Enterprise",
+        "Productivity"
+      ],
+      "online": true,
+      "registrations": 397,
+      "link": "https://codegeist2026.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -201,7 +201,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 701,
+      "registrations": 711,
       "link": "https://code-for-humanity.devpost.com/"
     },
     {
@@ -218,25 +218,8 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 649,
+      "registrations": 688,
       "link": "https://arbiter-hacks-v1.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Codegeist 2026: Build with context. Ship with confidence.",
-      "sponsor": "Atlassian",
-      "prize_total": "$120,000",
-      "deadline": "2026-12-22",
-      "dates": "Oct 27 - Dec 22, 2026",
-      "themes": [
-        "Machine Learning/AI",
-        "Enterprise",
-        "Productivity"
-      ],
-      "online": true,
-      "registrations": 234,
-      "link": "https://codegeist2026.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -252,7 +235,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 383,
+      "registrations": 386,
       "link": "https://syntax-summit.devpost.com/"
     },
     {
@@ -269,7 +252,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 101,
+      "registrations": 107,
       "link": "https://mathematics-systems-security.devpost.com/"
     },
     {
@@ -286,7 +269,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 94,
+      "registrations": 100,
       "link": "https://hackwithaditya.devpost.com/"
     },
     {
@@ -303,7 +286,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 29,
+      "registrations": 66,
       "link": "https://build-your-first-ai-app.devpost.com/"
     }
   ]

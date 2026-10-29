@@ -1,5 +1,33 @@
 {
-  "found_at": "2026-10-28T12:19:32+00:00",
+  "found_at": "2026-10-29T12:28:59+00:00",
   "verified": [],
-  "unverified": []
+  "unverified": [
+    {
+      "kind": "lead",
+      "source": "",
+      "title": "A web3 security portfolio is: • a bug bounty submission ...",
+      "snippet": "A web3 security portfolio is: • a bug bounty submission • a CTF writeup • a free audit you asked for • a finding that got duplicated • a one off contest you ...",
+      "link": "/goto?url=CAESwAEB6zswFRE03Mfk-37je0jx9zk7t9eZ5m1-VKh9V6lVvV2KonJ3KNcpeOMtP2VBBnfwbDPchLdH-pa4DC0Rp_Yba0OmhQDaUd56O2yuDzY57RmvfK8ZdWLQP0wvdFBLuM7to98gbDjChKecvqnxxx6tp0OU8k5wTHpFGm7_GyJ6_0ooqwrL18UCRLQxsqaZ0pLdb3SVz3oTA15ArtNsfXxoKIALJ7JMOgHUCBx44ujkfLz2Il7TiKxYIAL0ACQT8mE",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "techonquer.org",
+      "title": "WEB3 BUG BOUNTY HUNTER GUIDE",
+      "snippet": "Free Web3 bug bounty roadmap by Techonquer: smart contract security, reentrancy, DeFi and oracle attacks, Foundry testing, PoC writing and a 90 day plan to ...",
+      "link": "https://techonquer.org/web3-bug-bounty-hunter-guide",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "",
+      "title": "Web3 Grant & Bounty Program Management",
+      "snippet": "Source and support Web3 grant and bounty applicants with targeted recruitment, application review, milestone tracking and portfolio visibility.",
+      "link": "/goto?url=CAEScQHrOzAVQLiaM57xPrQcGpe4trUlWQOlODS3FeYAD2nGr5N8juSKYgw02rhkzhmXxfxcpBAXNuPVLnKamPgSPVx4PLn2BspNEgocp8dh9Ims3Zi6NsVzoKsAgjHJoWQw3XN5hu1laLaNiGLAbzjw69aT",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    }
+  ]
 }
