@@ -1,14 +1,14 @@
 {
-  "found_at": "2026-10-29T12:28:59+00:00",
+  "found_at": "2026-10-30T12:20:37+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "",
-      "title": "A web3 security portfolio is: • a bug bounty submission ...",
-      "snippet": "A web3 security portfolio is: • a bug bounty submission • a CTF writeup • a free audit you asked for • a finding that got duplicated • a one off contest you ...",
-      "link": "/goto?url=CAESwAEB6zswFRE03Mfk-37je0jx9zk7t9eZ5m1-VKh9V6lVvV2KonJ3KNcpeOMtP2VBBnfwbDPchLdH-pa4DC0Rp_Yba0OmhQDaUd56O2yuDzY57RmvfK8ZdWLQP0wvdFBLuM7to98gbDjChKecvqnxxx6tp0OU8k5wTHpFGm7_GyJ6_0ooqwrL18UCRLQxsqaZ0pLdb3SVz3oTA15ArtNsfXxoKIALJ7JMOgHUCBx44ujkfLz2Il7TiKxYIAL0ACQT8mE",
-      "query": "web3 content bounty open submissions",
+      "source": "gov.gitcoin.co",
+      "title": "[TEMP CHECK]: gitcoin x bread cooperative, revenue ...",
+      "snippet": "the community proposes funding rounds by season, The platform organizes funds/rounds or whatever. Those funds and rounds organize projects.",
+      "link": "https://gov.gitcoin.co/t/temp-check-gitcoin-x-bread-cooperative-revenue-generating-crowdfunding-app/25430",
+      "query": "site:gitcoin.co grants round open",
       "why_unverified": "not opened in the browser this run"
     },
     {
@@ -23,9 +23,9 @@
     {
       "kind": "lead",
       "source": "",
-      "title": "Web3 Grant & Bounty Program Management",
-      "snippet": "Source and support Web3 grant and bounty applicants with targeted recruitment, application review, milestone tracking and portfolio visibility.",
-      "link": "/goto?url=CAEScQHrOzAVQLiaM57xPrQcGpe4trUlWQOlODS3FeYAD2nGr5N8juSKYgw02rhkzhmXxfxcpBAXNuPVLnKamPgSPVx4PLn2BspNEgocp8dh9Ims3Zi6NsVzoKsAgjHJoWQw3XN5hu1laLaNiGLAbzjw69aT",
+      "title": "Web 3 Bug Bounties: Platforms, Payouts, and How to Start",
+      "snippet": "Web 3 bug bounties pay researchers to find smart contract and blockchain vulnerabilities, with rewards from $5000 up to $300000+.",
+      "link": "/goto?url=CAESfwHrOzAVElyknp0Nygq9KAF9Fyix9Fl_7Wvpk0gZE8FaajPYp02i4O4vodVWo2ZPFHR7D49gAlbcw3U7TGvA9ovdH4G475cFogO0C1nOSRruII9llIiOiTL5QGSi9iUUcRMOl31CkswCqeuwHuKrHoyeG95LhEzJ85EuMPSYsvc",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     }
