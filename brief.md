@@ -1,6 +1,6 @@
-# 🦥 Sloth Scout brief: Friday, October 30, 2026
+# 🦥 Sloth Scout brief: Saturday, October 31, 2026
 
-> ⚠️ Skipped this run: Browserbase reading, ElevenLabs audio. See Sources at the bottom.
+> ⚠️ Skipped this run: ElevenLabs audio. See Sources at the bottom.
 
 ## New today
 
@@ -27,23 +27,19 @@ From earlier briefs, still accepting entries:
 
 ## Notes
 
-- Poor fits (score under 5): 18.
+- Poor fits (score under 5): 17.
 - Not open to your region (Spain, Ukraine), so not ranked: 2.
+- Couldn't rank 2 (will retry next run): Kiroween 2026; INCEPTION 2026.
 
 ## Unverified leads
 
-Found by search but missing a reward or deadline, so not ranked. Check these by hand.
-
-- [[TEMP CHECK]: gitcoin x bread cooperative, revenue ...](https://gov.gitcoin.co/t/temp-check-gitcoin-x-bread-cooperative-revenue-generating-crowdfunding-app/25430) (gov.gitcoin.co): not opened in the browser this run
-- [WEB3 BUG BOUNTY HUNTER GUIDE](https://techonquer.org/web3-bug-bounty-hunter-guide) (techonquer.org): not opened in the browser this run
-- [Web 3 Bug Bounties: Platforms, Payouts, and How to Start](/goto?url=CAESfwHrOzAVElyknp0Nygq9KAF9Fyix9Fl_7Wvpk0gZE8FaajPYp02i4O4vodVWo2ZPFHR7D49gAlbcw3U7TGvA9ovdH4G475cFogO0C1nOSRruII9llIiOiTL5QGSi9iUUcRMOl31CkswCqeuwHuKrHoyeG95LhEzJ85EuMPSYsvc) (): not opened in the browser this run
+None today.
 
 ## Sources
 
-- ✅ **Superteam Earn:** 11 open bounties (19.8s)
-- ✅ **Devpost:** 17 open online Blockchain or AI/ML hackathons (0.3s)
-- ✅ **SerpApi search:** 3 new listing links from 4 searches (2.8s)
-- ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
+- ✅ **Superteam Earn:** 11 open bounties (19.1s)
+- ✅ **Devpost:** 18 open online Blockchain or AI/ML hackathons (0.2s)
+- ✅ **SerpApi search:** 0 new listing links from 4 searches (7.4s)
 - ⚠️ **ElevenLabs audio: skipped.** The ElevenLabs monthly quota has run out.
 - ✅ **Memory:** MongoDB Atlas
 

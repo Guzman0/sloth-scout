@@ -1,5 +1,5 @@
 {
-  "ranked_at": "2026-10-30T12:24:38+00:00",
+  "ranked_at": "2026-10-31T12:00:19+00:00",
   "model": "models/gemma-4-31b-it",
   "fingerprint": "83a608da9e68c635",
   "ranked": [
@@ -194,7 +194,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 24467,
+      "registrations": 25276,
       "link": "https://paypalaihackathon.devpost.com/",
       "fit_score": 6,
       "reason": "The 'Low/No Code' theme allows you to leverage your product and UX analysis skills without needing heavy coding experience.",
@@ -216,7 +216,7 @@
         "Design"
       ],
       "online": true,
-      "registrations": 977,
+      "registrations": 1003,
       "link": "https://learn-specs.devpost.com/",
       "fit_score": 5,
       "reason": "While you can contribute via design and UX feedback, the AR/VR and AI themes typically require the heavy development skills you prefer to avoid.",
@@ -238,7 +238,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 716,
+      "registrations": 742,
       "link": "https://arbiter-hacks-v1.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes may allow for your UX and research skills, but most hackathons require a technical prototype you aren't comfortable building.",
@@ -260,33 +260,13 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 113,
+      "registrations": 123,
       "link": "https://herhack.devpost.com/",
       "fit_score": 4,
       "reason": "The prize is in INR rather than your preferred USDC/USDG, and hackathons typically prioritize development over research and content creation.",
       "effort": "high",
       "scam_risk": "medium",
       "scam_reason": "The organizer is not a well-known Web3 entity and the listing lacks a detailed description."
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Qloo Agentic Hackathon",
-      "sponsor": "Qloo",
-      "prize_total": "$25,000",
-      "deadline": "2026-10-30",
-      "dates": "Sep 30 - Oct 30, 2026",
-      "themes": [
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 2900,
-      "link": "https://qloo.devpost.com/",
-      "fit_score": 4,
-      "reason": "This is an AI/Agentic hackathon which likely requires technical development skills you've listed as 'not for me'.",
-      "effort": "high",
-      "scam_risk": "low",
-      "scam_reason": "Hosted on Devpost by a known company."
     },
     {
       "kind": "hackathon",
@@ -302,7 +282,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1707,
+      "registrations": 1841,
       "link": "https://twitchcon-codex.devpost.com/",
       "fit_score": 4,
       "reason": "Hackathons usually require technical development which you've listed as 'not for me', though you could contribute UX and research to a team.",
@@ -352,35 +332,13 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 101,
+      "registrations": 113,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/",
       "fit_score": 3,
       "reason": "This is a hackathon likely requiring development skills, which you've listed as 'Not for me'.",
       "effort": "high",
       "scam_risk": "low",
       "scam_reason": "Hosted on Devpost by a recognized organization."
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Nebius x NVIDIA Global AI Hackathon",
-      "sponsor": "nebius",
-      "prize_total": "$50,000",
-      "deadline": "2026-10-30",
-      "dates": "Aug 26 - Oct 30, 2026",
-      "themes": [
-        "Machine Learning/AI",
-        "Beginner Friendly",
-        "Robotic Process Automation"
-      ],
-      "online": true,
-      "registrations": 29627,
-      "link": "https://nebiusglobalaihackathon.devpost.com/",
-      "fit_score": 3,
-      "reason": "This is a technical AI hackathon requiring development skills that fall under your 'Not for me' list.",
-      "effort": "high",
-      "scam_risk": "low",
-      "scam_reason": "Sponsored by NVIDIA and hosted on Devpost, which are highly reputable."
     },
     {
       "kind": "hackathon",
@@ -396,7 +354,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 4562,
+      "registrations": 4652,
       "link": "https://start-developer-competition-26.devpost.com/",
       "fit_score": 3,
       "reason": "This is a developer-focused competition, which conflicts with your preference to avoid heavy coding and full-stack development.",
@@ -418,7 +376,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 835,
+      "registrations": 923,
       "link": "https://ugreenhackathon.devpost.com/",
       "fit_score": 3,
       "reason": "This hackathon focuses on AI NAS and Machine Learning, which likely requires technical development skills you've listed as 'not for me'.",
@@ -440,13 +398,35 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 732,
+      "registrations": 921,
       "link": "https://codegeist2026.devpost.com/",
       "fit_score": 3,
       "reason": "This is a coding-centric hackathon which conflicts with your lack of development skills, although your UX and research strengths could be useful if you joined a team.",
       "effort": "high",
       "scam_risk": "low",
       "scam_reason": "Atlassian is a highly reputable and well-known global enterprise company."
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "STEMergent Hacks 2026",
+      "sponsor": "STEMergent",
+      "prize_total": "$0",
+      "deadline": "2026-11-15",
+      "dates": "Oct 31 - Nov 15, 2026",
+      "themes": [
+        "Low/No Code",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "online": true,
+      "registrations": 194,
+      "link": "https://stemergent-hacks.devpost.com/",
+      "fit_score": 3,
+      "reason": "The Low/No Code theme fits your skills, but the $0 prize pool fails your reward preferences.",
+      "effort": "medium",
+      "scam_risk": "medium",
+      "scam_reason": "A $0 prize pool and lack of description are red flags for a legitimate professional opportunity."
     },
     {
       "kind": "hackathon",
@@ -462,7 +442,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 107,
+      "registrations": 115,
       "link": "https://hackwithaditya.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical hackathon requiring development skills you don't have, and the prize is in INR rather than your preferred stablecoins.",
@@ -484,7 +464,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1488,
+      "registrations": 1551,
       "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
       "fit_score": 2,
       "reason": "This is a technical AI/AR development hackathon, which clashes with your preference to avoid heavy coding and development.",
@@ -542,7 +522,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 723,
+      "registrations": 732,
       "link": "https://code-for-humanity.devpost.com/",
       "fit_score": 1,
       "reason": "The prize is $0 and the focus on 'coding' doesn't align with your research and content strengths.",
@@ -564,7 +544,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 387,
+      "registrations": 394,
       "link": "https://syntax-summit.devpost.com/",
       "fit_score": 1,
       "reason": "The themes are highly technical (DevOps, AI, RPA) and there is no monetary reward, neither of which align with your skills or preferences.",
@@ -586,7 +566,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 118,
+      "registrations": 130,
       "link": "https://mathematics-systems-security.devpost.com/",
       "fit_score": 1,
       "reason": "This requires deep technical math and security skills you don't possess, and it offers no monetary reward.",
@@ -608,7 +588,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 89,
+      "registrations": 114,
       "link": "https://build-your-first-ai-app.devpost.com/",
       "fit_score": 1,
       "reason": "This requires building an app, which is outside your skill set, and offers no monetary reward.",
@@ -673,7 +653,44 @@
       "scam_reason": "The sponsor is not verified by Superteam."
     }
   ],
-  "skipped": [],
+  "skipped": [
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Kiroween 2026",
+      "sponsor": "Kiro",
+      "prize_total": "$100,000",
+      "deadline": "2026-12-04",
+      "dates": "Oct 30 - Dec 04, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "online": true,
+      "registrations": 4037,
+      "link": "https://kiroween.devpost.com/",
+      "skip_reason": "Gemini API still busy (500) after 3 retries"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "INCEPTION 2026",
+      "sponsor": "HIMATIFA UPN \"Veteran\" Jawa Timur",
+      "prize_total": "$0",
+      "deadline": "2026-11-01",
+      "dates": "Oct 31 - Nov 01, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Mobile",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 96,
+      "link": "https://inception2026.devpost.com/",
+      "skip_reason": "Gemini API still busy (503) after 3 retries"
+    }
+  ],
   "not_eligible": [
     {
       "title": "Rumbo a Breakpoint 2026: gana una entrada y apoyo para tu viaje",

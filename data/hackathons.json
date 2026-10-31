@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T12:20:59+00:00",
+  "fetched_at": "2026-10-31T11:51:37+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 101,
+      "registrations": 113,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/"
     },
     {
@@ -33,25 +33,8 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 113,
+      "registrations": 123,
       "link": "https://herhack.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Nebius x NVIDIA Global AI Hackathon",
-      "sponsor": "nebius",
-      "prize_total": "$50,000",
-      "deadline": "2026-10-30",
-      "dates": "Aug 26 - Oct 30, 2026",
-      "themes": [
-        "Machine Learning/AI",
-        "Beginner Friendly",
-        "Robotic Process Automation"
-      ],
-      "online": true,
-      "registrations": 29627,
-      "link": "https://nebiusglobalaihackathon.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -67,7 +50,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 24467,
+      "registrations": 25276,
       "link": "https://paypalaihackathon.devpost.com/"
     },
     {
@@ -84,23 +67,25 @@
         "Web"
       ],
       "online": true,
-      "registrations": 4562,
+      "registrations": 4652,
       "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
       "kind": "hackathon",
       "source": "Devpost",
-      "title": "Qloo Agentic Hackathon",
-      "sponsor": "Qloo",
-      "prize_total": "$25,000",
-      "deadline": "2026-10-30",
-      "dates": "Sep 30 - Oct 30, 2026",
+      "title": "Kiroween 2026",
+      "sponsor": "Kiro",
+      "prize_total": "$100,000",
+      "deadline": "2026-12-04",
+      "dates": "Oct 30 - Dec 04, 2026",
       "themes": [
-        "Machine Learning/AI"
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Open Ended"
       ],
       "online": true,
-      "registrations": 2900,
-      "link": "https://qloo.devpost.com/"
+      "registrations": 4037,
+      "link": "https://kiroween.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -116,7 +101,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1707,
+      "registrations": 1841,
       "link": "https://twitchcon-codex.devpost.com/"
     },
     {
@@ -133,7 +118,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1488,
+      "registrations": 1551,
       "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/"
     },
     {
@@ -150,7 +135,7 @@
         "Design"
       ],
       "online": true,
-      "registrations": 977,
+      "registrations": 1003,
       "link": "https://learn-specs.devpost.com/"
     },
     {
@@ -167,7 +152,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 835,
+      "registrations": 923,
       "link": "https://ugreenhackathon.devpost.com/"
     },
     {
@@ -184,25 +169,8 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 732,
+      "registrations": 921,
       "link": "https://codegeist2026.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Code for Humanity",
-      "sponsor": "nill",
-      "prize_total": "$0",
-      "deadline": "2027-01-15",
-      "dates": "Jul 16, 2026 - Jan 15, 2027",
-      "themes": [
-        "Education",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 723,
-      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -218,8 +186,25 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 716,
+      "registrations": 742,
       "link": "https://arbiter-hacks-v1.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Code for Humanity",
+      "sponsor": "nill",
+      "prize_total": "$0",
+      "deadline": "2027-01-15",
+      "dates": "Jul 16, 2026 - Jan 15, 2027",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 732,
+      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -235,8 +220,25 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 387,
+      "registrations": 394,
       "link": "https://syntax-summit.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "STEMergent Hacks 2026",
+      "sponsor": "STEMergent",
+      "prize_total": "$0",
+      "deadline": "2026-11-15",
+      "dates": "Oct 31 - Nov 15, 2026",
+      "themes": [
+        "Low/No Code",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "online": true,
+      "registrations": 194,
+      "link": "https://stemergent-hacks.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -252,7 +254,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 118,
+      "registrations": 130,
       "link": "https://mathematics-systems-security.devpost.com/"
     },
     {
@@ -269,7 +271,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 107,
+      "registrations": 115,
       "link": "https://hackwithaditya.devpost.com/"
     },
     {
@@ -286,8 +288,25 @@
         "Web"
       ],
       "online": true,
-      "registrations": 89,
+      "registrations": 114,
       "link": "https://build-your-first-ai-app.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "INCEPTION 2026",
+      "sponsor": "HIMATIFA UPN \"Veteran\" Jawa Timur",
+      "prize_total": "$0",
+      "deadline": "2026-11-01",
+      "dates": "Oct 31 - Nov 01, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Mobile",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 96,
+      "link": "https://inception2026.devpost.com/"
     }
   ]
 }
