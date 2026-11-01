@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-31T11:51:37+00:00",
+  "fetched_at": "2026-11-01T12:50:34+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 113,
+      "registrations": 120,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 123,
+      "registrations": 143,
       "link": "https://herhack.devpost.com/"
     },
     {
@@ -50,25 +50,8 @@
         "Web"
       ],
       "online": true,
-      "registrations": 25276,
+      "registrations": 26170,
       "link": "https://paypalaihackathon.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Meta VR Start Developer Competition 2026",
-      "sponsor": "Meta",
-      "prize_total": "$1,000,000",
-      "deadline": "2026-11-18",
-      "dates": "Sep 24 - Nov 18, 2026",
-      "themes": [
-        "AR/VR",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 4652,
-      "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -84,8 +67,25 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 4037,
+      "registrations": 5299,
       "link": "https://kiroween.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Meta VR Start Developer Competition 2026",
+      "sponsor": "Meta",
+      "prize_total": "$1,000,000",
+      "deadline": "2026-11-18",
+      "dates": "Sep 24 - Nov 18, 2026",
+      "themes": [
+        "AR/VR",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 4754,
+      "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -101,7 +101,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1841,
+      "registrations": 1981,
       "link": "https://twitchcon-codex.devpost.com/"
     },
     {
@@ -118,8 +118,25 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1551,
+      "registrations": 1611,
       "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Codegeist 2026: Build with context. Ship with confidence.",
+      "sponsor": "Atlassian",
+      "prize_total": "$120,000",
+      "deadline": "2026-12-22",
+      "dates": "Oct 27 - Dec 22, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Enterprise",
+        "Productivity"
+      ],
+      "online": true,
+      "registrations": 1067,
+      "link": "https://codegeist2026.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -135,7 +152,7 @@
         "Design"
       ],
       "online": true,
-      "registrations": 1003,
+      "registrations": 1031,
       "link": "https://learn-specs.devpost.com/"
     },
     {
@@ -152,25 +169,8 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 923,
+      "registrations": 995,
       "link": "https://ugreenhackathon.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Codegeist 2026: Build with context. Ship with confidence.",
-      "sponsor": "Atlassian",
-      "prize_total": "$120,000",
-      "deadline": "2026-12-22",
-      "dates": "Oct 27 - Dec 22, 2026",
-      "themes": [
-        "Machine Learning/AI",
-        "Enterprise",
-        "Productivity"
-      ],
-      "online": true,
-      "registrations": 921,
-      "link": "https://codegeist2026.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -186,7 +186,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 742,
+      "registrations": 768,
       "link": "https://arbiter-hacks-v1.devpost.com/"
     },
     {
@@ -203,7 +203,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 732,
+      "registrations": 742,
       "link": "https://code-for-humanity.devpost.com/"
     },
     {
@@ -220,8 +220,25 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 394,
+      "registrations": 396,
       "link": "https://syntax-summit.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Ostad Presents YUNet AIgnite Buildathon 2026",
+      "sponsor": "Youth Upskill Network - YUNet",
+      "prize_total": "$0",
+      "deadline": "2026-11-05",
+      "dates": "Nov 01 - 05, 2026",
+      "themes": [
+        "Education",
+        "Low/No Code",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 390,
+      "link": "https://yunet-aignite26.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -237,7 +254,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 194,
+      "registrations": 205,
       "link": "https://stemergent-hacks.devpost.com/"
     },
     {
@@ -254,25 +271,8 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 130,
+      "registrations": 140,
       "link": "https://mathematics-systems-security.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "HackWithAditya",
-      "sponsor": "Aditya University",
-      "prize_total": "₹500,000",
-      "deadline": "2026-11-25",
-      "dates": "Oct 16 - Nov 25, 2026",
-      "themes": [
-        "Education",
-        "Health",
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 115,
-      "link": "https://hackwithaditya.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -288,25 +288,110 @@
         "Web"
       ],
       "online": true,
-      "registrations": 114,
+      "registrations": 140,
       "link": "https://build-your-first-ai-app.devpost.com/"
     },
     {
       "kind": "hackathon",
       "source": "Devpost",
-      "title": "INCEPTION 2026",
-      "sponsor": "HIMATIFA UPN \"Veteran\" Jawa Timur",
-      "prize_total": "$0",
+      "title": "Agentic Hackathon",
+      "sponsor": "Devin",
+      "prize_total": "$480",
+      "deadline": "2026-11-10",
+      "dates": "Nov 01 - 10, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Open Ended",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 128,
+      "link": "https://agentic-hackathon.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "HackWithAditya",
+      "sponsor": "Aditya University",
+      "prize_total": "₹500,000",
+      "deadline": "2026-11-25",
+      "dates": "Oct 16 - Nov 25, 2026",
+      "themes": [
+        "Education",
+        "Health",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 126,
+      "link": "https://hackwithaditya.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "TRMI X Lovhack : Multiplayer Everything Hackathon",
+      "sponsor": "Lovhack",
+      "prize_total": "$300",
       "deadline": "2026-11-01",
       "dates": "Oct 31 - Nov 01, 2026",
       "themes": [
         "Machine Learning/AI",
-        "Mobile",
+        "Open Ended",
         "Web"
       ],
       "online": true,
-      "registrations": 96,
-      "link": "https://inception2026.devpost.com/"
+      "registrations": 85,
+      "link": "https://lovhack-trmi-2026.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Global AI Hackathon - Devcon 2026 By Mel",
+      "sponsor": "Agentic Day (co-hosted with Mel)",
+      "prize_total": "$0",
+      "deadline": "2026-11-01",
+      "dates": "Oct 31 - Nov 01, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Productivity"
+      ],
+      "online": true,
+      "registrations": 32,
+      "link": "https://trick-or-build.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "GenHacks",
+      "sponsor": "Shail & Sharaf",
+      "prize_total": "$CAD 1,050",
+      "deadline": "2026-12-26",
+      "dates": "Nov 01 - Dec 26, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "IoT",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 10,
+      "link": "https://genhacks-open.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "ML Empowerment Build Challenge 4.0",
+      "sponsor": "ML Empowerment Foundation",
+      "prize_total": "$0",
+      "deadline": "2026-12-02",
+      "dates": "Nov 01 - Dec 02, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "online": true,
+      "registrations": 2,
+      "link": "https://ml-build-challenge-4.devpost.com/"
     }
   ]
 }
