@@ -1,6 +1,6 @@
-# 🦥 Sloth Scout brief: Sunday, November 1, 2026
+# 🦥 Sloth Scout brief: Monday, November 2, 2026
 
-> ⚠️ Skipped this run: ElevenLabs audio. See Sources at the bottom.
+> ⚠️ Skipped this run: Browserbase reading. See Sources at the bottom.
 
 ## New today
 
@@ -10,7 +10,13 @@ No new good-fit bounties today.
 
 ### Hackathons
 
-No new good-fit hackathons today.
+#### 1. Kiroween 2026
+- **Prize total:** $100,000   **Deadline:** 2026-12-04
+- **Fit:** 6/10. The 'Open Ended' and 'Beginner Friendly' themes allow you to apply your research and UX skills, though you'll likely need a developer partner to build a submission.
+- **Effort:** high
+- **Scam risk:** low. Hosted on Devpost, a well-known and trusted platform for hackathons.
+- **Themes:** Beginner Friendly, Machine Learning/AI, Open Ended
+- **Link:** https://kiroween.devpost.com/
 
 ## Still open
 
@@ -27,20 +33,23 @@ From earlier briefs, still accepting entries:
 
 ## Notes
 
-- Poor fits (score under 5): 19.
+- Poor fits (score under 5): 20.
 - Not open to your region (Spain, Ukraine), so not ranked: 2.
-- Couldn't rank 4 (will retry next run): Kiroween 2026; Agentic Hackathon; GenHacks; ML Empowerment Build Challenge 4.0.
+- Couldn't rank 2 (will retry next run): Neural Storm; GenHacks.
 
 ## Unverified leads
 
-None today.
+Found by search but missing a reward or deadline, so not ranked. Check these by hand.
+
+- [86 Blog Posts To Learn About Hackernoon Writing Contest](https://hackernoon.com/86-blog-posts-to-learn-about-hackernoon-writing-contest) (hackernoon.com): not opened in the browser this run
 
 ## Sources
 
-- ✅ **Superteam Earn:** 10 open bounties (18.4s)
-- ✅ **Devpost:** 23 open online Blockchain or AI/ML hackathons (0.3s)
-- ✅ **SerpApi search:** 0 new listing links from 4 searches (3.9s)
-- ⚠️ **ElevenLabs audio: skipped.** The ElevenLabs monthly quota has run out.
+- ✅ **Superteam Earn:** 10 open bounties (19.0s)
+- ✅ **Devpost:** 23 open online Blockchain or AI/ML hackathons (0.4s)
+- ✅ **SerpApi search:** 1 new listing links from 4 searches (3.5s)
+- ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
+- ✅ **ElevenLabs audio:** site/brief.mp3, 260 characters (1.1s)
 - ✅ **Memory:** MongoDB Atlas
 
 Ranked by gemma-4-31b-it.

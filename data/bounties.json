@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T12:50:16+00:00",
+  "fetched_at": "2026-11-02T15:00:14+00:00",
   "source": "https://superteam.fun/api/listings",
   "bounties": [
     {
@@ -10,7 +10,7 @@
       "sponsor_verified": true,
       "reward": 5000,
       "token": "USDG",
-      "deadline": "2026-11-03T21:59:59.999Z",
+      "deadline": "2026-11-08T22:59:59.999Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
       "region": "Spain",

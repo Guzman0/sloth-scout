@@ -1,5 +1,15 @@
 {
-  "found_at": "2026-11-01T12:50:13+00:00",
+  "found_at": "2026-11-02T15:00:11+00:00",
   "verified": [],
-  "unverified": []
+  "unverified": [
+    {
+      "kind": "lead",
+      "source": "hackernoon.com",
+      "title": "86 Blog Posts To Learn About Hackernoon Writing Contest",
+      "snippet": "Join the #blockchain Writing Contest and share your insights on decentralized AI, cloud, or dePIN. Win up to $2,000! Contest open Feb 5–May 7, 2025. 6. Want To ...",
+      "link": "https://hackernoon.com/86-blog-posts-to-learn-about-hackernoon-writing-contest",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    }
+  ]
 }
