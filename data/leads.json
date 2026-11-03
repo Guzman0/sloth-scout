@@ -1,13 +1,22 @@
 {
-  "found_at": "2026-11-02T15:00:11+00:00",
+  "found_at": "2026-11-03T13:47:57+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "hackernoon.com",
-      "title": "86 Blog Posts To Learn About Hackernoon Writing Contest",
-      "snippet": "Join the #blockchain Writing Contest and share your insights on decentralized AI, cloud, or dePIN. Win up to $2,000! Contest open Feb 5–May 7, 2025. 6. Want To ...",
-      "link": "https://hackernoon.com/86-blog-posts-to-learn-about-hackernoon-writing-contest",
+      "source": "techonquer.org",
+      "title": "WEB3 BUG BOUNTY HUNTER GUIDE",
+      "snippet": "Free Web3 bug bounty roadmap by Techonquer: smart contract security, reentrancy, DeFi and oracle attacks, Foundry testing, PoC writing and a 90 day plan to ...",
+      "link": "https://techonquer.org/web3-bug-bounty-hunter-guide",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "x-ray.me",
+      "title": "Bug bounty platforms in Web3: actors, hiring, TVL, events",
+      "snippet": "Bug bounty platforms on X-RAY: 3 actors, 7 open roles, $175.4K TVL, $1.9M market cap, 1 events in 30 days. Open roles 7 +16.7% vs 30d ago. Market cap $1.9M. ...",
+      "link": "https://x-ray.me/sector/bug-bounty-platforms",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     }

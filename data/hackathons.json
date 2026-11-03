@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T15:00:32+00:00",
+  "fetched_at": "2026-11-03T13:48:17+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 135,
+      "registrations": 150,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 166,
+      "registrations": 177,
       "link": "https://herhack.devpost.com/"
     },
     {
@@ -50,7 +50,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 27024,
+      "registrations": 27748,
       "link": "https://paypalaihackathon.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 6254,
+      "registrations": 7770,
       "link": "https://kiroween.devpost.com/"
     },
     {
@@ -84,42 +84,8 @@
         "Web"
       ],
       "online": true,
-      "registrations": 4861,
+      "registrations": 4985,
       "link": "https://start-developer-competition-26.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Codex x TwitchCon Hackathon",
-      "sponsor": "Twitch",
-      "prize_total": "$25,000",
-      "deadline": "2026-11-02",
-      "dates": "Oct 23 - Nov 02, 2026",
-      "themes": [
-        "Communication",
-        "Gaming",
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 2122,
-      "link": "https://twitchcon-codex.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "YouCam API Skin AI & eCommerce VTO Hackathon",
-      "sponsor": "Perfect Corp",
-      "prize_total": "$6,000",
-      "deadline": "2026-11-02",
-      "dates": "Sep 29 - Nov 02, 2026",
-      "themes": [
-        "AR/VR",
-        "E-commerce/Retail",
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 1706,
-      "link": "https://youcam-api-skin-ai-ecommerce.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -135,7 +101,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 1274,
+      "registrations": 1449,
       "link": "https://codegeist2026.devpost.com/"
     },
     {
@@ -152,7 +118,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 1099,
+      "registrations": 1159,
       "link": "https://ugreenhackathon.devpost.com/"
     },
     {
@@ -169,8 +135,25 @@
         "Design"
       ],
       "online": true,
-      "registrations": 1065,
+      "registrations": 1092,
       "link": "https://learn-specs.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "QNX Global Hackathon",
+      "sponsor": "QNX",
+      "prize_total": "$50,000",
+      "deadline": "2026-12-15",
+      "dates": "Nov 02 - Dec 15, 2026",
+      "themes": [
+        "IoT",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "online": true,
+      "registrations": 208,
+      "link": "https://qnx.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -186,7 +169,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 812,
+      "registrations": 831,
       "link": "https://arbiter-hacks-v1.devpost.com/"
     },
     {
@@ -203,8 +186,25 @@
         "Web"
       ],
       "online": true,
-      "registrations": 761,
+      "registrations": 771,
       "link": "https://code-for-humanity.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "AWS MSP AI Hackathon",
+      "sponsor": "AWS",
+      "prize_total": "$64,000",
+      "deadline": "2026-12-11",
+      "dates": "Nov 02 - Dec 11, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Productivity",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 57,
+      "link": "https://aws-agentic-msp.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -220,7 +220,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 405,
+      "registrations": 408,
       "link": "https://syntax-summit.devpost.com/"
     },
     {
@@ -237,7 +237,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 402,
+      "registrations": 406,
       "link": "https://yunet-aignite26.devpost.com/"
     },
     {
@@ -254,7 +254,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 246,
+      "registrations": 268,
       "link": "https://build-your-first-ai-app.devpost.com/"
     },
     {
@@ -271,7 +271,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 235,
+      "registrations": 264,
       "link": "https://ethnohack2026.devpost.com/"
     },
     {
@@ -288,7 +288,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 216,
+      "registrations": 221,
       "link": "https://stemergent-hacks.devpost.com/"
     },
     {
@@ -305,7 +305,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 154,
+      "registrations": 167,
       "link": "https://agentic-hackathon.devpost.com/"
     },
     {
@@ -322,8 +322,24 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 153,
+      "registrations": 159,
       "link": "https://mathematics-systems-security.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Neural Storm",
+      "sponsor": "JNTUH",
+      "prize_total": "₹20,000",
+      "deadline": "2026-11-04",
+      "dates": "Nov 02 - 04, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 154,
+      "link": "https://neuralstorm.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -339,24 +355,8 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 132,
+      "registrations": 135,
       "link": "https://hackwithaditya.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Neural Storm",
-      "sponsor": "JNTUH",
-      "prize_total": "₹20,000",
-      "deadline": "2026-11-04",
-      "dates": "Nov 02 - 04, 2026",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 117,
-      "link": "https://neuralstorm.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -372,7 +372,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 55,
+      "registrations": 78,
       "link": "https://genhacks-open.devpost.com/"
     },
     {
@@ -389,7 +389,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 20,
+      "registrations": 44,
       "link": "https://ml-build-challenge-4.devpost.com/"
     }
   ]
