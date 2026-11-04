@@ -1,5 +1,5 @@
 {
-  "found_at": "2026-11-03T13:47:57+00:00",
+  "found_at": "2026-11-04T13:55:47+00:00",
   "verified": [],
   "unverified": [
     {
@@ -13,10 +13,10 @@
     },
     {
       "kind": "lead",
-      "source": "x-ray.me",
-      "title": "Bug bounty platforms in Web3: actors, hiring, TVL, events",
-      "snippet": "Bug bounty platforms on X-RAY: 3 actors, 7 open roles, $175.4K TVL, $1.9M market cap, 1 events in 30 days. Open roles 7 +16.7% vs 30d ago. Market cap $1.9M. ...",
-      "link": "https://x-ray.me/sector/bug-bounty-platforms",
+      "source": "tensorhack.com",
+      "title": "Web3 Hackathons Guide - Tensor Hack",
+      "snippet": "Web3 hackathons test whether you can use a chain, wallet, protocol or agent stack on deadline. Its event model is built around sponsor bounties, showcase ...",
+      "link": "https://tensorhack.com/guides/web3-hackathons-guide",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     }

@@ -1,4 +1,4 @@
-# 🦥 Sloth Scout brief: Tuesday, November 3, 2026
+# 🦥 Sloth Scout brief: Wednesday, November 4, 2026
 
 > ⚠️ Skipped this run: Browserbase reading, ElevenLabs audio. See Sources at the bottom.
 
@@ -10,7 +10,13 @@ No new good-fit bounties today.
 
 ### Hackathons
 
-No new good-fit hackathons today.
+#### 1. AI Agents for Founders Challenge — HETIC 2026
+- **Prize total:** €1,000   **Deadline:** 2026-12-18
+- **Fit:** 7/10. The Low/No Code theme aligns with your skill set, and your product analysis strengths are a great fit for a founders' challenge.
+- **Effort:** medium
+- **Scam risk:** low. Hosted on Devpost by a recognized educational institution.
+- **Themes:** Low/No Code, Machine Learning/AI, Productivity
+- **Link:** https://ai-agents-founders-hetic-26.devpost.com/
 
 ## Still open
 
@@ -36,13 +42,13 @@ From earlier briefs, still accepting entries:
 Found by search but missing a reward or deadline, so not ranked. Check these by hand.
 
 - [WEB3 BUG BOUNTY HUNTER GUIDE](https://techonquer.org/web3-bug-bounty-hunter-guide) (techonquer.org): not opened in the browser this run
-- [Bug bounty platforms in Web3: actors, hiring, TVL, events](https://x-ray.me/sector/bug-bounty-platforms) (x-ray.me): not opened in the browser this run
+- [Web3 Hackathons Guide - Tensor Hack](https://tensorhack.com/guides/web3-hackathons-guide) (tensorhack.com): not opened in the browser this run
 
 ## Sources
 
-- ✅ **Superteam Earn:** 10 open bounties (18.3s)
-- ✅ **Devpost:** 23 open online Blockchain or AI/ML hackathons (0.4s)
-- ✅ **SerpApi search:** 2 new listing links from 4 searches (3.9s)
+- ✅ **Superteam Earn:** 10 open bounties (17.7s)
+- ✅ **Devpost:** 24 open online Blockchain or AI/ML hackathons (0.3s)
+- ✅ **SerpApi search:** 2 new listing links from 4 searches (10.3s)
 - ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
 - ⚠️ **ElevenLabs audio: skipped.** The ElevenLabs monthly quota has run out.
 - ✅ **Memory:** MongoDB Atlas
