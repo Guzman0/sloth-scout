@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T14:13:14+00:00",
+  "fetched_at": "2026-11-06T13:53:39+00:00",
   "source": "https://superteam.fun/api/listings",
   "bounties": [
     {
@@ -33,39 +33,6 @@
         }
       ],
       "description": "About La Familia\nLa Familia es la comunidad de Solana en España. Nuestro objetivo es conectar a builders, fundadores y proyectos, creando un espacio para aprender y crecer juntos.\nMission\nQueremos que crees contenido increíble en español sobre Breakpoint 2026 (Londres, 15-17 de noviembre). Ya sean tus mejores recuerdos de Breakpoint o por qué no puedes esperar a asistir este año. El objetivo: hacer que la gente de habla hispana se sienta emocionada, incluida y motivada a ir a Breakpoint.\nScope Detail\n-\nCrea una publicación en X, IG o LinkedIn, en español, mostrando tu entusiasmo por Breakpoint 2026.\n-\nIncluye una llamada a la acción (CTA) invitando a la gente a registrarse en luma.com/breakpoint2026 y menciona el código de descuento SUPERTEAM-NH7-BP26.\n-\nDestaca un enfoque de España / La Familia (ser parte de la comunidad Solana Hispana, querer conocer a La Familia en Londres, etc.).\n-\nEtiqueta a @SolanaEvents y @LaFamilia_so.\n-\nSe permite cualquier formato de imagen o vídeo (IA, animación, personal...).\nSubmission Requirements\n-\nDebes incluir el enlace a tu publicación original.\n-\nEl contenido debe estar en español.\n-\nTanto las etiquetas como el enlace CTA deben estar incluidos.\n-\nLos participantes DEBEN asistir a Breakpoint 2026.\nJudging Criteria\n-\nCreatividad y engagement.\n-\nClaridad del entusiasmo por Breakpoint.\n-\nÁngulo España / La Familia.\n-\nCumplimiento de todos los requisitos.\n-\nLas presentaciones en vídeo serán valoradas positivamente.\nReward Structure\n-\n1st Place: 400 USDG + Breakpoint Ticket\n-\n2nd Place: 400 USDG\n-\n3rd Place: 400 USDG\n-\n4th Place: 400 USDG\n-\n5th Place: 400 USDG\n-\n6th Place: 400 USDG\n-\n7th Place: 400 USDG\n-\n8th Place: 400 USDG\n-\n9th Place: 400 USDG\n-\n10th Place: 400 USDG\n-\nBonus Awards: 5 ganadores reciben 200 USDG cada uno"
-    },
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
-      "title": "Inside the Block: How Solana Validators Order Transactions",
-      "sponsor": "Superteam Ukraine",
-      "sponsor_verified": true,
-      "reward": 2500,
-      "token": "USDC",
-      "deadline": "2026-11-05T21:59:59.999Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Ukraine",
-      "link": "https://superteam.fun/earn/listing/inside-the-block-how-solana-validators-order-transactions",
-      "skills": [
-        {
-          "skills": "Other",
-          "subskills": [
-            "Data Analytics"
-          ]
-        },
-        {
-          "skills": "Backend",
-          "subskills": []
-        },
-        {
-          "skills": "Blockchain",
-          "subskills": [
-            "Rust"
-          ]
-        }
-      ],
-      "description": "About Superteam Ukraine\nSuperteam Ukraine is part of the Superteam network. We're focused on supporting the Solana ecosystem and helping talented individuals connect with exciting opportunities.\nMission\nInvestigate and document how Solana validators order transactions within a block, specifically focusing on validators running different client software or forks.\nAbout\nhe order of transactions inside a block is decided by the leader’s scheduler. In the open-source Agave code the rule is visible; how the forks that hold most of the stake behave is not publicly documented. This bounty is a measurement project: send real transactions into the leader windows of specific validators and show, from the blocks, what rule they landed by.\nScope Detail\n-\nThe Question: For each validator you pick: by what rule does it order transactions in its block - what exactly decides which transaction lands earlier and which later; how strictly that rule holds; and whether there is a rule at all.\n-\nNetwork: All measurements must be conducted on Solana Mainnet.\n-\nValidators: Analyze at least 6 validators, ensuring they span a minimum of 3 distinct client software or fork versions (identifiable by version string or validators.app data at the time of measurement).\n-\nFee Spend: Your code must enforce a fee spend limit. The entire measurement process should fit within approximately 0.05 SOL.\n-\nJito Validators: Validators running Jito-Solana are in scope for analysis, but Jito bundles and tips (a separate mechanism from the leader's scheduler) are not.\n-\nTransaction Evidence: While other transactions in the block can provide supplementary data, your primary evidence must be derived from transactions you send yourself.\n-\nExperiment Design: You have full control over the experiment's design, including the type and number of transactions, how they are sent, how leader windows are detected, and how the experiment is repeated.\n-\nConsiderations: Leader schedule and leader types, the path of a transaction from your backend to the node that executes it (and everything in between), the interaction of your own transactions with each other, competition inside the block, send order, noise versus rule - the README must show how your design handles each of these, or why it deliberately does not.\n-\nAlpenglow Upgrade: October 21 - the Alpenglow upgrade, take all measurements either before it or after it, do not mix.\nOne possible development path. Not required, but this way you do not pay for development:\n- localnet (solana-test-validator) - block parsing, pipeline tests;\n- devnet - an end-to-end run with real sending, for free;\n- mainnet dry-run - real leader schedule and windows, transactions are built but not sent; this is where you see whether you make it into the window;\n- mainnet live - with the spend cap.\nThe measurements themselves are mainnet only: devnet has one client and empty blocks, there is nothing to measure.\nSubmission Requirements\n-\nRepository: submit a link to your code repository (any language is acceptable).\n-\nReproducibility: the project must be fully reproducible with one command, Docker Compose expected.\n-\nKeys: keys only via volume/env, never in the repo.\n-\nExecution: dry-run by default, real sending only behind an explicit flag with a spend cap.\n-\nRaw Data: include all raw data, including transaction signatures and slot numbers, to allow judges to verify claims via getBlock calls.\n-\nREADME: why this design, how it handles the points under “what you will have to account for”, and what it does NOT separate.\n-\nReport: report with the date of every measurement and a “what went wrong” section.\nJudging Criteria\n-\nDesign Validity: 35% - does the experiment measure what it claims, and are the points under “what you will have to account for”.\n-\nVerifiability and Reproducibility: 25% - The ease with which judges can verify claims using raw data and reproduce the experiment.\n-\nAnalysis Quality: 25% - The depth and quality of the analysis, including honesty about noise, limitations, and null results (\"No rule / it’s noise\" is a valid conclusion if supported).\n-\nEngineering: 15% - The quality of the engineering, specifically regarding the dry-run functionality, spend cap implementation, logging, and containerization.\nReward Structure\n-\n1st Place: 800\n-\n2nd Place: 600\n-\n3nd Place: 500\n-\n4nd Place: 300\n-\n4nd Place: 300"
     },
     {
       "kind": "bounty",
@@ -175,6 +142,32 @@
         }
       ],
       "description": "Write a thread on the $CHIMP\nWinners: Top 25\nPrize pool: 500\nAbout $CHIMP\nAfter three years of building, the $CHIMP is having a FAIR launching on Raydium.\nChimpX builds Solana SuperApp Mojo AI, a personal AI for your money on Solana. You type what you want and Mojo AI does it, no confusing DeFi steps. It has been used by 56K+ wallets, has handled 1M+ requests, and has seen $3.9M+ traded through it.\nWhat makes the $CHIMP sale different\n1. A soft cap unlocks a guaranteed rate or better.\n2. Extra funds are refunded pro rata, so nobody overpays.\n3. No sniping advantage. No racing bots, no insider edge.\n4. A fair public raise for everyone.\n5. Public sale buyers get 100% of their tokens unlocked at launch.\nQuick facts\nTotal supply: 1,000,000,000 $CHIMP\nPublic sale: 75,000,000 $CHIMP (7.5%)\nCommunity: 50%, for airdrops and rewards\nTeam and advisor tokens: locked at launch\nToken Contract: Will be shared\nThe Task\nWrite an X thread of 8 or more tweets that explains the $CHIMP sale and gives readers honest reasons to take part. Use your own style: story, data, visuals, comparison or humour.\nWhat to cover (pick at least three)\n1. What Mojo AI does and the problem it solves. Try it and show it.\n2. The traction so far, using our official numbers only.\n3. It is direct launch on Raydium.\n4. How to join the fair Launch, step by step.\n5. The tokenomics: where the 1B tokens go, what is locked at launch, and that public sale buyers are fully unlocked.\n6. What $CHIMP and HOOTs rewards do inside Mojo AI.\n7. The risks, and how to check you are on the real sale page.\nHow to participate\n1. Write a thread covering at least three of the points above.\n2. Tag @chimpxAI, @solana and @Raydium.\n3. Include $CHIMP and the official sale link.\n4. Submit your thread link on this page.\nJudging criteria\nDepth of research: Do you understand the product, the token and how the sale works?\nClarity: Could a complete beginner follow your thread?\nReasons to join: Are your reasons honest and backed by real facts?\nCreativity: Do you have a fresh angle, story or joke?\nVisuals: Bonus points for charts, infographics, screen recordings or videos.\nEngagement: Likes and reposts count, but quality comes first.\nTerms\nParticipation in this bounty is entirely voluntary. Bounties are a way to learn and dabble in opportunities to build in web3. These are neither full time jobs nor project based engagement. Please be advised that the sponsors will not have time for individualized feedback due to the number of entries they receive.\nResources\nWebsite: chimpx.ai\nOfficial X: @chimpxai\nTokenomics post: https://x.com/ChimpxAI/status/2108481669653291199\nDocs: docs.chimpx.ai\nLogo and brand images: https://drive.google.com/drive/folders/1LDJrUox_RTTrplqbFYqZ1CYedrT5CCPp?usp=drive_link\nTerms\nParticipation in this bounty is entirely voluntary. Bounties are a way to learn and dabble in opportunities to build in web3. These are neither full time jobs nor project based engagement. Please be advised that the sponsors will not have time for individualized feedback due to the number of entries they receive."
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Make a video about our x402 Feature",
+      "sponsor": "swap.io",
+      "sponsor_verified": false,
+      "reward": 500,
+      "token": "USDC",
+      "deadline": "2026-11-14T23:59:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/make-a-video-about-our-x402-feature",
+      "skills": [
+        {
+          "skills": "Content",
+          "subskills": [
+            "Writing",
+            "Social Media",
+            "Video",
+            "Video Editing"
+          ]
+        }
+      ],
+      "description": "Pitch an x402 Use Case with Swap.io\nAbout Swap.io\nSwap.io is a swap platform on Solana. Its Agent API lets AI agents get swap quotes and build swap transactions, paying per call in USDC through x402. There’s no API key and no subscription, and each call costs a fraction of a cent.\nThe Task\nMake a 60 to 120 second video pitching one specific way an AI agent could use x402 with Swap.io.\nShow us the idea, how it works and why it matters. You don’t need to write code: mockups, slides, storyboards, diagrams or screen recordings are all welcome.\nYour video should:\n-\nPitch one concrete scenario. “AI agents can trade through x402” is too broad. “A Telegram bot that charges users per swap and pays Swap.io per quote” is the level we want.\n-\nExplain the x402 flow simply: the agent makes a request, gets a 402 (payment required), pays in USDC, and gets the answer.\n-\nSay why x402 beats the alternatives (API keys, subscriptions) for your use case.\nNeed inspiration? A trading agent that pays per quote before every trade, a rebalancer that only pays when it actually trades, a research agent that buys data per request, a Telegram bot that rebalances your portfolio.\nBonus: Make It Work (up to +20)\nShow your idea actually running: a real paid call to the Swap.io Agent API, with the transaction link on Solscan. Partial credit for a demo that runs part of the flow.\nNo idea where to start? The x402 setup guides walk you through your first paid call.\nRequirements\n-\nOne video per participant only. More than one submission per participant will lead to disqualification.\n-\nLength: 60 to 120 seconds\n-\nPost the video on X tagging @swapdotio and @Superteam\n-\nPost the video on Medium (you can copy paste your X submission) and link to swap.io\n-\nOriginal work only. AI voiceovers are fine but we prefer on camera presence; reposted or recycled content gets disqualified.\n-\nFor the bonus: include the Solscan link in your submission\nJudging Criteria\n-\nIdea and clarity (45%): specific, original and actually useful. Would someone who’s never heard of x402 understand it after watching\n-\nProduction Quality (35%): editing, pacing, visuals and audio\n-\nReach (20%): engagement on your X post\n-\nBonus (+30%): a working demo\nRewards\n-\n🥇 1st: $200\n-\n🥈 2nd: $125\n-\n🥉 3rd: $80\n-\n4th: $60\n-\n5th: $35\n-\n6th-10th - 40k XP for Season Zero\nSubmission\nSubmit the link to your X post and the other platform. If you’re going for the bonus, add the Solscan link of your paid call.\nResources\n-\nSwap.io Agent API: https://hermes.swap.io\n-\nx402 protocol: https://x402.org\n-\nSwap.io: https://swap.io\n-\nhttps://discord.gg/6gQ7D4Nte\n-\nhttps://t.me/swap_io\n-\nhttps://docs.swap.io/developer-tools/agent-api-x402/quickstart"
     },
     {
       "kind": "bounty",

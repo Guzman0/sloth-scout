@@ -1,4 +1,4 @@
-# 🦥 Sloth Scout brief: Thursday, November 5, 2026
+# 🦥 Sloth Scout brief: Friday, November 6, 2026
 
 > ⚠️ Skipped this run: Browserbase reading, ElevenLabs audio. See Sources at the bottom.
 
@@ -6,7 +6,12 @@
 
 ### Bounties
 
-No new good-fit bounties today.
+#### 1. Make a video about our x402 Feature
+- **Reward:** 500 USDC   **Deadline:** 2026-11-14
+- **Fit:** 7/10. You are strong at product analysis and visuals, but only 'okay' at video; however, the task allows mockups and slides instead of complex editing.
+- **Effort:** medium
+- **Scam risk:** medium. The sponsor is not verified by Superteam.
+- **Link:** https://superteam.fun/earn/listing/make-a-video-about-our-x402-feature
 
 ### Hackathons
 
@@ -29,9 +34,9 @@ From earlier briefs, still accepting entries:
 
 ## Notes
 
-- Poor fits (score under 5): 22.
-- Not open to your region (Spain, Ukraine), so not ranked: 2.
-- Couldn't rank 2 (will retry next run): Neural Storm; AI OpenBuild.
+- Poor fits (score under 5): 23.
+- Not open to your region (Spain), so not ranked: 1.
+- Couldn't rank 1 (will retry next run): Ctrl+V Hackathon.
 
 ## Unverified leads
 
@@ -41,9 +46,9 @@ Found by search but missing a reward or deadline, so not ranked. Check these by 
 
 ## Sources
 
-- ✅ **Superteam Earn:** 10 open bounties (18.0s)
+- ✅ **Superteam Earn:** 10 open bounties (20.8s)
 - ✅ **Devpost:** 26 open online Blockchain or AI/ML hackathons (0.3s)
-- ✅ **SerpApi search:** 1 new listing links from 4 searches (2.8s)
+- ✅ **SerpApi search:** 1 new listing links from 4 searches (3.6s)
 - ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
 - ⚠️ **ElevenLabs audio: skipped.** The ElevenLabs monthly quota has run out.
 - ✅ **Memory:** MongoDB Atlas

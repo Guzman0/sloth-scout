@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T14:13:31+00:00",
+  "fetched_at": "2026-11-06T13:53:59+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 167,
+      "registrations": 169,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 215,
+      "registrations": 229,
       "link": "https://herhack.devpost.com/"
     },
     {
@@ -50,7 +50,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 29154,
+      "registrations": 29718,
       "link": "https://paypalaihackathon.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 9138,
+      "registrations": 9645,
       "link": "https://kiroween.devpost.com/"
     },
     {
@@ -84,7 +84,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 5209,
+      "registrations": 5306,
       "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
@@ -101,7 +101,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 1757,
+      "registrations": 1909,
       "link": "https://codegeist2026.devpost.com/"
     },
     {
@@ -118,7 +118,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 1333,
+      "registrations": 1400,
       "link": "https://ugreenhackathon.devpost.com/"
     },
     {
@@ -135,7 +135,7 @@
         "Design"
       ],
       "online": true,
-      "registrations": 1138,
+      "registrations": 1153,
       "link": "https://learn-specs.devpost.com/"
     },
     {
@@ -152,7 +152,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 476,
+      "registrations": 563,
       "link": "https://qnx.devpost.com/"
     },
     {
@@ -169,25 +169,8 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 892,
+      "registrations": 909,
       "link": "https://arbiter-hacks-v1.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Code for Humanity",
-      "sponsor": "nill",
-      "prize_total": "$0",
-      "deadline": "2027-01-15",
-      "dates": "Jul 16, 2026 - Jan 15, 2027",
-      "themes": [
-        "Education",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 801,
-      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -203,25 +186,25 @@
         "Web"
       ],
       "online": true,
-      "registrations": 116,
+      "registrations": 159,
       "link": "https://aws-agentic-msp.devpost.com/"
     },
     {
       "kind": "hackathon",
       "source": "Devpost",
-      "title": "Ostad Presents YUNet AIgnite Buildathon 2026",
-      "sponsor": "Youth Upskill Network - YUNet",
+      "title": "Code for Humanity",
+      "sponsor": "nill",
       "prize_total": "$0",
-      "deadline": "2026-11-05",
-      "dates": "Nov 01 - 05, 2026",
+      "deadline": "2027-01-15",
+      "dates": "Jul 16, 2026 - Jan 15, 2027",
       "themes": [
         "Education",
-        "Low/No Code",
-        "Machine Learning/AI"
+        "Machine Learning/AI",
+        "Web"
       ],
       "online": true,
-      "registrations": 426,
-      "link": "https://yunet-aignite26.devpost.com/"
+      "registrations": 808,
+      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -237,25 +220,8 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 417,
+      "registrations": 420,
       "link": "https://syntax-summit.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "EthnoHack",
-      "sponsor": "ETHCSTWIN",
-      "prize_total": "€8,000",
-      "deadline": "2026-11-08",
-      "dates": "Nov 02 - 08, 2026",
-      "themes": [
-        "Databases",
-        "Health",
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 322,
-      "link": "https://ethnohack2026.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -271,8 +237,25 @@
         "Web"
       ],
       "online": true,
-      "registrations": 317,
+      "registrations": 348,
       "link": "https://build-your-first-ai-app.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "EthnoHack",
+      "sponsor": "ETHCSTWIN",
+      "prize_total": "€8,000",
+      "deadline": "2026-11-08",
+      "dates": "Nov 02 - 08, 2026",
+      "themes": [
+        "Databases",
+        "Health",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 347,
+      "link": "https://ethnohack2026.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -288,24 +271,8 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 243,
+      "registrations": 253,
       "link": "https://stemergent-hacks.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Neural Storm",
-      "sponsor": "JNTUH",
-      "prize_total": "₹20,000",
-      "deadline": "2026-11-05",
-      "dates": "Nov 02 - 05, 2026",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 233,
-      "link": "https://neuralstorm.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -321,7 +288,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 198,
+      "registrations": 221,
       "link": "https://ai-agents-founders-hetic-26.devpost.com/"
     },
     {
@@ -338,7 +305,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 195,
+      "registrations": 206,
       "link": "https://agentic-hackathon.devpost.com/"
     },
     {
@@ -355,25 +322,8 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 175,
+      "registrations": 178,
       "link": "https://mathematics-systems-security.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "HackWithAditya",
-      "sponsor": "Aditya University",
-      "prize_total": "₹500,000",
-      "deadline": "2026-11-25",
-      "dates": "Oct 16 - Nov 25, 2026",
-      "themes": [
-        "Education",
-        "Health",
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 142,
-      "link": "https://hackwithaditya.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -389,8 +339,42 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 138,
+      "registrations": 158,
       "link": "https://genhacks-open.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "HackWithAditya",
+      "sponsor": "Aditya University",
+      "prize_total": "₹500,000",
+      "deadline": "2026-11-25",
+      "dates": "Oct 16 - Nov 25, 2026",
+      "themes": [
+        "Education",
+        "Health",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 146,
+      "link": "https://hackwithaditya.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "HackTheFashion Global'26",
+      "sponsor": "FabricVTON",
+      "prize_total": "$45,000",
+      "deadline": "2026-11-25",
+      "dates": "Nov 06 - 25, 2026",
+      "themes": [
+        "AR/VR",
+        "Beginner Friendly",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 114,
+      "link": "https://hackthefashion-global26.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -406,8 +390,25 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 86,
+      "registrations": 96,
       "link": "https://ml-build-challenge-4.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Ctrl+V Hackathon",
+      "sponsor": "ADHAYAN",
+      "prize_total": "$28,000",
+      "deadline": "2026-11-10",
+      "dates": "Nov 06 - 10, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "online": true,
+      "registrations": 71,
+      "link": "https://ctrl-v-hackathon-31831.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -423,7 +424,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 12,
+      "registrations": 28,
       "link": "https://ai-openbuild.devpost.com/"
     },
     {
@@ -440,7 +441,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 6,
+      "registrations": 14,
       "link": "https://ai-for-medicine.devpost.com/"
     }
   ]
