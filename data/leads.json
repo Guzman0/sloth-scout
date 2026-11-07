@@ -1,12 +1,12 @@
 {
-  "found_at": "2026-11-06T13:53:37+00:00",
+  "found_at": "2026-11-07T12:38:01+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
       "source": "tensorhack.com",
       "title": "Web3 Hackathons Guide - Tensor Hack",
-      "snippet": "Web3 hackathons test whether you can use a chain, wallet, protocol or agent stack on deadline. Its event model is built around sponsor bounties, showcase ...",
+      "snippet": "Finalist perks included 1000 USDC per finalist team member and $500 flight reimbursement, while sponsors listed their own bounties, qualification requirements, ...",
       "link": "https://tensorhack.com/guides/web3-hackathons-guide",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
