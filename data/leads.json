@@ -1,5 +1,33 @@
 {
-  "found_at": "2026-11-08T12:55:18+00:00",
+  "found_at": "2026-11-09T15:29:59+00:00",
   "verified": [],
-  "unverified": []
+  "unverified": [
+    {
+      "kind": "lead",
+      "source": "dorahacks.io",
+      "title": "BCH BLAZE 2026 | Hackathon",
+      "snippet": "BLAZE is a series of online hackathons designed to ignite innovation in the Bitcoin Cash (BCH) ecosystem! A total prize pool of $8 000+",
+      "link": "https://dorahacks.io/hackathon/bchblaze2026/",
+      "query": "site:dorahacks.io/hackathon bounty",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "dorahacks.io",
+      "title": "BLI Legal Tech Hackathon 2",
+      "snippet": "Join our second year of the Blockchain Legal Institute&#39;s global legal hackathon and win bounties. Prize Pool 20,000 USD BLI",
+      "link": "https://dorahacks.io/hackathon/legal-hack-2026",
+      "query": "site:dorahacks.io/hackathon bounty",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "apify.com",
+      "title": "Web3 Bug Bounty & Audit Contest Tracker",
+      "snippet": "Every live crypto bug bounty and audit contest from Immunefi, Cantina, Code4rena and Sherlock in one clean table: rewards, dates, KYC, submission fees, chains ...",
+      "link": "https://apify.com/photoncalc/web3-bounty-tracker",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    }
+  ]
 }
