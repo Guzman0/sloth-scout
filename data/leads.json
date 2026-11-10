@@ -1,31 +1,49 @@
 {
-  "found_at": "2026-11-09T15:29:59+00:00",
+  "found_at": "2026-11-10T14:30:04+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "BCH BLAZE 2026 | Hackathon",
-      "snippet": "BLAZE is a series of online hackathons designed to ignite innovation in the Bitcoin Cash (BCH) ecosystem! A total prize pool of $8 000+",
-      "link": "https://dorahacks.io/hackathon/bchblaze2026/",
-      "query": "site:dorahacks.io/hackathon bounty",
+      "source": "galaxy.com",
+      "title": "Web3 - Galaxy",
+      "snippet": "Galaxy is a digital asset and blockchain leader helping institutions, startups, and individuals shape a changing economy.",
+      "link": "https://www.galaxy.com/insights/topics/web3",
+      "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
     {
       "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "BLI Legal Tech Hackathon 2",
-      "snippet": "Join our second year of the Blockchain Legal Institute&#39;s global legal hackathon and win bounties. Prize Pool 20,000 USD BLI",
-      "link": "https://dorahacks.io/hackathon/legal-hack-2026",
-      "query": "site:dorahacks.io/hackathon bounty",
+      "source": "mordorintelligence.com",
+      "title": "Web3 Market Size, Share, Growth & Industry Research ...",
+      "snippet": "The Web3 Market is estimated at USD 4.97 Bn in 2026, with a forecast of USD 43.45 Bn for 2032. Key drivers include rising enterprise blockchain adoption. CAGR ...",
+      "link": "https://www.mordorintelligence.com/industry-reports/web3-market",
+      "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
     {
       "kind": "lead",
-      "source": "apify.com",
-      "title": "Web3 Bug Bounty & Audit Contest Tracker",
-      "snippet": "Every live crypto bug bounty and audit contest from Immunefi, Cantina, Code4rena and Sherlock in one clean table: rewards, dates, KYC, submission fees, chains ...",
-      "link": "https://apify.com/photoncalc/web3-bounty-tracker",
+      "source": "careers.mastercard.com",
+      "title": "Manager, Products and Solutions - Stablecoin & Web3 ...",
+      "snippet": "Mastercard is seeking a Product Manager to drive product development for stablecoin-enabled and Web3 payment solutions in Hong Kong.",
+      "link": "https://careers.mastercard.com/us/en/job/R-279025/Manager-Products-and-Solutions-Stablecoin-Web3-Solution",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "indeed.com",
+      "title": "Web3 jobs in Remote",
+      "snippet": "Browse 539 Web3 job openings from Remote. Discover flexible, work-from-home opportunities on Indeed in fields like tech, admin, and customer service.",
+      "link": "https://www.indeed.com/q-web3-l-remote-jobs.html",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "web3.career",
+      "title": "Growth Jobs in Web3 - Nov 2026 (1 New)",
+      "snippet": "Growth Jobs in Web3. 973 jobs found. Part of the Bondex Ecosystem. Search web3 jobs by role, skill, or company.",
+      "link": "https://web3.career/growth-jobs",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     }
