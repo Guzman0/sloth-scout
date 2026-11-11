@@ -1,49 +1,22 @@
 {
-  "found_at": "2026-11-10T14:30:04+00:00",
+  "found_at": "2026-11-11T13:44:40+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "galaxy.com",
-      "title": "Web3 - Galaxy",
-      "snippet": "Galaxy is a digital asset and blockchain leader helping institutions, startups, and individuals shape a changing economy.",
-      "link": "https://www.galaxy.com/insights/topics/web3",
+      "source": "apify.com",
+      "title": "Web3 Bug Bounty & Audit Contest Tracker",
+      "snippet": "Every live crypto bug bounty and audit contest from Immunefi, Cantina, Code4rena and Sherlock in one clean table: rewards, dates, KYC, submission fees, chains ...",
+      "link": "https://apify.com/photoncalc/web3-bounty-tracker",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
     {
       "kind": "lead",
-      "source": "mordorintelligence.com",
-      "title": "Web3 Market Size, Share, Growth & Industry Research ...",
-      "snippet": "The Web3 Market is estimated at USD 4.97 Bn in 2026, with a forecast of USD 43.45 Bn for 2032. Key drivers include rising enterprise blockchain adoption. CAGR ...",
-      "link": "https://www.mordorintelligence.com/industry-reports/web3-market",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "careers.mastercard.com",
-      "title": "Manager, Products and Solutions - Stablecoin & Web3 ...",
-      "snippet": "Mastercard is seeking a Product Manager to drive product development for stablecoin-enabled and Web3 payment solutions in Hong Kong.",
-      "link": "https://careers.mastercard.com/us/en/job/R-279025/Manager-Products-and-Solutions-Stablecoin-Web3-Solution",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "indeed.com",
-      "title": "Web3 jobs in Remote",
-      "snippet": "Browse 539 Web3 job openings from Remote. Discover flexible, work-from-home opportunities on Indeed in fields like tech, admin, and customer service.",
-      "link": "https://www.indeed.com/q-web3-l-remote-jobs.html",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "web3.career",
-      "title": "Growth Jobs in Web3 - Nov 2026 (1 New)",
-      "snippet": "Growth Jobs in Web3. 973 jobs found. Part of the Bondex Ecosystem. Search web3 jobs by role, skill, or company.",
-      "link": "https://web3.career/growth-jobs",
+      "source": "hackernoon.com",
+      "title": "86 Blog Posts To Learn About Hackernoon Writing Contest",
+      "snippet": "Write about blockchain APIs, dApp development & more for a chance to win from $5,000. Contest open Feb 5–May 7, 2025. Win up to $2,000! Contest open Feb 5–May ...",
+      "link": "https://hackernoon.com/86-blog-posts-to-learn-about-hackernoon-writing-contest",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     }

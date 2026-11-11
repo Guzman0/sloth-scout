@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T14:30:23+00:00",
+  "fetched_at": "2026-11-11T13:45:02+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,25 +16,8 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 216,
+      "registrations": 230,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Herhack",
-      "sponsor": "Echelon institute of technology",
-      "prize_total": "₹200,000",
-      "deadline": "2026-11-10",
-      "dates": "Oct 17 - Nov 10, 2026",
-      "themes": [
-        "Beginner Friendly",
-        "Blockchain",
-        "Open Ended"
-      ],
-      "online": true,
-      "registrations": 282,
-      "link": "https://herhack.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -50,7 +33,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 33204,
+      "registrations": 34337,
       "link": "https://paypalaihackathon.devpost.com/"
     },
     {
@@ -67,7 +50,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 11357,
+      "registrations": 12018,
       "link": "https://kiroween.devpost.com/"
     },
     {
@@ -84,7 +67,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 5684,
+      "registrations": 5795,
       "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
@@ -101,7 +84,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 2011,
+      "registrations": 2126,
       "link": "https://ugreenhackathon.devpost.com/"
     },
     {
@@ -118,7 +101,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 2634,
+      "registrations": 2783,
       "link": "https://codegeist2026.devpost.com/"
     },
     {
@@ -135,7 +118,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1071,
+      "registrations": 1211,
       "link": "https://qnx.devpost.com/"
     },
     {
@@ -152,7 +135,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1004,
+      "registrations": 1025,
       "link": "https://arbiter-hacks-v1.devpost.com/"
     },
     {
@@ -169,7 +152,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 842,
+      "registrations": 852,
       "link": "https://code-for-humanity.devpost.com/"
     },
     {
@@ -186,8 +169,25 @@
         "Web"
       ],
       "online": true,
-      "registrations": 253,
+      "registrations": 283,
       "link": "https://aws-agentic-msp.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Deck the Pixels",
+      "sponsor": "Google",
+      "prize_total": "$25,000",
+      "deadline": "2026-12-07",
+      "dates": "Nov 10 - Dec 07, 2026",
+      "themes": [
+        "Design",
+        "Machine Learning/AI",
+        "Low/No Code"
+      ],
+      "online": true,
+      "registrations": 227,
+      "link": "https://deckthepixels.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -203,7 +203,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 454,
+      "registrations": 475,
       "link": "https://build-your-first-ai-app.devpost.com/"
     },
     {
@@ -220,7 +220,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 424,
+      "registrations": 428,
       "link": "https://syntax-summit.devpost.com/"
     },
     {
@@ -237,7 +237,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 282,
+      "registrations": 305,
       "link": "https://ai-agents-founders-hetic-26.devpost.com/"
     },
     {
@@ -254,7 +254,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 279,
+      "registrations": 298,
       "link": "https://stemergent-hacks.devpost.com/"
     },
     {
@@ -271,7 +271,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 256,
+      "registrations": 272,
       "link": "https://agentic-hackathon.devpost.com/"
     },
     {
@@ -288,25 +288,25 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 243,
+      "registrations": 270,
       "link": "https://genhacks-open.devpost.com/"
     },
     {
       "kind": "hackathon",
       "source": "Devpost",
-      "title": "Ctrl+V Hackathon",
-      "sponsor": "ADHAYAN",
-      "prize_total": "$28,000",
-      "deadline": "2026-11-10",
-      "dates": "Nov 06 - 10, 2026",
+      "title": "Learn AR with SPECS",
+      "sponsor": "Devpost",
+      "prize_total": "$2,500",
+      "deadline": "2026-12-07",
+      "dates": "Nov 10 - Dec 07, 2026",
       "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Social Good"
+        "AR/VR",
+        "Design",
+        "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 208,
-      "link": "https://ctrl-v-hackathon-31831.devpost.com/"
+      "registrations": 38,
+      "link": "https://learn-specs.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -322,7 +322,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 201,
+      "registrations": 208,
       "link": "https://mathematics-systems-security.devpost.com/"
     },
     {
@@ -339,25 +339,8 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 169,
+      "registrations": 174,
       "link": "https://hackwithaditya.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Deck the Pixels",
-      "sponsor": "Google",
-      "prize_total": "$25,000",
-      "deadline": "2026-12-07",
-      "dates": "Nov 10 - Dec 07, 2026",
-      "themes": [
-        "Design",
-        "Machine Learning/AI",
-        "Low/No Code"
-      ],
-      "online": true,
-      "registrations": 12,
-      "link": "https://deckthepixels.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -373,7 +356,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 125,
+      "registrations": 150,
       "link": "https://slayy-hacks.devpost.com/"
     },
     {
@@ -390,7 +373,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 112,
+      "registrations": 117,
       "link": "https://ml-build-challenge-4.devpost.com/"
     },
     {
@@ -407,7 +390,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 79,
+      "registrations": 91,
       "link": "https://ai-openbuild.devpost.com/"
     },
     {
@@ -424,7 +407,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 52,
+      "registrations": 65,
       "link": "https://ai-for-medicine.devpost.com/"
     }
   ]

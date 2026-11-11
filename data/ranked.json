@@ -1,5 +1,5 @@
 {
-  "ranked_at": "2026-11-10T14:39:02+00:00",
+  "ranked_at": "2026-11-11T13:54:55+00:00",
   "model": "models/gemma-4-31b-it",
   "fingerprint": "83a608da9e68c635",
   "ranked": [
@@ -31,6 +31,42 @@
       "effort": "medium",
       "scam_risk": "medium",
       "scam_reason": "The sponsor is not verified by Superteam, which is a red flag."
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Create an Engaging X Thread Introducing Anna AI Messenger",
+      "sponsor": "Anna",
+      "sponsor_verified": false,
+      "reward": 250,
+      "token": "USDC",
+      "deadline": "2026-11-19T22:59:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/create-an-engaging-x-thread-introducing-anna-ai-messenger-1",
+      "skills": [
+        {
+          "skills": "Design",
+          "subskills": [
+            "Graphic Design"
+          ]
+        },
+        {
+          "skills": "Content",
+          "subskills": [
+            "Writing",
+            "Social Media",
+            "Research"
+          ]
+        }
+      ],
+      "description": "About Anna\nAI is getting super powerful, but using it can be way too complicated. People constantly switch between chatbots, coding assistants, and other tools just to get stuff done. We're changing that with Anna.\nAnna is an AI-native messenger where humans and AI colleagues work together. Instead of you juggling agents or models, you just tell Anna what you want to achieve. She then organizes the right AI colleagues, coordinates their work, and brings you in when decisions or approvals are needed. Think of it like this: humans manage Anna, and Anna manages the AI. We're being built by Causis Research, an independent AI lab that's exploring new architectures and continuous learning.\nAnna is currently in private preview with selected testers. If you're interested, you can join the waitlist at https://annaos.ai/.\nMandatory Participation Requirements\nTo qualify for this bounty and be eligible for prizes, you must complete ALL of the following:\n-\nFollow Anna on X: https://x.com/annaos_ai\n-\nFollow Invariant on X: https://x.com/notinvariant\n-\nFollow Causis Research on X: https://x.com/causisresearch\n-\nPublish an original X thread of minimum 3 posts introducing Anna, following the creative guidelines below.\n-\nSubmit your thread URL through Superteam Earn before the deadline.\nFollowing all three accounts is a mandatory participation requirement, not an optional recommendation.\nFor submission, please provide:\n-\nYour X username, so we can verify your submission.\n-\nA direct link to your publicly accessible X thread.\n-\nConfirmation that you follow all three official X accounts.\n-\nA short description of your creative approach.\n-\nAny original visual assets created.\nMission\nCreate an engaging and original X (Twitter) thread to introduce Anna to a new audience, explaining what it is, why it's being built, and how it could change working with AI.\nScope Detail\n-\nCreate a public X thread consisting of minimum 3 posts.\n-\nYour thread should clearly explain:\n-\nThe problem: Current AI tools are powerful but fragmented and complex to use effectively.\n-\nWhat Anna is: A messenger where humans and AI colleagues collaborate in the same conversations.\n-\nHow it works: Users describe their needs, and Anna organizes and coordinates relevant AI colleagues and tools.\n-\nWhat makes Anna different: A single conversational environment for both human collaboration and AI execution, removing the need for manual agent system management.\n-\nThe team: Anna is developed by Causis Research, an independent AI research lab.\n-\nCurrent status: Anna is in private preview and preparing for broader public access.\n-\nCall to action: Encourage readers to join the waitlist at https://annaos.ai/.\n-\nYou can include your own observations, analysis, and comparisons with existing AI products, provided the information is accurate.\n-\nCreative Guidelines:\n-\nWrite in English.\n-\nCraft a compelling opening post to draw readers in.\n-\nUse natural, engaging language that non-technical people can understand.\n-\nInclude at least one original visual, diagram, or thoughtfully designed graphic.\n-\nEnsure all information is accurate and from official sources.\n-\nTag @annaos_ai where relevant.\n-\nKeep the content original; avoid generic or AI-generated threads.\n-\nDo not claim to have personally used Anna unless you have access, and do not present preview functionality or future plans as publicly available features.\nSubmission Requirements\n-\nA direct link to your publicly accessible X thread.\n-\nA short description outlining your creative approach.\n-\nAny original visual assets you created (if applicable).\n-\nIf your thread is a promotional entry for this competition, clearly disclose this relationship and use X's Paid Partnership disclosure.\n-\nOnly one submission per participant will be evaluated.\nJudging Criteria\n-\nAccuracy and understanding of Anna: 30%\n-\nOriginality and creativity: 25%\n-\nClarity and storytelling: 20%\n-\nVisual presentation: 15%\n-\nQuality of the opening hook: 10%\n-\nSubmissions will not be judged on follower counts, likes, reposts, or other social engagement metrics.\n-\nStrongest submissions will clearly communicate Anna's vision without exaggerating its current capabilities.\nResources\n-\nProduct and waitlist: https://annaos.ai/\n-\nAnna on X: https://x.com/annaos_ai\n-\nInvariant — founder/research perspective: https://x.com/notinvariant\n-\nCausis Research: https://causisresearch.com/\nReward Structure\n-\n1st Place: 150 USDC\n-\n2nd Place: 75 USDC\n-\n3rd Place: 25 USDC",
+      "fit_score": 10,
+      "reason": "This is a perfect match for your expertise in X threads, research, and visual design, and it pays in your preferred currency.",
+      "effort": "medium",
+      "scam_risk": "low",
+      "scam_reason": "The sponsor isn't verified by Superteam, but the requirements are standard for marketing bounties and involve no financial risk."
     },
     {
       "kind": "bounty",
@@ -149,28 +185,6 @@
     {
       "kind": "hackathon",
       "source": "Devpost",
-      "title": "AI Agents for Founders Challenge — HETIC 2026",
-      "sponsor": "HETIC",
-      "prize_total": "€1,000",
-      "deadline": "2026-12-18",
-      "dates": "Nov 04 - Dec 18, 2026",
-      "themes": [
-        "Low/No Code",
-        "Machine Learning/AI",
-        "Productivity"
-      ],
-      "online": true,
-      "registrations": 282,
-      "link": "https://ai-agents-founders-hetic-26.devpost.com/",
-      "fit_score": 7,
-      "reason": "The Low/No Code theme aligns with your skill set, and your product analysis strengths are a great fit for a founders' challenge.",
-      "effort": "medium",
-      "scam_risk": "low",
-      "scam_reason": "Hosted on Devpost by a recognized educational institution."
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
       "title": "Deck the Pixels",
       "sponsor": "Google",
       "prize_total": "$25,000",
@@ -182,13 +196,35 @@
         "Low/No Code"
       ],
       "online": true,
-      "registrations": 12,
+      "registrations": 227,
       "link": "https://deckthepixels.devpost.com/",
       "fit_score": 7,
       "reason": "The design and low/no-code themes align well with your visual assets and UX skills.",
       "effort": "medium",
       "scam_risk": "low",
       "scam_reason": "Organized by Google, a highly reputable and verified company."
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "AI Agents for Founders Challenge — HETIC 2026",
+      "sponsor": "HETIC",
+      "prize_total": "€1,000",
+      "deadline": "2026-12-18",
+      "dates": "Nov 04 - Dec 18, 2026",
+      "themes": [
+        "Low/No Code",
+        "Machine Learning/AI",
+        "Productivity"
+      ],
+      "online": true,
+      "registrations": 305,
+      "link": "https://ai-agents-founders-hetic-26.devpost.com/",
+      "fit_score": 7,
+      "reason": "The Low/No Code theme aligns with your skill set, and your product analysis strengths are a great fit for a founders' challenge.",
+      "effort": "medium",
+      "scam_risk": "low",
+      "scam_reason": "Hosted on Devpost by a recognized educational institution."
     },
     {
       "kind": "bounty",
@@ -235,7 +271,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 33204,
+      "registrations": 34337,
       "link": "https://paypalaihackathon.devpost.com/",
       "fit_score": 6,
       "reason": "The 'Low/No Code' theme allows you to leverage your product and UX analysis skills without needing heavy coding experience.",
@@ -257,7 +293,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 11357,
+      "registrations": 12018,
       "link": "https://kiroween.devpost.com/",
       "fit_score": 6,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes allow you to apply your research and UX skills, though you'll likely need a developer partner to build a submission.",
@@ -279,7 +315,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 125,
+      "registrations": 150,
       "link": "https://slayy-hacks.devpost.com/",
       "fit_score": 6,
       "reason": "The open-ended and beginner-friendly themes suit your research and UX skills, though you'll likely need a technical partner to build a prototype.",
@@ -301,57 +337,13 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1004,
+      "registrations": 1025,
       "link": "https://arbiter-hacks-v1.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes may allow for your UX and research skills, but most hackathons require a technical prototype you aren't comfortable building.",
       "effort": "high",
       "scam_risk": "low",
       "scam_reason": "Hosted on Devpost, which is a reputable and standard platform for Web3 hackathons."
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Ctrl+V Hackathon",
-      "sponsor": "ADHAYAN",
-      "prize_total": "$28,000",
-      "deadline": "2026-11-10",
-      "dates": "Nov 06 - 10, 2026",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Social Good"
-      ],
-      "online": true,
-      "registrations": 208,
-      "link": "https://ctrl-v-hackathon-31831.devpost.com/",
-      "fit_score": 5,
-      "reason": "The 'Beginner Friendly' theme may suit your UX and research skills, but hackathons typically require a technical build you aren't comfortable with.",
-      "effort": "medium",
-      "scam_risk": "low",
-      "scam_reason": "It is hosted on Devpost, a trusted platform for hackathons."
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Herhack",
-      "sponsor": "Echelon institute of technology",
-      "prize_total": "₹200,000",
-      "deadline": "2026-11-10",
-      "dates": "Oct 17 - Nov 10, 2026",
-      "themes": [
-        "Beginner Friendly",
-        "Blockchain",
-        "Open Ended"
-      ],
-      "online": true,
-      "registrations": 282,
-      "link": "https://herhack.devpost.com/",
-      "fit_score": 4,
-      "reason": "The prize is in INR rather than your preferred USDC/USDG, and hackathons typically prioritize development over research and content creation.",
-      "effort": "high",
-      "scam_risk": "medium",
-      "scam_reason": "The organizer is not a well-known Web3 entity and the listing lacks a detailed description."
     },
     {
       "kind": "hackathon",
@@ -367,7 +359,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 79,
+      "registrations": 91,
       "link": "https://ai-openbuild.devpost.com/",
       "fit_score": 4,
       "reason": "This is a 'Build' hackathon which typically requires coding skills you've listed as 'Not for me', though the open-ended theme might allow for some research or UX work.",
@@ -417,7 +409,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 216,
+      "registrations": 230,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/",
       "fit_score": 3,
       "reason": "This is a hackathon likely requiring development skills, which you've listed as 'Not for me'.",
@@ -439,7 +431,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 5684,
+      "registrations": 5795,
       "link": "https://start-developer-competition-26.devpost.com/",
       "fit_score": 3,
       "reason": "This is a developer-focused competition, which conflicts with your preference to avoid heavy coding and full-stack development.",
@@ -461,7 +453,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 2011,
+      "registrations": 2126,
       "link": "https://ugreenhackathon.devpost.com/",
       "fit_score": 3,
       "reason": "This hackathon focuses on AI NAS and Machine Learning, which likely requires technical development skills you've listed as 'not for me'.",
@@ -483,7 +475,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 2634,
+      "registrations": 2783,
       "link": "https://codegeist2026.devpost.com/",
       "fit_score": 3,
       "reason": "This is a coding-centric hackathon which conflicts with your lack of development skills, although your UX and research strengths could be useful if you joined a team.",
@@ -505,7 +497,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1071,
+      "registrations": 1211,
       "link": "https://qnx.devpost.com/",
       "fit_score": 3,
       "reason": "The themes (IoT, AI) are highly technical and align with skills you avoid, though you could potentially contribute via product analysis or UX.",
@@ -527,7 +519,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 253,
+      "registrations": 283,
       "link": "https://aws-agentic-msp.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical build-focused hackathon (AI/ML/Web) which conflicts with your preference against heavy development and coding.",
@@ -549,13 +541,35 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 279,
+      "registrations": 298,
       "link": "https://stemergent-hacks.devpost.com/",
       "fit_score": 3,
       "reason": "The Low/No Code theme fits your skills, but the $0 prize pool fails your reward preferences.",
       "effort": "medium",
       "scam_risk": "medium",
       "scam_reason": "A $0 prize pool and lack of description are red flags for a legitimate professional opportunity."
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Agentic Hackathon",
+      "sponsor": "Devin",
+      "prize_total": "$480",
+      "deadline": "2026-11-11",
+      "dates": "Nov 01 - 11, 2026",
+      "themes": [
+        "Machine Learning/AI",
+        "Open Ended",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 272,
+      "link": "https://agentic-hackathon.devpost.com/",
+      "fit_score": 3,
+      "reason": "As a hackathon, this likely requires the heavy development skills you've listed as 'not for me', although the 'open ended' theme might allow for some UX or research contributions.",
+      "effort": "high",
+      "scam_risk": "low",
+      "scam_reason": "The event is hosted on Devpost, which is a reputable and standard platform for hackathons."
     },
     {
       "kind": "hackathon",
@@ -571,7 +585,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 243,
+      "registrations": 270,
       "link": "https://genhacks-open.devpost.com/",
       "fit_score": 3,
       "reason": "The themes (IoT, AI) are highly technical and development-focused, which conflicts with your 'Not for me' list.",
@@ -593,7 +607,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 169,
+      "registrations": 174,
       "link": "https://hackwithaditya.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical hackathon requiring development skills you don't have, and the prize is in INR rather than your preferred stablecoins.",
@@ -615,7 +629,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 112,
+      "registrations": 117,
       "link": "https://ml-build-challenge-4.devpost.com/",
       "fit_score": 2,
       "reason": "The prize is listed as $0 and it is a 'Build Challenge', which likely requires the development skills you prefer to avoid.",
@@ -673,7 +687,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 842,
+      "registrations": 852,
       "link": "https://code-for-humanity.devpost.com/",
       "fit_score": 1,
       "reason": "The prize is $0 and the focus on 'coding' doesn't align with your research and content strengths.",
@@ -695,7 +709,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 454,
+      "registrations": 475,
       "link": "https://build-your-first-ai-app.devpost.com/",
       "fit_score": 1,
       "reason": "This requires building an app, which is outside your skill set, and offers no monetary reward.",
@@ -717,7 +731,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 424,
+      "registrations": 428,
       "link": "https://syntax-summit.devpost.com/",
       "fit_score": 1,
       "reason": "The themes are highly technical (DevOps, AI, RPA) and there is no monetary reward, neither of which align with your skills or preferences.",
@@ -739,7 +753,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 201,
+      "registrations": 208,
       "link": "https://mathematics-systems-security.devpost.com/",
       "fit_score": 1,
       "reason": "This requires deep technical math and security skills you don't possess, and it offers no monetary reward.",
@@ -761,7 +775,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 52,
+      "registrations": 65,
       "link": "https://ai-for-medicine.devpost.com/",
       "fit_score": 1,
       "reason": "This is a student-focused AI/Medicine event with no monetary prize, which doesn't align with your professional Web3 research profile or reward preferences.",
@@ -804,51 +818,82 @@
     {
       "kind": "bounty",
       "source": "Superteam Earn",
-      "title": "Create an Engaging X Thread Introducing Anna AI Messenger",
-      "sponsor": "Anna",
+      "title": "SSR.FUN Beta Launch Challenge",
+      "sponsor": "Strategic Super Reserve",
       "sponsor_verified": false,
-      "reward": 250,
+      "reward": 300,
       "token": "USDC",
-      "deadline": "2026-11-19T22:59:59.000Z",
+      "deadline": "2026-11-30T23:59:59.000Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
       "region": "Global",
-      "link": "https://superteam.fun/earn/listing/create-an-engaging-x-thread-introducing-anna-ai-messenger-1",
+      "link": "https://superteam.fun/earn/listing/ssrfun-beta-launch-challenge",
       "skills": [
         {
-          "skills": "Design",
+          "skills": "Blockchain",
+          "subskills": []
+        },
+        {
+          "skills": "Frontend",
+          "subskills": []
+        }
+      ],
+      "description": "About SSR\nSSR is a community-centric series of onchain Reserves and utilities. SSR.FUN is a launchpad for tokenized portfolios with a choice of crypto and 800+ tokenized stocks and ETFs.\nMission\nCreate or trade Reserves on SSR.FUN, share your investment thesis, and help shape the platform through feedback. Compete for $300 in total rewards across three tracks.\nRewards & Judging Criteria\nEach track rewards the participant with the highest result:\nHighest Volume — $150 USD\nGoes to the creator whose Reserve records the highest cumulative volume (mints, redeems and swaps), or to the trader with the highest cumulative volume across SSR.FUN, whichever is greater.\nHighest PnL — $100 USD\nGoes to the creator of the Reserve with the highest PnL % at campaign close, measured from its launch NAV.\nBest Beta Contributor — $50 USD\nGoes to a standout participant, judged on actionable feedback, reproducible bug reports, and the quality of their investment theses.\nOne participant can win more than one track.\nMandatory Requirements\nTo qualify, you must:\n-\nSign up at ssr.fun/#/campaign: connect your wallet and sign a message with your X handle. One sign-up covers your trades and every Reserve you create from that wallet.\n-\nCreate a Reserve or trade existing Reserves on SSR.FUN.\n-\nFollow SSR’s official X account: @strategicsuperr.\n-\nPublish a post on X about your Reserve or investment, explaining your investment thesis and including a link to your Reserve. You can also share your PnL card (mandatory for the Highest PnL track).\n-\nSubmit at least one piece of feedback using the feedback button in the bottom-right corner of SSR.FUN, with your signed-up wallet connected.\nSubmission Requirements\nSubmit your entry through Earn with:\n-\nThe wallet address you used on SSR.FUN (the one you signed up with).\n-\nA link to your X post with your thesis (and PnL card for the Highest PnL track).\n-\nConfirmation that you sent feedback through the in-app button with that wallet connected.\nYour Earn X profile must match the handle you signed up with. All requirements must be completed before the campaign closes. The live leaderboard is at SSR.FUN/leaderboard. Placement on the leaderboard does not guarantee qualification: the team may disqualify entries for wash trading or other manipulation, and its decisions are final.\nNote: SSR.FUN is live on Solana mainnet and as such it incurrs in the correspondent protocol and network fees. For more information please consult our documentation available here https://ssr.fun/docs",
+      "skip_reason": "Gemini API still busy (503) after 3 retries"
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards",
+      "sponsor": "OOBE Protocol",
+      "sponsor_verified": false,
+      "reward": 500,
+      "token": "USDC",
+      "deadline": "2026-12-10T22:59:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards",
+      "skills": [
+        {
+          "skills": "Blockchain",
           "subskills": [
-            "Graphic Design"
+            "Solidity"
           ]
         },
         {
           "skills": "Content",
           "subskills": [
             "Writing",
-            "Social Media",
-            "Research"
+            "Social Media"
+          ]
+        },
+        {
+          "skills": "Other",
+          "subskills": [
+            "Product Feedback"
           ]
         }
       ],
-      "description": "About Anna\nAI is getting super powerful, but using it can be way too complicated. People constantly switch between chatbots, coding assistants, and other tools just to get stuff done. We're changing that with Anna.\nAnna is an AI-native messenger where humans and AI colleagues work together. Instead of you juggling agents or models, you just tell Anna what you want to achieve. She then organizes the right AI colleagues, coordinates their work, and brings you in when decisions or approvals are needed. Think of it like this: humans manage Anna, and Anna manages the AI. We're being built by Causis Research, an independent AI lab that's exploring new architectures and continuous learning.\nAnna is currently in private preview with selected testers. If you're interested, you can join the waitlist at https://annaos.ai/.\nMandatory Participation Requirements\nTo qualify for this bounty and be eligible for prizes, you must complete ALL of the following:\n-\nFollow Anna on X: https://x.com/annaos_ai\n-\nFollow Invariant on X: https://x.com/notinvariant\n-\nFollow Causis Research on X: https://x.com/causisresearch\n-\nPublish an original X thread of minimum 3 posts introducing Anna, following the creative guidelines below.\n-\nSubmit your thread URL through Superteam Earn before the deadline.\nFollowing all three accounts is a mandatory participation requirement, not an optional recommendation.\nFor submission, please provide:\n-\nYour X username, so we can verify your submission.\n-\nA direct link to your publicly accessible X thread.\n-\nConfirmation that you follow all three official X accounts.\n-\nA short description of your creative approach.\n-\nAny original visual assets created.\nMission\nCreate an engaging and original X (Twitter) thread to introduce Anna to a new audience, explaining what it is, why it's being built, and how it could change working with AI.\nScope Detail\n-\nCreate a public X thread consisting of minimum 3 posts.\n-\nYour thread should clearly explain:\n-\nThe problem: Current AI tools are powerful but fragmented and complex to use effectively.\n-\nWhat Anna is: A messenger where humans and AI colleagues collaborate in the same conversations.\n-\nHow it works: Users describe their needs, and Anna organizes and coordinates relevant AI colleagues and tools.\n-\nWhat makes Anna different: A single conversational environment for both human collaboration and AI execution, removing the need for manual agent system management.\n-\nThe team: Anna is developed by Causis Research, an independent AI research lab.\n-\nCurrent status: Anna is in private preview and preparing for broader public access.\n-\nCall to action: Encourage readers to join the waitlist at https://annaos.ai/.\n-\nYou can include your own observations, analysis, and comparisons with existing AI products, provided the information is accurate.\n-\nCreative Guidelines:\n-\nWrite in English.\n-\nCraft a compelling opening post to draw readers in.\n-\nUse natural, engaging language that non-technical people can understand.\n-\nInclude at least one original visual, diagram, or thoughtfully designed graphic.\n-\nEnsure all information is accurate and from official sources.\n-\nTag @annaos_ai where relevant.\n-\nKeep the content original; avoid generic or AI-generated threads.\n-\nDo not claim to have personally used Anna unless you have access, and do not present preview functionality or future plans as publicly available features.\nSubmission Requirements\n-\nA direct link to your publicly accessible X thread.\n-\nA short description outlining your creative approach.\n-\nAny original visual assets you created (if applicable).\n-\nIf your thread is a promotional entry for this competition, clearly disclose this relationship and use X's Paid Partnership disclosure.\n-\nOnly one submission per participant will be evaluated.\nJudging Criteria\n-\nAccuracy and understanding of Anna: 30%\n-\nOriginality and creativity: 25%\n-\nClarity and storytelling: 20%\n-\nVisual presentation: 15%\n-\nQuality of the opening hook: 10%\n-\nSubmissions will not be judged on follower counts, likes, reposts, or other social engagement metrics.\n-\nStrongest submissions will clearly communicate Anna's vision without exaggerating its current capabilities.\nResources\n-\nProduct and waitlist: https://annaos.ai/\n-\nAnna on X: https://x.com/annaos_ai\n-\nInvariant — founder/research perspective: https://x.com/notinvariant\n-\nCausis Research: https://causisresearch.com/\nReward Structure\n-\n1st Place: 150 USDC\n-\n2nd Place: 75 USDC\n-\n3rd Place: 25 USDC",
+      "description": "Steve Capital Agent Challenge: Put Your AI Agent to Work\nPowered by OOBE Protocol | Featuring MultiHopper & Ace Data Cloud\nGet Started\nBuild and deploy an autonomous capital agent on Solana using Steve Capital. Configure its permissions and risk controls, put it to work across onchain markets and workflows, and compete for rewards by earning verified Arena XP.\nExplore trading strategies, private transactions, agent-to-agent payments, automations, yields and AI-powered integrations across the Solana ecosystem.\nLaunch Steve Capital to get started.\nAbout OOBE Protocol\nOOBE Protocol builds infrastructure for autonomous agents on Solana. Its runtime and SAP MCP power Steve Capital, giving agents access to 400+ tools and protocols across the ecosystem.\nSteve Capital allows users to create and fund autonomous agents while retaining control through programmable guardrails, spending limits, permissions, and execution mandates. Agents can execute onchain actions, interact with protocols, manage workflows, and delegate tasks within user-defined boundaries.\nSome Recognition & Achievements\n-\nSuperteam Germany Grant: Received a grant supporting OOBE Protocol's development and ecosystem growth.\n-\nSuperteam Germany Ideathon: Won 1st place at the Road to Colosseum Ideathon with the Steve Capital concept.\n-\nMagicBlock Blitz Hackathon: Secured 3rd place among 65 projects.\nScope of the Challenge\nParticipants are encouraged to explore the Steve Capital ecosystem and put their agents to work through the following activities.\nGetting Started\n-\nDeploy an autonomous capital agent through Steve Capital.\n-\nFund your agent wallet with at least 20 USDC or equivalent value in SOL.\n-\nConfigure permissions, spending limits, risk parameters, and execution mandates.\nMain Track Activities\n-\nAgent Strategies: Create and publish strategies, configure convictions, define allocation rules, and experiment with risk-adjusted execution.\n-\nAutomation & Bots: Build automations for market monitoring, recurring tasks, alerts, and autonomous agent execution.\n-\nSub-Agent Infrastructure: Deploy specialist sub-agents with delegated permissions, dedicated vaults, and spending policies.\n-\nAgent Space: Experiment with agent collaboration, social interactions, and delegation.\n-\nSteve Launchpad: Launch eligible tokens and explore the available token launch infrastructure.\n-\nEcosystem Tool Usage: Explore Solana DeFi and financial markets through SAP MCP and its integrated protocols:\n-\nDeFi & Yield: Lending, liquidity provision, deposits, and yield opportunities through protocols such as Kamino, Orca, Raydium, and Meteora.\n-\nSpot Trading & Swaps: Swap and trade supported tokens, including tokenized assets where supported, using Jupiter, Orca, Raydium, Sunrise, and other integrated protocols.\n-\nPerpetuals & Commodities: Open and manage perpetual positions through Adrena and Phoenix, including synthetic commodity markets such as gold (XAU), silver (XAG), and oil (WTI) through Adrena.\n-\nPrivate Transactions: Explore private swaps and SPL token transfers through MagicBlock.\n-\nToken & Ecosystem Tools: Interact with Metaplex for digital assets, SNS for Solana naming, and other supported ecosystem integrations.\nSide Track Partner Integrations\n-\nMultiHopper: Build programmable routing and automated payment workflows.\n-\nAce Data Cloud: Integrate Google Search, research agents, image generation, video generation, and voice tools through Ace MCP.\nCommunity Contribution\nShare your agent's progress, showcase what you've built, publish original content, exchange discoveries, and contribute feedback to the community.\nEligible activities contribute to Arena XP and the main challenge leaderboard.\nSubmission Requirements\nAll participants competing for the main bounty must:\n-\nSubmit their entry through Superteam Earn.\n-\nFund their agent wallet with at least 20 USDC or equivalent value in SOL.\n-\nDeploy at least one autonomous agent on Steve Capital.\n-\nGenerate verified activity recorded through Steve Arena.\n-\nProvide their agent details, wallet address, and relevant activity evidence.\n-\nInclude links to their social content for verification.\nAdditional Partner Side-Track Requirements\n-\nMultiHopper: Demonstrate working MultiHopper functionality through your Steve Capital agent, supported by verifiable transaction evidence and a public social post tagging the partner.\n-\nAce Data Cloud: Provide evidence of your Ace MCP connection, at least five successful paid service requests using purchased Ace credits, a project description or demo, and a link to your public social post tagging the partner.\nMeeting the minimum requirements makes participants eligible for consideration but does not guarantee a reward or leaderboard position.\nJudging Criteria\n1. Main Track\nMain track rankings will be determined through verified Arena XP and the following criteria:\n-\nOverall Arena Activity: Total verified XP earned through eligible platform activities.\n-\nTrading & Launch Volume: Cumulative eligible spot and perpetual trading volume, as well as eligible token launch volume generated through Steve Capital during the challenge.\n-\nProduct Usage & Ecosystem Engagement: Breadth and depth of feature usage and meaningful engagement with the Steve Capital ecosystem.\n-\nConsistency & Engagement: Sustained participation throughout the 30-day challenge.\n-\nQuality of Execution: Meaningful autonomous workflows, effective use of mandates and risk controls, and demonstrated use of platform capabilities.\n-\nSocial Engagement & Community Contribution: Original content, educational posts, tutorials, videos, meaningful community interactions, and contributions that introduce new users and builders to Steve Capital.\nAnti-Abuse & Verification\nTrading or launch volume alone will not determine the winners. Wash trading, self-trading, circular transactions, artificial volume generation, purchased engagement, and other attempts to manipulate the competition will be excluded.\nWinners will be determined through the overall XP leaderboard and OOBE's verification process, taking all judging criteria into account. OOBE reserves the right to exclude suspicious, manipulated, or artificial activity.\n2. Partner Side-Tracks\nMultiHopper x Steve Capital: Agent Routing Challenge\nPrize Pool: 125 USDC\n-\nHighest Routing Volume: 60 USDC\n-\nMost Successful Transfers: 40 USDC\n-\nBest Agent Integration: 25 USDC\nAbout MultiHopper\nMultiHopper provides non-custodial infrastructure for programmable onchain asset routing on Solana. Through its API, SDK, and MCP-compatible interface, agents can execute transfers and distribute assets across wallets and smart contracts with configurable routes, timing, and destinations. Its infrastructure also includes TRM Labs risk screening.\nThe Challenge & Get Started\nBuild an autonomous workflow using MultiHopper through your Steve Capital agent. Connect your agent through MultiHopper MCP inside Steve Capital from the MCP Workspace.\nPotential use cases include agent treasury management, automated payments, multi-wallet distributions, and agent-to-agent payments.\nHow to Qualify & Submit\n-\nExecute qualifying MultiHopper transaction(s) through your Steve Capital agent on Solana mainnet.\n-\nShare a public post on X describing your integration and what you built. Tag @Multihopper, @OOBEonSol, and @SteveCapitalOS. Explain your workflow, including how your agent uses MultiHopper, the routing logic, and the purpose of the transfers.\n-\nSubmit your agent wallet address, relevant transaction signatures or Solana Explorer links, and social post through Superteam Earn.\nCategory details\n-\nHighest Routing Volume:. Highest total verified value successfully routed. Each route's principal counts once, regardless of intermediate hops.\n-\nMost Successful Transfers: Highest number of verified completed routes.\n-\nBest Agent Integration: Practical utility, creativity, autonomy, and implementation quality.\nJudging\n-\nVolume is the USD-equivalent principal successfully routed through MultiHopper on Solana mainnet.\n-\nRouted principal is counted once per route, regardless of the number of intermediate hops or destinations.\n-\nOnly completed, verifiable routes originating from a registered agent wallet count.\n-\nCircular transfers, self-transfers and other artificial volume are excluded.\nThis side track follows the main challenge dates and submission deadline. Multihopper team will verify qualifying usage against its platform records.\nAce Data Cloud x Steve Capital: Build with AI Tools Challenge\nPrize Pool: $125 in total value\n-\n1st Place: 75 USDC\n-\n2nd Place: $50 in Ace AI credits\nAbout Ace Data Cloud\nAce Data Cloud gives developers and AI agents access to services such as Google Search, image generation, video generation, and voice tools through APIs and MCP integrations.\nSign Up & Get Started\nRegister at platform.acedata.cloud to receive free trial credits, with no credit card required. Connect your agent through an available Ace MCP integration inside Steve Capital from the MCP Workspace.\nImportant: Free trial credits help you get started, but qualifying for rewards requires paid usage with purchased Ace credits.\nThe Challenge\nBuild something useful with Ace inside your Steve Capital agent workflow. This could be a research briefing, narrated agent update, educational video, or another practical application of Ace's tools.\nHow to Qualify & Submit\n-\nComplete at least five successful paid service requests using purchased Ace credits during the challenge. Requests funded only by free or promotional credits do not count.\n-\nBuild a useful project or workflow demonstrating working Ace functionality and share a public demo or post on X explaining what you built and how it works. Tag @acedatacloud, @OOBEonSol, and @SteveCapitalOS in the post.\n-\nSubmit your agent details, proof of MCP connection, evidence of five qualifying paid requests, and links to your project and social post through Superteam Earn.\nJudging\nSubmissions will be evaluated on practical usefulness, creativity, integration quality, successful execution, and the value of the resulting workflow.\nVerified ACE holders who meet all requirements may receive an additional credit bonus. The bonus amount and holder-verification rules will be announced before the challenge.\nOnly genuine, successful paid requests count. Repetitive or artificial activity will be excluded. Spending more alone does not improve ranking.\nThis side track follows the main challenge dates and submission deadline. Multihopper team will verify qualifying usage against its platform records.\nReward Structure\nMain Bounty: 250 USDC\n-\n1st Place: 125 USDC\n-\n2nd Place: 75 USDC\n-\n3rd Place: 50 USDC\nMultiHopper Track: 125 USDC\n-\nHighest Routing Volume: 60 USDC\n-\nMost Successful Transfers: 40 USDC\n-\nBest Agent Integration: 25 USDC\nAce Data Cloud Track: $125 Total Value\n-\n1st Place: 75 USDC\n-\n2nd Place: $50 in Ace AI credits\nParticipants can compete in the main bounty and partner side-tracks simultaneously, provided they meet the respective requirements.\nChallenge Duration & Verification\nThe challenge runs for 30 days.\nOnly eligible activity completed during the official challenge period will count. All submissions, platform activity, transactions, and social contributions are subject to verification by OOBE and the respective partners.\nOOBE reserves the right to exclude ineligible, suspicious, or manipulated activity and determine final rankings based on the published criteria.\nBuild, experiment, contribute, and put your agent to work.\nPowered by OOBE Protocol. Built for autonomous capital.\nOfficial Links & Socials\nOOBE Protocol\n-\nLanding Page: https://www.oobeprotocol.ai/\n-\nSteve Capital: https://steve.oobeprotocol.ai/\n-\nX: https://x.com/OOBEonSol\n-\nDiscord: https://discord.gg/eM6SaDKBf (For questions & feedback)\nMultiHopper\n-\nWebsite: https://multihopper.com/\n-\nX: https://x.com/Multihopper\nAce Data Cloud\n-\nPlatform: https://platform.acedata.cloud/\n-\nX: https://x.com/acedatacloud",
       "skip_reason": "Gemini API still busy (500) after 3 retries"
     },
     {
       "kind": "hackathon",
       "source": "Devpost",
-      "title": "Agentic Hackathon",
-      "sponsor": "Devin",
-      "prize_total": "$480",
-      "deadline": "2026-11-11",
-      "dates": "Nov 01 - 11, 2026",
+      "title": "Learn AR with SPECS",
+      "sponsor": "Devpost",
+      "prize_total": "$2,500",
+      "deadline": "2026-12-07",
+      "dates": "Nov 10 - Dec 07, 2026",
       "themes": [
-        "Machine Learning/AI",
-        "Open Ended",
-        "Web"
+        "AR/VR",
+        "Design",
+        "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 256,
-      "link": "https://agentic-hackathon.devpost.com/",
+      "registrations": 38,
+      "link": "https://learn-specs.devpost.com/",
       "skip_reason": "Gemini API still busy (500) after 3 retries"
     }
   ],
