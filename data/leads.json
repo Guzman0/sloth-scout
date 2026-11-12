@@ -1,22 +1,76 @@
 {
-  "found_at": "2026-11-11T13:44:40+00:00",
+  "found_at": "2026-11-12T14:48:18+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "apify.com",
-      "title": "Web3 Bug Bounty & Audit Contest Tracker",
-      "snippet": "Every live crypto bug bounty and audit contest from Immunefi, Cantina, Code4rena and Sherlock in one clean table: rewards, dates, KYC, submission fees, chains ...",
-      "link": "https://apify.com/photoncalc/web3-bounty-tracker",
+      "source": "dorahacks.io",
+      "title": "BLI Legal Tech Hackathon 2",
+      "snippet": "Join our second year of the Blockchain Legal Institute&#39;s global legal hackathon and win bounties. Prize Pool 20,000 USD BLI",
+      "link": "https://dorahacks.io/hackathon/legal-hack-2026",
+      "query": "site:dorahacks.io/hackathon bounty",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "google.com",
+      "title": "From Web2 to Web3: Would native JS/TypeScript/Go ...",
+      "snippet": "Hey everyone, coming into Web3 from a Web2 background (JS/TS/Go), the jump to Solidity or Rust feels like an unnecessary hurdle for beginners like myself.",
+      "link": "https://www.google.com/goto?url=CAESmgEBxCJF13UDoctyvEEiqh0HOvIq3hLtOXbDgHw8uu8BJVHeNrea3TITcb_UkdoULehdH_UbXmZHN9zwqmXV6RAqHQMMLYH7s4pwYPFPpXoGPQRVIBqU2ZnEa-AXcRsMOVDfPGWUOVsCnJn0K-z8vtfjq0103QpsmNPmEnqwtjrGVMZNNwQs5xeRIih82_-FTIaNwhNNvmpnb9Gu",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
     {
       "kind": "lead",
-      "source": "hackernoon.com",
-      "title": "86 Blog Posts To Learn About Hackernoon Writing Contest",
-      "snippet": "Write about blockchain APIs, dApp development & more for a chance to win from $5,000. Contest open Feb 5–May 7, 2025. Win up to $2,000! Contest open Feb 5–May ...",
-      "link": "https://hackernoon.com/86-blog-posts-to-learn-about-hackernoon-writing-contest",
+      "source": "galaxy.com",
+      "title": "Web3 - Galaxy",
+      "snippet": "Galaxy is a digital asset and blockchain leader helping institutions, startups, and individuals shape a changing economy.",
+      "link": "https://www.galaxy.com/insights/topics/web3",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "careers.mastercard.com",
+      "title": "Manager, Products and Solutions - Stablecoin & Web3 ...",
+      "snippet": "Mastercard is seeking a Product Manager to drive product development for stablecoin-enabled and Web3 payment solutions in Hong Kong.",
+      "link": "https://careers.mastercard.com/us/en/job/R-279025/Manager-Products-and-Solutions-Stablecoin-Web3-Solution",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "mordorintelligence.com",
+      "title": "Web3 Market Size, Share, Growth & Industry Research ...",
+      "snippet": "The Web3 Market is estimated at USD 4.97 Bn in 2026, with a forecast of USD 43.45 Bn for 2032. Key drivers include rising enterprise blockchain adoption. CAGR ...",
+      "link": "https://www.mordorintelligence.com/industry-reports/web3-market",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "indeed.com",
+      "title": "Web3 jobs in Remote",
+      "snippet": "Browse 539 Web3 job openings from Remote. Discover flexible, work-from-home opportunities on Indeed in fields like tech, admin, and customer service.",
+      "link": "https://www.indeed.com/q-web3-l-remote-jobs.html",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "google.com",
+      "title": "Sign in with Web3 | Supabase Docs",
+      "snippet": "Enable Sign In with Web3 to allow users to sign in to your application using only their Web3 wallet. Supported Web3 wallets:.",
+      "link": "https://www.google.com/goto?url=CAESbAHEIkXXeHDV5vksZyJFScmFWK5lWaNBGtlh98bSecnu8hKA3zRncTxhWlX1QK8w8sXR897QvXpt_q6Hg1OH9nqvmYThsYYrrgDIwT4sNZQsLezupfEzatVi_SfqcuyhvAZrwwaPLtkxgK8T8Q",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "web3.career",
+      "title": "Growth Jobs in Web3 - Nov 2026 (6 New)",
+      "snippet": "Growth Jobs in Web3. 975 jobs found. Part of the Bondex Ecosystem. Search web3 jobs by role, skill, or company.",
+      "link": "https://web3.career/growth-jobs",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     }
