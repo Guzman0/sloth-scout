@@ -1,40 +1,58 @@
 {
-  "found_at": "2026-11-13T14:06:55+00:00",
+  "found_at": "2026-11-14T13:08:15+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "BLI Legal Tech Hackathon 2",
-      "snippet": "The Legal Tech Hackathon Invites You To Build!** ## Join our second year of the Blockchain Legal Institute's global legal hackathon and win bounties and support ...",
-      "link": "https://dorahacks.io/hackathon/legal-hack-2026",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "apify.com",
-      "title": "Web3 Bug Bounty & Audit Contest Tracker",
-      "snippet": "Every live crypto bug bounty and audit contest from Immunefi, Cantina, Code4rena and Sherlock in one clean table: rewards, dates, KYC, submission fees, chains ...",
-      "link": "https://apify.com/photoncalc/web3-bounty-tracker",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "hackernoon.com",
+      "source": "google.com",
       "title": "86 Blog Posts To Learn About Hackernoon Writing Contest",
-      "snippet": "Write about blockchain APIs, dApp development & more for a chance to win from $5,000. Contest open Feb 5–May 7, 2025. Win up to $2,000! Contest open Feb 5–May ...",
-      "link": "https://hackernoon.com/86-blog-posts-to-learn-about-hackernoon-writing-contest",
+      "snippet": "Join the #blockchain Writing Contest and share your insights on decentralized AI, cloud, or dePIN. Win up to $2,000! Contest open Feb 5–May 7, 2025. 6. Want To ...",
+      "link": "https://www.google.com/goto?url=CAESiwEBxCJF1yIqVS0lAwYzkybTKfOtaN4Wa3nJicLPbxoLluaSv9XE-2Qu6TfWQBKHUzQpGk7L7FpuMxuOW8DrWa7ZKOFZMSt3R0hXB-37FmOM7gKoEtTmgT94T4IbkxocsvigZUnRtxh17Vtn3--ua1tAUDtzM529_1oApWOpII1XMr45xIRCHM722RTt",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
     {
       "kind": "lead",
-      "source": "mediastrategy.net",
+      "source": "google.com",
+      "title": "Web 3 Bug Bounties: Platforms, Payouts, and How to Start",
+      "snippet": "Web 3 bug bounties pay researchers to find smart contract and blockchain vulnerabilities, with rewards from $5000 up to $300000+. Platforms like...",
+      "link": "https://www.google.com/goto?url=CAESgQEBxCJF19MI0_TfTZcea2N3I7RKhGzXBP_oCAJ91vwZ8kgbfEiHtJk7aEGuz0_zC9M66BeJ1PJykRpVXMfeQ8dYX_0VILyQqSTBUsbNVQuV1mJdfrm65nzhzgsAMbbnKQllKDVuVwcCMJ9cVz37Gkn7HtuNg8Fu-G2KUkmte4d_6jc",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "google.com",
+      "title": "How to Set Up a Web3 Bug Bounty Program - Guardian",
+      "snippet": "How to set up a web3 bug bounty program: scope, severity and reward tables, payout sizing, KYC, triage, SEAL Safe Harbor and disclosure, from platform docs.",
+      "link": "https://www.google.com/goto?url=CAESfAHEIkXXuRLyCQtkI91vFJd93G_Y4qqCbF3AmgW1ZxCrRQZ1N3ObObUD-vAWc6j5yBIsyiesJLma0FoPLLtWrPhITxSKfqal9td2KA2r5lGypVFvNEUPsK-9ekMgpPMTgAoFcwvhaBI12mAB-hFGmuejd2X7gZaDOoL8oos",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "google.com",
+      "title": "Web3 Bug Bounty & Audit Contest Tracker",
+      "snippet": "Every live crypto bug bounty and audit contest from Immunefi, Cantina, Code4rena and Sherlock in one clean table: rewards, dates, KYC, submission fees, ...",
+      "link": "https://www.google.com/goto?url=CAESbQHEIkXXuWqt3d6PJCwV3iEeG-yh7Iq4ylzc0xdzdch6gVOt2JMBneJ1HJYxKGg2xQFlO9n0fr-NZgAR7789Jcff8Jb_-o9QRM0znvhfIirtMAD270KoqARG6Wk9APNzRyKB81_MP2kpOwCqa3k",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "google.com",
+      "title": "Exploring @vangrid_io Bounties: Discover New Opportunities ...",
+      "snippet": "Submit Your Work - Follow the relevant bounty requirements and submission process when completing a task. ... For anyone interested in exploring Web3, bounty ...",
+      "link": "https://www.google.com/goto?url=CAESegHEIkXXgk53eJVk5FBkNBKO7oxUOTtYjpZYCUM2pXF082K-xe3P2GkFuGShDrvYzHFFt_rrWxrxGX6wE1_mA4a3pggRDM161Xl5ydMQW8nCzBxXWfi9FPT9jNhCl9r5nIXmnwLvQF9ttzHnjlbTzmVGDrLUlLFdd9zu&gsessionid=IwnCOZp-fQ9hkSv083p_zZqncCWliMhw5w3XzRdVqUepJapIacABkg",
+      "query": "web3 content bounty open submissions",
+      "why_unverified": "not opened in the browser this run"
+    },
+    {
+      "kind": "lead",
+      "source": "google.com",
       "title": "Bounty Campaigns for Web3 Projects | Expert Delivery",
       "snippet": "Run a controlled bounty program for content, translations, social tasks, or security reports, with clear rules and review. Plan your campaign with our team.",
-      "link": "https://mediastrategy.net/community-growth-engagement/bounty-campaigns/",
+      "link": "https://www.google.com/goto?url=CAEShAEBxCJF13JnSH5WUlg1Mq5A5UsbTjz6raFDLewcuSM8bjbi5ZUsnoyJbs9u62bgO2D4IShaU1-ZI8Gr6KAe_kFzSP5TfaeD9nExf6ToSmVXyEkIJFW6yP83HIIWsNmYQu7X7fuQyERpyetEo6g4F65u3TGbFt2lcghsReZNx7Q3xkPbmcE",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     }
