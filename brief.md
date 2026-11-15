@@ -1,4 +1,4 @@
-# 🦥 Sloth Scout brief: Saturday, November 14, 2026
+# 🦥 Sloth Scout brief: Sunday, November 15, 2026
 
 > ⚠️ Skipped this run: Browserbase reading. See Sources at the bottom.
 
@@ -17,7 +17,6 @@ No new good-fit hackathons today.
 From earlier briefs, still accepting entries:
 
 - [The Raenest Global Bounty - Writing, Video & Animation Bounty](https://superteam.fun/earn/listing/the-raenest-global-bounty-writing-video-and-animation): 13,000 USDC, closes 2026-12-13, fit 10/10, scam risk medium
-- [Write a thread on $CHIMP Fair Launch - Part 1](https://superteam.fun/earn/listing/chimp-on-metaplex): 500 USDC, closes 2026-11-14, fit 10/10, scam risk medium
 - [Create an Engaging X Thread Introducing Anna AI Messenger](https://superteam.fun/earn/listing/create-an-engaging-x-thread-introducing-anna-ai-messenger-1): 250 USDC, closes 2026-11-19, fit 10/10
 - [Create Content on Premier League Predictions with worm 🪱⚽](https://superteam.fun/earn/listing/create-content-on-premier-league-predictions-with-worm): 500 USDC, closes 2026-11-24, fit 10/10, scam risk medium
 - [Create Content About KriptoK · 200 USDC Creator Challenge](https://superteam.fun/earn/listing/kriptok-creator-challenge-01): 200 USDC, closes 2026-11-25, fit 9/10, scam risk medium
@@ -25,31 +24,32 @@ From earlier briefs, still accepting entries:
 - [SSR.FUN Beta Launch Challenge](https://superteam.fun/earn/listing/ssrfun-beta-launch-challenge): 300 USDC, closes 2026-11-30, fit 8/10, scam risk medium
 - [Deck the Pixels](https://deckthepixels.devpost.com/): $25,000, closes 2026-12-07, fit 7/10
 - [AI Agents for Founders Challenge — HETIC 2026](https://ai-agents-founders-hetic-26.devpost.com/): €1,000, closes 2026-12-18, fit 7/10
-- [Make a video about our x402 Feature](https://superteam.fun/earn/listing/make-a-video-about-our-x402-feature): 500 USDC, closes 2026-11-14, fit 6/10, scam risk medium
+- [Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards](https://superteam.fun/earn/listing/build-an-autonomous-capital-agent-on-solana-and-compete-for-dollar500-in-rewards): 500 USDC, closes 2026-12-10, fit 6/10, scam risk medium
+- [Kiroween 2026](https://kiroween.devpost.com/): $100,000, closes 2026-12-04, fit 6/10
 
 ## Notes
 
 - Poor fits (score under 5): 22.
-- Not open to your region (Nepal, Nigeria, Ukraine), so not ranked: 4.
+- Not open to your region (Nigeria, Ukraine), so not ranked: 3.
 
 ## Unverified leads
 
 Found by search but missing a reward or deadline, so not ranked. Check these by hand.
 
-- [86 Blog Posts To Learn About Hackernoon Writing Contest](https://www.google.com/goto?url=CAESiwEBxCJF1yIqVS0lAwYzkybTKfOtaN4Wa3nJicLPbxoLluaSv9XE-2Qu6TfWQBKHUzQpGk7L7FpuMxuOW8DrWa7ZKOFZMSt3R0hXB-37FmOM7gKoEtTmgT94T4IbkxocsvigZUnRtxh17Vtn3--ua1tAUDtzM529_1oApWOpII1XMr45xIRCHM722RTt) (google.com): not opened in the browser this run
-- [Web 3 Bug Bounties: Platforms, Payouts, and How to Start](https://www.google.com/goto?url=CAESgQEBxCJF19MI0_TfTZcea2N3I7RKhGzXBP_oCAJ91vwZ8kgbfEiHtJk7aEGuz0_zC9M66BeJ1PJykRpVXMfeQ8dYX_0VILyQqSTBUsbNVQuV1mJdfrm65nzhzgsAMbbnKQllKDVuVwcCMJ9cVz37Gkn7HtuNg8Fu-G2KUkmte4d_6jc) (google.com): not opened in the browser this run
-- [How to Set Up a Web3 Bug Bounty Program - Guardian](https://www.google.com/goto?url=CAESfAHEIkXXuRLyCQtkI91vFJd93G_Y4qqCbF3AmgW1ZxCrRQZ1N3ObObUD-vAWc6j5yBIsyiesJLma0FoPLLtWrPhITxSKfqal9td2KA2r5lGypVFvNEUPsK-9ekMgpPMTgAoFcwvhaBI12mAB-hFGmuejd2X7gZaDOoL8oos) (google.com): not opened in the browser this run
-- [Web3 Bug Bounty & Audit Contest Tracker](https://www.google.com/goto?url=CAESbQHEIkXXuWqt3d6PJCwV3iEeG-yh7Iq4ylzc0xdzdch6gVOt2JMBneJ1HJYxKGg2xQFlO9n0fr-NZgAR7789Jcff8Jb_-o9QRM0znvhfIirtMAD270KoqARG6Wk9APNzRyKB81_MP2kpOwCqa3k) (google.com): not opened in the browser this run
-- [Exploring @vangrid_io Bounties: Discover New Opportunities ...](https://www.google.com/goto?url=CAESegHEIkXXgk53eJVk5FBkNBKO7oxUOTtYjpZYCUM2pXF082K-xe3P2GkFuGShDrvYzHFFt_rrWxrxGX6wE1_mA4a3pggRDM161Xl5ydMQW8nCzBxXWfi9FPT9jNhCl9r5nIXmnwLvQF9ttzHnjlbTzmVGDrLUlLFdd9zu&gsessionid=IwnCOZp-fQ9hkSv083p_zZqncCWliMhw5w3XzRdVqUepJapIacABkg) (google.com): not opened in the browser this run
-- [Bounty Campaigns for Web3 Projects | Expert Delivery](https://www.google.com/goto?url=CAEShAEBxCJF13JnSH5WUlg1Mq5A5UsbTjz6raFDLewcuSM8bjbi5ZUsnoyJbs9u62bgO2D4IShaU1-ZI8Gr6KAe_kFzSP5TfaeD9nExf6ToSmVXyEkIJFW6yP83HIIWsNmYQu7X7fuQyERpyetEo6g4F65u3TGbFt2lcghsReZNx7Q3xkPbmcE) (google.com): not opened in the browser this run
+- [86 Blog Posts To Learn About Hackernoon Writing Contest](https://www.google.com/goto?url=CAESiwEBxCJF17fn9ddk5NQIg-6cnn7622GRVxCHko4e-bfEsEWAPSR_q2I0W6LfKCz13S_jz5Eit9WMn7w9qMB6fAYFZ-cY_WbkjHHiYrvpGkEqPnsAAoxvySTuJHUkHEpKuyWJ8Tip0fZmHmCAswVNxQWkGWT3MVwrNXIsujpgawFYTLykW-M5EhSQpfB5) (google.com): not opened in the browser this run
+- [Web 3 Bug Bounties: Platforms, Payouts, and How to Start](https://www.google.com/goto?url=CAESgQEBxCJF14O0WJ2YSxzTN5Wuiujgh5HeplkDy3QMAqrqxjQctN31zCrkJZbqsrEkFlqkM-VwhEnQ8M3g_a1G6JyYVXsXYkau0LCSSd_vnZfbpKzFDEHqm4F7DuBTUiQK2BDan0kMy_467hri0vi5JqiLGF8NsN3YLkInImoJ6MP2LwU) (google.com): not opened in the browser this run
+- [Web3 Bug Bounty & Audit Contest Tracker](https://www.google.com/goto?url=CAESbQHEIkXXeOAHqSrFbJE-V9SeyzkXkRSEkbawscH-WZJb4klFCAwbz_INJUNQvyeG7SiUD-rtxjDWnkri2S_N5Noz1qLysKKIu9ZjxMi65RhwTZBkdjQfAG9H1DyHg5jUCgqR2Fg4knWMgcdamZc) (google.com): not opened in the browser this run
+- [How to Set Up a Web3 Bug Bounty Program - Guardian](https://www.google.com/goto?url=CAESfAHEIkXXxSUwYYkbFHGWH_qMcGfZ8sC-7qDa4YDN8q-j_yi2GQPEQ7AynEy_RdRmFZkgy-Cp0bLohwU_dF7YLxciMerZNXWKGYTQy-wdxZhIciGDjKSk-DILyRuYsK34FLEmJx0KE8q4xoxDKQhddoo7N2rUwv7QLtPah1E) (google.com): not opened in the browser this run
+- [AI Bug Bounty Hunting for Web3: What Works in 2026](https://www.google.com/goto?url=CAESdwHEIkXXOhTPD1gwU6TECcAbmcH9YVSAxL8BFSyxPlags-MrUDHckaI-WAm4OCOz1BW8S3XuAXAuSPPef3jeL-qKhzGoaIp97orvbSdUpLUqZh3GQA6zub7Hu_r_NKDVCU3z085xr3-lbNz1m1jmzNvWTkPlGYXv) (google.com): not opened in the browser this run
+- [Bounty Campaigns for Web3 Projects | Expert Delivery](https://www.google.com/goto?url=CAEShAEBxCJF19PWIcJUHIf13GUzxmay1QUShEvb1fH2Qk7ejpW0Ttd-p5t9DaDPgwSm34TeB3pPTOdp5MDNK9THLVnifL8PLErDjmhRokyR17LonF--yAqos3TnnfPW0YJJcfxYrEUfrMJaIKfnkOjyD83Ebe3AgTk7Eec7sKcckwZRPvTpvlk) (google.com): not opened in the browser this run
 
 ## Sources
 
-- ✅ **Superteam Earn:** 15 open bounties (26.2s)
-- ✅ **Devpost:** 27 open online Blockchain or AI/ML hackathons (0.3s)
-- ✅ **SerpApi search:** 6 new listing links from 4 searches (32.8s)
+- ✅ **Superteam Earn:** 12 open bounties (20.7s)
+- ✅ **Devpost:** 27 open online Blockchain or AI/ML hackathons (0.2s)
+- ✅ **SerpApi search:** 6 new listing links from 4 searches (19.4s)
 - ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
-- ✅ **ElevenLabs audio:** site/brief.mp3, 529 characters (1.1s)
+- ✅ **ElevenLabs audio:** site/brief.mp3, 516 characters (1.0s)
 - ✅ **Memory:** MongoDB Atlas
 
 Ranked by gemma-4-31b-it.
