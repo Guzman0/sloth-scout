@@ -1,24 +1,5 @@
 {
-  "found_at": "2026-11-16T15:07:45+00:00",
+  "found_at": "2026-11-17T15:39:08+00:00",
   "verified": [],
-  "unverified": [
-    {
-      "kind": "lead",
-      "source": "apify.com",
-      "title": "Web3 Bug Bounty & Audit Contest Tracker",
-      "snippet": "Every live crypto bug bounty and audit contest from Immunefi, Cantina, Code4rena and Sherlock in one clean table: rewards, dates, KYC, submission fees, chains ...",
-      "link": "https://apify.com/photoncalc/web3-bounty-tracker",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "mediastrategy.net",
-      "title": "Bounty Campaigns for Web3 Projects | Expert Delivery",
-      "snippet": "Run a controlled bounty program for content, translations, social tasks, or security reports, with clear rules and review. Plan your campaign with our team.",
-      "link": "https://mediastrategy.net/community-growth-engagement/bounty-campaigns/",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    }
-  ]
+  "unverified": []
 }

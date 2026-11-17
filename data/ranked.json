@@ -1,5 +1,5 @@
 {
-  "ranked_at": "2026-11-16T15:13:32+00:00",
+  "ranked_at": "2026-11-17T15:43:46+00:00",
   "model": "models/gemma-4-31b-it",
   "fingerprint": "83a608da9e68c635",
   "ranked": [
@@ -76,6 +76,42 @@
       "effort": "medium",
       "scam_risk": "medium",
       "scam_reason": "The sponsor is not verified by Superteam and the task requires you to connect your wallet to the platform."
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Create an Engaging X Thread Introducing Anna AI Messenger",
+      "sponsor": "Anna",
+      "sponsor_verified": false,
+      "reward": 250,
+      "token": "USDC",
+      "deadline": "2026-11-30T22:59:59.999Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/create-an-engaging-x-thread-introducing-anna-ai-messenger-1",
+      "skills": [
+        {
+          "skills": "Design",
+          "subskills": [
+            "Graphic Design"
+          ]
+        },
+        {
+          "skills": "Content",
+          "subskills": [
+            "Writing",
+            "Social Media",
+            "Research"
+          ]
+        }
+      ],
+      "description": "About Anna\nAI is getting super powerful, but using it can be way too complicated. People constantly switch between chatbots, coding assistants, and other tools just to get stuff done. We're changing that with Anna.\nAnna is an AI-native messenger where humans and AI colleagues work together. Instead of you juggling agents or models, you just tell Anna what you want to achieve. She then organizes the right AI colleagues, coordinates their work, and brings you in when decisions or approvals are needed. Think of it like this: humans manage Anna, and Anna manages the AI. We're being built by Causis Research, an independent AI lab that's exploring new architectures and continuous learning.\nAnna is currently in private preview with selected testers. If you're interested, you can join the waitlist at https://annaos.ai/.\nMandatory Participation Requirements\nTo qualify for this bounty and be eligible for prizes, you must complete ALL of the following:\n-\nFollow Anna on X: https://x.com/annaos_ai\n-\nFollow Invariant on X: https://x.com/notinvariant\n-\nFollow Causis Research on X: https://x.com/causisresearch\n-\nPublish an original X thread of minimum 3 posts introducing Anna, following the creative guidelines below.\n-\nSubmit your thread URL through Superteam Earn before the deadline.\nFollowing all three accounts is a mandatory participation requirement, not an optional recommendation.\nFor submission, please provide:\n-\nYour X username, so we can verify your submission.\n-\nA direct link to your publicly accessible X thread.\n-\nConfirmation that you follow all three official X accounts.\n-\nA short description of your creative approach.\n-\nAny original visual assets created.\nMission\nCreate an engaging and original X (Twitter) thread to introduce Anna to a new audience, explaining what it is, why it's being built, and how it could change working with AI.\nScope Detail\n-\nCreate a public X thread consisting of minimum 3 posts.\n-\nYour thread should clearly explain:\n-\nThe problem: Current AI tools are powerful but fragmented and complex to use effectively.\n-\nWhat Anna is: A messenger where humans and AI colleagues collaborate in the same conversations.\n-\nHow it works: Users describe their needs, and Anna organizes and coordinates relevant AI colleagues and tools.\n-\nWhat makes Anna different: A single conversational environment for both human collaboration and AI execution, removing the need for manual agent system management.\n-\nThe team: Anna is developed by Causis Research, an independent AI research lab.\n-\nCurrent status: Anna is in private preview and preparing for broader public access.\n-\nCall to action: Encourage readers to join the waitlist at https://annaos.ai/.\n-\nYou can include your own observations, analysis, and comparisons with existing AI products, provided the information is accurate.\n-\nCreative Guidelines:\n-\nWrite in English.\n-\nCraft a compelling opening post to draw readers in.\n-\nUse natural, engaging language that non-technical people can understand.\n-\nInclude at least one original visual, diagram, or thoughtfully designed graphic.\n-\nEnsure all information is accurate and from official sources.\n-\nTag @annaos_ai where relevant.\n-\nKeep the content original; avoid generic or AI-generated threads.\n-\nDo not claim to have personally used Anna unless you have access, and do not present preview functionality or future plans as publicly available features.\nSubmission Requirements\n-\nA direct link to your publicly accessible X thread.\n-\nA short description outlining your creative approach.\n-\nAny original visual assets you created (if applicable).\n-\nIf your thread is a promotional entry for this competition, clearly disclose this relationship and use X's Paid Partnership disclosure.\n-\nOnly one submission per participant will be evaluated.\nJudging Criteria\n-\nAccuracy and understanding of Anna: 30%\n-\nOriginality and creativity: 25%\n-\nClarity and storytelling: 20%\n-\nVisual presentation: 15%\n-\nQuality of the opening hook: 10%\n-\nSubmissions will not be judged on follower counts, likes, reposts, or other social engagement metrics.\n-\nStrongest submissions will clearly communicate Anna's vision without exaggerating its current capabilities.\nResources\n-\nProduct and waitlist: https://annaos.ai/\n-\nAnna on X: https://x.com/annaos_ai\n-\nInvariant — founder/research perspective: https://x.com/notinvariant\n-\nCausis Research: https://causisresearch.com/\nReward Structure\n-\n1st Place: 150 USDC\n-\n2nd Place: 75 USDC\n-\n3rd Place: 25 USDC",
+      "fit_score": 10,
+      "reason": "This is a perfect match for your strengths in X threads, research, and graphic design, and it meets all your location and payment preferences.",
+      "effort": "medium",
+      "scam_risk": "medium",
+      "scam_reason": "The sponsor is not verified by Superteam, which increases the risk slightly."
     },
     {
       "kind": "bounty",
@@ -207,7 +243,7 @@
         "Low/No Code"
       ],
       "online": true,
-      "registrations": 819,
+      "registrations": 969,
       "link": "https://deckthepixels.devpost.com/",
       "fit_score": 7,
       "reason": "The design and low/no-code themes align well with your visual assets and UX skills.",
@@ -229,7 +265,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 437,
+      "registrations": 459,
       "link": "https://ai-agents-founders-hetic-26.devpost.com/",
       "fit_score": 7,
       "reason": "The Low/No Code theme aligns with your skill set, and your product analysis strengths are a great fit for a founders' challenge.",
@@ -292,7 +328,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 14707,
+      "registrations": 15534,
       "link": "https://kiroween.devpost.com/",
       "fit_score": 6,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes allow you to apply your research and UX skills, though you'll likely need a developer partner to build a submission.",
@@ -314,7 +350,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 287,
+      "registrations": 331,
       "link": "https://slayy-hacks.devpost.com/",
       "fit_score": 6,
       "reason": "The open-ended and beginner-friendly themes suit your research and UX skills, though you'll likely need a technical partner to build a prototype.",
@@ -336,7 +372,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 866,
+      "registrations": 1063,
       "link": "https://cognizant-agenticweb.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Agentic Web' theme likely requires technical development you avoid, though your research and UX skills could support a project.",
@@ -358,7 +394,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1182,
+      "registrations": 1215,
       "link": "https://arbiter-hacks-v1.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes may allow for your UX and research skills, but most hackathons require a technical prototype you aren't comfortable building.",
@@ -380,7 +416,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 251,
+      "registrations": 292,
       "link": "https://learn-specs.devpost.com/",
       "fit_score": 5,
       "reason": "You can contribute through design and UX feedback, but the AR/VR and AI themes likely require technical development skills you prefer to avoid.",
@@ -402,7 +438,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 2647,
+      "registrations": 2935,
       "link": "https://firebasehybridaihackathon.devpost.com/",
       "fit_score": 4,
       "reason": "This is a build-focused hackathon which likely requires the heavy development skills you prefer to avoid.",
@@ -424,7 +460,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 156,
+      "registrations": 167,
       "link": "https://ai-openbuild.devpost.com/",
       "fit_score": 4,
       "reason": "This is a 'Build' hackathon which typically requires coding skills you've listed as 'Not for me', though the open-ended theme might allow for some research or UX work.",
@@ -446,7 +482,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 296,
+      "registrations": 308,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/",
       "fit_score": 3,
       "reason": "This is a hackathon likely requiring development skills, which you've listed as 'Not for me'.",
@@ -468,7 +504,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 6456,
+      "registrations": 6667,
       "link": "https://start-developer-competition-26.devpost.com/",
       "fit_score": 3,
       "reason": "This is a developer-focused competition, which conflicts with your preference to avoid heavy coding and full-stack development.",
@@ -490,7 +526,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 3726,
+      "registrations": 3979,
       "link": "https://codegeist2026.devpost.com/",
       "fit_score": 3,
       "reason": "This is a coding-centric hackathon which conflicts with your lack of development skills, although your UX and research strengths could be useful if you joined a team.",
@@ -512,7 +548,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1766,
+      "registrations": 1855,
       "link": "https://qnx.devpost.com/",
       "fit_score": 3,
       "reason": "The themes (IoT, AI) are highly technical and align with skills you avoid, though you could potentially contribute via product analysis or UX.",
@@ -534,7 +570,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 405,
+      "registrations": 423,
       "link": "https://aws-agentic-msp.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical build-focused hackathon (AI/ML/Web) which conflicts with your preference against heavy development and coding.",
@@ -556,7 +592,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 446,
+      "registrations": 474,
       "link": "https://genhacks-open.devpost.com/",
       "fit_score": 3,
       "reason": "The themes (IoT, AI) are highly technical and development-focused, which conflicts with your 'Not for me' list.",
@@ -578,7 +614,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 219,
+      "registrations": 224,
       "link": "https://hackwithaditya.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical hackathon requiring development skills you don't have, and the prize is in INR rather than your preferred stablecoins.",
@@ -600,7 +636,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 427,
+      "registrations": 482,
       "link": "https://relate.devpost.com/",
       "fit_score": 2,
       "reason": "This is a technical hackathon focused on databases and AI, requiring development skills you've listed as 'not for me', and it lists no prize.",
@@ -622,7 +658,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 156,
+      "registrations": 171,
       "link": "https://ml-build-challenge-4.devpost.com/",
       "fit_score": 2,
       "reason": "There is no monetary reward offered, and 'Build Challenges' typically require the technical coding skills you listed as 'Not for me'.",
@@ -644,7 +680,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 92,
+      "registrations": 99,
       "link": "https://sq-hacks.devpost.com/",
       "fit_score": 2,
       "reason": "The prize pool is $0, which does not align with your preference for USDC/USDG rewards.",
@@ -666,7 +702,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 42,
+      "registrations": 49,
       "link": "https://kuk-virtual-hackathon.devpost.com/",
       "fit_score": 2,
       "reason": "The themes are highly technical and likely require the coding skills you explicitly listed as 'not for me'.",
@@ -724,7 +760,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 919,
+      "registrations": 932,
       "link": "https://code-for-humanity.devpost.com/",
       "fit_score": 1,
       "reason": "The prize is $0 and the focus on 'coding' doesn't align with your research and content strengths.",
@@ -746,7 +782,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 606,
+      "registrations": 630,
       "link": "https://build-your-first-ai-app.devpost.com/",
       "fit_score": 1,
       "reason": "This requires building an app, which is outside your skill set, and offers no monetary reward.",
@@ -768,7 +804,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 442,
+      "registrations": 445,
       "link": "https://syntax-summit.devpost.com/",
       "fit_score": 1,
       "reason": "The themes are highly technical (DevOps, AI, RPA) and there is no monetary reward, neither of which align with your skills or preferences.",
@@ -790,7 +826,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 143,
+      "registrations": 162,
       "link": "https://ai-for-medicine.devpost.com/",
       "fit_score": 1,
       "reason": "This is a student-focused AI/Medicine event with no monetary prize, which doesn't align with your professional Web3 research profile or reward preferences.",
@@ -803,33 +839,25 @@
     {
       "kind": "bounty",
       "source": "Superteam Earn",
-      "title": "Create an Engaging X Thread Introducing Anna AI Messenger",
-      "sponsor": "Anna",
+      "title": "Provide Feedback on our new Support Assistant Nosa",
+      "sponsor": "Nosana_AI",
       "sponsor_verified": false,
-      "reward": 250,
-      "token": "USDC",
-      "deadline": "2026-11-30T22:59:59.999Z",
+      "reward": 300,
+      "token": "NOS",
+      "deadline": "2026-11-29T23:59:59.000Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
       "region": "Global",
-      "link": "https://superteam.fun/earn/listing/create-an-engaging-x-thread-introducing-anna-ai-messenger-1",
+      "link": "https://superteam.fun/earn/listing/provide-feedback-on-our-new-support-assistant-nosa",
       "skills": [
         {
-          "skills": "Design",
+          "skills": "Other",
           "subskills": [
-            "Graphic Design"
-          ]
-        },
-        {
-          "skills": "Content",
-          "subskills": [
-            "Writing",
-            "Social Media",
-            "Research"
+            "Product Feedback"
           ]
         }
       ],
-      "description": "About Anna\nAI is getting super powerful, but using it can be way too complicated. People constantly switch between chatbots, coding assistants, and other tools just to get stuff done. We're changing that with Anna.\nAnna is an AI-native messenger where humans and AI colleagues work together. Instead of you juggling agents or models, you just tell Anna what you want to achieve. She then organizes the right AI colleagues, coordinates their work, and brings you in when decisions or approvals are needed. Think of it like this: humans manage Anna, and Anna manages the AI. We're being built by Causis Research, an independent AI lab that's exploring new architectures and continuous learning.\nAnna is currently in private preview with selected testers. If you're interested, you can join the waitlist at https://annaos.ai/.\nMandatory Participation Requirements\nTo qualify for this bounty and be eligible for prizes, you must complete ALL of the following:\n-\nFollow Anna on X: https://x.com/annaos_ai\n-\nFollow Invariant on X: https://x.com/notinvariant\n-\nFollow Causis Research on X: https://x.com/causisresearch\n-\nPublish an original X thread of minimum 3 posts introducing Anna, following the creative guidelines below.\n-\nSubmit your thread URL through Superteam Earn before the deadline.\nFollowing all three accounts is a mandatory participation requirement, not an optional recommendation.\nFor submission, please provide:\n-\nYour X username, so we can verify your submission.\n-\nA direct link to your publicly accessible X thread.\n-\nConfirmation that you follow all three official X accounts.\n-\nA short description of your creative approach.\n-\nAny original visual assets created.\nMission\nCreate an engaging and original X (Twitter) thread to introduce Anna to a new audience, explaining what it is, why it's being built, and how it could change working with AI.\nScope Detail\n-\nCreate a public X thread consisting of minimum 3 posts.\n-\nYour thread should clearly explain:\n-\nThe problem: Current AI tools are powerful but fragmented and complex to use effectively.\n-\nWhat Anna is: A messenger where humans and AI colleagues collaborate in the same conversations.\n-\nHow it works: Users describe their needs, and Anna organizes and coordinates relevant AI colleagues and tools.\n-\nWhat makes Anna different: A single conversational environment for both human collaboration and AI execution, removing the need for manual agent system management.\n-\nThe team: Anna is developed by Causis Research, an independent AI research lab.\n-\nCurrent status: Anna is in private preview and preparing for broader public access.\n-\nCall to action: Encourage readers to join the waitlist at https://annaos.ai/.\n-\nYou can include your own observations, analysis, and comparisons with existing AI products, provided the information is accurate.\n-\nCreative Guidelines:\n-\nWrite in English.\n-\nCraft a compelling opening post to draw readers in.\n-\nUse natural, engaging language that non-technical people can understand.\n-\nInclude at least one original visual, diagram, or thoughtfully designed graphic.\n-\nEnsure all information is accurate and from official sources.\n-\nTag @annaos_ai where relevant.\n-\nKeep the content original; avoid generic or AI-generated threads.\n-\nDo not claim to have personally used Anna unless you have access, and do not present preview functionality or future plans as publicly available features.\nSubmission Requirements\n-\nA direct link to your publicly accessible X thread.\n-\nA short description outlining your creative approach.\n-\nAny original visual assets you created (if applicable).\n-\nIf your thread is a promotional entry for this competition, clearly disclose this relationship and use X's Paid Partnership disclosure.\n-\nOnly one submission per participant will be evaluated.\nJudging Criteria\n-\nAccuracy and understanding of Anna: 30%\n-\nOriginality and creativity: 25%\n-\nClarity and storytelling: 20%\n-\nVisual presentation: 15%\n-\nQuality of the opening hook: 10%\n-\nSubmissions will not be judged on follower counts, likes, reposts, or other social engagement metrics.\n-\nStrongest submissions will clearly communicate Anna's vision without exaggerating its current capabilities.\nResources\n-\nProduct and waitlist: https://annaos.ai/\n-\nAnna on X: https://x.com/annaos_ai\n-\nInvariant — founder/research perspective: https://x.com/notinvariant\n-\nCausis Research: https://causisresearch.com/\nReward Structure\n-\n1st Place: 150 USDC\n-\n2nd Place: 75 USDC\n-\n3rd Place: 25 USDC",
+      "description": "About Nosana\nNosana is a DePIN AI infrastructure project on Solana. We’re building a decentralized, peer-to-peer GPU compute grid optimized for AI inference and agent execution. GPU hosts contribute their hardware, builders deploy workloads on demand, and open-source models run without lock-in or inflated cloud bills.\nThe result is faster, cheaper AI compute, and idle GPUs put to work instead of sitting unused.\nMission\nHelp us make Nosa, our AI community helper, smarter. Nosa answers questions in the Nosana Discord using our docs, SDK and past support cases, and it cites its sources. It’s still early and sometimes gets things wrong. Your job is to find where, and tell us why.\nScope Detail\nNo technical knowledge is needed. Anyone can take part:\n-\nAsk: Mention @Nosa in the Nosana Discord inside the ❔│ask-nosa channel with a real question about deploying, hosting, staking, or how Nosana works. Beginner questions count too.\n-\nRate: Use the Rate Nosa button under the answer. Give it a score from 1 to 5 and write what was good, wrong, or missing.\n-\nImprove: We review feedback daily. Useful feedback becomes a fix to Nosa’s knowledge base.\nSubmission Requirements\n-\nJoin the Nosana Discord and ask Nosa your questions there.\n-\nRate each answer with the Rate Nosa button and include written feedback.\n-\nOn this listing, submit your Discord username and links/screenshots to up to 3 of your best rated Nosa conversations.\n-\nSubmissions must be made by the end of November 29th.\n-\nOnly one entry per participant, and one Discord account per person.\nRules\n-\nReal questions only. No spam prompts.\n-\nNo jailbreaks or prompt tricks. Report safety issues (keys, wallets, scams) privately in a Discord ticket.\n-\nNever share wallet addresses, keys, or personal details with Nosa.\n-\nSome refusals are by design and not bugs: price predictions, financial advice, and anything about private keys or seed phrases.\nJudging Criteria\nSubmissions will be reviewed by the Nosana team based on:\n-\nUsefulness: does the feedback help us fix something real?\n-\nAccuracy: is what you flagged actually wrong or missing?\n-\nDetail: is it clear what the right answer should have been?\n-\nOriginality: did you find gaps others didn’t?\n-\nThe number of questions asked will not be considered. One detailed rating counts more than many short ones.\nResources\n-\nJoin the Nosana Discord to talk to Nosa.\n-\nNosana Docs (useful for checking Nosa’s answers)",
       "skip_reason": "Gemini API still busy (503) after 3 retries"
     }
   ],

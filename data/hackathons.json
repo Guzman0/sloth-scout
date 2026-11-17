@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-16T15:08:08+00:00",
+  "fetched_at": "2026-11-17T15:39:32+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 296,
+      "registrations": 308,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 14707,
+      "registrations": 15534,
       "link": "https://kiroween.devpost.com/"
     },
     {
@@ -50,7 +50,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 6456,
+      "registrations": 6667,
       "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 3726,
+      "registrations": 3979,
       "link": "https://codegeist2026.devpost.com/"
     },
     {
@@ -84,7 +84,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 2647,
+      "registrations": 2935,
       "link": "https://firebasehybridaihackathon.devpost.com/"
     },
     {
@@ -101,25 +101,8 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1766,
+      "registrations": 1855,
       "link": "https://qnx.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Open Agentic Web Challenge",
-      "sponsor": "Cognizant",
-      "prize_total": "$10,000",
-      "deadline": "2027-01-11",
-      "dates": "Nov 11, 2026 - Jan 11, 2027",
-      "themes": [
-        "Machine Learning/AI",
-        "Web",
-        "Social Good"
-      ],
-      "online": true,
-      "registrations": 866,
-      "link": "https://cognizant-agenticweb.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -135,8 +118,25 @@
         "Low/No Code"
       ],
       "online": true,
-      "registrations": 819,
+      "registrations": 969,
       "link": "https://deckthepixels.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Open Agentic Web Challenge",
+      "sponsor": "Cognizant",
+      "prize_total": "$10,000",
+      "deadline": "2027-01-11",
+      "dates": "Nov 11, 2026 - Jan 11, 2027",
+      "themes": [
+        "Machine Learning/AI",
+        "Web",
+        "Social Good"
+      ],
+      "online": true,
+      "registrations": 1063,
+      "link": "https://cognizant-agenticweb.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -152,7 +152,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1182,
+      "registrations": 1215,
       "link": "https://arbiter-hacks-v1.devpost.com/"
     },
     {
@@ -169,7 +169,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 919,
+      "registrations": 932,
       "link": "https://code-for-humanity.devpost.com/"
     },
     {
@@ -186,25 +186,8 @@
         "Web"
       ],
       "online": true,
-      "registrations": 405,
+      "registrations": 423,
       "link": "https://aws-agentic-msp.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Build Your First AI App",
-      "sponsor": "Yasir Insights",
-      "prize_total": "$0",
-      "deadline": "2026-11-27",
-      "dates": "Oct 27 - Nov 27, 2026",
-      "themes": [
-        "Education",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 606,
-      "link": "https://build-your-first-ai-app.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -220,8 +203,25 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 251,
+      "registrations": 292,
       "link": "https://learn-specs.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Build Your First AI App",
+      "sponsor": "Yasir Insights",
+      "prize_total": "$0",
+      "deadline": "2026-11-27",
+      "dates": "Oct 27 - Nov 27, 2026",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 630,
+      "link": "https://build-your-first-ai-app.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -237,7 +237,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 427,
+      "registrations": 482,
       "link": "https://relate.devpost.com/"
     },
     {
@@ -254,25 +254,8 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 446,
+      "registrations": 474,
       "link": "https://genhacks-open.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Syntax Summit",
-      "sponsor": "Student Organization",
-      "prize_total": "$0",
-      "deadline": "2027-01-14",
-      "dates": "Jul 18, 2026 - Jan 14, 2027",
-      "themes": [
-        "DevOps",
-        "Machine Learning/AI",
-        "Robotic Process Automation"
-      ],
-      "online": true,
-      "registrations": 442,
-      "link": "https://syntax-summit.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -288,8 +271,25 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 437,
+      "registrations": 459,
       "link": "https://ai-agents-founders-hetic-26.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Syntax Summit",
+      "sponsor": "Student Organization",
+      "prize_total": "$0",
+      "deadline": "2027-01-14",
+      "dates": "Jul 18, 2026 - Jan 14, 2027",
+      "themes": [
+        "DevOps",
+        "Machine Learning/AI",
+        "Robotic Process Automation"
+      ],
+      "online": true,
+      "registrations": 445,
+      "link": "https://syntax-summit.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -305,7 +305,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 287,
+      "registrations": 331,
       "link": "https://slayy-hacks.devpost.com/"
     },
     {
@@ -322,7 +322,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 219,
+      "registrations": 224,
       "link": "https://hackwithaditya.devpost.com/"
     },
     {
@@ -339,7 +339,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 156,
+      "registrations": 171,
       "link": "https://ml-build-challenge-4.devpost.com/"
     },
     {
@@ -356,7 +356,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 156,
+      "registrations": 167,
       "link": "https://ai-openbuild.devpost.com/"
     },
     {
@@ -373,7 +373,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 143,
+      "registrations": 162,
       "link": "https://ai-for-medicine.devpost.com/"
     },
     {
@@ -390,7 +390,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 92,
+      "registrations": 99,
       "link": "https://sq-hacks.devpost.com/"
     },
     {
@@ -407,7 +407,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 42,
+      "registrations": 49,
       "link": "https://kuk-virtual-hackathon.devpost.com/"
     }
   ]
