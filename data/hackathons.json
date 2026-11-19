@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T15:18:11+00:00",
+  "fetched_at": "2026-11-19T15:24:47+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 323,
+      "registrations": 344,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/"
     },
     {
@@ -33,25 +33,8 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 16304,
+      "registrations": 16867,
       "link": "https://kiroween.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Meta VR Start Developer Competition 2026",
-      "sponsor": "Meta",
-      "prize_total": "$1,000,000",
-      "deadline": "2026-11-18",
-      "dates": "Sep 24 - Nov 18, 2026",
-      "themes": [
-        "AR/VR",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 7072,
-      "link": "https://start-developer-competition-26.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -67,7 +50,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 4154,
+      "registrations": 4331,
       "link": "https://codegeist2026.devpost.com/"
     },
     {
@@ -84,7 +67,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 3149,
+      "registrations": 3452,
       "link": "https://firebasehybridaihackathon.devpost.com/"
     },
     {
@@ -101,7 +84,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1942,
+      "registrations": 2054,
       "link": "https://qnx.devpost.com/"
     },
     {
@@ -118,7 +101,7 @@
         "Low/No Code"
       ],
       "online": true,
-      "registrations": 1078,
+      "registrations": 1183,
       "link": "https://deckthepixels.devpost.com/"
     },
     {
@@ -135,7 +118,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1175,
+      "registrations": 1312,
       "link": "https://cognizant-agenticweb.devpost.com/"
     },
     {
@@ -152,7 +135,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1233,
+      "registrations": 1262,
       "link": "https://arbiter-hacks-v1.devpost.com/"
     },
     {
@@ -169,8 +152,25 @@
         "Web"
       ],
       "online": true,
-      "registrations": 939,
+      "registrations": 949,
       "link": "https://code-for-humanity.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Cloud9 x JetBrains: Sky's The Limit Hackathon 2026",
+      "sponsor": "Cloud9",
+      "prize_total": "$25,000",
+      "deadline": "2027-01-12",
+      "dates": "Nov 17, 2026 - Jan 12, 2027",
+      "themes": [
+        "Databases",
+        "Gaming",
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 496,
+      "link": "https://cloud9.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -186,7 +186,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 433,
+      "registrations": 463,
       "link": "https://aws-agentic-msp.devpost.com/"
     },
     {
@@ -203,25 +203,8 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 315,
+      "registrations": 362,
       "link": "https://learn-specs.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Build Your First AI App",
-      "sponsor": "Yasir Insights",
-      "prize_total": "$0",
-      "deadline": "2026-11-27",
-      "dates": "Oct 27 - Nov 27, 2026",
-      "themes": [
-        "Education",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 645,
-      "link": "https://build-your-first-ai-app.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -237,25 +220,25 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 526,
+      "registrations": 576,
       "link": "https://relate.devpost.com/"
     },
     {
       "kind": "hackathon",
       "source": "Devpost",
-      "title": "Cloud9 x JetBrains: Sky's The Limit Hackathon 2026",
-      "sponsor": "Cloud9",
-      "prize_total": "$25,000",
-      "deadline": "2027-01-12",
-      "dates": "Nov 17, 2026 - Jan 12, 2027",
+      "title": "Build Your First AI App",
+      "sponsor": "Yasir Insights",
+      "prize_total": "$0",
+      "deadline": "2026-11-27",
+      "dates": "Oct 27 - Nov 27, 2026",
       "themes": [
-        "Databases",
-        "Gaming",
-        "Machine Learning/AI"
+        "Education",
+        "Machine Learning/AI",
+        "Web"
       ],
       "online": true,
-      "registrations": 238,
-      "link": "https://cloud9.devpost.com/"
+      "registrations": 669,
+      "link": "https://build-your-first-ai-app.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -271,7 +254,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 505,
+      "registrations": 530,
       "link": "https://genhacks-open.devpost.com/"
     },
     {
@@ -288,7 +271,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 471,
+      "registrations": 483,
       "link": "https://ai-agents-founders-hetic-26.devpost.com/"
     },
     {
@@ -305,7 +288,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 448,
+      "registrations": 453,
       "link": "https://syntax-summit.devpost.com/"
     },
     {
@@ -322,8 +305,25 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 363,
+      "registrations": 413,
       "link": "https://slayy-hacks.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Build with AI - Pico Space Program",
+      "sponsor": "XR Bootcamp",
+      "prize_total": "$50,000",
+      "deadline": "2027-02-01",
+      "dates": "Nov 18, 2026 - Feb 01, 2027",
+      "themes": [
+        "AR/VR",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 97,
+      "link": "https://pico-space-program.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -339,7 +339,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 228,
+      "registrations": 230,
       "link": "https://hackwithaditya.devpost.com/"
     },
     {
@@ -356,7 +356,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 191,
+      "registrations": 201,
       "link": "https://ml-build-challenge-4.devpost.com/"
     },
     {
@@ -373,7 +373,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 182,
+      "registrations": 194,
       "link": "https://ai-for-medicine.devpost.com/"
     },
     {
@@ -390,25 +390,8 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 175,
+      "registrations": 183,
       "link": "https://ai-openbuild.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Build with AI - Pico Space Program",
-      "sponsor": "XR Bootcamp",
-      "prize_total": "$50,000",
-      "deadline": "2027-02-01",
-      "dates": "Nov 18, 2026 - Feb 01, 2027",
-      "themes": [
-        "AR/VR",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 14,
-      "link": "https://pico-space-program.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -424,7 +407,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 105,
+      "registrations": 118,
       "link": "https://sq-hacks.devpost.com/"
     },
     {
@@ -441,7 +424,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 102,
+      "registrations": 116,
       "link": "https://obscura.devpost.com/"
     },
     {
@@ -458,7 +441,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 58,
+      "registrations": 63,
       "link": "https://kuk-virtual-hackathon.devpost.com/"
     },
     {
@@ -473,7 +456,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 7,
+      "registrations": 16,
       "link": "https://semester-sprint.devpost.com/"
     }
   ]

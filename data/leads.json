@@ -1,13 +1,13 @@
 {
-  "found_at": "2026-11-18T15:17:48+00:00",
+  "found_at": "2026-11-19T15:24:24+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "google.com",
+      "source": "apify.com",
       "title": "Web3 Bug Bounty & Audit Contest Tracker",
       "snippet": "Every live crypto bug bounty and audit contest from Immunefi, Cantina, Code4rena and Sherlock in one clean table: rewards, dates, KYC, submission fees, chains ...",
-      "link": "https://www.google.com/goto?url=CAESbQHEIkXXkrA8KTVegI8reTdSojgsto6RDX1UUjICnAzqJi6a4a84gEnfD2uGcD0I5Qdbf93KjDZgF08gDYv9BfG2i3wq-65UiZ5z7w_vL_A3YEg_9Cz4R3EJvo6td5DiM8JmCszGM71zvu75jWA",
+      "link": "https://apify.com/photoncalc/web3-bounty-tracker",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
@@ -16,7 +16,7 @@
       "source": "google.com",
       "title": "Bounty Campaigns for Web3 Projects | Expert Delivery",
       "snippet": "Run a controlled bounty program for content, translations, social tasks, or security reports, with clear rules and review. Plan your campaign with our team.",
-      "link": "https://www.google.com/goto?url=CAEShAEBxCJF1x1lQKbkWkU6BM1y8paJkc9NKK3sOYqcWsjwcefIOZj8DBqhkM5TP3snYqDBq-yUtDB54b8y4DpWqwSPoGQtELdhVfd9RmJGoSCeBJkFjeig72gCB6hIDQ2OossYRSRshzq-2BFrs9nG0VZY-6dHi8ItqIZ9tELUMFnPsr1iTnY",
+      "link": "https://www.google.com/goto?url=CAEShAEBxCJF1zJrbjvkWTTmYwAACLVLoIVPo7cjo-YEAsK5Kuzhkwk4ppQcgIgPIfFyXhLVWkjrAw8ucMgM4dzYEKYH_t8b2TbUdFk_oJC5xNqS6GNjIGk-BtnZKuqvFURI-WKoCHZSq47iC0Uu_c7nFmaEywbezM06ho4FTq5E8TB6LImHVLg",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T15:17:50+00:00",
+  "fetched_at": "2026-11-19T15:24:27+00:00",
   "source": "https://superteam.fun/api/listings",
   "bounties": [
     {
@@ -141,50 +141,6 @@
     {
       "kind": "bounty",
       "source": "Superteam Earn",
-      "title": "Create Content About KriptoK · 200 USDC Creator Challenge",
-      "sponsor": "KriptoK",
-      "sponsor_verified": false,
-      "reward": 200,
-      "token": "USDC",
-      "deadline": "2026-11-25T20:59:59.000Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Global",
-      "link": "https://superteam.fun/earn/listing/kriptok-creator-challenge-01",
-      "skills": [
-        {
-          "skills": "Content",
-          "subskills": [
-            "Social Media",
-            "Writing"
-          ]
-        },
-        {
-          "skills": "Growth",
-          "subskills": [
-            "Marketing",
-            "Digital Marketing"
-          ]
-        },
-        {
-          "skills": "Community",
-          "subskills": [
-            "Community Manager",
-            "Discord Moderator"
-          ]
-        },
-        {
-          "skills": "Other",
-          "subskills": [
-            "Product Feedback"
-          ]
-        }
-      ],
-      "description": "KriptoK Creator Challenge\nShow people what you can do with KriptoK, in your own style.\nWe're running a three-week creator challenge with 200 USDC in prizes. Explore the platform, create content around the products you find interesting and get involved in the KriptoK community.\nWhat to do\n-\nFollow @KriptoK and @KriptoKLeague on X.\n-\nJoin the KriptoK Telegram community for challenge updates, questions and conversations with other creators.\n-\nStay active throughout the challenge. Join conversations on X and in our Telegram community, share your perspective and connect with people engaging with your content.\n-\nPublish one original piece of content about KriptoK. Posts, threads, videos and product walkthroughs are all welcome. Choose the format that works best for your idea.\n-\nTag @KriptoK in product content and @KriptoKLeague when covering the League.\n-\nSubmit your content link through Superteam Earn before the deadline. If you create multiple pieces, submit your strongest one. You can also include examples of conversations you contributed to during the challenge.\nWhat you can create\nChoose an angle that interests you. You don’t need to cover everything.\n-\nPerpetuals trading: Show your trading setup, explain how you use limit orders, stop-loss or take-profit, or share how you track your performance.\n-\nPre-IPO markets: Explore pre-IPO perpetuals such as Anthropic and what makes these markets interesting to you.\n-\nTokenized stocks: Introduce the stocks available on KriptoK or connect a company story you’re following to the product.\n-\nEarn: Give a quick tour of Earn or show how it fits into your onchain routine.\n-\nGacha and collectibles: Explore Gacha, share a card opening or introduce the collectibles experience.\n-\nEveryday onchain use: Show how you send, receive or swap assets, or explain self-custody through a simple everyday example.\n-\nKriptoK League: Follow the competition, highlight a leaderboard story or share your perspective on a round.\n-\nYour experience: Share something you discovered, a feature you found useful or an honest first impression.\nKeep it natural and focus on one clear idea. A simple post with a good angle can be just as effective as a polished video.\nHow we choose winners\nWe’ll review your submitted content and your participation throughout the challenge.\n-\nAudience engagement and conversation: 40%\nThe conversations your content creates, how you connect with your audience and your meaningful contributions to the KriptoK community on X and Telegram.\n-\nUsefulness and clarity: 30%\nHow well your content introduces a product, explains a use case or helps someone discover KriptoK.\n-\nProduct accuracy: 20%\nHow well your content represents the product and its features.\n-\nOriginality and presentation: 10%\nYour own perspective, storytelling and execution.\nYou don’t need a large following to win. We’re looking for thoughtful content and meaningful interaction.\nRewards\n-\n1st place: 50 USDC\n-\n2nd place: 35 USDC\n-\n3rd place: 25 USDC\n-\n4th–5th place: 20 USDC each\n-\n6th–10th place: 10 USDC each\nTen creators will win based on their content and participation. One prize per person.\nA few essentials\n-\nUse your own words and creative approach.\n-\nCreate in English or include English subtitles.\n-\nShare honest opinions and experiences.\n-\nSubmit your strongest piece through Superteam Earn.\n-\nKeep fees outside the scope of this challenge.\n-\nNo purchase, deposit or trade is required to participate.\nResources\n-\nKriptoK website\n-\nKriptoK on X\n-\nKriptoK League on X\n-\nKriptoK Telegram community\n-\nLeague leaderboard"
-    },
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
       "title": "Create Nosana content: Explainer Thread/Article or Creative Meme/Video",
       "sponsor": "Nosana_AI",
       "sponsor_verified": false,
@@ -292,6 +248,50 @@
         }
       ],
       "description": "About SSR\nSSR is a community-centric series of onchain Reserves and utilities. SSR.FUN is a launchpad for tokenized portfolios with a choice of crypto and 800+ tokenized stocks and ETFs.\nMission\nCreate or trade Reserves on SSR.FUN, share your investment thesis, and help shape the platform through feedback. Compete for $300 in total rewards across three tracks.\nRewards & Judging Criteria\nEach track rewards the participant with the highest result:\nHighest Volume — $150 USD\nGoes to the creator whose Reserve records the highest cumulative volume (mints, redeems and swaps), or to the trader with the highest cumulative volume across SSR.FUN, whichever is greater.\nHighest PnL — $100 USD\nGoes to the creator of the Reserve with the highest PnL % at campaign close, measured from its launch NAV.\nBest Beta Contributor — $50 USD\nGoes to a standout participant, judged on actionable feedback, reproducible bug reports, and the quality of their investment theses.\nOne participant can win more than one track.\nMandatory Requirements\nTo qualify, you must:\n-\nSign up at ssr.fun/#/campaign: connect your wallet and sign a message with your X handle. One sign-up covers your trades and every Reserve you create from that wallet.\n-\nCreate a Reserve or trade existing Reserves on SSR.FUN.\n-\nFollow SSR’s official X account: @strategicsuperr.\n-\nPublish a post on X about your Reserve or investment, explaining your investment thesis and including a link to your Reserve. You can also share your PnL card (mandatory for the Highest PnL track).\n-\nSubmit at least one piece of feedback using the feedback button in the bottom-right corner of SSR.FUN, with your signed-up wallet connected.\nSubmission Requirements\nSubmit your entry through Earn with:\n-\nThe wallet address you used on SSR.FUN (the one you signed up with).\n-\nA link to your X post with your thesis (and PnL card for the Highest PnL track).\n-\nConfirmation that you sent feedback through the in-app button with that wallet connected.\nYour Earn X profile must match the handle you signed up with. All requirements must be completed before the campaign closes. The live leaderboard is at SSR.FUN/leaderboard. Placement on the leaderboard does not guarantee qualification: the team may disqualify entries for wash trading or other manipulation, and its decisions are final.\nNote: SSR.FUN is live on Solana mainnet and as such it incurrs in the correspondent protocol and network fees. For more information please consult our documentation available here https://ssr.fun/docs"
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Create Content About KriptoK · 200 USDC Creator Challenge",
+      "sponsor": "KriptoK",
+      "sponsor_verified": false,
+      "reward": 200,
+      "token": "USDC",
+      "deadline": "2026-12-02T20:59:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/kriptok-creator-challenge-01",
+      "skills": [
+        {
+          "skills": "Content",
+          "subskills": [
+            "Social Media",
+            "Writing"
+          ]
+        },
+        {
+          "skills": "Growth",
+          "subskills": [
+            "Marketing",
+            "Digital Marketing"
+          ]
+        },
+        {
+          "skills": "Community",
+          "subskills": [
+            "Community Manager",
+            "Discord Moderator"
+          ]
+        },
+        {
+          "skills": "Other",
+          "subskills": [
+            "Product Feedback"
+          ]
+        }
+      ],
+      "description": "KriptoK Creator Challenge\nShow people what you can do with KriptoK, in your own style.\nWe're running a three-week creator challenge with 200 USDC in prizes. Explore the platform, create content around the products you find interesting and get involved in the KriptoK community.\nWhat to do\n-\nFollow @KriptoK and @KriptoKLeague on X.\n-\nJoin the KriptoK Telegram community for challenge updates, questions and conversations with other creators.\n-\nStay active throughout the challenge. Join conversations on X and in our Telegram community, share your perspective and connect with people engaging with your content.\n-\nPublish one original piece of content about KriptoK. Posts, threads, videos and product walkthroughs are all welcome. Choose the format that works best for your idea.\n-\nTag @KriptoK in product content and @KriptoKLeague when covering the League.\n-\nSubmit your content link through Superteam Earn before the deadline. If you create multiple pieces, submit your strongest one. You can also include examples of conversations you contributed to during the challenge.\nWhat you can create\nChoose an angle that interests you. You don’t need to cover everything.\n-\nPerpetuals trading: Show your trading setup, explain how you use limit orders, stop-loss or take-profit, or share how you track your performance.\n-\nPre-IPO markets: Explore pre-IPO perpetuals such as Anthropic and what makes these markets interesting to you.\n-\nTokenized stocks: Introduce the stocks available on KriptoK or connect a company story you’re following to the product.\n-\nEarn: Give a quick tour of Earn or show how it fits into your onchain routine.\n-\nGacha and collectibles: Explore Gacha, share a card opening or introduce the collectibles experience.\n-\nEveryday onchain use: Show how you send, receive or swap assets, or explain self-custody through a simple everyday example.\n-\nKriptoK League: Follow the competition, highlight a leaderboard story or share your perspective on a round.\n-\nYour experience: Share something you discovered, a feature you found useful or an honest first impression.\nKeep it natural and focus on one clear idea. A simple post with a good angle can be just as effective as a polished video.\nHow we choose winners\nWe’ll review your submitted content and your participation throughout the challenge.\n-\nAudience engagement and conversation: 40%\nThe conversations your content creates, how you connect with your audience and your meaningful contributions to the KriptoK community on X and Telegram.\n-\nUsefulness and clarity: 30%\nHow well your content introduces a product, explains a use case or helps someone discover KriptoK.\n-\nProduct accuracy: 20%\nHow well your content represents the product and its features.\n-\nOriginality and presentation: 10%\nYour own perspective, storytelling and execution.\nYou don’t need a large following to win. We’re looking for thoughtful content and meaningful interaction.\nRewards\n-\n1st place: 50 USDC\n-\n2nd place: 35 USDC\n-\n3rd place: 25 USDC\n-\n4th–5th place: 20 USDC each\n-\n6th–10th place: 10 USDC each\nTen creators will win based on their content and participation. One prize per person.\nA few essentials\n-\nUse your own words and creative approach.\n-\nCreate in English or include English subtitles.\n-\nShare honest opinions and experiences.\n-\nSubmit your strongest piece through Superteam Earn.\n-\nKeep fees outside the scope of this challenge.\n-\nNo purchase, deposit or trade is required to participate.\nResources\n-\nKriptoK website\n-\nKriptoK on X\n-\nKriptoK League on X\n-\nKriptoK Telegram community\n-\nLeague leaderboard"
     },
     {
       "kind": "bounty",
