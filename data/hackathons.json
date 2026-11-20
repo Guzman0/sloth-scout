@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-19T15:24:47+00:00",
+  "fetched_at": "2026-11-20T15:01:05+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 344,
+      "registrations": 379,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 16867,
+      "registrations": 17490,
       "link": "https://kiroween.devpost.com/"
     },
     {
@@ -50,7 +50,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 4331,
+      "registrations": 4503,
       "link": "https://codegeist2026.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 3452,
+      "registrations": 3670,
       "link": "https://firebasehybridaihackathon.devpost.com/"
     },
     {
@@ -84,7 +84,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 2054,
+      "registrations": 2141,
       "link": "https://qnx.devpost.com/"
     },
     {
@@ -101,7 +101,7 @@
         "Low/No Code"
       ],
       "online": true,
-      "registrations": 1183,
+      "registrations": 1273,
       "link": "https://deckthepixels.devpost.com/"
     },
     {
@@ -118,7 +118,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1312,
+      "registrations": 1414,
       "link": "https://cognizant-agenticweb.devpost.com/"
     },
     {
@@ -135,25 +135,8 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1262,
+      "registrations": 1290,
       "link": "https://arbiter-hacks-v1.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Code for Humanity",
-      "sponsor": "nill",
-      "prize_total": "$0",
-      "deadline": "2027-01-15",
-      "dates": "Jul 16, 2026 - Jan 15, 2027",
-      "themes": [
-        "Education",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 949,
-      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -169,8 +152,25 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 496,
+      "registrations": 622,
       "link": "https://cloud9.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Code for Humanity",
+      "sponsor": "nill",
+      "prize_total": "$0",
+      "deadline": "2027-01-15",
+      "dates": "Jul 16, 2026 - Jan 15, 2027",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 956,
+      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -186,7 +186,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 463,
+      "registrations": 481,
       "link": "https://aws-agentic-msp.devpost.com/"
     },
     {
@@ -203,7 +203,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 362,
+      "registrations": 394,
       "link": "https://learn-specs.devpost.com/"
     },
     {
@@ -220,7 +220,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 576,
+      "registrations": 622,
       "link": "https://relate.devpost.com/"
     },
     {
@@ -237,7 +237,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 669,
+      "registrations": 682,
       "link": "https://build-your-first-ai-app.devpost.com/"
     },
     {
@@ -254,7 +254,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 530,
+      "registrations": 557,
       "link": "https://genhacks-open.devpost.com/"
     },
     {
@@ -271,7 +271,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 483,
+      "registrations": 494,
       "link": "https://ai-agents-founders-hetic-26.devpost.com/"
     },
     {
@@ -288,7 +288,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 453,
+      "registrations": 454,
       "link": "https://syntax-summit.devpost.com/"
     },
     {
@@ -305,7 +305,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 413,
+      "registrations": 453,
       "link": "https://slayy-hacks.devpost.com/"
     },
     {
@@ -322,7 +322,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 97,
+      "registrations": 149,
       "link": "https://pico-space-program.devpost.com/"
     },
     {
@@ -339,7 +339,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 230,
+      "registrations": 234,
       "link": "https://hackwithaditya.devpost.com/"
     },
     {
@@ -356,7 +356,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 201,
+      "registrations": 214,
       "link": "https://ml-build-challenge-4.devpost.com/"
     },
     {
@@ -373,7 +373,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 194,
+      "registrations": 205,
       "link": "https://ai-for-medicine.devpost.com/"
     },
     {
@@ -390,25 +390,8 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 183,
+      "registrations": 187,
       "link": "https://ai-openbuild.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Bridge The Gap Hacks",
-      "sponsor": "Bridge The Gap Hacks",
-      "prize_total": "$0",
-      "deadline": "2026-11-21",
-      "dates": "Nov 15 - 21, 2026",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Social Good"
-      ],
-      "online": true,
-      "registrations": 118,
-      "link": "https://sq-hacks.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -424,8 +407,25 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 116,
+      "registrations": 124,
       "link": "https://obscura.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Bridge The Gap Hacks",
+      "sponsor": "Bridge The Gap Hacks",
+      "prize_total": "$0",
+      "deadline": "2026-11-21",
+      "dates": "Nov 15 - 21, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "online": true,
+      "registrations": 123,
+      "link": "https://sq-hacks.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -441,7 +441,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 63,
+      "registrations": 68,
       "link": "https://kuk-virtual-hackathon.devpost.com/"
     },
     {
@@ -456,7 +456,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 16,
+      "registrations": 17,
       "link": "https://semester-sprint.devpost.com/"
     }
   ]

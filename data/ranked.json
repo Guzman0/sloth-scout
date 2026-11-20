@@ -1,5 +1,5 @@
 {
-  "ranked_at": "2026-11-19T15:30:20+00:00",
+  "ranked_at": "2026-11-20T15:04:41+00:00",
   "model": "models/gemma-4-31b-it",
   "fingerprint": "83a608da9e68c635",
   "ranked": [
@@ -271,7 +271,7 @@
         "Low/No Code"
       ],
       "online": true,
-      "registrations": 1183,
+      "registrations": 1273,
       "link": "https://deckthepixels.devpost.com/",
       "fit_score": 7,
       "reason": "The design and low/no-code themes align well with your visual assets and UX skills.",
@@ -293,7 +293,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 483,
+      "registrations": 494,
       "link": "https://ai-agents-founders-hetic-26.devpost.com/",
       "fit_score": 7,
       "reason": "The Low/No Code theme aligns with your skill set, and your product analysis strengths are a great fit for a founders' challenge.",
@@ -356,7 +356,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 16867,
+      "registrations": 17490,
       "link": "https://kiroween.devpost.com/",
       "fit_score": 6,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes allow you to apply your research and UX skills, though you'll likely need a developer partner to build a submission.",
@@ -378,7 +378,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 413,
+      "registrations": 453,
       "link": "https://slayy-hacks.devpost.com/",
       "fit_score": 6,
       "reason": "The open-ended and beginner-friendly themes suit your research and UX skills, though you'll likely need a technical partner to build a prototype.",
@@ -400,7 +400,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 116,
+      "registrations": 124,
       "link": "https://obscura.devpost.com/",
       "fit_score": 6,
       "reason": "The research focus aligns with your strengths, but the prize is very low and the specific requirements are missing.",
@@ -422,7 +422,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1312,
+      "registrations": 1414,
       "link": "https://cognizant-agenticweb.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Agentic Web' theme likely requires technical development you avoid, though your research and UX skills could support a project.",
@@ -444,7 +444,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1262,
+      "registrations": 1290,
       "link": "https://arbiter-hacks-v1.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes may allow for your UX and research skills, but most hackathons require a technical prototype you aren't comfortable building.",
@@ -466,7 +466,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 362,
+      "registrations": 394,
       "link": "https://learn-specs.devpost.com/",
       "fit_score": 5,
       "reason": "You can contribute through design and UX feedback, but the AR/VR and AI themes likely require technical development skills you prefer to avoid.",
@@ -488,7 +488,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 3452,
+      "registrations": 3670,
       "link": "https://firebasehybridaihackathon.devpost.com/",
       "fit_score": 4,
       "reason": "This is a build-focused hackathon which likely requires the heavy development skills you prefer to avoid.",
@@ -510,7 +510,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 97,
+      "registrations": 149,
       "link": "https://pico-space-program.devpost.com/",
       "fit_score": 4,
       "reason": "This is a build-focused hackathon requiring technical development skills you've listed as 'not for me'.",
@@ -532,7 +532,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 183,
+      "registrations": 187,
       "link": "https://ai-openbuild.devpost.com/",
       "fit_score": 4,
       "reason": "This is a 'Build' hackathon which typically requires coding skills you've listed as 'Not for me', though the open-ended theme might allow for some research or UX work.",
@@ -554,7 +554,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 344,
+      "registrations": 379,
       "link": "https://dakar-bitcoin-hack-2026.devpost.com/",
       "fit_score": 3,
       "reason": "This is a hackathon likely requiring development skills, which you've listed as 'Not for me'.",
@@ -576,7 +576,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 4331,
+      "registrations": 4503,
       "link": "https://codegeist2026.devpost.com/",
       "fit_score": 3,
       "reason": "This is a coding-centric hackathon which conflicts with your lack of development skills, although your UX and research strengths could be useful if you joined a team.",
@@ -598,7 +598,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 2054,
+      "registrations": 2141,
       "link": "https://qnx.devpost.com/",
       "fit_score": 3,
       "reason": "The themes (IoT, AI) are highly technical and align with skills you avoid, though you could potentially contribute via product analysis or UX.",
@@ -620,7 +620,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 463,
+      "registrations": 481,
       "link": "https://aws-agentic-msp.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical build-focused hackathon (AI/ML/Web) which conflicts with your preference against heavy development and coding.",
@@ -642,7 +642,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 530,
+      "registrations": 557,
       "link": "https://genhacks-open.devpost.com/",
       "fit_score": 3,
       "reason": "The themes (IoT, AI) are highly technical and development-focused, which conflicts with your 'Not for me' list.",
@@ -664,7 +664,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 230,
+      "registrations": 234,
       "link": "https://hackwithaditya.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical hackathon requiring development skills you don't have, and the prize is in INR rather than your preferred stablecoins.",
@@ -686,7 +686,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 576,
+      "registrations": 622,
       "link": "https://relate.devpost.com/",
       "fit_score": 2,
       "reason": "This is a technical hackathon focused on databases and AI, requiring development skills you've listed as 'not for me', and it lists no prize.",
@@ -708,7 +708,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 201,
+      "registrations": 214,
       "link": "https://ml-build-challenge-4.devpost.com/",
       "fit_score": 2,
       "reason": "There is no monetary reward offered, and 'Build Challenges' typically require the technical coding skills you listed as 'Not for me'.",
@@ -730,7 +730,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 118,
+      "registrations": 123,
       "link": "https://sq-hacks.devpost.com/",
       "fit_score": 2,
       "reason": "The prize pool is $0, which does not align with your preference for USDC/USDG rewards.",
@@ -752,7 +752,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 63,
+      "registrations": 68,
       "link": "https://kuk-virtual-hackathon.devpost.com/",
       "fit_score": 2,
       "reason": "The themes are highly technical and likely require the coding skills you explicitly listed as 'not for me'.",
@@ -810,7 +810,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 949,
+      "registrations": 956,
       "link": "https://code-for-humanity.devpost.com/",
       "fit_score": 1,
       "reason": "The prize is $0 and the focus on 'coding' doesn't align with your research and content strengths.",
@@ -832,7 +832,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 669,
+      "registrations": 682,
       "link": "https://build-your-first-ai-app.devpost.com/",
       "fit_score": 1,
       "reason": "This requires building an app, which is outside your skill set, and offers no monetary reward.",
@@ -854,7 +854,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 453,
+      "registrations": 454,
       "link": "https://syntax-summit.devpost.com/",
       "fit_score": 1,
       "reason": "The themes are highly technical (DevOps, AI, RPA) and there is no monetary reward, neither of which align with your skills or preferences.",
@@ -876,7 +876,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 194,
+      "registrations": 205,
       "link": "https://ai-for-medicine.devpost.com/",
       "fit_score": 1,
       "reason": "This is a student-focused AI/Medicine event with no monetary prize, which doesn't align with your professional Web3 research profile or reward preferences.",
@@ -896,7 +896,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 16,
+      "registrations": 17,
       "link": "https://semester-sprint.devpost.com/",
       "fit_score": 1,
       "reason": "There is no prize money and the AI focus likely requires technical development skills you avoid.",
@@ -920,7 +920,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 496,
+      "registrations": 622,
       "link": "https://cloud9.devpost.com/",
       "skip_reason": "Gemini API still busy (503) after 3 retries"
     }
