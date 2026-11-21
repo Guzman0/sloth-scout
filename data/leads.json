@@ -1,58 +1,22 @@
 {
-  "found_at": "2026-11-20T15:00:41+00:00",
+  "found_at": "2026-11-21T14:22:48+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "BCH BLAZE 2026 | Hackathon",
-      "snippet": "Develop a new MVP product or feature set for an existing product on the Bitcoin Cash network! Requirements: Open to developers worldwide, including individuals ...",
-      "link": "https://dorahacks.io/hackathon/bchblaze2026/tracks",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "Agent Arena Competition: Evidence Mining | Hackathon",
-      "snippet": "Feedback bounties go to the five most useful pieces of feedback, such as bug reports or notes on what your agent couldn't do, sent by your agent through the API ...",
-      "link": "https://dorahacks.io/hackathon/delphi-agent-competition2",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "Terminal 3 Build+Scale Agent Micro Grant | Hackathon",
-      "snippet": "This grant program is for people who are looking to build real products and ideally to scale it into a company. We are here to help anyone through our industry ...",
-      "link": "https://dorahacks.io/hackathon/t3-build-scale-grant",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "bugcrowd.com",
-      "title": "Bug Bounty: Binance",
-      "snippet": "Bugcrowd's bug bounty and vulnerability disclosure platform connects the global security researcher community with your business.",
-      "link": "https://bugcrowd.com/engagements/binance",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "opensourcecommittee.docs.intersectmbo.org",
-      "title": "Bug Bounty Program v2.0",
-      "snippet": "This is a bug bounty program focused around the Core Node, Intersect maintained or sponsored projects specifically related to the function of the Cardano ...",
-      "link": "https://opensourcecommittee.docs.intersectmbo.org/about/paid-open-source-model-posm/bug-bounty-program",
+      "source": "google.com",
+      "title": "Bug Bounties Terms of Service - Cantina Security",
+      "snippet": "A Bounty Outline may require Researchers to hold a minimum deposit in their Platform account before submitting findings, or to pay a submission fee.",
+      "link": "https://www.google.com/goto?url=CAESaAHEIkXXyXdJ-Gg2DRNpclaQ2meoXiwat2fc-mjs8uJceMMSvpNBF8sNwWBDH-__8shpC9h4FDxHhhKMbQv-feP1Fd5lrCx1ScazgXhQqwqM9d3PxDtya6Eo8tVaeMHHkcvRGuNQnw21",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
     {
       "kind": "lead",
       "source": "google.com",
-      "title": "Bug Bounties Terms of Service - Cantina Security",
-      "snippet": "A Bounty Outline may require Researchers to hold a minimum deposit in their Platform account before submitting findings, or to pay a submission fee.",
-      "link": "https://www.google.com/goto?url=CAESaAHEIkXXOEg57qr4LzqbYvzzus7qaiT-urPryS7LlmIuON31ohyYQgKLoJEYWgFBrT8CbJN6xcysKWqOrl7oHGOwDjDyQk_7aX2fZ63wKuUvs5TjioC_rQv09HdB0i08OpJhsxvm2HJ1",
+      "title": "Bug Bounty Program v2.0",
+      "snippet": "This is a bug bounty program focused around the Core Node, Intersect maintained or sponsored projects specifically related to the function of the Cardano ...",
+      "link": "https://www.google.com/goto?url=CAESowEBxCJF1x53qEUqUgy6C9vA5mXY_dQiEAX4qi04j0_TeGmJnQQV0w4_0HpocEdUsgYG3jjRAJbbssAtwK5PtrLGzDnJy7hocch3cQWPep76k-egE2eyFs7-4NdSm6vhi8eikGxGydQ-QJg94yFY5uij7NXNLaQzPzgWZzQXadIt74S1kApSpNkNdND0FSE9yBBrbPSGGH4SpEQG54BhTvfMcUiO",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
@@ -61,25 +25,16 @@
       "source": "google.com",
       "title": "Bug bounty with AI",
       "snippet": "Google just paused its open-source bug bounty program—not because of a new vulnerability, but because AI-generated submissions overwhelmed their triage team.",
-      "link": "https://www.google.com/goto?url=CAESaAHEIkXXPmWsSgaz8ro_B3ZovFqQT0gY3YxHMOkKCQL8HZr_8QljIQUeFSJ1V492uqcq0g-XKg0DZuTtER2UiTk85s0Balx7Lpy7nj5g5RbrWCXs_qWxLPVBzo087a-ij69SCBcImWWb",
+      "link": "https://www.google.com/goto?url=CAESaAHEIkXX1qTu_aVqvQqMSUtI3fIlEcJzhKljDa8QZ15TGyL0osl4CtlcIkur52LDGpzR7HAp6yjRptbc4AsUSzfpSIqa0FpsOjF5VxzeLolOBmsB6ylEXc2OS89H5i0i9g6-W7tOP8Fj",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
     {
       "kind": "lead",
       "source": "google.com",
-      "title": "I Audited 11 Bug Bounty Programs — 3 Were Impossible to ...",
-      "snippet": "11 bug bounty programs I audited were impossible to submit to — a $100 pay-to-submit fee, a reputation gate, a KYC wall. I built BountyScout, BountyScout, an ...",
-      "link": "https://www.google.com/goto?url=CAESaAHEIkXXdpo598l6wTljOFXro7UIvJ2n0xtbgQDpJ-mgh8PMMkjyWRxI0aWGMGYTZzE6iW4KTZZNv2aotK-nZev7tshxt3r9ukAPgNQycqL4ddJN1f0QaVrxtRYhx8WcgnwriT546pQW&gsessionid=KFhY2OgUWsx_-jbEq7porAboXEyEkhu8m60x--Ni81znsAkiABYiPA",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "google.com",
-      "title": "Sky Bug Bounty",
-      "snippet": "Sky bug bounty on Immunefi, with rewards up to $10000000. Bug report submissions without a PoC required will not be provided with a reward. submit it for ...",
-      "link": "https://www.google.com/goto?url=CAESbQHEIkXXwvt8txQmxUurAuc7jYvGja0Z0evAbsjX3B1f160LgHpeScqfg823i0QFaw1t7ytrEX2LHbJ3WrBWZZZgvc648H0iFNrkB-hk_Lxy_TOcbvdn8eKlZPLiUgr9NCBotUkMQMVG0OZPApU",
+      "title": "Bounty Board Web3 Block for Solid",
+      "snippet": "A bounty board with Open, In progress, In review and Paid tabs twelve tasks with difficulty, reward and due date, Submit work opens a Field for a link, checks ...",
+      "link": "https://www.google.com/goto?url=CAEScQHEIkXXX1PYbhoEgrId-IOBzd_eNDR8OlGaJWlwcXWaU7EOVv7EwnmEdXnqMnfnlg09pCVDGgEcLmmMbI2b8BCgiKjl_7B4xrIBLfOg5mj8CRvOD5XXHsM2li4q8j7SwfC-FMBs68pGiDGNNvAPJww2",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
@@ -88,16 +43,16 @@
       "source": "google.com",
       "title": "Vulnerability Reports & Bug Bounty Program - Help center",
       "snippet": "We currently pay rewards for P1, P2 & P3 vulnerabilities. Do not send reports for P4 or P5 vulnerabilities, we don't reward them. We won't open attachments in ...",
-      "link": "https://www.google.com/goto?url=CAESlgEBxCJF1xFaNco3FuaV190K7t0PaCkJd9zE1K3r9DhOKz2VH6cstQVqZOSJn9N_IByHvpmCKcFgMQZtMXy59RG9klBIRr3Vrv7WabMx1kU7-Qo0qlyPuW_VsNcts-nSd-ssrXV20PZuL2LAMfJ63yZZiWG1vIPUP8cGT5rU8GNa4JGxxXvMy4miZx0rV4kggBKQ3UY6mCs",
+      "link": "https://www.google.com/goto?url=CAESlgEBxCJF1zTaVftfzc8JgIJW66Nro8v3D0kAZoIwqakoavfgSVFcVL3FyvtRIkURYARQEZHq9fel51EmM-QKcJgQtVCqxfDMHaDGugpF8hggSAiS-nlMpS2RZiWdiH4-hXcmiZ8g3bQ6sh4Hhd5iEy0IKeXz6f1EsRIEGfj6IglIz27xHuHe6zW-GWl1Y9atdfCMMnsf_Dc",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
     {
       "kind": "lead",
       "source": "google.com",
-      "title": "Bounty Board Web3 Block for Solid",
-      "snippet": "A bounty board with Open, In progress, In review and Paid tabs with counts, a skill filter, twelve tasks with difficulty, reward and due date, a limit of two ...",
-      "link": "https://www.google.com/goto?url=CAEScQHEIkXXJvMzxrSy39bWXxBQIAA6R-ffFdd8ZmTNRzv5VYuGC9Y7-veXIDY1M1uexin2iax6p1BtgTHFsP4QAFppQPN2P0c8ZjfYOKi5fpDDNc7DtKKSIAlFEzN-jY6--mimlBf81g3_Gg_wLET_YwWl",
+      "title": "Sky Bug Bounty",
+      "snippet": "Rewards, program rules and eligibility for the Sky bug bounty on Immunefi, with rewards up to $10000000.",
+      "link": "https://www.google.com/goto?url=CAESbQHEIkXXpEULFkTnJUccywDxwe__0or2obCxnuR8THEIlJH0C0yG-O2DaymtNKWyTGNzfg5ts35OEzYpxNjrnew_FPxnVxkhdZb7POilYCKC8vSNOCP5WvIYGH0JqpVQ6sMk4w439MLb6a1CnLE",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     }
