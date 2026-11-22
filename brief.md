@@ -1,12 +1,18 @@
-# 🦥 Sloth Scout brief: Saturday, November 21, 2026
+# 🦥 Sloth Scout brief: Sunday, November 22, 2026
 
-> ⚠️ Skipped this run: Browserbase reading, ElevenLabs audio. See Sources at the bottom.
+> ⚠️ Skipped this run: ElevenLabs audio. See Sources at the bottom.
 
 ## New today
 
 ### Bounties
 
-No new good-fit bounties today.
+#### 1. AirdropBuzz Creator Contest
+- **Reward:** $625 USDC TOTAL PRIZE POOL   **Deadline:** 2026-12-26
+- **Fit:** 9/10. This aligns perfectly with your content creation skills and reward preferences.
+- **Effort:** medium
+- **Scam risk:** medium. The sponsor is an .eth address and the reward is a shared prize pool rather than a guaranteed payment.
+- **Found on:** google.com (read by browser, not an official API)
+- **Link:** https://www.google.com/goto?url=CAESZQHEIkXXK8rtzCOZ9u89oILoYJt2ixmLMgqrqjgy6ekhZGYb06bnaqMfvJnAg1aRuuoQaGA2HOnNRE35xilGarN9NGkd-5QnW1nuV27YCwbnonEDbu1glMx2jvn2dTURbPFPXLA0
 
 ### Hackathons
 
@@ -29,27 +35,26 @@ From earlier briefs, still accepting entries:
 
 ## Notes
 
-- Poor fits (score under 5): 17.
-- Not open to your region (Nigeria, Ukraine), so not ranked: 3.
-- Couldn't rank 1 (will retry next run): Global AI Builder’s Challenge.
+- Poor fits (score under 5): 18.
+- Not open to your region (Ukraine), so not ranked: 2.
 
 ## Unverified leads
 
 Found by search but missing a reward or deadline, so not ranked. Check these by hand.
 
-- [Bug Bounties Terms of Service - Cantina Security](https://www.google.com/goto?url=CAESaAHEIkXXyXdJ-Gg2DRNpclaQ2meoXiwat2fc-mjs8uJceMMSvpNBF8sNwWBDH-__8shpC9h4FDxHhhKMbQv-feP1Fd5lrCx1ScazgXhQqwqM9d3PxDtya6Eo8tVaeMHHkcvRGuNQnw21) (google.com): not opened in the browser this run
-- [Bug Bounty Program v2.0](https://www.google.com/goto?url=CAESowEBxCJF1x53qEUqUgy6C9vA5mXY_dQiEAX4qi04j0_TeGmJnQQV0w4_0HpocEdUsgYG3jjRAJbbssAtwK5PtrLGzDnJy7hocch3cQWPep76k-egE2eyFs7-4NdSm6vhi8eikGxGydQ-QJg94yFY5uij7NXNLaQzPzgWZzQXadIt74S1kApSpNkNdND0FSE9yBBrbPSGGH4SpEQG54BhTvfMcUiO) (google.com): not opened in the browser this run
-- [Bug bounty with AI](https://www.google.com/goto?url=CAESaAHEIkXX1qTu_aVqvQqMSUtI3fIlEcJzhKljDa8QZ15TGyL0osl4CtlcIkur52LDGpzR7HAp6yjRptbc4AsUSzfpSIqa0FpsOjF5VxzeLolOBmsB6ylEXc2OS89H5i0i9g6-W7tOP8Fj) (google.com): not opened in the browser this run
-- [Bounty Board Web3 Block for Solid](https://www.google.com/goto?url=CAEScQHEIkXXX1PYbhoEgrId-IOBzd_eNDR8OlGaJWlwcXWaU7EOVv7EwnmEdXnqMnfnlg09pCVDGgEcLmmMbI2b8BCgiKjl_7B4xrIBLfOg5mj8CRvOD5XXHsM2li4q8j7SwfC-FMBs68pGiDGNNvAPJww2) (google.com): not opened in the browser this run
-- [Vulnerability Reports & Bug Bounty Program - Help center](https://www.google.com/goto?url=CAESlgEBxCJF1zTaVftfzc8JgIJW66Nro8v3D0kAZoIwqakoavfgSVFcVL3FyvtRIkURYARQEZHq9fel51EmM-QKcJgQtVCqxfDMHaDGugpF8hggSAiS-nlMpS2RZiWdiH4-hXcmiZ8g3bQ6sh4Hhd5iEy0IKeXz6f1EsRIEGfj6IglIz27xHuHe6zW-GWl1Y9atdfCMMnsf_Dc) (google.com): not opened in the browser this run
-- [Sky Bug Bounty](https://www.google.com/goto?url=CAESbQHEIkXXpEULFkTnJUccywDxwe__0or2obCxnuR8THEIlJH0C0yG-O2DaymtNKWyTGNzfg5ts35OEzYpxNjrnew_FPxnVxkhdZb7POilYCKC8vSNOCP5WvIYGH0JqpVQ6sMk4w439MLb6a1CnLE) (google.com): not opened in the browser this run
+- [BCH BLAZE 2026 | Hackathon](https://dorahacks.io/hackathon/bchblaze2026) (dorahacks.io): the browser couldn't read the page
+- [Agent Arena Competition: Evidence Mining | Hackathon](https://dorahacks.io/hackathon/delphi-agent-competition2) (dorahacks.io): the browser couldn't read the page
+- [Bounty Board Web3 Block for Solid](https://www.shadcn.io/blocks/solid/web3-bounty-board) (shadcn.io): the browser couldn't read the page
+- [Web3 founders, your next bounty should do more than ...](https://www.google.com/goto?url=CAEScQHEIkXXQ4IwyJJHJDtW7aflBPDfdXWoCuuacGOc-9xt-r3DbCjHo_TLb0sJ3paZo7Y2IfARO6npem0uHU7-_qv6SUAqbyvpDKBc6uPPDdhoUIzJNUA7bdjXXXVBcvd7LQK87I85RpnDI2f0w_wM60i5) (google.com): the browser couldn't read the page
+- [CoW Protocol Bug Bounty](https://www.google.com/goto?url=CAESdQHEIkXXyjneVDe8l1vQM8awjjY5NlDIzDzoy59q64kJWmrqhudnauJGAvZg_Hyp5vQL4_IDuqDu5ugp4h4EuduUny7ApGc4PP6R8D7epeu_2Jlwedf3LAtoDax3mTRL1VsG0587HMHzfUiDIHP-tr8m4KnA2w) (google.com): the browser couldn't read the page
+- [Would a GitHub-Based Bounty Payment Automation Tool ...](https://www.google.com/goto?url=CAESqAEBxCJF1_nykn47gdnXF4cMJoxLMppRY8-WrxlH9jqJdGOwcyY0SJp4mP5wLLqYSg8NyilyBIGOqnZdN2_rtM3OrrMOqEIbeU1aA4ZwiDqnub8YheB-NlPXpSNrTnfCE9J3IqUnUP29trbC6o4wrBylLKgw-0SMLZ-0vC2LpH2uaoNpbQiGxf_-wpD3O26yFEZn6jvneA7Ra6BEaxsXHaDRaz7Nx0iKoVk) (google.com): no reward or deadline found on the page
 
 ## Sources
 
-- ✅ **Superteam Earn:** 12 open bounties (22.2s)
-- ✅ **Devpost:** 25 open online Blockchain or AI/ML hackathons (0.4s)
-- ✅ **SerpApi search:** 6 new listing links from 4 searches (6.8s)
-- ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
+- ✅ **Superteam Earn:** 11 open bounties (19.7s)
+- ✅ **Devpost:** 25 open online Blockchain or AI/ML hackathons (0.3s)
+- ✅ **SerpApi search:** 7 new listing links from 4 searches (5.6s)
+- ✅ **Browserbase reading:** 7 pages read, 1 with reward and deadline (1162.7s)
 - ⚠️ **ElevenLabs audio: skipped.** The ElevenLabs monthly quota has run out.
 - ✅ **Memory:** MongoDB Atlas
 
