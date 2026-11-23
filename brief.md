@@ -1,4 +1,4 @@
-# 🦥 Sloth Scout brief: Sunday, November 22, 2026
+# 🦥 Sloth Scout brief: Monday, November 23, 2026
 
 > ⚠️ Skipped this run: ElevenLabs audio. See Sources at the bottom.
 
@@ -6,13 +6,7 @@
 
 ### Bounties
 
-#### 1. AirdropBuzz Creator Contest
-- **Reward:** $625 USDC TOTAL PRIZE POOL   **Deadline:** 2026-12-26
-- **Fit:** 9/10. This aligns perfectly with your content creation skills and reward preferences.
-- **Effort:** medium
-- **Scam risk:** medium. The sponsor is an .eth address and the reward is a shared prize pool rather than a guaranteed payment.
-- **Found on:** google.com (read by browser, not an official API)
-- **Link:** https://www.google.com/goto?url=CAESZQHEIkXXK8rtzCOZ9u89oILoYJt2ixmLMgqrqjgy6ekhZGYb06bnaqMfvJnAg1aRuuoQaGA2HOnNRE35xilGarN9NGkd-5QnW1nuV27YCwbnonEDbu1glMx2jvn2dTURbPFPXLA0
+No new good-fit bounties today.
 
 ### Hackathons
 
@@ -35,26 +29,25 @@ From earlier briefs, still accepting entries:
 
 ## Notes
 
-- Poor fits (score under 5): 18.
+- Poor fits (score under 5): 17.
 - Not open to your region (Ukraine), so not ranked: 2.
+- Couldn't rank 1 (will retry next run): Publish CapsGame Review for Solana Audience (Video or X Thread).
 
 ## Unverified leads
 
 Found by search but missing a reward or deadline, so not ranked. Check these by hand.
 
-- [BCH BLAZE 2026 | Hackathon](https://dorahacks.io/hackathon/bchblaze2026) (dorahacks.io): the browser couldn't read the page
-- [Agent Arena Competition: Evidence Mining | Hackathon](https://dorahacks.io/hackathon/delphi-agent-competition2) (dorahacks.io): the browser couldn't read the page
-- [Bounty Board Web3 Block for Solid](https://www.shadcn.io/blocks/solid/web3-bounty-board) (shadcn.io): the browser couldn't read the page
-- [Web3 founders, your next bounty should do more than ...](https://www.google.com/goto?url=CAEScQHEIkXXQ4IwyJJHJDtW7aflBPDfdXWoCuuacGOc-9xt-r3DbCjHo_TLb0sJ3paZo7Y2IfARO6npem0uHU7-_qv6SUAqbyvpDKBc6uPPDdhoUIzJNUA7bdjXXXVBcvd7LQK87I85RpnDI2f0w_wM60i5) (google.com): the browser couldn't read the page
-- [CoW Protocol Bug Bounty](https://www.google.com/goto?url=CAESdQHEIkXXyjneVDe8l1vQM8awjjY5NlDIzDzoy59q64kJWmrqhudnauJGAvZg_Hyp5vQL4_IDuqDu5ugp4h4EuduUny7ApGc4PP6R8D7epeu_2Jlwedf3LAtoDax3mTRL1VsG0587HMHzfUiDIHP-tr8m4KnA2w) (google.com): the browser couldn't read the page
-- [Would a GitHub-Based Bounty Payment Automation Tool ...](https://www.google.com/goto?url=CAESqAEBxCJF1_nykn47gdnXF4cMJoxLMppRY8-WrxlH9jqJdGOwcyY0SJp4mP5wLLqYSg8NyilyBIGOqnZdN2_rtM3OrrMOqEIbeU1aA4ZwiDqnub8YheB-NlPXpSNrTnfCE9J3IqUnUP29trbC6o4wrBylLKgw-0SMLZ-0vC2LpH2uaoNpbQiGxf_-wpD3O26yFEZn6jvneA7Ra6BEaxsXHaDRaz7Nx0iKoVk) (google.com): no reward or deadline found on the page
+- [I measured the Web3 bounty market for a week. One $500 ...](https://dev.to/csvtriage/i-measured-the-web3-bounty-market-for-a-week-one-500-prize-had-559-submissions-4kib) (dev.to): the browser couldn't read the page
+- [Web3 Bug Bounty & Audit Contest Tracker](https://apify.com/photoncalc/web3-bounty-tracker) (apify.com): the browser couldn't read the page
+- [Bounties.web3](https://domainvault.digital/web3/bounties.web3/) (domainvault.digital): no reward or deadline found on the page
+- [Bounty campaigns for Web3 projects](https://mediastrategy.net/community-growth-engagement/bounty-campaigns/) (mediastrategy.net): no reward or deadline found on the page
 
 ## Sources
 
-- ✅ **Superteam Earn:** 11 open bounties (19.7s)
-- ✅ **Devpost:** 25 open online Blockchain or AI/ML hackathons (0.3s)
-- ✅ **SerpApi search:** 7 new listing links from 4 searches (5.6s)
-- ✅ **Browserbase reading:** 7 pages read, 1 with reward and deadline (1162.7s)
+- ✅ **Superteam Earn:** 12 open bounties (21.6s)
+- ✅ **Devpost:** 24 open online Blockchain or AI/ML hackathons (0.2s)
+- ✅ **SerpApi search:** 4 new listing links from 4 searches (20.7s)
+- ✅ **Browserbase reading:** 4 pages read, 0 with reward and deadline (608.4s)
 - ⚠️ **ElevenLabs audio: skipped.** The ElevenLabs monthly quota has run out.
 - ✅ **Memory:** MongoDB Atlas
 

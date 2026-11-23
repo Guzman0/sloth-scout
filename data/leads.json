@@ -1,59 +1,13 @@
 {
-  "found_at": "2026-11-22T14:14:41+00:00",
-  "verified": [
-    {
-      "kind": "lead",
-      "source": "google.com",
-      "title": "AirdropBuzz Creator Contest",
-      "snippet": "Web3 Creators, Win $625 USDC + 500 BUZZ Points! Calling all Web3 content creators, crypto enthusiasts, bloggers, and influencers! The AirdropBuzz Web3 ...",
-      "link": "https://www.google.com/goto?url=CAESZQHEIkXXK8rtzCOZ9u89oILoYJt2ixmLMgqrqjgy6ekhZGYb06bnaqMfvJnAg1aRuuoQaGA2HOnNRE35xilGarN9NGkd-5QnW1nuV27YCwbnonEDbu1glMx2jvn2dTURbPFPXLA0",
-      "query": "web3 content bounty open submissions",
-      "extracted": {
-        "title": "AirdropBuzz Creator Contest",
-        "sponsor": "airdropbuzz.eth",
-        "reward": "$625 USDC TOTAL PRIZE POOL",
-        "deadline": "December 26, 2026",
-        "region": null,
-        "task": "Create original content about AirdropBuzz, publish it on an eligible platform, and submit your content link."
-      },
-      "sponsor": "airdropbuzz.eth",
-      "reward": "$625 USDC TOTAL PRIZE POOL",
-      "task": "Create original content about AirdropBuzz, publish it on an eligible platform, and submit your content link.",
-      "deadline_text": "December 26, 2026",
-      "deadline": "2026-12-26"
-    }
-  ],
+  "found_at": "2026-11-23T17:37:34+00:00",
+  "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "BCH BLAZE 2026 | Hackathon",
-      "snippet": "A 98-second animated explainer: how anyone can sell a beat pack, a guide or a secret recipe for Bitcoin Cash with one link. No accounts, no middlemen, no ...",
-      "link": "https://dorahacks.io/hackathon/bchblaze2026",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "read_error": "RPCError: Gemini API still busy (503) after 3 retries",
-      "deadline_text": null,
-      "deadline": null,
-      "why_unverified": "the browser couldn't read the page"
-    },
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "Agent Arena Competition: Evidence Mining | Hackathon",
-      "snippet": "Feedback bounties: $250 x 5. 1st to 3rd place go to the eligible entrants with the most total rewards (see Scoring). Feedback bounties go to the five most ...",
-      "link": "https://dorahacks.io/hackathon/delphi-agent-competition2",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "read_error": "RPCError: Gemini API still busy (503) after 3 retries",
-      "deadline_text": null,
-      "deadline": null,
-      "why_unverified": "the browser couldn't read the page"
-    },
-    {
-      "kind": "lead",
-      "source": "shadcn.io",
-      "title": "Bounty Board Web3 Block for Solid",
-      "snippet": "A bounty board with Open, In progress, In review and Paid tabs twelve tasks with difficulty, reward and due date, Submit work opens a Field for a link, checks ...",
-      "link": "https://www.shadcn.io/blocks/solid/web3-bounty-board",
+      "source": "dev.to",
+      "title": "I measured the Web3 bounty market for a week. One $500 ...",
+      "snippet": "One $500 prize had 559 submissions. the most accessible entry point. At 560 submissions, a $500 prize pays less than minimum wage.",
+      "link": "https://dev.to/csvtriage/i-measured-the-web3-bounty-market-for-a-week-one-500-prize-had-559-submissions-4kib",
       "query": "web3 content bounty open submissions",
       "read_error": "RPCError: Gemini API still busy (503) after 3 retries",
       "deadline_text": null,
@@ -62,10 +16,10 @@
     },
     {
       "kind": "lead",
-      "source": "google.com",
-      "title": "Web3 founders, your next bounty should do more than ...",
-      "snippet": "On ZADAO, Web3 projects can launch bounty campaigns, define tasks and rewards, and receive submissions from contributors.",
-      "link": "https://www.google.com/goto?url=CAEScQHEIkXXQ4IwyJJHJDtW7aflBPDfdXWoCuuacGOc-9xt-r3DbCjHo_TLb0sJ3paZo7Y2IfARO6npem0uHU7-_qv6SUAqbyvpDKBc6uPPDdhoUIzJNUA7bdjXXXVBcvd7LQK87I85RpnDI2f0w_wM60i5",
+      "source": "apify.com",
+      "title": "Web3 Bug Bounty & Audit Contest Tracker",
+      "snippet": "Every live crypto bug bounty and audit contest from Immunefi, Cantina, Code4rena and Sherlock in one clean table: rewards, dates, KYC, submission fees, chains ...",
+      "link": "https://apify.com/photoncalc/web3-bounty-tracker",
       "query": "web3 content bounty open submissions",
       "read_error": "RPCError: Gemini API still busy (503) after 3 retries",
       "deadline_text": null,
@@ -74,31 +28,40 @@
     },
     {
       "kind": "lead",
-      "source": "google.com",
-      "title": "CoW Protocol Bug Bounty",
-      "snippet": "Rewards, program rules and eligibility for the CoW Protocol bug bounty on Immunefi, with rewards up to $1000000.",
-      "link": "https://www.google.com/goto?url=CAESdQHEIkXXyjneVDe8l1vQM8awjjY5NlDIzDzoy59q64kJWmrqhudnauJGAvZg_Hyp5vQL4_IDuqDu5ugp4h4EuduUny7ApGc4PP6R8D7epeu_2Jlwedf3LAtoDax3mTRL1VsG0587HMHzfUiDIHP-tr8m4KnA2w",
-      "query": "web3 content bounty open submissions",
-      "read_error": "RPCError: Gemini API still busy (503) after 3 retries",
-      "deadline_text": null,
-      "deadline": null,
-      "why_unverified": "the browser couldn't read the page"
-    },
-    {
-      "kind": "lead",
-      "source": "google.com",
-      "title": "Would a GitHub-Based Bounty Payment Automation Tool ...",
-      "snippet": "Hi everyone,. I'm exploring an idea for a tool that could make contributor payments easier for Web3 projects. Here's the problem I'm trying to understand:.",
-      "link": "https://www.google.com/goto?url=CAESqAEBxCJF1_nykn47gdnXF4cMJoxLMppRY8-WrxlH9jqJdGOwcyY0SJp4mP5wLLqYSg8NyilyBIGOqnZdN2_rtM3OrrMOqEIbeU1aA4ZwiDqnub8YheB-NlPXpSNrTnfCE9J3IqUnUP29trbC6o4wrBylLKgw-0SMLZ-0vC2LpH2uaoNpbQiGxf_-wpD3O26yFEZn6jvneA7Ra6BEaxsXHaDRaz7Nx0iKoVk",
+      "source": "domainvault.digital",
+      "title": "Bounties.web3",
+      "snippet": "Bounties.web3 names the open, task-based work that powers crypto communities. It suits a bug-bounty platform, a quest board or a contributor-rewards protocol.",
+      "link": "https://domainvault.digital/web3/bounties.web3/",
       "query": "web3 content bounty open submissions",
       "extracted": {
-        "title": null,
+        "title": "Bounties.web3",
         "sponsor": null,
         "reward": null,
         "deadline": null,
         "region": null,
         "task": null
       },
+      "deadline_text": null,
+      "deadline": null,
+      "why_unverified": "no reward or deadline found on the page"
+    },
+    {
+      "kind": "lead",
+      "source": "mediastrategy.net",
+      "title": "Bounty campaigns for Web3 projects",
+      "snippet": "Run a controlled bounty program for content, translations, social tasks, or security reports, with clear rules and review. Plan your campaign with our team.",
+      "link": "https://mediastrategy.net/community-growth-engagement/bounty-campaigns/",
+      "query": "web3 content bounty open submissions",
+      "extracted": {
+        "title": "Bounty campaigns for Web3 projects",
+        "sponsor": "MediaStrategy",
+        "reward": null,
+        "deadline": null,
+        "region": null,
+        "task": "A bounty campaign organizes project work into defined tasks, clear eligibility rules, and a review process for rewarding accepted contributions."
+      },
+      "sponsor": "MediaStrategy",
+      "task": "A bounty campaign organizes project work into defined tasks, clear eligibility rules, and a review process for rewarding accepted contributions.",
       "deadline_text": null,
       "deadline": null,
       "why_unverified": "no reward or deadline found on the page"
