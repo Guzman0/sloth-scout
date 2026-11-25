@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-24T17:08:15+00:00",
+  "fetched_at": "2026-11-25T16:55:37+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 18939,
+      "registrations": 19313,
       "link": "https://kiroween.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 5226,
+      "registrations": 5429,
       "link": "https://codegeist2026.devpost.com/"
     },
     {
@@ -50,7 +50,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 5038,
+      "registrations": 5373,
       "link": "https://firebasehybridaihackathon.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1864,
+      "registrations": 2026,
       "link": "https://cognizant-agenticweb.devpost.com/"
     },
     {
@@ -84,7 +84,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 2496,
+      "registrations": 2594,
       "link": "https://qnx.devpost.com/"
     },
     {
@@ -101,7 +101,7 @@
         "Low/No Code"
       ],
       "online": true,
-      "registrations": 1883,
+      "registrations": 2201,
       "link": "https://deckthepixels.devpost.com/"
     },
     {
@@ -118,7 +118,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1129,
+      "registrations": 1229,
       "link": "https://cloud9.devpost.com/"
     },
     {
@@ -135,7 +135,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 536,
+      "registrations": 560,
       "link": "https://aws-agentic-msp.devpost.com/"
     },
     {
@@ -152,7 +152,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1450,
+      "registrations": 1480,
       "link": "https://arbiter-hacks-v1.devpost.com/"
     },
     {
@@ -169,25 +169,8 @@
         "Web"
       ],
       "online": true,
-      "registrations": 344,
+      "registrations": 405,
       "link": "https://pico-space-program.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Code for Humanity",
-      "sponsor": "nill",
-      "prize_total": "$0",
-      "deadline": "2027-01-15",
-      "dates": "Jul 16, 2026 - Jan 15, 2027",
-      "themes": [
-        "Education",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 1006,
-      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -203,8 +186,25 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 569,
+      "registrations": 615,
       "link": "https://learn-specs.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Code for Humanity",
+      "sponsor": "nill",
+      "prize_total": "$0",
+      "deadline": "2027-01-15",
+      "dates": "Jul 16, 2026 - Jan 15, 2027",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 1023,
+      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -220,7 +220,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 786,
+      "registrations": 862,
       "link": "https://relate.devpost.com/"
     },
     {
@@ -237,7 +237,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 792,
+      "registrations": 813,
       "link": "https://build-your-first-ai-app.devpost.com/"
     },
     {
@@ -254,7 +254,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 699,
+      "registrations": 734,
       "link": "https://genhacks-open.devpost.com/"
     },
     {
@@ -271,7 +271,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 651,
+      "registrations": 709,
       "link": "https://slayy-hacks.devpost.com/"
     },
     {
@@ -288,7 +288,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 553,
+      "registrations": 572,
       "link": "https://ai-agents-founders-hetic-26.devpost.com/"
     },
     {
@@ -303,7 +303,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 494,
+      "registrations": 533,
       "link": "https://global-ai-builders-challenge.devpost.com/"
     },
     {
@@ -320,7 +320,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 462,
+      "registrations": 463,
       "link": "https://syntax-summit.devpost.com/"
     },
     {
@@ -337,7 +337,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 289,
+      "registrations": 393,
       "link": "https://hackwithaditya.devpost.com/"
     },
     {
@@ -354,7 +354,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 274,
+      "registrations": 302,
       "link": "https://ai-for-medicine.devpost.com/"
     },
     {
@@ -371,7 +371,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 258,
+      "registrations": 269,
       "link": "https://ml-build-challenge-4.devpost.com/"
     },
     {
@@ -388,7 +388,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 238,
+      "registrations": 259,
       "link": "https://ai-openbuild.devpost.com/"
     },
     {
@@ -405,7 +405,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 162,
+      "registrations": 164,
       "link": "https://obscura.devpost.com/"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "ranked_at": "2026-11-24T17:40:48+00:00",
+  "ranked_at": "2026-11-25T17:10:21+00:00",
   "model": "models/gemma-4-31b-it",
   "fingerprint": "83a608da9e68c635",
   "ranked": [
@@ -260,50 +260,6 @@
       "scam_reason": "Nosana is a recognized Solana project and the task asks for no sensitive information."
     },
     {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Deck the Pixels",
-      "sponsor": "Google",
-      "prize_total": "$25,000",
-      "deadline": "2026-12-07",
-      "dates": "Nov 10 - Dec 07, 2026",
-      "themes": [
-        "Design",
-        "Machine Learning/AI",
-        "Low/No Code"
-      ],
-      "online": true,
-      "registrations": 1883,
-      "link": "https://deckthepixels.devpost.com/",
-      "fit_score": 7,
-      "reason": "The design and low/no-code themes align well with your visual assets and UX skills.",
-      "effort": "medium",
-      "scam_risk": "low",
-      "scam_reason": "Organized by Google, a highly reputable and verified company."
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "AI Agents for Founders Challenge — HETIC 2026",
-      "sponsor": "HETIC",
-      "prize_total": "€1,000",
-      "deadline": "2026-12-18",
-      "dates": "Nov 04 - Dec 18, 2026",
-      "themes": [
-        "Low/No Code",
-        "Machine Learning/AI",
-        "Productivity"
-      ],
-      "online": true,
-      "registrations": 553,
-      "link": "https://ai-agents-founders-hetic-26.devpost.com/",
-      "fit_score": 7,
-      "reason": "The Low/No Code theme aligns with your skill set, and your product analysis strengths are a great fit for a founders' challenge.",
-      "effort": "medium",
-      "scam_risk": "low",
-      "scam_reason": "Hosted on Devpost by a recognized educational institution."
-    },
-    {
       "kind": "bounty",
       "source": "Superteam Earn",
       "title": "Build an Autonomous Capital Agent on Solana & Compete for $500 in Rewards",
@@ -311,7 +267,7 @@
       "sponsor_verified": false,
       "reward": 500,
       "token": "USDC",
-      "deadline": "2026-12-10T22:59:59.000Z",
+      "deadline": "2026-12-24T22:59:59.000Z",
       "listing_type": "bounty",
       "agent_access": "HUMAN_ONLY",
       "region": "Global",
@@ -338,11 +294,55 @@
         }
       ],
       "description": "Steve Capital Agent Challenge: Put Your AI Agent to Work\nPowered by OOBE Protocol | Featuring MultiHopper & Ace Data Cloud\nGet Started\nBuild and deploy an autonomous capital agent on Solana using Steve Capital. Configure its permissions and risk controls, put it to work across onchain markets and workflows, and compete for rewards by earning verified Arena XP.\nExplore trading strategies, private transactions, agent-to-agent payments, automations, yields and AI-powered integrations across the Solana ecosystem.\nLaunch Steve Capital to get started.\nAbout OOBE Protocol\nOOBE Protocol builds infrastructure for autonomous agents on Solana. Its runtime and SAP MCP power Steve Capital, giving agents access to 400+ tools and protocols across the ecosystem.\nSteve Capital allows users to create and fund autonomous agents while retaining control through programmable guardrails, spending limits, permissions, and execution mandates. Agents can execute onchain actions, interact with protocols, manage workflows, and delegate tasks within user-defined boundaries.\nSome Recognition & Achievements\n-\nSuperteam Germany Grant: Received a grant supporting OOBE Protocol's development and ecosystem growth.\n-\nSuperteam Germany Ideathon: Won 1st place at the Road to Colosseum Ideathon with the Steve Capital concept.\n-\nMagicBlock Blitz Hackathon: Secured 3rd place among 65 projects.\nScope of the Challenge\nParticipants are encouraged to explore the Steve Capital ecosystem and put their agents to work through the following activities.\nGetting Started\n-\nDeploy an autonomous capital agent through Steve Capital.\n-\nFund your agent wallet with at least 20 USDC or equivalent value in SOL.\n-\nConfigure permissions, spending limits, risk parameters, and execution mandates.\nMain Track Activities\n-\nAgent Strategies: Create and publish strategies, configure convictions, define allocation rules, and experiment with risk-adjusted execution.\n-\nAutomation & Bots: Build automations for market monitoring, recurring tasks, alerts, and autonomous agent execution.\n-\nSub-Agent Infrastructure: Deploy specialist sub-agents with delegated permissions, dedicated vaults, and spending policies.\n-\nAgent Space: Experiment with agent collaboration, social interactions, and delegation.\n-\nSteve Launchpad: Launch eligible tokens and explore the available token launch infrastructure.\n-\nEcosystem Tool Usage: Explore Solana DeFi and financial markets through SAP MCP and its integrated protocols:\n-\nDeFi & Yield: Lending, liquidity provision, deposits, and yield opportunities through protocols such as Kamino, Orca, Raydium, and Meteora.\n-\nSpot Trading & Swaps: Swap and trade supported tokens, including tokenized assets where supported, using Jupiter, Orca, Raydium, Sunrise, and other integrated protocols.\n-\nPerpetuals & Commodities: Open and manage perpetual positions through Adrena and Phoenix, including synthetic commodity markets such as gold (XAU), silver (XAG), and oil (WTI) through Adrena.\n-\nPrivate Transactions: Explore private swaps and SPL token transfers through MagicBlock.\n-\nToken & Ecosystem Tools: Interact with Metaplex for digital assets, SNS for Solana naming, and other supported ecosystem integrations.\nSide Track Partner Integrations\n-\nMultiHopper: Build programmable routing and automated payment workflows.\n-\nAce Data Cloud: Integrate Google Search, research agents, image generation, video generation, and voice tools through Ace MCP.\nCommunity Contribution\nShare your agent's progress, showcase what you've built, publish original content, exchange discoveries, and contribute feedback to the community.\nEligible activities contribute to Arena XP and the main challenge leaderboard.\nSubmission Requirements\nAll participants competing for the main bounty must:\n-\nSubmit their entry through Superteam Earn.\n-\nFund their agent wallet with at least 20 USDC or equivalent value in SOL.\n-\nDeploy at least one autonomous agent on Steve Capital.\n-\nGenerate verified activity recorded through Steve Arena.\n-\nProvide their agent details, wallet address, and relevant activity evidence.\n-\nInclude links to their social content for verification. Tag @OOBEonSol, @SteveCapitalOS in your posts on X.\nAdditional Partner Side-Track Requirements\n-\nMultiHopper: Demonstrate working MultiHopper functionality through your Steve Capital agent, supported by verifiable transaction evidence and a public social post tagging the partner.\n-\nAce Data Cloud: Provide evidence of your Ace MCP connection, at least five successful paid service requests using purchased Ace credits, a project description or demo, and a link to your public social post tagging the partner.\nMeeting the minimum requirements makes participants eligible for consideration but does not guarantee a reward or leaderboard position.\nJudging Criteria\n1. Main Track\nMain track rankings will be determined through verified Arena XP and the following criteria:\n-\nOverall Arena Activity: Total verified XP earned through eligible platform activities.\n-\nTrading & Launch Volume: Cumulative eligible spot and perpetual trading volume, as well as eligible token launch volume generated through Steve Capital during the challenge.\n-\nProduct Usage & Ecosystem Engagement: Breadth and depth of feature usage and meaningful engagement with the Steve Capital ecosystem.\n-\nConsistency & Engagement: Sustained participation throughout the 30-day challenge.\n-\nQuality of Execution: Meaningful autonomous workflows, effective use of mandates and risk controls, and demonstrated use of platform capabilities.\n-\nSocial Engagement & Community Contribution: Original content, educational posts, tutorials, videos, meaningful community interactions, and contributions that introduce new users and builders to Steve Capital.\nAnti-Abuse & Verification\nTrading or launch volume alone will not determine the winners. Wash trading, self-trading, circular transactions, artificial volume generation, purchased engagement, and other attempts to manipulate the competition will be excluded.\nWinners will be determined through the overall XP leaderboard and OOBE's verification process, taking all judging criteria into account. OOBE reserves the right to exclude suspicious, manipulated, or artificial activity.\n2. Partner Side-Tracks\nMultiHopper x Steve Capital: Agent Routing Challenge\nPrize Pool: 125 USDC\n-\nHighest Routing Volume: 60 USDC\n-\nMost Successful Transfers: 40 USDC\n-\nBest Agent Integration: 25 USDC\nAbout MultiHopper\nMultiHopper provides non-custodial infrastructure for programmable onchain asset routing on Solana. Through its API, SDK, and MCP-compatible interface, agents can execute transfers and distribute assets across wallets and smart contracts with configurable routes, timing, and destinations. Its infrastructure also includes TRM Labs risk screening.\nThe Challenge & Get Started\nBuild an autonomous workflow using MultiHopper through your Steve Capital agent. Connect your agent through MultiHopper MCP inside Steve Capital from the MCP Workspace.\nPotential use cases include agent treasury management, automated payments, multi-wallet distributions, and agent-to-agent payments.\nHow to Qualify & Submit\n-\nExecute qualifying MultiHopper transaction(s) through your Steve Capital agent on Solana mainnet.\n-\nShare a public post on X describing your integration and what you built. Tag @Multihopper, @OOBEonSol, and @SteveCapitalOS. Explain your workflow, including how your agent uses MultiHopper, the routing logic, and the purpose of the transfers.\n-\nSubmit your agent wallet address, relevant transaction signatures or Solana Explorer links, and social post through Superteam Earn.\nCategory details\n-\nHighest Routing Volume:. Highest total verified value successfully routed. Each route's principal counts once, regardless of intermediate hops.\n-\nMost Successful Transfers: Highest number of verified completed routes.\n-\nBest Agent Integration: Practical utility, creativity, autonomy, and implementation quality.\nJudging\n-\nVolume is the USD-equivalent principal successfully routed through MultiHopper on Solana mainnet.\n-\nRouted principal is counted once per route, regardless of the number of intermediate hops or destinations.\n-\nOnly completed, verifiable routes originating from a registered agent wallet count.\n-\nCircular transfers, self-transfers and other artificial volume are excluded.\nThis side track follows the main challenge dates and submission deadline. Multihopper team will verify qualifying usage against its platform records.\nAce Data Cloud x Steve Capital: Build with AI Tools Challenge\nPrize Pool: $125 in total value\n-\n1st Place: 75 USDC\n-\n2nd Place: $50 in Ace AI credits\nAbout Ace Data Cloud\nAce Data Cloud gives developers and AI agents access to services such as Google Search, image generation, video generation, and voice tools through APIs and MCP integrations.\nSign Up & Get Started\nRegister at platform.acedata.cloud to receive free trial credits, with no credit card required. Connect your agent through an available Ace MCP integration inside Steve Capital from the MCP Workspace.\nImportant: Free trial credits help you get started, but qualifying for rewards requires paid usage with purchased Ace credits.\nThe Challenge\nBuild something useful with Ace inside your Steve Capital agent workflow. This could be a research briefing, narrated agent update, educational video, or another practical application of Ace's tools.\nHow to Qualify & Submit\n-\nComplete at least five successful paid service requests using purchased Ace credits during the challenge. Requests funded only by free or promotional credits do not count.\n-\nBuild a useful project or workflow demonstrating working Ace functionality and share a public demo or post on X explaining what you built and how it works. Tag @acedatacloud, @OOBEonSol, and @SteveCapitalOS in the post.\n-\nSubmit your agent details, proof of MCP connection, evidence of five qualifying paid requests, and links to your project and social post through Superteam Earn.\nJudging\nSubmissions will be evaluated on practical usefulness, creativity, integration quality, successful execution, and the value of the resulting workflow.\nVerified ACE holders who meet all requirements may receive an additional credit bonus. The bonus amount and holder-verification rules will be announced before the challenge.\nOnly genuine, successful paid requests count. Repetitive or artificial activity will be excluded. Spending more alone does not improve ranking.\nThis side track follows the main challenge dates and submission deadline. Multihopper team will verify qualifying usage against its platform records.\nReward Structure\nMain Bounty: 250 USDC\n-\n1st Place: 125 USDC\n-\n2nd Place: 75 USDC\n-\n3rd Place: 50 USDC\nMultiHopper Track: 125 USDC\n-\nHighest Routing Volume: 60 USDC\n-\nMost Successful Transfers: 40 USDC\n-\nBest Agent Integration: 25 USDC\nAce Data Cloud Track: $125 Total Value\n-\n1st Place: 75 USDC\n-\n2nd Place: $50 in Ace AI credits\nParticipants can compete in the main bounty and partner side-tracks simultaneously, provided they meet the respective requirements.\nChallenge Duration & Verification\nThe challenge runs for 30 days.\nOnly eligible activity completed during the official challenge period will count. All submissions, platform activity, transactions, and social contributions are subject to verification by OOBE and the respective partners.\nOOBE reserves the right to exclude ineligible, suspicious, or manipulated activity and determine final rankings based on the published criteria.\nBuild, experiment, contribute, and put your agent to work.\nPowered by OOBE Protocol. Built for autonomous capital.\nOfficial Links & Socials\nOOBE Protocol\n-\nLanding Page: https://www.oobeprotocol.ai/\n-\nSteve Capital: https://steve.oobeprotocol.ai/\n-\nX: https://x.com/OOBEonSol\n-\nDiscord: https://discord.gg/eM6SaDKBf (For questions & feedback)\nMultiHopper\n-\nWebsite: https://multihopper.com/\n-\nX: https://x.com/Multihopper\nAce Data Cloud\n-\nPlatform: https://platform.acedata.cloud/\n-\nX: https://x.com/acedatacloud",
-      "fit_score": 6,
-      "reason": "While you are great at the content and feedback aspects, the core requirement to build and deploy an agent—and the mention of Solidity—clashes with your preference against heavy development.",
-      "effort": "high",
+      "fit_score": 7,
+      "reason": "You can leverage your content and UX skills for the community track, and the agent setup appears to be configuration-based rather than requiring heavy coding.",
+      "effort": "medium",
       "scam_risk": "medium",
-      "scam_reason": "The sponsor is not verified by Superteam and requires you to fund a wallet with USDC or SOL to participate."
+      "scam_reason": "The sponsor is not verified by Superteam and the challenge requires you to fund a wallet with your own USDC/SOL."
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Deck the Pixels",
+      "sponsor": "Google",
+      "prize_total": "$25,000",
+      "deadline": "2026-12-07",
+      "dates": "Nov 10 - Dec 07, 2026",
+      "themes": [
+        "Design",
+        "Machine Learning/AI",
+        "Low/No Code"
+      ],
+      "online": true,
+      "registrations": 2201,
+      "link": "https://deckthepixels.devpost.com/",
+      "fit_score": 7,
+      "reason": "The design and low/no-code themes align well with your visual assets and UX skills.",
+      "effort": "medium",
+      "scam_risk": "low",
+      "scam_reason": "Organized by Google, a highly reputable and verified company."
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "AI Agents for Founders Challenge — HETIC 2026",
+      "sponsor": "HETIC",
+      "prize_total": "€1,000",
+      "deadline": "2026-12-18",
+      "dates": "Nov 04 - Dec 18, 2026",
+      "themes": [
+        "Low/No Code",
+        "Machine Learning/AI",
+        "Productivity"
+      ],
+      "online": true,
+      "registrations": 572,
+      "link": "https://ai-agents-founders-hetic-26.devpost.com/",
+      "fit_score": 7,
+      "reason": "The Low/No Code theme aligns with your skill set, and your product analysis strengths are a great fit for a founders' challenge.",
+      "effort": "medium",
+      "scam_risk": "low",
+      "scam_reason": "Hosted on Devpost by a recognized educational institution."
     },
     {
       "kind": "hackathon",
@@ -358,7 +358,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 18939,
+      "registrations": 19313,
       "link": "https://kiroween.devpost.com/",
       "fit_score": 6,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes allow you to apply your research and UX skills, though you'll likely need a developer partner to build a submission.",
@@ -380,7 +380,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 651,
+      "registrations": 709,
       "link": "https://slayy-hacks.devpost.com/",
       "fit_score": 6,
       "reason": "The open-ended and beginner-friendly themes suit your research and UX skills, though you'll likely need a technical partner to build a prototype.",
@@ -402,7 +402,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 1864,
+      "registrations": 2026,
       "link": "https://cognizant-agenticweb.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Agentic Web' theme likely requires technical development you avoid, though your research and UX skills could support a project.",
@@ -424,7 +424,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1450,
+      "registrations": 1480,
       "link": "https://arbiter-hacks-v1.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Open Ended' and 'Beginner Friendly' themes may allow for your UX and research skills, but most hackathons require a technical prototype you aren't comfortable building.",
@@ -446,7 +446,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 569,
+      "registrations": 615,
       "link": "https://learn-specs.devpost.com/",
       "fit_score": 5,
       "reason": "You can contribute through design and UX feedback, but the AR/VR and AI themes likely require technical development skills you prefer to avoid.",
@@ -468,7 +468,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 162,
+      "registrations": 164,
       "link": "https://obscura.devpost.com/",
       "fit_score": 5,
       "reason": "The 'Research Challenge' title aligns with your strengths, but the AI/ML focus may require technical skills you prefer to avoid.",
@@ -490,7 +490,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 5038,
+      "registrations": 5373,
       "link": "https://firebasehybridaihackathon.devpost.com/",
       "fit_score": 4,
       "reason": "This is a build-focused hackathon which likely requires the heavy development skills you prefer to avoid.",
@@ -512,7 +512,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 344,
+      "registrations": 405,
       "link": "https://pico-space-program.devpost.com/",
       "fit_score": 4,
       "reason": "This is a build-focused hackathon requiring technical development skills you've listed as 'not for me'.",
@@ -534,7 +534,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 238,
+      "registrations": 259,
       "link": "https://ai-openbuild.devpost.com/",
       "fit_score": 4,
       "reason": "This is a 'Build' hackathon which typically requires coding skills you've listed as 'Not for me', though the open-ended theme might allow for some research or UX work.",
@@ -556,7 +556,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 5226,
+      "registrations": 5429,
       "link": "https://codegeist2026.devpost.com/",
       "fit_score": 3,
       "reason": "This is a coding-centric hackathon which conflicts with your lack of development skills, although your UX and research strengths could be useful if you joined a team.",
@@ -578,7 +578,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 2496,
+      "registrations": 2594,
       "link": "https://qnx.devpost.com/",
       "fit_score": 3,
       "reason": "The themes (IoT, AI) are highly technical and align with skills you avoid, though you could potentially contribute via product analysis or UX.",
@@ -600,7 +600,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1129,
+      "registrations": 1229,
       "link": "https://cloud9.devpost.com/",
       "fit_score": 3,
       "reason": "The themes are highly technical and likely require the coding skills you've listed as 'Not for me'.",
@@ -622,7 +622,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 536,
+      "registrations": 560,
       "link": "https://aws-agentic-msp.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical build-focused hackathon (AI/ML/Web) which conflicts with your preference against heavy development and coding.",
@@ -644,7 +644,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 699,
+      "registrations": 734,
       "link": "https://genhacks-open.devpost.com/",
       "fit_score": 3,
       "reason": "The themes (IoT, AI) are highly technical and development-focused, which conflicts with your 'Not for me' list.",
@@ -666,7 +666,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 289,
+      "registrations": 393,
       "link": "https://hackwithaditya.devpost.com/",
       "fit_score": 3,
       "reason": "This is a technical hackathon requiring development skills you don't have, and the prize is in INR rather than your preferred stablecoins.",
@@ -688,39 +688,13 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 258,
+      "registrations": 269,
       "link": "https://ml-build-challenge-4.devpost.com/",
       "fit_score": 3,
       "reason": "This is a 'Build' challenge focused on ML/AI, which aligns more with developers than your research and content creation strengths.",
       "effort": "high",
       "scam_risk": "medium",
       "scam_reason": "There is a contradiction between the title's prize claim of 250K and the listed prize total of $0."
-    },
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "Agent Arena Competition: Evidence Mining",
-      "snippet": "bounties: $250 x 5 1st to 3rd place. Feedback bounties go to the five most useful pieces of feedback, Prizes are paid in USDC after the integrity review, ...",
-      "link": "https://dorahacks.io/hackathon/delphi-agent-competition2",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "extracted": {
-        "title": "Agent Arena Competition: Evidence Mining",
-        "sponsor": "Gensyn",
-        "reward": "7,250 USD",
-        "deadline": "2026/12/11 17:00",
-        "region": "Virtual",
-        "task": null
-      },
-      "sponsor": "Gensyn",
-      "reward": "7,250 USD",
-      "region": "Virtual",
-      "deadline_text": "2026/12/11 17:00",
-      "deadline": "2026-12-11",
-      "fit_score": 3,
-      "reason": "The 'Evidence Mining' task likely requires technical AI or data skills that fall outside your content and research expertise.",
-      "effort": "high",
-      "scam_risk": "low",
-      "scam_reason": "Gensyn is a recognized project and DoraHacks is a trusted bounty platform."
     },
     {
       "kind": "hackathon",
@@ -736,7 +710,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 786,
+      "registrations": 862,
       "link": "https://relate.devpost.com/",
       "fit_score": 2,
       "reason": "This is a technical hackathon focused on databases and AI, requiring development skills you've listed as 'not for me', and it lists no prize.",
@@ -756,7 +730,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 494,
+      "registrations": 533,
       "link": "https://global-ai-builders-challenge.devpost.com/",
       "fit_score": 2,
       "reason": "This is aimed at developers ('builders') and offers no monetary reward, which doesn't align with your skills or preferences.",
@@ -814,7 +788,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 1006,
+      "registrations": 1023,
       "link": "https://code-for-humanity.devpost.com/",
       "fit_score": 1,
       "reason": "The prize is $0 and the focus on 'coding' doesn't align with your research and content strengths.",
@@ -836,7 +810,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 792,
+      "registrations": 813,
       "link": "https://build-your-first-ai-app.devpost.com/",
       "fit_score": 1,
       "reason": "This requires app development which you avoid, and it offers no monetary reward.",
@@ -858,7 +832,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 462,
+      "registrations": 463,
       "link": "https://syntax-summit.devpost.com/",
       "fit_score": 1,
       "reason": "The themes are highly technical (DevOps, AI, RPA) and there is no monetary reward, neither of which align with your skills or preferences.",
@@ -880,7 +854,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 274,
+      "registrations": 302,
       "link": "https://ai-for-medicine.devpost.com/",
       "fit_score": 1,
       "reason": "This is a student-focused AI/Medicine event with no monetary prize, which doesn't align with your professional Web3 research profile or reward preferences.",
@@ -891,49 +865,27 @@
   ],
   "skipped": [
     {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "BCH BLAZE 2026",
-      "snippet": "Open to developers worldwide, including individuals or teams of 2-4 members. Prizes: 1st Place: $3 500 PUSD +. PLACE: $750 PUSD + 1",
-      "link": "https://dorahacks.io/hackathon/bchblaze2026/tracks",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "extracted": {
-        "title": "BCH BLAZE 2026",
-        "sponsor": "BCH BLAZE",
-        "reward": "8,000 USD",
-        "deadline": "2026/11/22 06:00",
-        "region": "worldwide",
-        "task": "Develop a new MVP product or feature set for an existing product on the Bitcoin Cash network or submit a piece of inspirational, innovative or engaging BCH media."
-      },
-      "sponsor": "BCH BLAZE",
-      "reward": "8,000 USD",
-      "region": "worldwide",
-      "task": "Develop a new MVP product or feature set for an existing product on the Bitcoin Cash network or submit a piece of inspirational, innovative or engaging BCH media.",
-      "deadline_text": "2026/11/22 06:00",
-      "deadline": "2026-11-22",
-      "skip_reason": "Gemini API still busy (503) after 3 retries"
-    },
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "BCH BLAZE 2026",
-      "snippet": "BLAZE is a series of online hackathons designed to ignite innovation in the Bitcoin Cash (BCH) ecosystem! Hosted on DoraHacks, Place: $3 500 PUSD",
-      "link": "https://dorahacks.io/hackathon/bchblaze2026/detail",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "extracted": {
-        "title": "BCH BLAZE 2026",
-        "sponsor": "BCH BLAZE",
-        "reward": "$8 000+ (25 BCH)",
-        "deadline": "2026/11/22 14:00",
-        "region": "worldwide",
-        "task": "A series of online hackathons designed to ignite innovation in the Bitcoin Cash (BCH) ecosystem, empowering participants to build impactful prototypes."
-      },
-      "sponsor": "BCH BLAZE",
-      "reward": "$8 000+ (25 BCH)",
-      "region": "worldwide",
-      "task": "A series of online hackathons designed to ignite innovation in the Bitcoin Cash (BCH) ecosystem, empowering participants to build impactful prototypes.",
-      "deadline_text": "2026/11/22 14:00",
-      "deadline": "2026-11-22",
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Create & Earn: Explore TokenPocket’s Transfer Features",
+      "sponsor": "TokenPocket_TP",
+      "sponsor_verified": false,
+      "reward": 500,
+      "token": "USDC",
+      "deadline": "2026-12-07T02:30:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Global",
+      "link": "https://superteam.fun/earn/listing/create-and-earn-explore-tokenpockets-transfer-features",
+      "skills": [
+        {
+          "skills": "Content",
+          "subskills": [
+            "Writing"
+          ]
+        }
+      ],
+      "description": "Introduction\nTokenPocket is a multichain crypto wallet that supports Solana, TRON, Ethereum, BNB Chain, and more. It helps users manage assets, transfer tokens, and explore onchain applications.\nDiscover easier, more affordable transfers with TokenPocket, from daily free transfers on Solana to flexible network fee payments on TRON.\nAbout the Bounty\nHelp the community understand how TokenPocket makes transfers easier on Solana and TRON.\nCreate original content that explains TokenPocket’s daily free transfer feature on Solana and introduces how users can pay TRON network fees with supported tokens such as USDT or USDD.\nPublish an X post, thread, video, or animation for a chance to win a share of the 500 USDC prize pool. 10 winners will be selected.\nTokenPocket website: https://tokenpocket.pro\nWhat to Cover\nEach submission must cover both Solana and TRON.\n1. Required: Daily Free Transfers on Solana\nIntroduce TokenPocket’s daily free transfer feature on Solana. Your content should explain:\n-\nWhat the feature does and the user problem it solves.\n-\nHow users can access and use the feature.\n-\nThe applicable conditions and limits, based on the official resources provided below.\n2. Required: Pay Network Fees with Tokens on TRON\nExplain how users with insufficient TRX can pay transfer fees using supported tokens such as USDT or USDD.\nInclude a practical example or show users how to access and use the feature.\nYou may additionally mention other TokenPocket features, such as Energy Rental or transfer fee coupons on TRON.\nFormats & Requirements\n-\nAccepted formats include an X post or thread with text and images, a video, or an animated demonstration.\n-\nOriginal visuals are encouraged, especially when they make the features easier to understand.\n-\nAll submissions must be original. Plagiarism is strictly prohibited.\n-\nExplain the features accurately using the official resources. Do not fabricate usage experiences or promise unconditional free transfers.\n-\nEnglish is preferred. Other languages are welcome if an English translation or transcript is included.\nHow to Participate\n-\nReview the official Solana and TRON tutorials and reference materials below.\n-\nCreate original content covering both daily free transfers on Solana and token-based network fee payments on TRON.\n-\nPublish your content on X during the campaign.\n-\nFollow and tag @TokenPocket_TP and include the official video tutorial link.\n-\nSubmit your published content link through Superteam Earn before the deadline.\nJudging Criteria\nWinners will be selected based on:\n-\nTeam Evaluation — 50%: Accuracy, clarity of practical use cases and instructions, originality, and presentation quality. Submissions must cover both required features.\n-\nOrganic X Views — 25%: The submission’s organic views on X.\n-\nOrganic Engagement — 25%: Organic likes, replies, reposts, and quote posts, with an emphasis on genuine, meaningful interactions.\nOnly organic views and engagement will be considered. Boosted posts, paid or artificially inflated views or engagement, and any form of engagement manipulation will result in immediate disqualification. Plagiarism will also result in disqualification.\nOfficial Tutorials & Resources\nSolana Resources\n-\nTransfer Without Solana Gas Fees!\n-\nOfficial Video Tutorial\nTRON Resources\n-\nHow to Pay TRON Network Fees with USDD\n-\nHow to Pay Gas with USDT Without TRX\nTokenPocket\n-\nTokenPocket Website",
       "skip_reason": "Gemini API still busy (503) after 3 retries"
     }
   ],
