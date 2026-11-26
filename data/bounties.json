@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-25T16:55:16+00:00",
+  "fetched_at": "2026-11-26T16:33:29+00:00",
   "source": "https://superteam.fun/api/listings",
   "bounties": [
     {
@@ -45,38 +45,6 @@
     {
       "kind": "bounty",
       "source": "Superteam Earn",
-      "title": "Create Nosana content: Explainer Thread/Article or Creative Meme/Video",
-      "sponsor": "Nosana_AI",
-      "sponsor_verified": false,
-      "reward": 660,
-      "token": "NOS",
-      "deadline": "2026-11-25T22:59:59.000Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Global",
-      "link": "https://superteam.fun/earn/listing/create-nosana-content-explainer-threadarticle-or-creative-memevideo",
-      "skills": [
-        {
-          "skills": "Content",
-          "subskills": [
-            "Writing",
-            "Video",
-            "Social Media",
-            "Video Editing"
-          ]
-        },
-        {
-          "skills": "Design",
-          "subskills": [
-            "Graphic Design"
-          ]
-        }
-      ],
-      "description": "About Nosana\nNosana is a DePIN AI infrastructure project on Solana. We’re building a decentralized, peer-to-peer GPU compute grid optimized for AI inference and agent execution. GPU hosts contribute their hardware, builders deploy workloads on demand, and open-source models run without lock-in or inflated cloud bills.\nThe result is faster, cheaper AI compute, and idle GPUs put to work instead of sitting unused.\nMission\nCreate an original piece of content for the NOSvember Creation Challenge that helps people understand Nosana or DePIN, or is a creative take on the ecosystem.\nScope Detail\nParticipants can choose one of two categories for their submission:\n-\nExplainer: Create a thread or short article that clarifies Nosana or DePIN. Imagine you're explaining it to a friend who is new to the concepts.\n-\nCreative: Produce a meme, visual, or short video inspired by the Nosana ecosystem.\nSubmission Requirements\n-\nPublish one original piece on your X feed.\n-\nInclude the hashtags #NOSvember and #CreatorChallenge.\n-\nSubmit the link to your published piece in the 🤣│creation-submissions channel on the Nosana Discord.\n-\nSubmissions must be made by November 25th.\n-\nOnly one entry per participant.\nJudging Criteria\nSubmissions will be reviewed by a panel based on:\n-\nClarity\n-\nAccuracy\n-\nOriginality\n-\nUsefulness\n-\nUpvotes and reach will not be considered in the judging process. The focus is on the quality of the content, not its virality.\nResources\n-\nJoin the Nosana Discord to access the 🤣│creation-submissions channel.\nReward Structure\n-\n1st Place Explainer: 260 NOS\n-\n2nd Place Explainer: 130 NOS\n-\n3rd Place Explainer: 70 NOS\n-\n1st Place Creative: 200 NOS"
-    },
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
       "title": "Write a Twitter Thread on Opportunities for Students Workshop",
       "sponsor": "Superteam Ukraine",
       "sponsor_verified": true,
@@ -101,30 +69,6 @@
     {
       "kind": "bounty",
       "source": "Superteam Earn",
-      "title": "Write an Article on Fundraising Opportunities for Early & Mid-Stage Projects",
-      "sponsor": "Superteam Ukraine",
-      "sponsor_verified": true,
-      "reward": 500,
-      "token": "USDG",
-      "deadline": "2026-11-26T23:59:59.000Z",
-      "listing_type": "bounty",
-      "agent_access": "HUMAN_ONLY",
-      "region": "Ukraine",
-      "link": "https://superteam.fun/earn/listing/write-an-article-on-fundraising-opportunities-for-early-and-mid-stage-projects",
-      "skills": [
-        {
-          "skills": "Content",
-          "subskills": [
-            "Research",
-            "Writing"
-          ]
-        }
-      ],
-      "description": "About Superteam Ukraine\nSuperteam Ukraine supports the Solana ecosystem by helping builders, artists, and community organizers find opportunities in the Solana ecosystem. We do this through grants, bounties, and by connecting talent with the resources they need to build. We've helped the Ukrainian community receive over $1M+ in grants, hackathon prizes, and bounties.\nMission\nWrite an article detailing fundraising opportunities available on Solana for early and mid-stage projects.\nScope Detail\n-\nCover various fundraising opportunities on Solana.\n-\nInclude information on successful raises within the ecosystem.\n-\nSpecify typical amounts, conditions, and terms associated with these opportunities.\n-\nThe article should be relevant for both early and mid-stage projects.\n-\nTag Superteam Ukraine within the article.\nSubmission Requirements\n-\nThe article must be submitted as a X article.\n-\nThe content must be in English.\n-\nThe article should be well-researched and informative.\n-\nEnsure all claims are supported with evidence or examples.\nJudging Criteria\n-\nComprehensiveness: How well does the article cover the various fundraising opportunities on Solana?\n-\nClarity and Readability: Is the article easy to understand and well-structured?\n-\nAccuracy: Is the information provided accurate and up-to-date?\n-\nRelevance: How useful is the information for early and mid-stage projects?\n-\nOriginality: Does the article offer fresh insights or a unique perspective?\n-\nPlagiarism: The submission must be original and not plagiarized from existing sources.\nReward Structure\n-\n1st Place: 250 USDG\n-\n2nd Place: 150 USDG\n-\n3rd Place: 100 USDG"
-    },
-    {
-      "kind": "bounty",
-      "source": "Superteam Earn",
       "title": "Provide Feedback on our new Support Assistant Nosa",
       "sponsor": "Nosana_AI",
       "sponsor_verified": false,
@@ -144,6 +88,30 @@
         }
       ],
       "description": "About Nosana\nNosana is a DePIN AI infrastructure project on Solana. We’re building a decentralized, peer-to-peer GPU compute grid optimized for AI inference and agent execution. GPU hosts contribute their hardware, builders deploy workloads on demand, and open-source models run without lock-in or inflated cloud bills.\nThe result is faster, cheaper AI compute, and idle GPUs put to work instead of sitting unused.\nMission\nHelp us make Nosa, our AI community helper, smarter. Nosa answers questions in the Nosana Discord using our docs, SDK and past support cases, and it cites its sources. It’s still early and sometimes gets things wrong. Your job is to find where, and tell us why.\nScope Detail\nNo technical knowledge is needed. Anyone can take part:\n-\nAsk: Mention @Nosa in the Nosana Discord inside the ❔│ask-nosa channel with a real question about deploying, hosting, staking, or how Nosana works. Beginner questions count too.\n-\nRate: Use the Rate Nosa button under the answer. Give it a score from 1 to 5 and write what was good, wrong, or missing.\n-\nImprove: We review feedback daily. Useful feedback becomes a fix to Nosa’s knowledge base.\nSubmission Requirements\n-\nJoin the Nosana Discord and ask Nosa your questions there.\n-\nRate each answer with the Rate Nosa button and include written feedback.\n-\nOn this listing, submit your Discord username and links/screenshots to up to 3 of your best rated Nosa conversations.\n-\nSubmissions must be made by the end of November 29th.\n-\nOnly one entry per participant, and one Discord account per person.\nRules\n-\nReal questions only. No spam prompts.\n-\nNo jailbreaks or prompt tricks. Report safety issues (keys, wallets, scams) privately in a Discord ticket.\n-\nNever share wallet addresses, keys, or personal details with Nosa.\n-\nSome refusals are by design and not bugs: price predictions, financial advice, and anything about private keys or seed phrases.\nJudging Criteria\nSubmissions will be reviewed by the Nosana team based on:\n-\nUsefulness: does the feedback help us fix something real?\n-\nAccuracy: is what you flagged actually wrong or missing?\n-\nDetail: is it clear what the right answer should have been?\n-\nOriginality: did you find gaps others didn’t?\n-\nThe number of questions asked will not be considered. One detailed rating counts more than many short ones.\nResources\n-\nJoin the Nosana Discord to talk to Nosa.\n-\nNosana Docs (useful for checking Nosa’s answers)"
+    },
+    {
+      "kind": "bounty",
+      "source": "Superteam Earn",
+      "title": "Write an Article on Fundraising Opportunities for Early & Mid-Stage Projects",
+      "sponsor": "Superteam Ukraine",
+      "sponsor_verified": true,
+      "reward": 500,
+      "token": "USDG",
+      "deadline": "2026-11-30T21:59:59.000Z",
+      "listing_type": "bounty",
+      "agent_access": "HUMAN_ONLY",
+      "region": "Ukraine",
+      "link": "https://superteam.fun/earn/listing/write-an-article-on-fundraising-opportunities-for-early-and-mid-stage-projects",
+      "skills": [
+        {
+          "skills": "Content",
+          "subskills": [
+            "Research",
+            "Writing"
+          ]
+        }
+      ],
+      "description": "About Superteam Ukraine\nSuperteam Ukraine supports the Solana ecosystem by helping builders, artists, and community organizers find opportunities in the Solana ecosystem. We do this through grants, bounties, and by connecting talent with the resources they need to build. We've helped the Ukrainian community receive over $1M+ in grants, hackathon prizes, and bounties.\nMission\nWrite an article detailing fundraising opportunities available on Solana for early and mid-stage projects.\nScope Detail\n-\nCover various fundraising opportunities on Solana.\n-\nInclude information on successful raises within the ecosystem.\n-\nSpecify typical amounts, conditions, and terms associated with these opportunities.\n-\nThe article should be relevant for both early and mid-stage projects.\n-\nTag Superteam Ukraine within the article.\nSubmission Requirements\n-\nThe article must be submitted as a X article.\n-\nThe content must be in English.\n-\nThe article should be well-researched and informative.\n-\nEnsure all claims are supported with evidence or examples.\nJudging Criteria\n-\nComprehensiveness: How well does the article cover the various fundraising opportunities on Solana?\n-\nClarity and Readability: Is the article easy to understand and well-structured?\n-\nAccuracy: Is the information provided accurate and up-to-date?\n-\nRelevance: How useful is the information for early and mid-stage projects?\n-\nOriginality: Does the article offer fresh insights or a unique perspective?\n-\nPlagiarism: The submission must be original and not plagiarized from existing sources.\nReward Structure\n-\n1st Place: 250 USDG\n-\n2nd Place: 150 USDG\n-\n3rd Place: 100 USDG"
     },
     {
       "kind": "bounty",
