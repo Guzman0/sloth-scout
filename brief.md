@@ -1,4 +1,4 @@
-# 🦥 Sloth Scout brief: Thursday, November 26, 2026
+# 🦥 Sloth Scout brief: Friday, November 27, 2026
 
 > ⚠️ Skipped this run: Browserbase reading, ElevenLabs audio. See Sources at the bottom.
 
@@ -30,26 +30,22 @@ From earlier briefs, still accepting entries:
 ## Notes
 
 - Poor fits (score under 5): 16.
-- Not open to your region (Ukraine), so not ranked: 2.
-- Couldn't rank 3 (will retry next run): Create & Earn: Explore TokenPocket’s Transfer Features; Fanshawe Hacks; National Hackathon 2026: AWS Student Builder Group COMSATS Sahiwal × ILC×Devsinc.
+- Not open to your region (Ukraine), so not ranked: 1.
+- Couldn't rank 3 (will retry next run): Create & Earn: Explore TokenPocket’s Transfer Features; Build with AI - PICO Space Program; National Hackathon 2026: AWS Student Builder Group COMSATS Sahiwal × ILC×Devsinc.
 
 ## Unverified leads
 
 Found by search but missing a reward or deadline, so not ranked. Check these by hand.
 
-- [Hackathon Showroom - Organizer Dashboard - DoraHacks](https://dashboard.dorahacks.io/hackathon/$demo/bounties/setup/sponsors) (dashboard.dorahacks.io): not opened in the browser this run
-- [BCH BLAZE 2026 | Hackathon](https://dorahacks.io/hackathon/bchblaze2026) (dorahacks.io): not opened in the browser this run
-- [Bug Bounty Program](https://ethereum.org/bug-bounty/) (ethereum.org): not opened in the browser this run
-- [Bug Bounty Program v2.0](https://opensourcecommittee.docs.intersectmbo.org/about/paid-open-source-model-posm/bug-bounty-program) (opensourcecommittee.docs.intersectmbo.org): not opened in the browser this run
-- [Bug Bounty: Binance](https://bugcrowd.com/engagements/binance) (bugcrowd.com): not opened in the browser this run
-- [Bug Bounty](https://docs.chaingpt.org/bug-bounty) (docs.chaingpt.org): not opened in the browser this run
 - [Vulnerability Reports & Bug Bounty Program - Help center](https://support.wisepops.com/en/articles/9898264-vulnerability-reports-bug-bounty-program) (support.wisepops.com): not opened in the browser this run
+- [Bug Bounty Program v2.0](https://opensourcecommittee.docs.intersectmbo.org/about/paid-open-source-model-posm/bug-bounty-program) (opensourcecommittee.docs.intersectmbo.org): not opened in the browser this run
+- [Bug Bounty](https://docs.chaingpt.org/bug-bounty) (docs.chaingpt.org): not opened in the browser this run
 
 ## Sources
 
-- ✅ **Superteam Earn:** 11 open bounties (20.6s)
-- ✅ **Devpost:** 25 open online Blockchain or AI/ML hackathons (0.4s)
-- ✅ **SerpApi search:** 7 new listing links from 4 searches (5.3s)
+- ✅ **Superteam Earn:** 10 open bounties (18.4s)
+- ✅ **Devpost:** 25 open online Blockchain or AI/ML hackathons (0.3s)
+- ✅ **SerpApi search:** 3 new listing links from 4 searches (4.4s)
 - ⚠️ **Browserbase reading: skipped.** Couldn't start a Browserbase browser (BrowserbaseSessionError: Failed to create a Browserbase session).
 - ⚠️ **ElevenLabs audio: skipped.** The ElevenLabs monthly quota has run out.
 - ✅ **Memory:** MongoDB Atlas

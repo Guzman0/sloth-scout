@@ -1,31 +1,13 @@
 {
-  "found_at": "2026-11-26T16:33:26+00:00",
+  "found_at": "2026-11-27T16:19:26+00:00",
   "verified": [],
   "unverified": [
     {
       "kind": "lead",
-      "source": "dashboard.dorahacks.io",
-      "title": "Hackathon Showroom - Organizer Dashboard - DoraHacks",
-      "snippet": "Hackathon AI · Plan, launch, and manage top-tier hackathons with built-in setup tools. · Evaluate Build submissions efficiently using AI-driven review tools.",
-      "link": "https://dashboard.dorahacks.io/hackathon/$demo/bounties/setup/sponsors",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "dorahacks.io",
-      "title": "BCH BLAZE 2026 | Hackathon",
-      "snippet": "BCH Bounty Board logo. BCH Bounty Board. Post a creator bounty, pick winners, and pay all of them in one Bitcoin Cash transaction signed once from your wallet.",
-      "link": "https://dorahacks.io/hackathon/bchblaze2026",
-      "query": "site:dorahacks.io/hackathon bounty",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "ethereum.org",
-      "title": "Bug Bounty Program",
-      "snippet": "Open for submissions. Earn up to 1,000,000 USD and a place on the leaderboard by finding protocol, client and language compiler bugs affecting the Ethereum ...",
-      "link": "https://ethereum.org/bug-bounty/",
+      "source": "support.wisepops.com",
+      "title": "Vulnerability Reports & Bug Bounty Program - Help center",
+      "snippet": "We currently pay rewards for P1, P2 & P3 vulnerabilities. Do not send reports for P4 or P5 vulnerabilities, we don't reward them. We won't open attachments in ...",
+      "link": "https://support.wisepops.com/en/articles/9898264-vulnerability-reports-bug-bounty-program",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     },
@@ -40,28 +22,10 @@
     },
     {
       "kind": "lead",
-      "source": "bugcrowd.com",
-      "title": "Bug Bounty: Binance",
-      "snippet": "Bugcrowd's bug bounty and vulnerability disclosure platform connects the global security researcher community with your business.",
-      "link": "https://bugcrowd.com/engagements/binance",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
       "source": "docs.chaingpt.org",
       "title": "Bug Bounty",
-      "snippet": "Each submission is assessed independently. Awards of up to USD 5,000 may be considered for exceptional, financially impactful vulnerabilities in live, in-scope ...",
+      "snippet": "Terms and Conditions · Each submission is assessed independently based on ChainGPT's findings, including the verified severity and impact of the reported issue.",
       "link": "https://docs.chaingpt.org/bug-bounty",
-      "query": "web3 content bounty open submissions",
-      "why_unverified": "not opened in the browser this run"
-    },
-    {
-      "kind": "lead",
-      "source": "support.wisepops.com",
-      "title": "Vulnerability Reports & Bug Bounty Program - Help center",
-      "snippet": "Do not send reports for P4 or P5 vulnerabilities, we don't reward them. We strive to respond within 7 days. We won't open attachments in the reports. Please ...",
-      "link": "https://support.wisepops.com/en/articles/9898264-vulnerability-reports-bug-bounty-program",
       "query": "web3 content bounty open submissions",
       "why_unverified": "not opened in the browser this run"
     }

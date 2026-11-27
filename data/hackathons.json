@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-26T16:33:49+00:00",
+  "fetched_at": "2026-11-27T16:19:47+00:00",
   "source": "https://devpost.com/api/hackathons",
   "hackathons": [
     {
@@ -16,7 +16,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 19551,
+      "registrations": 19819,
       "link": "https://kiroween.devpost.com/"
     },
     {
@@ -33,7 +33,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 5582,
+      "registrations": 5755,
       "link": "https://codegeist2026.devpost.com/"
     },
     {
@@ -50,7 +50,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 5635,
+      "registrations": 5823,
       "link": "https://firebasehybridaihackathon.devpost.com/"
     },
     {
@@ -67,7 +67,7 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 2142,
+      "registrations": 2309,
       "link": "https://cognizant-agenticweb.devpost.com/"
     },
     {
@@ -84,7 +84,7 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 2660,
+      "registrations": 2729,
       "link": "https://qnx.devpost.com/"
     },
     {
@@ -101,7 +101,7 @@
         "Low/No Code"
       ],
       "online": true,
-      "registrations": 2335,
+      "registrations": 2433,
       "link": "https://deckthepixels.devpost.com/"
     },
     {
@@ -118,7 +118,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 1322,
+      "registrations": 1393,
       "link": "https://cloud9.devpost.com/"
     },
     {
@@ -135,7 +135,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 573,
+      "registrations": 586,
       "link": "https://aws-agentic-msp.devpost.com/"
     },
     {
@@ -152,13 +152,13 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 1507,
+      "registrations": 1540,
       "link": "https://arbiter-hacks-v1.devpost.com/"
     },
     {
       "kind": "hackathon",
       "source": "Devpost",
-      "title": "Build with AI - Pico Space Program",
+      "title": "Build with AI - PICO Space Program",
       "sponsor": "XR Bootcamp",
       "prize_total": "$50,000",
       "deadline": "2027-02-01",
@@ -169,7 +169,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 431,
+      "registrations": 453,
       "link": "https://pico-space-program.devpost.com/"
     },
     {
@@ -186,25 +186,8 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 655,
+      "registrations": 668,
       "link": "https://learn-specs.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Code for Humanity",
-      "sponsor": "nill",
-      "prize_total": "$0",
-      "deadline": "2027-01-15",
-      "dates": "Jul 16, 2026 - Jan 15, 2027",
-      "themes": [
-        "Education",
-        "Machine Learning/AI",
-        "Web"
-      ],
-      "online": true,
-      "registrations": 1035,
-      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -220,8 +203,25 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 910,
+      "registrations": 944,
       "link": "https://relate.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Code for Humanity",
+      "sponsor": "nill",
+      "prize_total": "$0",
+      "deadline": "2027-01-15",
+      "dates": "Jul 16, 2026 - Jan 15, 2027",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "online": true,
+      "registrations": 1040,
+      "link": "https://code-for-humanity.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -237,7 +237,7 @@
         "Web"
       ],
       "online": true,
-      "registrations": 835,
+      "registrations": 852,
       "link": "https://build-your-first-ai-app.devpost.com/"
     },
     {
@@ -254,7 +254,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 768,
+      "registrations": 803,
       "link": "https://genhacks-open.devpost.com/"
     },
     {
@@ -271,7 +271,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 751,
+      "registrations": 791,
       "link": "https://slayy-hacks.devpost.com/"
     },
     {
@@ -288,7 +288,7 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 587,
+      "registrations": 599,
       "link": "https://ai-agents-founders-hetic-26.devpost.com/"
     },
     {
@@ -303,7 +303,7 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 566,
+      "registrations": 585,
       "link": "https://global-ai-builders-challenge.devpost.com/"
     },
     {
@@ -320,7 +320,7 @@
         "Robotic Process Automation"
       ],
       "online": true,
-      "registrations": 463,
+      "registrations": 469,
       "link": "https://syntax-summit.devpost.com/"
     },
     {
@@ -337,25 +337,8 @@
         "Machine Learning/AI"
       ],
       "online": true,
-      "registrations": 329,
+      "registrations": 351,
       "link": "https://ai-for-medicine.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "ML Empowerment Build Challenge 4.0 (250K IN PRIZES!)",
-      "sponsor": "ML Empowerment Foundation",
-      "prize_total": "$0",
-      "deadline": "2026-12-02",
-      "dates": "Nov 01 - Dec 02, 2026",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Social Good"
-      ],
-      "online": true,
-      "registrations": 277,
-      "link": "https://ml-build-challenge-4.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -371,8 +354,25 @@
         "Open Ended"
       ],
       "online": true,
-      "registrations": 272,
+      "registrations": 287,
       "link": "https://ai-openbuild.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "ML Empowerment Build Challenge 4.0 (250K IN PRIZES!)",
+      "sponsor": "ML Empowerment Foundation",
+      "prize_total": "$0",
+      "deadline": "2026-12-02",
+      "dates": "Nov 01 - Dec 02, 2026",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "online": true,
+      "registrations": 285,
+      "link": "https://ml-build-challenge-4.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -388,23 +388,8 @@
         "Social Good"
       ],
       "online": true,
-      "registrations": 173,
+      "registrations": 185,
       "link": "https://obscura.devpost.com/"
-    },
-    {
-      "kind": "hackathon",
-      "source": "Devpost",
-      "title": "Fanshawe Hacks",
-      "sponsor": "club",
-      "prize_total": "$0",
-      "deadline": "2026-12-03",
-      "dates": "Nov 25 - Dec 03, 2026",
-      "themes": [
-        "Machine Learning/AI"
-      ],
-      "online": true,
-      "registrations": 2,
-      "link": "https://fanshawe-hacks.devpost.com/"
     },
     {
       "kind": "hackathon",
@@ -420,8 +405,23 @@
         "Productivity"
       ],
       "online": true,
-      "registrations": 0,
+      "registrations": 23,
       "link": "https://aws-sbg-cui-sahiwal-hack-2026.devpost.com/"
+    },
+    {
+      "kind": "hackathon",
+      "source": "Devpost",
+      "title": "Fanshawe Hacks",
+      "sponsor": "club",
+      "prize_total": "$0",
+      "deadline": "2026-12-03",
+      "dates": "Nov 25 - Dec 03, 2026",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "online": true,
+      "registrations": 5,
+      "link": "https://fanshawe-hacks.devpost.com/"
     }
   ]
 }
